@@ -1,0 +1,13 @@
+﻿id_produto,nome_produto,categoria,subcategoria,plano,preco_venda,custo_produto,margem_bruta,recorrente,periodo_recorrencia,ativo,data_lancamento
+PROD-001,Plano Mensal Starter,SaaS,Assinatura,Starter,297.0,45.0,0.848,1,Mensal,1,2023-01-15
+PROD-002,Plano Mensal Pro,SaaS,Assinatura,Pro,697.0,95.0,0.864,1,Mensal,1,2023-01-15
+PROD-003,Plano Mensal Ent.,SaaS,Assinatura,Enterprise,1497.0,180.0,0.88,1,Mensal,1,2023-06-01
+PROD-004,Plano Anual Starter,SaaS,Assinatura,Starter,2970.0,400.0,0.865,1,Anual,1,2023-03-01
+PROD-005,Plano Anual Pro,SaaS,Assinatura,Pro,6970.0,850.0,0.878,1,Anual,1,2023-03-01
+PROD-006,Plano Anual Ent.,SaaS,Assinatura,Enterprise,14970.0,1600.0,0.893,1,Anual,1,2023-07-01
+PROD-007,Consultoria Setup,Consultoria,Avulso,Avulso,1500.0,300.0,0.8,0,,1,2023-01-15
+PROD-008,Treinamento Online,Curso,Avulso,Avulso,497.0,50.0,0.899,0,,1,2023-04-01
+PROD-009,Treinamento InCompany,Curso,Avulso,Avulso,3500.0,700.0,0.8,0,,1,2023-09-01
+PROD-010,Licença Extra Seat,SaaS,Add-on,Avulso,97.0,10.0,0.897,1,Mensal,1,2024-01-01
+PROD-011,Suporte Premium,Suporte,Add-on,Avulso,197.0,20.0,0.898,1,Mensal,1,2024-03-01
+PROD-012,Migração de Dados,Consultoria,Avulso,Avulso,2500.0,500.0,0.8,0,,1,2024-06-01

@@ -1,0 +1,260 @@
+﻿id_oportunidade,id_lead,data_abertura,data_fechamento,estagio,valor_estimado,valor_fechado,probabilidade,produto_interesse,responsavel,numero_interacoes,dias_no_funil,motivo_perda,id_cliente
+OPP-00001,LEAD-00007,2025-12-18,2025-12-31,Fechado Ganho,2814,2781.92,100,Consultoria Setup,Patricia Rocha,6,20,,CLI-00001
+OPP-00002,LEAD-00015,2025-03-28,2025-05-12,Fechado Perdido,8330,,50,Plano Anual Pro,Carlos Mendes,6,45,Orçamento cortado,
+OPP-00003,LEAD-00017,2025-03-24,2025-04-30,Fechado Ganho,1874,1701.32,100,Consultoria Setup,Carlos Mendes,6,37,,CLI-00002
+OPP-00004,LEAD-00018,2025-08-14,2025-09-05,Negociação,15243,,11,Plano Anual Ent.,Rodrigo Lima,10,22,,
+OPP-00005,LEAD-00020,2025-08-11,2025-08-25,Proposta,3963,,58,Plano Mensal Starter,Diego Alves,9,14,,
+OPP-00006,LEAD-00023,2025-01-27,2025-03-03,Proposta,1716,,43,Consultoria Setup,Juliana Costa,6,35,,
+OPP-00007,LEAD-00032,2025-07-15,2025-08-14,Fechado Perdido,8095,,61,Plano Mensal Pro,Rodrigo Lima,10,30,Sem urgência,
+OPP-00008,LEAD-00046,2025-01-07,2025-02-07,Fechado Perdido,14967,,64,Plano Anual Ent.,Rodrigo Lima,7,31,Concorrência,
+OPP-00009,LEAD-00048,2025-01-20,2025-02-26,Fechado Ganho,6955,6638.96,100,Plano Anual Pro,Patricia Rocha,3,37,,CLI-00003
+OPP-00010,LEAD-00058,2025-06-26,2025-08-01,Fechado Perdido,16318,,62,Plano Anual Ent.,Carlos Mendes,3,36,Escolheu solução interna,
+OPP-00011,LEAD-00059,2025-10-14,2025-11-11,Fechado Perdido,2782,,52,Consultoria Setup,Rodrigo Lima,5,28,Concorrência,
+OPP-00012,LEAD-00060,2025-08-14,2025-08-22,Negociação,7676,,10,Plano Anual Pro,Diego Alves,6,8,,
+OPP-00013,LEAD-00066,2025-12-22,2025-12-31,Fechado Ganho,7597,7155.88,100,Plano Anual Pro,Carlos Mendes,7,31,,CLI-00004
+OPP-00014,LEAD-00067,2025-10-21,2025-11-14,Fechado Ganho,8365,7624.14,100,Plano Anual Pro,Juliana Costa,4,24,,CLI-00005
+OPP-00015,LEAD-00068,2025-04-05,2025-04-18,Negociação,9113,,24,Plano Mensal Pro,Patricia Rocha,2,13,,
+OPP-00016,LEAD-00070,2025-02-20,2025-03-14,Fechado Perdido,9659,,55,Plano Mensal Pro,Diego Alves,9,22,Sem urgência,
+OPP-00017,LEAD-00071,2025-09-21,2025-09-29,Fechado Perdido,8895,,21,Plano Mensal Pro,Carlos Mendes,8,8,Preço,
+OPP-00018,LEAD-00074,2025-12-04,2025-12-31,Fechado Perdido,1299,,59,Consultoria Setup,Juliana Costa,5,37,Orçamento cortado,
+OPP-00019,LEAD-00076,2025-09-23,2025-11-06,Fechado Ganho,15403,14129.38,100,Plano Anual Ent.,Rodrigo Lima,5,44,,CLI-00006
+OPP-00020,LEAD-00077,2025-12-29,2025-12-31,Fechado Perdido,2021,,42,Consultoria Setup,Diego Alves,7,8,Preço,
+OPP-00021,LEAD-00079,2025-03-10,2025-04-03,Negociação,3972,,55,Plano Mensal Starter,Patricia Rocha,8,24,,
+OPP-00022,LEAD-00081,2025-08-19,2025-08-31,Fechado Perdido,15723,,24,Plano Anual Ent.,Patricia Rocha,4,12,Orçamento cortado,
+OPP-00023,LEAD-00082,2025-10-18,2025-11-16,Fechado Perdido,7896,,31,Plano Mensal Pro,Rodrigo Lima,6,29,Preço,
+OPP-00024,LEAD-00107,2025-11-18,2025-11-29,Fechado Ganho,15375,14365.06,100,Plano Anual Ent.,Rodrigo Lima,10,11,,CLI-00007
+OPP-00025,LEAD-00111,2025-04-29,2025-05-16,Fechado Perdido,7603,,15,Plano Anual Pro,Rodrigo Lima,10,17,Orçamento cortado,
+OPP-00026,LEAD-00112,2025-04-07,2025-05-03,Fechado Perdido,7927,,30,Plano Anual Pro,Patricia Rocha,10,26,Preço,
+OPP-00027,LEAD-00114,2025-07-17,2025-08-23,Fechado Perdido,1444,,65,Consultoria Setup,Rodrigo Lima,7,37,Preço,
+OPP-00028,LEAD-00124,2025-12-29,2025-12-31,Fechado Perdido,9609,,12,Plano Mensal Pro,Juliana Costa,8,29,Orçamento cortado,
+OPP-00029,LEAD-00129,2025-11-12,2025-11-25,Fechado Perdido,1496,,45,Consultoria Setup,Juliana Costa,2,13,Concorrência,
+OPP-00030,LEAD-00140,2025-04-29,2025-05-20,Fechado Perdido,2578,,19,Consultoria Setup,Carlos Mendes,6,21,Escolheu solução interna,
+OPP-00031,LEAD-00141,2025-10-08,2025-10-21,Fechado Ganho,14964,13174.74,100,Plano Anual Ent.,Juliana Costa,5,13,,CLI-00008
+OPP-00032,LEAD-00146,2025-01-06,2025-02-05,Fechado Perdido,3899,,45,Plano Mensal Starter,Diego Alves,10,30,Concorrência,
+OPP-00033,LEAD-00148,2025-01-27,2025-02-10,Fechado Perdido,8271,,44,Plano Mensal Pro,Juliana Costa,8,14,Sem urgência,
+OPP-00034,LEAD-00158,2025-11-27,2025-12-31,Fechado Ganho,15230,15980.32,100,Plano Anual Ent.,Diego Alves,7,37,,CLI-00009
+OPP-00035,LEAD-00162,2025-09-16,2025-10-11,Fechado Ganho,4724,4159.53,100,Plano Mensal Starter,Juliana Costa,9,25,,CLI-00010
+OPP-00036,LEAD-00163,2025-04-29,2025-05-24,Fechado Ganho,3430,3209.78,100,Plano Mensal Starter,Rodrigo Lima,10,25,,CLI-00011
+OPP-00037,LEAD-00164,2025-01-18,2025-02-14,Fechado Ganho,7552,7220.35,100,Plano Anual Pro,Patricia Rocha,7,27,,CLI-00012
+OPP-00038,LEAD-00165,2025-05-19,2025-06-25,Fechado Ganho,7959,7716.15,100,Plano Mensal Pro,Patricia Rocha,6,37,,CLI-00013
+OPP-00039,LEAD-00168,2025-12-10,2025-12-22,Fechado Ganho,6591,6684.37,100,Plano Anual Pro,Diego Alves,5,12,,CLI-00014
+OPP-00040,LEAD-00169,2025-11-09,2025-11-23,Fechado Ganho,16039,15969.88,100,Plano Anual Ent.,Carlos Mendes,3,14,,CLI-00015
+OPP-00041,LEAD-00170,2025-02-22,2025-03-28,Fechado Ganho,3537,3502.14,100,Plano Mensal Starter,Carlos Mendes,6,34,,CLI-00016
+OPP-00042,LEAD-00173,2025-04-25,2025-05-04,Fechado Perdido,7157,,45,Plano Anual Pro,Diego Alves,2,9,Escolheu solução interna,
+OPP-00043,LEAD-00175,2025-05-29,2025-06-06,Fechado Ganho,16260,16774.01,100,Plano Anual Ent.,Rodrigo Lima,2,8,,CLI-00017
+OPP-00044,LEAD-00178,2025-07-17,2025-08-12,Fechado Ganho,1495,1399.99,100,Consultoria Setup,Diego Alves,10,26,,CLI-00018
+OPP-00045,LEAD-00184,2025-05-15,2025-06-16,Fechado Perdido,8690,,28,Plano Mensal Pro,Juliana Costa,4,32,Concorrência,
+OPP-00046,LEAD-00185,2025-05-23,2025-06-05,Fechado Ganho,14548,14098.12,100,Plano Anual Ent.,Patricia Rocha,5,13,,CLI-00019
+OPP-00047,LEAD-00189,2025-04-21,2025-05-09,Fechado Perdido,2291,,63,Consultoria Setup,Juliana Costa,8,18,Concorrência,
+OPP-00048,LEAD-00191,2025-05-06,2025-05-15,Fechado Ganho,7201,6596.06,100,Plano Anual Pro,Rodrigo Lima,2,9,,CLI-00020
+OPP-00049,LEAD-00199,2025-06-25,2025-08-05,Proposta,15485,,50,Plano Anual Ent.,Patricia Rocha,7,41,,
+OPP-00050,LEAD-00202,2025-04-01,2025-05-02,Fechado Ganho,4576,4367.24,100,Plano Mensal Starter,Rodrigo Lima,10,31,,CLI-00021
+OPP-00051,LEAD-00205,2025-06-01,2025-06-08,Fechado Ganho,2026,2116.49,100,Consultoria Setup,Juliana Costa,8,7,,CLI-00022
+OPP-00052,LEAD-00213,2025-11-23,2025-12-14,Fechado Ganho,1602,1513.18,100,Consultoria Setup,Carlos Mendes,4,21,,CLI-00023
+OPP-00053,LEAD-00214,2025-11-14,2025-12-15,Fechado Ganho,7136,6596.44,100,Plano Anual Pro,Juliana Costa,8,31,,CLI-00024
+OPP-00054,LEAD-00219,2025-12-06,2025-12-31,Fechado Ganho,8727,7840.0,100,Plano Mensal Pro,Juliana Costa,8,29,,CLI-00025
+OPP-00055,LEAD-00220,2025-10-11,2025-10-28,Proposta,1726,,69,Consultoria Setup,Juliana Costa,6,17,,
+OPP-00056,LEAD-00222,2025-12-27,2025-12-31,Fechado Ganho,2326,2246.81,100,Consultoria Setup,Juliana Costa,3,10,,CLI-00026
+OPP-00057,LEAD-00226,2025-02-18,2025-03-02,Fechado Ganho,8055,7767.65,100,Plano Anual Pro,Juliana Costa,2,12,,CLI-00027
+OPP-00058,LEAD-00231,2025-02-06,2025-03-01,Fechado Ganho,7387,6610.52,100,Plano Anual Pro,Juliana Costa,7,23,,CLI-00028
+OPP-00059,LEAD-00235,2025-06-16,2025-07-16,Fechado Ganho,8744,8083.04,100,Plano Mensal Pro,Diego Alves,10,30,,CLI-00029
+OPP-00060,LEAD-00236,2025-08-12,2025-09-26,Fechado Ganho,7961,8340.14,100,Plano Anual Pro,Diego Alves,3,45,,CLI-00030
+OPP-00061,LEAD-00237,2025-12-13,2025-12-31,Negociação,15612,,12,Plano Anual Ent.,Diego Alves,10,21,,
+OPP-00062,LEAD-00239,2025-07-16,2025-08-30,Fechado Ganho,9524,9267.7,100,Plano Mensal Pro,Patricia Rocha,9,45,,CLI-00031
+OPP-00063,LEAD-00243,2025-11-15,2025-12-02,Fechado Ganho,8311,7558.98,100,Plano Anual Pro,Juliana Costa,8,17,,CLI-00032
+OPP-00064,LEAD-00253,2025-10-28,2025-11-11,Fechado Perdido,8200,,58,Plano Anual Pro,Diego Alves,2,14,Concorrência,
+OPP-00065,LEAD-00254,2025-05-11,2025-05-30,Fechado Ganho,6787,6348.18,100,Plano Anual Pro,Diego Alves,8,19,,CLI-00033
+OPP-00066,LEAD-00261,2025-05-11,2025-05-27,Fechado Ganho,3489,3386.67,100,Plano Mensal Starter,Carlos Mendes,7,16,,CLI-00034
+OPP-00067,LEAD-00262,2025-03-16,2025-04-14,Fechado Perdido,9647,,50,Plano Mensal Pro,Diego Alves,4,29,Orçamento cortado,
+OPP-00068,LEAD-00271,2025-12-29,2025-12-31,Fechado Ganho,4109,4247.91,100,Plano Mensal Starter,Rodrigo Lima,4,39,,CLI-00035
+OPP-00069,LEAD-00277,2025-10-29,2025-11-09,Fechado Perdido,8284,,29,Plano Mensal Pro,Carlos Mendes,4,11,Escolheu solução interna,
+OPP-00070,LEAD-00280,2025-12-28,2025-12-31,Fechado Perdido,14794,,38,Plano Anual Ent.,Patricia Rocha,5,22,Concorrência,
+OPP-00071,LEAD-00282,2025-02-11,2025-03-17,Fechado Ganho,15066,14370.72,100,Plano Anual Ent.,Rodrigo Lima,7,34,,CLI-00036
+OPP-00072,LEAD-00283,2025-09-22,2025-11-05,Proposta,8031,,34,Plano Anual Pro,Rodrigo Lima,9,44,,
+OPP-00073,LEAD-00284,2025-04-28,2025-06-11,Proposta,1592,,27,Consultoria Setup,Rodrigo Lima,5,44,,
+OPP-00074,LEAD-00286,2025-02-22,2025-03-23,Fechado Ganho,14791,15500.85,100,Plano Anual Ent.,Juliana Costa,8,29,,CLI-00037
+OPP-00075,LEAD-00297,2025-05-29,2025-06-05,Negociação,6940,,35,Plano Anual Pro,Juliana Costa,9,7,,
+OPP-00076,LEAD-00298,2025-05-23,2025-06-01,Fechado Ganho,8018,7596.75,100,Plano Mensal Pro,Patricia Rocha,3,9,,CLI-00038
+OPP-00077,LEAD-00305,2025-12-21,2025-12-31,Fechado Perdido,8999,,53,Plano Mensal Pro,Rodrigo Lima,5,22,Concorrência,
+OPP-00078,LEAD-00309,2025-08-26,2025-10-04,Fechado Perdido,15294,,27,Plano Anual Ent.,Rodrigo Lima,2,39,Concorrência,
+OPP-00079,LEAD-00311,2025-10-13,2025-10-27,Fechado Ganho,1454,1403.29,100,Consultoria Setup,Rodrigo Lima,7,14,,CLI-00039
+OPP-00080,LEAD-00315,2025-02-09,2025-03-24,Fechado Ganho,15584,16122.35,100,Plano Anual Ent.,Diego Alves,9,43,,CLI-00040
+OPP-00081,LEAD-00333,2025-02-09,2025-03-25,Proposta,4443,,34,Plano Mensal Starter,Juliana Costa,2,44,,
+OPP-00082,LEAD-00346,2025-08-04,2025-09-04,Fechado Perdido,7283,,12,Plano Anual Pro,Patricia Rocha,8,31,Concorrência,
+OPP-00083,LEAD-00347,2025-03-09,2025-04-20,Fechado Ganho,1269,1147.92,100,Consultoria Setup,Diego Alves,3,42,,CLI-00041
+OPP-00084,LEAD-00351,2025-04-23,2025-05-27,Negociação,4994,,60,Plano Mensal Starter,Patricia Rocha,7,34,,
+OPP-00085,LEAD-00353,2025-09-14,2025-09-24,Fechado Ganho,1592,1409.94,100,Consultoria Setup,Diego Alves,9,10,,CLI-00042
+OPP-00086,LEAD-00354,2025-10-10,2025-10-18,Fechado Perdido,2810,,43,Consultoria Setup,Carlos Mendes,2,8,Escolheu solução interna,
+OPP-00087,LEAD-00366,2025-10-26,2025-12-05,Fechado Ganho,15326,15917.16,100,Plano Anual Ent.,Carlos Mendes,10,40,,CLI-00043
+OPP-00088,LEAD-00370,2025-05-11,2025-06-22,Negociação,8096,,28,Plano Mensal Pro,Carlos Mendes,9,42,,
+OPP-00089,LEAD-00376,2025-02-07,2025-03-15,Fechado Ganho,4955,4596.74,100,Plano Mensal Starter,Patricia Rocha,2,36,,CLI-00044
+OPP-00090,LEAD-00377,2025-04-24,2025-05-02,Fechado Ganho,3762,3851.3,100,Plano Mensal Starter,Juliana Costa,4,8,,CLI-00045
+OPP-00091,LEAD-00378,2025-12-24,2025-12-31,Fechado Ganho,7478,6943.48,100,Plano Anual Pro,Diego Alves,9,18,,CLI-00046
+OPP-00092,LEAD-00381,2025-11-06,2025-11-23,Fechado Perdido,8809,,24,Plano Mensal Pro,Rodrigo Lima,3,17,Sem urgência,
+OPP-00093,LEAD-00391,2025-02-04,2025-02-22,Fechado Ganho,9041,8653.12,100,Plano Mensal Pro,Patricia Rocha,7,18,,CLI-00047
+OPP-00094,LEAD-00393,2025-03-04,2025-03-26,Fechado Ganho,2400,2499.9,100,Consultoria Setup,Diego Alves,9,22,,CLI-00048
+OPP-00095,LEAD-00397,2025-05-14,2025-05-26,Fechado Ganho,2099,1990.5,100,Consultoria Setup,Diego Alves,7,12,,CLI-00049
+OPP-00096,LEAD-00399,2025-05-27,2025-06-06,Fechado Perdido,1355,,57,Consultoria Setup,Diego Alves,8,10,Concorrência,
+OPP-00097,LEAD-00407,2025-11-27,2025-12-19,Fechado Perdido,7206,,50,Plano Anual Pro,Diego Alves,2,22,Sem urgência,
+OPP-00098,LEAD-00410,2025-12-03,2025-12-31,Fechado Ganho,15209,13483.96,100,Plano Anual Ent.,Juliana Costa,9,41,,CLI-00050
+OPP-00099,LEAD-00414,2025-10-20,2025-11-03,Fechado Ganho,16086,14551.68,100,Plano Anual Ent.,Carlos Mendes,5,14,,CLI-00051
+OPP-00100,LEAD-00418,2025-10-21,2025-10-28,Fechado Perdido,8348,,17,Plano Mensal Pro,Diego Alves,8,7,Escolheu solução interna,
+OPP-00101,LEAD-00420,2025-08-17,2025-08-29,Fechado Ganho,7300,6462.46,100,Plano Anual Pro,Rodrigo Lima,5,12,,CLI-00052
+OPP-00102,LEAD-00425,2025-05-12,2025-06-15,Fechado Ganho,8220,8364.73,100,Plano Mensal Pro,Juliana Costa,2,34,,CLI-00053
+OPP-00103,LEAD-00433,2025-06-12,2025-07-06,Fechado Ganho,9421,8909.21,100,Plano Mensal Pro,Patricia Rocha,5,24,,CLI-00054
+OPP-00104,LEAD-00439,2025-10-25,2025-12-06,Fechado Ganho,8253,7410.52,100,Plano Mensal Pro,Carlos Mendes,9,42,,CLI-00055
+OPP-00105,LEAD-00446,2025-06-12,2025-07-26,Fechado Perdido,16356,,57,Plano Anual Ent.,Diego Alves,2,44,Sem urgência,
+OPP-00106,LEAD-00447,2025-12-30,2025-12-31,Fechado Perdido,4288,,67,Plano Mensal Starter,Carlos Mendes,2,30,Sem urgência,
+OPP-00107,LEAD-00448,2025-10-16,2025-11-14,Fechado Perdido,14932,,33,Plano Anual Ent.,Rodrigo Lima,7,29,Preço,
+OPP-00108,LEAD-00449,2025-10-25,2025-11-12,Fechado Perdido,9199,,70,Plano Mensal Pro,Carlos Mendes,4,18,Concorrência,
+OPP-00109,LEAD-00451,2025-12-07,2025-12-31,Negociação,3876,,36,Plano Mensal Starter,Diego Alves,8,37,,
+OPP-00110,LEAD-00454,2025-06-10,2025-06-29,Fechado Ganho,8279,7912.88,100,Plano Anual Pro,Juliana Costa,6,19,,CLI-00056
+OPP-00111,LEAD-00455,2025-09-14,2025-10-14,Fechado Ganho,14645,14128.38,100,Plano Anual Ent.,Patricia Rocha,4,30,,CLI-00057
+OPP-00112,LEAD-00458,2025-04-27,2025-06-04,Proposta,6804,,35,Plano Anual Pro,Carlos Mendes,7,38,,
+OPP-00113,LEAD-00462,2025-05-19,2025-06-28,Fechado Perdido,3885,,62,Plano Mensal Starter,Rodrigo Lima,5,40,Preço,
+OPP-00114,LEAD-00464,2025-11-05,2025-11-17,Fechado Ganho,3592,3260.18,100,Plano Mensal Starter,Diego Alves,3,12,,CLI-00058
+OPP-00115,LEAD-00465,2025-10-28,2025-11-23,Negociação,8448,,36,Plano Anual Pro,Juliana Costa,5,26,,
+OPP-00116,LEAD-00469,2025-04-30,2025-06-04,Fechado Perdido,16304,,63,Plano Anual Ent.,Diego Alves,3,35,Escolheu solução interna,
+OPP-00117,LEAD-00470,2025-03-27,2025-04-28,Fechado Ganho,1657,1545.56,100,Consultoria Setup,Diego Alves,2,32,,CLI-00059
+OPP-00118,LEAD-00473,2025-01-20,2025-02-08,Fechado Perdido,4394,,60,Plano Mensal Starter,Carlos Mendes,9,19,Orçamento cortado,
+OPP-00119,LEAD-00481,2025-04-16,2025-05-17,Fechado Ganho,3486,3453.03,100,Plano Mensal Starter,Carlos Mendes,3,31,,CLI-00060
+OPP-00120,LEAD-00483,2025-08-22,2025-10-02,Fechado Ganho,9619,8612.67,100,Plano Mensal Pro,Rodrigo Lima,3,41,,CLI-00061
+OPP-00121,LEAD-00485,2025-04-22,2025-05-19,Fechado Ganho,15672,14805.58,100,Plano Anual Ent.,Juliana Costa,6,27,,CLI-00062
+OPP-00122,LEAD-00486,2025-11-21,2025-12-18,Fechado Ganho,8222,7416.9,100,Plano Anual Pro,Juliana Costa,2,27,,CLI-00063
+OPP-00123,LEAD-00494,2025-08-22,2025-09-07,Negociação,3315,,36,Plano Mensal Starter,Diego Alves,5,16,,
+OPP-00124,LEAD-00496,2025-01-07,2025-01-18,Proposta,8269,,40,Plano Anual Pro,Diego Alves,6,11,,
+OPP-00125,LEAD-00497,2025-09-18,2025-10-12,Negociação,1298,,18,Consultoria Setup,Patricia Rocha,2,24,,
+OPP-00126,LEAD-00498,2025-09-09,2025-09-24,Proposta,3929,,68,Plano Mensal Starter,Rodrigo Lima,6,15,,
+OPP-00127,LEAD-00503,2025-02-27,2025-03-28,Fechado Ganho,4349,4345.9,100,Plano Mensal Starter,Rodrigo Lima,4,29,,CLI-00064
+OPP-00128,LEAD-00504,2025-09-09,2025-10-11,Fechado Perdido,4795,,58,Plano Mensal Starter,Juliana Costa,6,32,Orçamento cortado,
+OPP-00129,LEAD-00520,2025-05-28,2025-06-10,Fechado Ganho,16010,16446.32,100,Plano Anual Ent.,Rodrigo Lima,7,13,,CLI-00065
+OPP-00130,LEAD-00524,2025-05-10,2025-06-04,Fechado Ganho,3260,3251.77,100,Plano Mensal Starter,Patricia Rocha,9,25,,CLI-00066
+OPP-00131,LEAD-00528,2025-06-03,2025-06-28,Fechado Ganho,15991,16477.38,100,Plano Anual Ent.,Patricia Rocha,3,25,,CLI-00067
+OPP-00132,LEAD-00529,2025-03-25,2025-05-05,Fechado Ganho,2736,2725.79,100,Consultoria Setup,Juliana Costa,10,41,,CLI-00068
+OPP-00133,LEAD-00530,2025-06-12,2025-07-17,Proposta,3292,,45,Plano Mensal Starter,Rodrigo Lima,5,35,,
+OPP-00134,LEAD-00539,2025-04-05,2025-04-29,Proposta,15097,,63,Plano Anual Ent.,Juliana Costa,5,24,,
+OPP-00135,LEAD-00540,2025-03-14,2025-04-28,Fechado Perdido,16024,,48,Plano Anual Ent.,Juliana Costa,2,45,Preço,
+OPP-00136,LEAD-00542,2025-07-05,2025-07-21,Proposta,8183,,25,Plano Anual Pro,Carlos Mendes,9,16,,
+OPP-00137,LEAD-00543,2025-02-16,2025-02-23,Fechado Ganho,1438,1381.26,100,Consultoria Setup,Carlos Mendes,3,7,,CLI-00069
+OPP-00138,LEAD-00548,2025-07-27,2025-09-08,Proposta,7789,,11,Plano Anual Pro,Rodrigo Lima,7,43,,
+OPP-00139,LEAD-00553,2025-10-25,2025-11-03,Fechado Ganho,1717,1651.97,100,Consultoria Setup,Rodrigo Lima,4,9,,CLI-00070
+OPP-00140,LEAD-00556,2025-12-06,2025-12-22,Fechado Perdido,1101,,35,Consultoria Setup,Patricia Rocha,4,16,Sem urgência,
+OPP-00141,LEAD-00563,2025-05-23,2025-06-04,Fechado Perdido,6542,,61,Plano Anual Pro,Juliana Costa,4,12,Orçamento cortado,
+OPP-00142,LEAD-00567,2025-12-10,2025-12-18,Fechado Perdido,2506,,57,Consultoria Setup,Carlos Mendes,8,8,Escolheu solução interna,
+OPP-00143,LEAD-00569,2025-10-22,2025-11-07,Fechado Ganho,4006,4163.09,100,Plano Mensal Starter,Diego Alves,4,16,,CLI-00071
+OPP-00144,LEAD-00571,2025-11-17,2025-12-07,Fechado Ganho,9821,8778.23,100,Plano Mensal Pro,Diego Alves,8,20,,CLI-00072
+OPP-00145,LEAD-00573,2025-02-18,2025-03-10,Fechado Ganho,2743,2574.27,100,Consultoria Setup,Juliana Costa,3,20,,CLI-00073
+OPP-00146,LEAD-00575,2025-11-14,2025-12-07,Fechado Perdido,8090,,21,Plano Anual Pro,Juliana Costa,9,23,Concorrência,
+OPP-00147,LEAD-00583,2025-05-28,2025-06-18,Fechado Ganho,16237,14990.72,100,Plano Anual Ent.,Carlos Mendes,6,21,,CLI-00074
+OPP-00148,LEAD-00586,2025-01-28,2025-02-15,Fechado Ganho,3963,3887.57,100,Plano Mensal Starter,Juliana Costa,6,18,,CLI-00075
+OPP-00149,LEAD-00589,2025-02-17,2025-02-28,Proposta,1588,,19,Consultoria Setup,Diego Alves,2,11,,
+OPP-00150,LEAD-00592,2025-01-18,2025-02-15,Fechado Perdido,4832,,59,Plano Mensal Starter,Rodrigo Lima,7,28,Sem urgência,
+OPP-00151,LEAD-00593,2025-12-24,2025-12-31,Fechado Perdido,1458,,35,Consultoria Setup,Diego Alves,4,38,Orçamento cortado,
+OPP-00152,LEAD-00594,2025-09-24,2025-10-10,Fechado Perdido,3928,,53,Plano Mensal Starter,Carlos Mendes,4,16,Escolheu solução interna,
+OPP-00153,LEAD-00597,2025-04-27,2025-05-10,Fechado Ganho,3554,3523.62,100,Plano Mensal Starter,Carlos Mendes,3,13,,CLI-00076
+OPP-00154,LEAD-00599,2025-04-15,2025-04-24,Fechado Ganho,9642,8911.36,100,Plano Mensal Pro,Rodrigo Lima,6,9,,CLI-00077
+OPP-00155,LEAD-00601,2025-05-26,2025-06-12,Fechado Perdido,8235,,24,Plano Mensal Pro,Patricia Rocha,2,17,Escolheu solução interna,
+OPP-00156,LEAD-00602,2025-05-30,2025-07-06,Fechado Ganho,4991,5043.82,100,Plano Mensal Starter,Rodrigo Lima,6,37,,CLI-00078
+OPP-00157,LEAD-00604,2025-01-13,2025-02-04,Fechado Perdido,2996,,32,Consultoria Setup,Rodrigo Lima,9,22,Escolheu solução interna,
+OPP-00158,LEAD-00606,2025-10-27,2025-11-17,Negociação,3932,,62,Plano Mensal Starter,Rodrigo Lima,4,21,,
+OPP-00159,LEAD-00607,2025-09-24,2025-10-01,Proposta,1428,,38,Consultoria Setup,Carlos Mendes,7,7,,
+OPP-00160,LEAD-00610,2025-03-28,2025-05-08,Fechado Ganho,7022,7032.13,100,Plano Anual Pro,Rodrigo Lima,10,41,,CLI-00079
+OPP-00161,LEAD-00611,2025-02-27,2025-03-06,Fechado Perdido,7801,,38,Plano Anual Pro,Patricia Rocha,10,7,Preço,
+OPP-00162,LEAD-00616,2025-12-11,2025-12-21,Proposta,1545,,35,Consultoria Setup,Patricia Rocha,6,10,,
+OPP-00163,LEAD-00623,2025-05-20,2025-06-24,Fechado Ganho,16277,17045.74,100,Plano Anual Ent.,Carlos Mendes,7,35,,CLI-00080
+OPP-00164,LEAD-00624,2025-01-15,2025-02-23,Fechado Perdido,9742,,26,Plano Mensal Pro,Rodrigo Lima,3,39,Preço,
+OPP-00165,LEAD-00626,2025-10-14,2025-11-01,Fechado Ganho,2335,2350.94,100,Consultoria Setup,Rodrigo Lima,7,18,,CLI-00081
+OPP-00166,LEAD-00629,2025-12-25,2025-12-31,Fechado Perdido,2997,,45,Consultoria Setup,Patricia Rocha,7,24,Escolheu solução interna,
+OPP-00167,LEAD-00630,2025-09-10,2025-09-21,Fechado Ganho,7342,7422.21,100,Plano Anual Pro,Carlos Mendes,7,11,,CLI-00082
+OPP-00168,LEAD-00631,2025-03-14,2025-04-03,Proposta,16050,,11,Plano Anual Ent.,Juliana Costa,8,20,,
+OPP-00169,LEAD-00632,2025-09-27,2025-10-29,Fechado Perdido,8049,,16,Plano Mensal Pro,Rodrigo Lima,3,32,Orçamento cortado,
+OPP-00170,LEAD-00638,2025-08-21,2025-09-18,Fechado Perdido,7916,,48,Plano Mensal Pro,Patricia Rocha,9,28,Concorrência,
+OPP-00171,LEAD-00641,2025-01-06,2025-01-16,Fechado Perdido,15745,,14,Plano Anual Ent.,Juliana Costa,2,10,Concorrência,
+OPP-00172,LEAD-00643,2025-09-27,2025-10-05,Fechado Perdido,2189,,18,Consultoria Setup,Carlos Mendes,2,8,Sem urgência,
+OPP-00173,LEAD-00646,2025-08-26,2025-09-11,Fechado Ganho,3865,3521.12,100,Plano Mensal Starter,Diego Alves,9,16,,CLI-00083
+OPP-00174,LEAD-00648,2025-12-06,2025-12-30,Fechado Ganho,14969,13547.89,100,Plano Anual Ent.,Diego Alves,2,24,,CLI-00084
+OPP-00175,LEAD-00650,2025-01-14,2025-02-26,Proposta,3750,,55,Plano Mensal Starter,Patricia Rocha,8,43,,
+OPP-00176,LEAD-00656,2025-11-13,2025-11-27,Fechado Perdido,14795,,68,Plano Anual Ent.,Carlos Mendes,7,14,Orçamento cortado,
+OPP-00177,LEAD-00661,2025-06-17,2025-06-25,Proposta,7894,,54,Plano Anual Pro,Diego Alves,2,8,,
+OPP-00178,LEAD-00663,2025-10-29,2025-12-13,Proposta,15575,,65,Plano Anual Ent.,Diego Alves,6,45,,
+OPP-00179,LEAD-00666,2025-08-19,2025-09-29,Fechado Ganho,4752,4770.79,100,Plano Mensal Starter,Diego Alves,6,41,,CLI-00085
+OPP-00180,LEAD-00672,2025-03-03,2025-04-02,Fechado Ganho,5058,5219.37,100,Plano Mensal Starter,Diego Alves,7,30,,CLI-00086
+OPP-00181,LEAD-00675,2025-06-05,2025-06-12,Fechado Perdido,7963,,17,Plano Mensal Pro,Juliana Costa,9,7,Sem urgência,
+OPP-00182,LEAD-00677,2025-12-07,2025-12-16,Negociação,3210,,24,Plano Mensal Starter,Diego Alves,3,9,,
+OPP-00183,LEAD-00685,2025-01-26,2025-02-05,Fechado Ganho,15760,15151.48,100,Plano Anual Ent.,Rodrigo Lima,3,10,,CLI-00087
+OPP-00184,LEAD-00692,2025-02-25,2025-03-31,Fechado Perdido,1527,,10,Consultoria Setup,Carlos Mendes,2,34,Preço,
+OPP-00185,LEAD-00701,2025-01-14,2025-02-16,Fechado Ganho,8209,7724.62,100,Plano Anual Pro,Rodrigo Lima,9,33,,CLI-00088
+OPP-00186,LEAD-00712,2025-11-30,2025-12-31,Proposta,6818,,33,Plano Anual Pro,Juliana Costa,2,41,,
+OPP-00187,LEAD-00713,2025-02-23,2025-04-09,Fechado Perdido,7281,,37,Plano Anual Pro,Patricia Rocha,7,45,Orçamento cortado,
+OPP-00188,LEAD-00719,2025-11-08,2025-12-18,Fechado Ganho,4490,4310.34,100,Plano Mensal Starter,Diego Alves,3,40,,CLI-00089
+OPP-00189,LEAD-00720,2025-11-10,2025-11-23,Proposta,15192,,21,Plano Anual Ent.,Diego Alves,2,13,,
+OPP-00190,LEAD-00727,2025-03-09,2025-04-06,Fechado Ganho,1046,975.3,100,Consultoria Setup,Carlos Mendes,7,28,,CLI-00090
+OPP-00191,LEAD-00728,2025-03-15,2025-04-22,Fechado Perdido,15870,,27,Plano Anual Ent.,Juliana Costa,9,38,Orçamento cortado,
+OPP-00192,LEAD-00730,2025-09-10,2025-09-19,Proposta,9455,,62,Plano Mensal Pro,Patricia Rocha,5,9,,
+OPP-00193,LEAD-00731,2025-03-16,2025-03-26,Fechado Perdido,8443,,34,Plano Anual Pro,Carlos Mendes,8,10,Escolheu solução interna,
+OPP-00194,LEAD-00735,2025-11-21,2025-12-31,Fechado Ganho,15049,14178.12,100,Plano Anual Ent.,Rodrigo Lima,4,44,,CLI-00091
+OPP-00195,LEAD-00740,2025-04-14,2025-05-05,Fechado Ganho,8905,9190.89,100,Plano Mensal Pro,Carlos Mendes,3,21,,CLI-00092
+OPP-00196,LEAD-00745,2025-11-20,2025-12-05,Fechado Perdido,8041,,41,Plano Anual Pro,Rodrigo Lima,4,15,Escolheu solução interna,
+OPP-00197,LEAD-00748,2025-05-28,2025-06-09,Proposta,8344,,63,Plano Anual Pro,Diego Alves,10,12,,
+OPP-00198,LEAD-00756,2025-08-12,2025-08-20,Negociação,2352,,29,Consultoria Setup,Juliana Costa,7,8,,
+OPP-00199,LEAD-00758,2025-12-12,2025-12-31,Fechado Perdido,1316,,51,Consultoria Setup,Diego Alves,10,32,Escolheu solução interna,
+OPP-00200,LEAD-00764,2025-12-13,2025-12-31,Fechado Ganho,15283,15179.59,100,Plano Anual Ent.,Juliana Costa,8,22,,CLI-00093
+OPP-00201,LEAD-00771,2025-12-27,2025-12-31,Fechado Perdido,3722,,25,Plano Mensal Starter,Diego Alves,4,20,Sem urgência,
+OPP-00202,LEAD-00778,2025-06-18,2025-07-24,Fechado Ganho,3931,3544.01,100,Plano Mensal Starter,Rodrigo Lima,9,36,,CLI-00094
+OPP-00203,LEAD-00779,2025-10-31,2025-12-04,Fechado Perdido,16013,,13,Plano Anual Ent.,Rodrigo Lima,3,34,Escolheu solução interna,
+OPP-00204,LEAD-00782,2025-04-12,2025-04-29,Fechado Ganho,16187,14941.09,100,Plano Anual Ent.,Diego Alves,5,17,,CLI-00095
+OPP-00205,LEAD-00784,2025-06-18,2025-07-26,Proposta,4151,,60,Plano Mensal Starter,Diego Alves,8,38,,
+OPP-00206,LEAD-00786,2025-11-13,2025-11-27,Fechado Perdido,8202,,51,Plano Anual Pro,Juliana Costa,5,14,Escolheu solução interna,
+OPP-00207,LEAD-00788,2025-05-20,2025-06-27,Fechado Perdido,8222,,27,Plano Anual Pro,Juliana Costa,9,38,Orçamento cortado,
+OPP-00208,LEAD-00791,2025-04-19,2025-04-28,Fechado Perdido,16202,,64,Plano Anual Ent.,Juliana Costa,2,9,Concorrência,
+OPP-00209,LEAD-00803,2025-09-09,2025-10-09,Negociação,7735,,28,Plano Anual Pro,Carlos Mendes,10,30,,
+OPP-00210,LEAD-00808,2025-01-08,2025-02-07,Fechado Perdido,8868,,26,Plano Mensal Pro,Diego Alves,10,30,Sem urgência,
+OPP-00211,LEAD-00810,2025-05-29,2025-06-29,Negociação,14901,,25,Plano Anual Ent.,Diego Alves,6,31,,
+OPP-00212,LEAD-00822,2025-04-23,2025-05-01,Negociação,8419,,23,Plano Anual Pro,Carlos Mendes,9,8,,
+OPP-00213,LEAD-00824,2025-07-09,2025-07-24,Fechado Perdido,8836,,34,Plano Mensal Pro,Rodrigo Lima,7,15,Escolheu solução interna,
+OPP-00214,LEAD-00830,2025-11-23,2025-12-31,Negociação,9370,,66,Plano Mensal Pro,Juliana Costa,8,44,,
+OPP-00215,LEAD-00834,2025-02-08,2025-03-21,Fechado Ganho,4677,4621.61,100,Plano Mensal Starter,Juliana Costa,8,41,,CLI-00096
+OPP-00216,LEAD-00837,2025-10-31,2025-11-18,Fechado Ganho,2971,3030.57,100,Consultoria Setup,Diego Alves,5,18,,CLI-00097
+OPP-00217,LEAD-00838,2025-09-17,2025-11-01,Fechado Ganho,16112,14459.61,100,Plano Anual Ent.,Diego Alves,5,45,,CLI-00098
+OPP-00218,LEAD-00840,2025-04-13,2025-05-23,Fechado Perdido,7475,,16,Plano Anual Pro,Juliana Costa,6,40,Escolheu solução interna,
+OPP-00219,LEAD-00847,2025-02-10,2025-03-26,Fechado Ganho,6514,6678.61,100,Plano Anual Pro,Juliana Costa,4,44,,CLI-00099
+OPP-00220,LEAD-00853,2025-05-13,2025-05-26,Fechado Ganho,15711,14023.21,100,Plano Anual Ent.,Juliana Costa,9,13,,CLI-00100
+OPP-00221,LEAD-00855,2025-09-21,2025-10-07,Fechado Perdido,15841,,12,Plano Anual Ent.,Carlos Mendes,10,16,Preço,
+OPP-00222,LEAD-00859,2025-04-23,2025-06-06,Fechado Perdido,9803,,59,Plano Mensal Pro,Juliana Costa,6,44,Concorrência,
+OPP-00223,LEAD-00863,2025-05-20,2025-06-07,Proposta,7746,,28,Plano Anual Pro,Carlos Mendes,10,18,,
+OPP-00224,LEAD-00864,2025-02-25,2025-03-26,Negociação,1241,,17,Consultoria Setup,Patricia Rocha,6,29,,
+OPP-00225,LEAD-00865,2025-07-13,2025-07-24,Fechado Ganho,4174,3783.59,100,Plano Mensal Starter,Juliana Costa,3,11,,CLI-00101
+OPP-00226,LEAD-00867,2025-06-16,2025-07-15,Fechado Perdido,4402,,19,Plano Mensal Starter,Carlos Mendes,5,29,Concorrência,
+OPP-00227,LEAD-00869,2025-05-11,2025-06-10,Proposta,15355,,53,Plano Anual Ent.,Juliana Costa,6,30,,
+OPP-00228,LEAD-00870,2025-06-04,2025-06-23,Fechado Perdido,9340,,40,Plano Mensal Pro,Diego Alves,6,19,Concorrência,
+OPP-00229,LEAD-00873,2025-10-27,2025-12-03,Fechado Ganho,14964,13948.0,100,Plano Anual Ent.,Rodrigo Lima,7,37,,CLI-00102
+OPP-00230,LEAD-00881,2025-03-17,2025-04-21,Fechado Ganho,16088,14531.15,100,Plano Anual Ent.,Carlos Mendes,9,35,,CLI-00103
+OPP-00231,LEAD-00882,2025-05-31,2025-06-17,Fechado Perdido,7191,,22,Plano Anual Pro,Patricia Rocha,8,17,Orçamento cortado,
+OPP-00232,LEAD-00884,2025-05-31,2025-07-09,Fechado Ganho,9279,8900.37,100,Plano Mensal Pro,Juliana Costa,10,39,,CLI-00104
+OPP-00233,LEAD-00885,2025-09-11,2025-10-25,Negociação,2801,,52,Consultoria Setup,Rodrigo Lima,6,44,,
+OPP-00234,LEAD-00888,2025-05-14,2025-06-23,Fechado Ganho,15376,13964.12,100,Plano Anual Ent.,Juliana Costa,9,40,,CLI-00105
+OPP-00235,LEAD-00890,2025-10-23,2025-11-04,Fechado Perdido,3971,,34,Plano Mensal Starter,Patricia Rocha,8,12,Escolheu solução interna,
+OPP-00236,LEAD-00893,2025-03-28,2025-04-10,Fechado Ganho,7465,6848.9,100,Plano Anual Pro,Rodrigo Lima,2,13,,CLI-00106
+OPP-00237,LEAD-00895,2025-10-05,2025-10-16,Fechado Ganho,4006,4073.96,100,Plano Mensal Starter,Rodrigo Lima,3,11,,CLI-00107
+OPP-00238,LEAD-00898,2025-03-22,2025-04-13,Proposta,8798,,13,Plano Mensal Pro,Patricia Rocha,8,22,,
+OPP-00239,LEAD-00907,2025-04-15,2025-05-10,Proposta,9503,,32,Plano Mensal Pro,Diego Alves,2,25,,
+OPP-00240,LEAD-00909,2025-02-27,2025-03-10,Fechado Ganho,3126,3219.73,100,Plano Mensal Starter,Diego Alves,10,11,,CLI-00108
+OPP-00241,LEAD-00911,2025-06-27,2025-07-09,Fechado Ganho,8841,7866.56,100,Plano Mensal Pro,Carlos Mendes,3,12,,CLI-00109
+OPP-00242,LEAD-00919,2025-04-12,2025-04-24,Fechado Ganho,15206,14453.68,100,Plano Anual Ent.,Carlos Mendes,9,12,,CLI-00110
+OPP-00243,LEAD-00925,2025-03-21,2025-04-10,Fechado Perdido,9571,,48,Plano Mensal Pro,Juliana Costa,2,20,Preço,
+OPP-00244,LEAD-00929,2025-07-17,2025-08-11,Fechado Perdido,14790,,14,Plano Anual Ent.,Rodrigo Lima,4,25,Concorrência,
+OPP-00245,LEAD-00931,2025-06-28,2025-07-05,Negociação,14628,,23,Plano Anual Ent.,Rodrigo Lima,8,7,,
+OPP-00246,LEAD-00934,2025-03-13,2025-04-16,Negociação,3414,,68,Plano Mensal Starter,Diego Alves,3,34,,
+OPP-00247,LEAD-00953,2025-05-04,2025-05-28,Fechado Ganho,14640,13042.84,100,Plano Anual Ent.,Rodrigo Lima,2,24,,CLI-00111
+OPP-00248,LEAD-00959,2025-03-25,2025-04-06,Fechado Ganho,7998,7367.85,100,Plano Anual Pro,Carlos Mendes,3,12,,CLI-00112
+OPP-00249,LEAD-00962,2025-08-18,2025-08-28,Fechado Ganho,8850,8399.18,100,Plano Mensal Pro,Patricia Rocha,6,10,,CLI-00113
+OPP-00250,LEAD-00972,2025-10-27,2025-12-04,Proposta,14571,,64,Plano Anual Ent.,Diego Alves,6,38,,
+OPP-00251,LEAD-00974,2025-06-12,2025-07-13,Fechado Perdido,15186,,10,Plano Anual Ent.,Diego Alves,4,31,Concorrência,
+OPP-00252,LEAD-00977,2025-10-24,2025-11-24,Fechado Perdido,7827,,57,Plano Anual Pro,Rodrigo Lima,8,31,Preço,
+OPP-00253,LEAD-00982,2025-07-19,2025-08-11,Negociação,1326,,41,Consultoria Setup,Juliana Costa,3,23,,
+OPP-00254,LEAD-00984,2025-06-01,2025-06-14,Fechado Ganho,14583,13748.06,100,Plano Anual Ent.,Rodrigo Lima,2,13,,CLI-00114
+OPP-00255,LEAD-00988,2025-05-25,2025-06-23,Negociação,4204,,20,Plano Mensal Starter,Juliana Costa,9,29,,
+OPP-00256,LEAD-00990,2025-07-31,2025-08-09,Fechado Ganho,7024,7057.72,100,Plano Anual Pro,Carlos Mendes,6,9,,CLI-00115
+OPP-00257,LEAD-00991,2025-06-23,2025-07-16,Fechado Ganho,9397,8915.39,100,Plano Mensal Pro,Carlos Mendes,10,23,,CLI-00116
+OPP-00258,LEAD-00995,2025-05-06,2025-05-17,Fechado Perdido,3529,,38,Plano Mensal Starter,Rodrigo Lima,8,11,Concorrência,
+OPP-00259,LEAD-00998,2025-11-17,2025-12-22,Fechado Ganho,3664,3313.38,100,Plano Mensal Starter,Carlos Mendes,8,35,,CLI-00117
