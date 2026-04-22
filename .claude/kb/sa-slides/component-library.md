@@ -1,6 +1,6 @@
 # Component Library — sa Slides
 
-> Biblioteca de componentes CSS reutilizáveis da **Sprint Analítica**. Estes componentes formam a base do sistema visual "Sábio Rebelde".
+> Biblioteca de componentes CSS reutilizáveis da **Sprint Analítica**. Estes componentes formam a base do sistema visual "Lucas Pontes".
 
 ---
 
@@ -67,7 +67,7 @@ O estilo padrão de tags: Fira Code mono, 0.68rem, cantos arredondados, fundo su
 .method-panel h3 { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1rem; color: var(--text-dim); }
 ```
 
-## Bottom Explanation Panel (Voz do Sábio)
+## Bottom Explanation Panel (Voz do Lucas Pontes)
 
 ```html
 <div class="bottom-panel mta">
@@ -83,7 +83,7 @@ O estilo padrão de tags: Fira Code mono, 0.68rem, cantos arredondados, fundo su
 .mta { margin-top: auto; }
 ```
 
-## Practical Example Box (Voz do Rebelde)
+## Practical Example Box (Voz do Lucas Pontes)
 
 ```html
 <div style="margin-top:auto; padding-top:0.6rem;">

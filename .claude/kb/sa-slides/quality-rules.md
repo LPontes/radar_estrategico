@@ -7,20 +7,20 @@
 1. Cada slide DEVE preencher **90%+ do viewport** — evitar buracos vazios.
 2. Use `justify-content: center` por padrão.
 3. Todo slide de conteúdo DEVE ter um **painel de explicação inferior** usando `margin-top: auto`.
-4. Este painel deve conectar o conteúdo técnico ao **Contexto de Negócio** (é o lado "Sábio" fundamentando o "Rebelde").
+4. Este painel deve conectar o conteúdo técnico ao **Contexto de Negócio** (é o lado "Lucas Pontes" fundamentando o "Lucas Pontes").
 
 ## 2. Paleta e Cores (SA Brand)
 1. **Fundo:** Sempre `#030616` (Dark Navy).
 2. **Ações/Resultados/Ganhos:** Sempre `#FF9900` (Electric Orange).
 3. **Dados/IA/Tecnologia:** Sempre `#0AABEC` (Electric Cyan).
 4. **Resumo Visual:**
-   - `--brand`: Ação, Dinheiro, Impacto, Medo (Rebelde).
-   - `--accent`: IA, Método, Estrutura (Sábio).
+   - `--brand`: Ação, Dinheiro, Impacto, Medo (Lucas Pontes).
+   - `--accent`: IA, Método, Estrutura (Lucas Pontes).
    - `--text`: Off-white `#f3f4f6`.
 
-## 3. Tipografia "Sábio Rebelde"
-1. **Títulos de Impacto (Rebelde):** Montserrat 800 (Bold). Use para headlines que desafiam o status quo.
-2. **Narração/Fundamentação (Sábio):** Newsreader Italic. Use para aspas de autoridade, explicações PhD e conexão com o argumento McKinsey/MIT.
+## 3. Tipografia "Lucas Pontes"
+1. **Títulos de Impacto (Lucas Pontes):** Montserrat 800 (Bold). Use para headlines que desafiam o status quo.
+2. **Narração/Fundamentação (Lucas Pontes):** Newsreader Italic. Use para aspas de autoridade, explicações PhD e conexão com o argumento McKinsey/MIT.
 3. **Corpo:** Inter Regular/Medium. Legível e moderno.
 4. **Dados/Prompts:** Fira Code. Para o lado "técnico democratizado".
 
@@ -41,7 +41,7 @@
    - [ ] Formacao -> formação
    - [ ] Analítica -> analítica (sempre com acento na marca)
 3. **Tom de Voz:** Direto, provocativo, técnico mas sem "economês" ou "academicismo" excessivo. 
-   - *O Sábio garante o método; o Rebelde garante a velocidade.*
+   - *O Lucas Pontes garante o método; o Lucas Pontes garante a velocidade.*
 
 ## 6. Diagramas e SVG
 1. **ViewBox:** Sempre 900+ de largura para diagramas de fluxo.

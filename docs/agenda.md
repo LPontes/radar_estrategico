@@ -6,186 +6,33 @@ Radar Estratégico | Fluência Analítica | Lucas Pontes
 
 ## Visão Geral
 
-Em **4 noites práticas + 1 podcast**, os participantes constroem do zero o **EDA**: um sistema multi-agente de IA para e-commerce que consulta dados estruturados (SQL) e semânticos (vetores), com interface conversacional e frontend profissional.
+Em **3 encontros práticos ao vivo**, os participantes saem do dado bruto e chegam ao insight executivo — usando o **Framework EDA** aplicado a desafios reais trazidos pelos próprios participantes, sem precisar programar.
 
-**Pergunta Central:** *O que eu consigo fazer agora que não conseguia antes?*
+**Pergunta Central:** *O que eu consigo fazer amanhã de manhã que não conseguia fazer ontem?*
 
-**Filosofia Docker-First:** Dias 1–3 rodam 100% local. Dia 4 migra para cloud — mesma arquitetura, só muda o endpoint.
+**Filosofia do Evento:** Cada aula resolve um problema concreto do participante. Teoria que não aterra em um caso real não entra no cronograma.
 
-> Este evento é o **Radar Estratégico™**: o Framework EDA aplicado ao vivo em casos reais. O aluno sai sabendo exatamente onde olhar e como apresentar — usando os dados que já tem, sem programar.
-
----
-
-## Posicionamento do Evento
-
-| Etapa no Funil | Driver | Promessa |
-|---|---|---|
-| **Sprint Analítica™** (front-end, R$37–67) | Sobrevivência | Você tem os dados. Falta o método para não ficar para trás. |
-| **→ Radar Estratégico™** (upsell, R$197) | Transição — sobrevivência + primeiros sinais de ambição | Veja o Framework EDA funcionando ao vivo no seu tipo de desafio — e traga o seu caso. |
-| **Radar Estratégico™ Pro** *(futuro, R$800–1.500)* | Ambição | Torne-se a referência na sua área e escolha o cargo que deseja. |
-
----
-
-## Stack Completa
-
-```
-+------------------+     +------------------+     +------------------+
-|  DADOS           |     |   IA / LLM       |     |   INTERFACE      |
-|  ShadowTraffic   |     |   Claude         |     |   Chainlit       |
-+--------+---------+     |   LlamaIndex     |     |   Frontend Pro   |
-         |               |   LangChain      |     +--------+---------+
-         v               |   CrewAI         |              |
-+------------------+     +--------+---------+              v
-|  ARMAZENAMENTO   |              |               +------------------+
-|  Postgres        |              v               |   QUALIDADE      |
-|  (The Ledger)    |     +------------------+     |   DeepEval       |
-|  Qdrant          |<--->|   MCP Protocol   |     |   LangFuse       |
-|  (The Memory)    |     |   AgentSpec      |     +------------------+
-+------------------+     +------------------+
-```
+> Este evento é o **Radar Estratégico™**: o Framework EDA aplicado ao vivo em casos reais. O participante sai sabendo exatamente onde olhar e como apresentar — usando os dados que já tem.
 
 ---
 
 ## Arco Narrativo — Progressão de Fluência Analítica
 
-| Dia | Tema | Emoção | O Participante Sai Com... |
-|-----|------|--------|--------------------------|
-| 1 Seg | **INGERIR** | Curiosidade | Dados fluindo + primeiro contacto com Agentic Commerce |
-| 2 Ter | **CONTEXTUALIZAR** | Confiança | IA pesquisando nos SEUS dados — Ledger + RAG |
-| 3 Qua | **AGENTE** | Empolgação | Agente autônomo tomando decisões sozinho |
-| 4 Qui | **MULTI-AGENTE** | Orgulho | Time de agentes + Frontend profissional + Cloud |
-| 5 Sex | **REFLETIR** | Inspiração | Clareza sobre carreira e próximo passo |
+| Aula | Tema | Emoção | O Participante Sai Com... |
+|------|------|--------|--------------------------|
+| 1 — 23/04 | **CONSTRUIR A FUNDAÇÃO** | Confiança | Base organizada e analítica — dados prontos para perguntar |
+| 2 — 30/04 | **EXPANDIR O REPERTÓRIO** | Empolgação | Métricas de elite no próprio contexto + clareza sobre onde dashboards ajudam (e onde atrapalham) |
+| 3 — 07/05 | **LIGAR O RADAR** | Inspiração | Visão de como manter a evolução viva depois do evento |
 
 ### Progressão de Autonomia — Do Executor ao Estrategista
 
 ```
-Dia 1:  EU FAÇO, IA AJUDA           → Executor que usa IA pontualmente
-Dia 2:  IA BUSCA, EU PERGUNTO       → Framework EDA + dados próprios (RAG + Ledger)
-Dia 3:  IA PROJETA, EU VALIDO       → Analista que usa o método com consistência
-Dia 4:  IA CONSTRÓI, IA EXECUTA     → Referência estratégica que a empresa consulta antes de decidir
+Aula 1:  EU ORGANIZO, IA AJUDA          → Profissional que domina a fundação — dados limpos, estrutura sólida
+Aula 2:  EU PERGUNTO, IA ENCONTRA       → Analista que usa o método com as métricas certas no momento certo
+Aula 3:  EU DIRIJO, IA EXECUTA          → Referência estratégica que a empresa consulta antes de decidir
 ```
 
 > **Conexão com o One Belief:** "Usar IA para analisar dados é a chave para não ficar para trás — e a melhor forma de fazer isso é com o Framework EDA."
-
----
-
-## Agentic Commerce — O Fio Condutor
-
-> *O shopper do futuro não é humano. É um agente de IA que decide e executa.*
-
-O EDA não é só um exercício técnico — é um exemplo real do que o mercado está adotando. Ele conecta diretamente à **ruminação do ICP**: *"Tenho os dados. Sei que tem valor ali. Mas não sei como transformar isso em algo que a liderança ouça."*
-
-| Antes | Agora (Agentic Commerce) |
-|-------|--------------------------|
-| Humano navega, compara, decide | Agente pesquisa, compara, executa |
-| SEO para olhos humanos | AEO (Agent Engine Optimization) para máquinas |
-| Funil de 7 etapas | Conversa única |
-| Dados para dashboards — cemitérios de dados | Dados para agentes — Fluência Analítica |
-
-- **McKinsey (Jan 2026):** AI agents podem intermediar **$3–5 trilhões** em comércio global até 2030
-- **Google Cloud (Jan 2026):** Lançou "Gemini Enterprise for CX" — agentes autônomos discovery-to-purchase
-- **60%+ das buscas** de produto já começam em interfaces de IA, não em search engines
-
-| Dia | Conexão com Agentic Commerce |
-|-----|------------------------------|
-| 1 | "O mercado está mudando: $3–5 tri intermediados por agentes. Vamos construir um." |
-| 2 | "Pra um agente funcionar, precisa de dados exatos E compreensão. Isso é Ledger + RAG." |
-| 3 | "Um agente de verdade decide sozinho. AgentSpec projeta, o agente executa." |
-| 4 | "Na prática: um time de agentes com frontend profissional. Isso é o produto." |
-
----
-
-# DIA 1 — Segunda-feira
-
-## INGERIR: Dados + Fundamentos + Agentic Commerce
-
-> *De "o que é isso?" para "tenho dados fluindo e entendo para onde o mercado vai"*
-
-**Driver do Dia:** Sobrevivência — *"Estou ficando para trás e preciso agir."*
-**Persona ativa:** Ana Beatriz, 29 anos, analista que abre o Excel todo dia e fecha sem chegar a lugar nenhum.
-
-### Agenda Detalhada
-
-#### Bloco 1: AI Data Engineering + AI Coding Agents (20h00 – 20h25)
-
-| Horário | Atividade | Detalhes |
-|---------|-----------|----------|
-| 20h00 | **AI Data Engineering** | O que é, números do mercado, como a IA muda o papel do analista |
-| 20h10 | **AI Coding Agents** | O que são e os 4 tipos — ferramenta, não destino |
-| 20h18 | **Panorama de Ferramentas** | Cursor (IDE), Claude Code (Terminal), Codex (Cloud) — contexto, não tutorial |
-
-> **Gancho:** *"Funções de pura manipulação de dados vão desaparecer. O que o FEM e a McKinsey já disseram — e o que isso significa para você agora."*
-
-#### Bloco 2: Claude Code Deep Dive (20h25 – 21h00)
-
-| Horário | Atividade | Detalhes |
-|---------|-----------|----------|
-| 20h25 | **Por que Terminal, não IDE** | Autonomia real vs. assistência — a diferença que o ICP ainda não viu |
-| 20h35 | **Demonstração ao vivo** | Claude Code ingerindo dados — EU FAÇO, IA AJUDA |
-| 20h50 | **Estrutura do projeto** | Ledger (Postgres) + Memory (Qdrant) — o mapa do que vem a seguir |
-
-#### Bloco 3: Agentic Commerce & EDA (21h00 – 21h25)
-
-| Horário | Atividade | Detalhes |
-|---------|-----------|----------|
-| 21h00 | **O Momento Disruptivo** | "Até 2030, agentes de IA vão intermediar mais comércio do que todos os marketplaces juntos." |
-| 21h10 | **Apresentação do EDA** | O que vamos construir esta semana — e por que importa para a carreira |
-| 21h18 | **Conexão Framework EDA** | O EDA é o Framework EDA em escala: pergunta certa → IA executa → sinal → decisão |
-
-> **Gancho interno para upsell:** *"No Radar Estratégico™, eu aplico o Framework EDA ao vivo e você traz o seu caso — não o caso do EDA, o seu."*
-
-#### Bloco 4: ShadowTraffic — Geração de Dados (21h25 – 22h10)
-
-| Horário | Atividade | Detalhes |
-|---------|-----------|----------|
-| 21h25 | **O problema real** | Dados caóticos travam qualquer análise — e ninguém ensina a resolver isso |
-| 21h35 | **ShadowTraffic ao vivo** | Gerando datasets realistas de e-commerce: pedidos, clientes, reviews, estoque |
-| 22h00 | **Ingestão no Ledger** | ETL rodando — dados fluindo para o Postgres |
-
-> **Conexão com OB2 — Base Pronta™:** *"Se sua base está bagunçada, existe um jeito de resolver em minutos antes de analisar — 12 prompts que fazem isso sem código."*
-
-#### Bloco 5: Pydantic & Structured Outputs (22h10 – 22h45)
-
-| Horário | Atividade | Detalhes |
-|---------|-----------|----------|
-| 22h10 | **Por que estrutura importa** | A IA sem estrutura gera genérico — com contexto de negócio, encontra o sinal |
-| 22h20 | **Pydantic na prática** | Modelando dados de e-commerce com tipagem forte |
-| 22h35 | **Outputs estruturados** | A base para o Decision Briefing que a liderança recebe |
-
-> **Provocação:** *"Você não está sendo pago para cruzar planilhas. Está sendo pago para o que vem depois. Hoje você deu o primeiro passo."*
-
-#### Bloco 6: Encerramento (22h45 – 23h00)
-
-- **Recap:** "Você tem dados reais fluindo e entende para onde o mercado vai."
-- **Conexão com o ICP:** A Ana Beatriz não fecha o Excel sem chegar a lugar nenhum — ela tem método agora.
-- **Desafio:** Explorar o Ledger com uma pergunta estratégica antes de amanhã.
-- **Preview Dia 2:** "Amanhã a IA vai pesquisar nos SEUS dados — RAG + Ledger."
-
-**Entregas do Dia:**
-- [x] ETL pronto
-- [x] Data Warehouse em SQLite / Postgres (The Ledger)
-- [x] Primeiro contato com Fluência Analítica na prática
-
----
-
-## Ganchos de Funil Interno — Dia 1
-
-| Momento | Gancho | Produto |
-|---------|--------|---------|
-| **Bloco 3 — final** | *"30 frameworks prontos te dizem qual pergunta fazer em qualquer desafio — com o prompt de IA pronto para executar."* | OB1 — 30 Frameworks de Análise |
-| **Bloco 4 — abertura** | *"Se sua base está bagunçada, existe um jeito de resolver em minutos."* | OB2 — Base Pronta™ |
-| **Bloco 6 — encerramento** | *"No Radar Estratégico™ eu aplico o Framework EDA ao vivo e você traz o seu caso."* | Radar Estratégico™ |
-
----
-
-## Conexão Semana ↔ Formação
-
-| Dia | Semana (Introdução — 20%) | Formação (Domínio — 100%) |
-|-----|--------------------------|--------------------------|
-| 1 | ShadowTraffic + Pydantic + Claude Code | Foundation: 16 módulos + 4 AI Coding Agents |
-| 2 | RAG + Ledger via MCP | Framework EDA aplicado — perguntas estratégicas nos dados próprios |
-| 3 | AgentSpec + Agente autônomo | Fluência Analítica consistente — do sinal ao Decision Briefing |
-| 4 | Multi-agente + Frontend + Cloud | Referência estratégica — o profissional que a empresa consulta antes de decidir |
 
 ---
 
@@ -200,27 +47,116 @@ O EDA não é só um exercício técnico — é um exemplo real do que o mercado
 
 ---
 
-## Métricas de Sucesso
+# AULA 1 — Quinta-feira, 23/04 às 19h
 
-| Métrica | Meta | Como Medir |
-|---------|------|------------|
-| Audiência Dia 1 (ao vivo) | 1.000+ | Plataforma de live |
-| Taxa de conversão → Radar Estratégico™ | ≥ 15% dos compradores da Sprint Analítica™ | Painel de vendas |
-| Entregável Dia 1 completo | 100% dos participantes com Ledger rodando | Check ao vivo |
-| Prova social gerada | ≥ 1 momento de "foi eu" capturável para anúncio | Gravação da sessão |
+## CONSTRUIR A FUNDAÇÃO: Engenharia de Dados na Prática
+
+> *De "tenho um bando de dados" para "tenho uma base organizada, analítica e pronta para perguntar"*
+
+**Driver da Aula:** Confiança — *"Agora eu sei por onde começar."*
+**Persona ativa:** Profissional de negócios que abre o Excel todo dia, sabe que tem valor ali, mas fecha sem conseguir transformar isso em algo que a liderança ouça.
+
+### Agenda Detalhada
+
+#### Bloco 1: O Problema Real da Base de Dados (19h00 – 19h20)
+
+| Horário | Atividade | Detalhes |
+|---------|-----------|----------|
+| 19h00 | **Abertura e diagnóstico** | Por que a maioria dos profissionais tem dados mas não tem análise — o gap que o Radar resolve |
+| 19h10 | **O que é uma base analítica** | Diferença entre dado bruto, base operacional e base analítica — em linguagem de negócio |
+
+> **Gancho:** *"Seu problema não é falta de dados. É falta de estrutura para perguntar. Hoje mudamos isso."*
+
+#### Bloco 2: Spec Driven Development (SDD) — Estado da Arte (19h20 – 20h00)
+
+| Horário | Atividade | Detalhes |
+|---------|-----------|----------|
+| 19h20 | **O que é SDD e por que importa** | A abordagem que separa quem usa IA pontualmente de quem usa IA com consistência |
+| 19h35 | **SDD na prática ao vivo** | Construindo a especificação antes de escrever uma linha — o profissional dirige, a IA executa |
+| 19h50 | **Resultado ao vivo** | Base bagunçada → estrutura limpa → pronta para análise |
+
+> **Conexão com o Framework EDA — Etapa 2:** *"A IA sem contexto gera genérico. O SDD é como você dá contexto de negócio antes de pedir qualquer coisa."*
+
+#### Bloco 3: Construindo o ETL (20h00 – 20h45)
+
+| Horário | Atividade | Detalhes |
+|---------|-----------|----------|
+| 20h00 | **Mapeando o problema** | Identificando o que precisa ser limpo, padronizado e conectado |
+| 20h15 | **ETL ao vivo** | Saindo de dados brutos para uma base organizada — passo a passo com IA |
+| 20h35 | **Validação** | Como saber se a base está realmente pronta — os 3 sinais que confirmam |
+
+#### Bloco 4: Encerramento e Desafio (20h45 – 21h00)
+
+- **Recap:** "Você tem uma base analítica e um método para construir qualquer outra."
+- **Desafio para a próxima aula:** Traga uma base real do seu dia a dia — ou a descrição do problema que ela deveria responder.
+- **Preview Aula 2:** "Na semana que vem, vamos pegar essa base e extrair os sinais que a liderança precisa ouvir."
+
+**Entregas da Aula:**
+- [x] ETL documentado com SDD
+- [x] Base organizada e analítica pronta
+- [x] Método replicável para qualquer base futura
 
 ---
 
-## As Três Ruminações que Guiam a Comunicação
+## Ganchos de Funil Interno — Aula 1
 
-**1 — Tão Perto Tão Longe (Manifestação A — tráfego frio):**
-> *"Você abre os dados todo dia. Sabe que tem algo ali. E fecha sem chegar a lugar nenhum. De novo."*
+| Momento | Gancho | Produto |
+|---------|--------|---------|
+| **Bloco 2 — abertura** | *"Se sua base está bagunçada, existe um jeito de resolver em minutos antes de analisar — sem precisar saber programar."* | Arsenal de Execução — Módulo Operacional |
+| **Bloco 4 — encerramento** | *"Na Aula 2 você vai aplicar o método no seu caso real. Traga o desafio que seu gestor mais cobra."* | Engajamento para Aula 2 |
 
-**2 — Mostrar Serviço com IA (Manifestação B — remarketing):**
-> *"Todo mundo fala que usa IA. Poucos sabem mostrar resultado real com ela."*
+---
 
-**3 — O Destino (Roma — upsell e back-end):**
-> *"O profissional que chega na reunião com o insight que ninguém tinha visto — amparado nos dados, com clareza total, mal conseguindo dormir esperando apresentar."*
+# AULA 2 — Quinta-feira, 30/04 às 19h
+
+## EXPANDIR O REPERTÓRIO ANALÍTICO: Métricas de Elite + IA para Gargalos
+
+> *De "tenho uma base" para "sei exatamente que sinal procurar — e como apresentar para quem decide"*
+
+**Driver da Aula:** Empolgação — *"É isso. Agora eu entendo o que estava bem na minha frente."*
+**Persona ativa:** Profissional que já tem a base organizada e quer saber quais perguntas fazem diferença — não para impressionar tecnicamente, mas para ser ouvido nas reuniões certas.
+
+### Agenda Detalhada
+
+**Entregas da Aula:**
+- [x] Análise de Funil, Churn ou NPS aplicada a um contexto real
+- [x] Clareza sobre quando usar (e quando evitar) dashboards
+- [x] Pelo menos um gargalo identificado com o apoio de IA
+
+---
+
+## Ganchos de Funil Interno — Aula 2
+
+| Momento | Gancho | Produto |
+|---------|--------|---------|
+| **Bloco 1 — Churn** | *"Existe um caso de estudo completo de análise de Churn em base real — do dado bruto ao Decision Briefing — disponível no Arsenal."* | Arsenal de Execução — Módulo Receita |
+| **Bloco 2 — encerramento** | *"O Arsenal de Execução tem casos prontos por setor: Vendas, Operações, RH, CS. Você clica no problema que seu chefe cobra e encontra a análise pronta."* | Arsenal de Execução |
+| **Bloco 3 — abertura** | *"Gargalo identificado não vira decisão sem linguagem executiva. O formato Decision Briefing está documentado no Arsenal."* | Arsenal de Execução |
+
+---
+
+# AULA 3 — Quinta-feira, 07/05 às 19h
+
+## LIGAR O RADAR: Visão de Futuro + Temas Definidos com os Participantes
+
+> *De "aprendi o método" para "sei exatamente como continuar evoluindo"*
+
+**Driver da Aula:** Inspiração — *"Agora eu tenho clareza de onde quero chegar e o que fazer na semana que vem."*
+**Persona ativa:** Profissional que completou o arco e precisa de um horizonte claro — não mais uma lista de tarefas, mas um Radar calibrado para o próprio contexto.
+
+### Agenda Detalhada
+
+---
+
+## Orientação aos Participantes
+
+> **Peço que faça um esforço para participar ao vivo e, principalmente, traga suas dúvidas e desafios reais do seu dia a dia. Vamos usar esses encontros para aplicar a teoria na prática dos seus problemas atuais.**
+
+| Aula | Data | Horário | Como se Preparar |
+|------|------|---------|-----------------|
+| 1 — Construir a Fundação | 23/04 (Qui) | 19h | Pense em uma base de dados que você usa hoje — mesmo que bagunçada |
+| 2 — Expandir o Repertório | 30/04 (Qui) | 19h | Traga um problema que seu gestor cobra há mais de 30 dias |
+| 3 — Ligar o Radar | 07/05 (Qui) | 19h | Traga o resultado do que você tentou aplicar nas semanas anteriores |
 
 ---
 

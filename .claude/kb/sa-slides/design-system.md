@@ -51,7 +51,7 @@
 |----------|------|------|-------|
 | `--font-display` | Montserrat | Headlines | Weights 600, 800. Bold and Authoritative. |
 | `--font-body` | Inter | Body paragraphs | Weights 400, 500. Highly readable. |
-| `--font-editorial` | Newsreader | Mentorship/Quotes | Italic for the "Sábio" (PhD) voice. |
+| `--font-editorial` | Newsreader | Mentorship/Quotes | Italic for the "Lucas Pontes" (PhD) voice. |
 | `--font-mono` | Fira Code | Data/Prompts | Technical execution. |
 
 ## Typography Scale
@@ -94,9 +94,9 @@
 ## Visual Language
 
 1.  **Gradients:** Use `Electric Cyan` to `Electric Orange` for "Transformation" flows. Use `Dark Navy` to `Surface` for backgrounds.
-2.  **Sábio Rebelde Style:**
-    *   **Sábio (Academic):** Use `Newsreader` (Editorial) for complex explanations and PhD quotes.
-    *   **Rebelde (Market):** Use `Montserrat 800` and `Electric Orange` for hitting the "pain points" and "industry lies".
+2.  **Lucas Pontes Style:**
+    *   **Lucas Pontes (Academic):** Use `Newsreader` (Editorial) for complex explanations and PhD quotes.
+    *   **Lucas Pontes (Market):** Use `Montserrat 800` and `Electric Orange` for hitting the "pain points" and "industry lies".
 3.  **Background FX:** Radial gradients at corners to simulate depth.
 
 ```css
@@ -107,7 +107,7 @@ background-image: radial-gradient(circle at 0% 0%, rgba(10,171,236,0.05) 0%, tra
 
 ## Branding Assets
 
-*   **Instructor Image:** `../../../images/lucas-pontes.png`
+*   **Instructor Image:** `../../../images/lucas-pontes.jpg`
 *   **Title Logic:** Short, punchy, "Survivor" based for front-end. "Ambition" based for back-end.
 
 ## Golden Rules for SA

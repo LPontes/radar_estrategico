@@ -89,7 +89,7 @@ Read these KB files first:
 - .claude/kb/sa-slides/quality-rules.md
 - .claude/kb/sa-slides/component-library.md
 - .claude/kb/sa-slides/design-system.md
-- .claude/kb/sa-slides/sprint-palette.md (if deck is d1-d4)
+- .claude/kb/sa-slides/semana-palette.md (if deck is d1-d4)
 
 Run all 8 validation categories:
 1. Screen filling

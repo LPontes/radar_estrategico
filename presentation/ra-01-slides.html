@@ -1,0 +1,2014 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RA-01 — Da Bagunça ao Insight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,600;1,800&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap"
+    rel="stylesheet">
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      overflow: hidden;
+    }
+
+    /* CSS Variables */
+    :root {
+      --bg: #030616;
+      --surface: #0a0e24;
+      --surface2: #121836;
+      --surface-elevated: #1a234a;
+      --border: rgba(10, 171, 236, 0.08);
+      --border-bright: rgba(10, 171, 236, 0.20);
+      --border-action: rgba(255, 153, 0, 0.30);
+      --text: #f3f4f6;
+      --text-dim: #94a3b8;
+      --accent: #0aabec;
+      --accent-dim: rgba(10, 171, 236, 0.10);
+      --brand: #ff9900;
+      --brand-dim: rgba(255, 153, 0, 0.10);
+      --gold: #d4af37;
+      --red: #ef4444;
+      --green: #10b981;
+      --purple: #8b5cf6;
+      --code-bg: #010411;
+      --code-text: #e2e8f0;
+
+      --font-display: 'Montserrat', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-editorial: 'Newsreader', serif;
+      --font-mono: 'Fira Code', monospace;
+    }
+
+    body {
+      background-image: radial-gradient(circle at 0% 0%, rgba(10, 171, 236, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 100% 100%, rgba(255, 153, 0, 0.04) 0%, transparent 40%);
+    }
+
+    .slide__display {
+      font-family: var(--font-display);
+      font-size: clamp(48px, 10vw, 120px);
+      font-weight: 800;
+      letter-spacing: -2px;
+      line-height: 0.95;
+    }
+
+    .slide__heading {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 6vw, 64px);
+      font-weight: 600;
+      letter-spacing: -1px;
+    }
+
+    .slide__body {
+      font-family: var(--font-body);
+      font-size: clamp(18px, 2.4vw, 24px);
+      line-height: 1.6;
+    }
+
+    .slide__label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    /* Branding Bar */
+    .sa-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 48px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(20px, 4vw, 60px);
+      background: rgba(3, 6, 22, 0.9);
+      border-bottom: 1px solid var(--border);
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .sa-bar__left {
+      color: var(--brand);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .sa-bar__center {
+      color: var(--text);
+      font-weight: 500;
+      opacity: 0.8;
+      font-style: italic;
+      font-family: var(--font-editorial);
+      font-size: 0.9rem;
+      text-transform: none;
+    }
+
+    .sa-bar__right {
+      color: var(--text-dim);
+    }
+
+    /* Components */
+    .tag {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 0.22rem 0.65rem;
+      border-radius: 6px;
+      letter-spacing: 0.05em;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .tag-accent {
+      background: var(--accent-dim);
+      color: var(--accent);
+    }
+
+    .tag-brand {
+      background: var(--brand-dim);
+      color: var(--brand);
+    }
+
+    .tag-gold {
+      background: rgba(212, 175, 55, 0.1);
+      color: var(--gold);
+    }
+
+    .tag-green {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--green);
+    }
+
+    .tag-blue {
+      background: rgba(59, 130, 246, 0.1);
+      color: #3b82f6;
+    }
+
+    .tag-purple {
+      background: rgba(139, 92, 246, 0.1);
+      color: var(--purple);
+    }
+
+    .tag-red {
+      background: rgba(239, 68, 68, 0.1);
+      color: var(--red);
+    }
+
+    .glass-card {
+      background: rgba(3, 6, 22, 0.6);
+      border: 1px solid var(--border-bright);
+      border-radius: 16px;
+      padding: clamp(24px, 4vh, 40px);
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+
+
+
+
+    /* Method Grid */
+    .method-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(16px, 2.5vw, 32px);
+      margin-top: clamp(16px, 3vh, 28px);
+    }
+
+    .method-panel {
+      background: var(--surface);
+      border-radius: 16px;
+      padding: clamp(20px, 3vh, 32px);
+      border: 1px solid var(--border);
+    }
+
+    .method-panel.panel-accent {
+      border-color: rgba(10, 171, 236, 0.2);
+    }
+
+    .method-panel.panel-brand {
+      border-color: rgba(255, 153, 0, 0.2);
+    }
+
+    .method-panel h3 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    /* Slide Layouts */
+    .deck {
+      width: 100vw;
+      height: 100dvh;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+    }
+
+    .slide {
+      width: 100%;
+      min-height: 100dvh;
+      scroll-snap-align: start;
+      padding: 74px clamp(40px, 6vw, 120px) 80px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .slide--title {
+      text-align: center;
+    }
+
+    .slide__decor {
+      position: absolute;
+      pointer-events: none;
+    }
+
+
+    /* Animations */
+    @keyframes pulse-glow {
+
+      0%,
+      100% {
+        box-shadow: 0 0 15px rgba(10, 171, 236, 0.15), 0 0 30px rgba(10, 171, 236, 0.05);
+      }
+
+      50% {
+        box-shadow: 0 0 25px rgba(10, 171, 236, 0.3), 0 0 50px rgba(10, 171, 236, 0.1);
+      }
+    }
+
+    @keyframes pulse-brand {
+
+      0%,
+      100% {
+        box-shadow: 0 0 15px rgba(255, 153, 0, 0.15);
+      }
+
+      50% {
+        box-shadow: 0 0 25px rgba(255, 153, 0, 0.3);
+      }
+    }
+
+    @keyframes flow-right {
+      from {
+        stroke-dashoffset: 24;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .flow-r {
+      stroke-dasharray: 12 12;
+      animation: flow-right 1.2s linear infinite;
+    }
+
+    .slide .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .slide.visible .reveal {
+      opacity: 1;
+      transform: none;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      .slide,
+      .slide .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
+    }
+
+    @keyframes border-run {
+      from {
+        stroke-dashoffset: 1000;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes electric-flicker-borda {
+
+      0%,
+      100% {
+        filter: drop-shadow(0 0 10px var(--color)) drop-shadow(0 0 20px var(--color));
+        opacity: 1;
+      }
+
+      50% {
+        filter: drop-shadow(0 0 15px var(--color)) drop-shadow(0 0 35px var(--color)) brightness(1.6);
+        opacity: 0.85;
+      }
+    }
+
+    .electric-path {
+      fill: none;
+      stroke-width: 1.8;
+      stroke-dasharray: 120 480;
+      stroke-linecap: round;
+      animation: border-run 6s linear infinite, electric-flicker-borda 4s infinite;
+    }
+
+    .electric-path--accent {
+      --color: var(--accent);
+      stroke: var(--accent);
+    }
+
+    .electric-container {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    /* Quotes */
+    .slide__quote-mark {
+      font-family: var(--font-display);
+      font-size: clamp(120px, 20vw, 240px);
+      font-weight: 800;
+      line-height: 0.5;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: rgba(255, 255, 255, 0.05);
+    }
+
+    .slide--quote blockquote {
+      font-family: var(--font-editorial);
+      font-size: clamp(24px, 3.5vw, 42px);
+      font-style: italic;
+      line-height: 1.4;
+      text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      color: var(--text);
+    }
+
+    /* Navigation Chrome CSS */
+    .deck-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--brand));
+      z-index: 100;
+      transition: width 0.3s ease;
+      pointer-events: none;
+    }
+
+    .deck-dots {
+      position: fixed;
+      right: clamp(12px, 2vw, 24px);
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      z-index: 100;
+      padding: 7px;
+      background: rgba(10, 15, 26, 0.6);
+      border-radius: 20px;
+      backdrop-filter: blur(8px);
+    }
+
+    .deck-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--text-dim);
+      opacity: 0.3;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .deck-dot:hover {
+      opacity: 0.6;
+    }
+
+    .deck-dot.active {
+      opacity: 1;
+      transform: scale(1.5);
+      background: var(--accent);
+      box-shadow: 0 0 8px rgba(0, 180, 255, 0.4);
+    }
+
+    .deck-counter {
+      position: fixed;
+      bottom: clamp(20px, 3vh, 30px);
+      right: clamp(20px, 3vw, 30px);
+      font-family: var(--font-mono);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent);
+      z-index: 9999;
+    }
+
+    .deck-hints {
+      position: fixed;
+      bottom: clamp(12px, 2vh, 24px);
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-dim);
+      opacity: 0.5;
+      z-index: 100;
+      transition: opacity 0.5s;
+    }
+
+    .deck-hints.faded {
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- sa BRANDING BAR -->
+  <div class="sa-bar">
+    <div class="sa-bar__left">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+      </svg>
+      SPRINT ANALÍTICA™
+    </div>
+    <div class="sa-bar__center">Lucas Pontes, — Fluência Analítica</div>
+    <div class="sa-bar__right">
+      DOC. MASTER V6 &middot; 2026
+    </div>
+  </div>
+
+  <!-- NAV CHROME -->
+  <div class="deck-progress" id="progress"></div>
+  <nav class="deck-dots" id="dots"></nav>
+  <div class="deck-counter" id="counter"></div>
+  <div class="deck-hints" id="hints">&larr; &rarr; ou scroll</div>
+
+  <div class="deck" id="deck">
+
+    <!-- SLIDE 1 — TITLE -->
+    <section class="slide slide--title">
+      <svg class="slide__decor" style="top:0;left:0;" width="200" height="200" viewBox="0 0 200 200">
+        <line x1="0" y1="0" x2="0" y2="60" stroke="var(--accent)" stroke-width="2" opacity="0.15" />
+        <line x1="0" y1="0" x2="60" y2="0" stroke="var(--accent)" stroke-width="2" opacity="0.15" />
+      </svg>
+      <svg class="slide__decor" style="bottom:0;right:0;" width="200" height="200" viewBox="0 0 200 200">
+        <line x1="200" y1="140" x2="200" y2="200" stroke="var(--gold)" stroke-width="2" opacity="0.15" />
+        <line x1="140" y1="200" x2="200" y2="200" stroke="var(--gold)" stroke-width="2" opacity="0.15" />
+      </svg>
+
+      <div
+        style="display: flex; flex-direction: row; align-items: center; gap: 4rem; width: 100%; max-width: 1400px; margin: auto; justify-content: center;">
+        <div style="flex: 1; text-align: left;">
+          <div class="reveal">
+            <p class="slide__subtitle"
+              style="margin-bottom:clamp(4px,1vh,8px); letter-spacing:3px; font-size:0.72rem; font-family: var(--font-mono); color: var(--accent);">
+              RADAR ESTRATÉGICO™ · ENCONTRO 1</p>
+          </div>
+          <div class="reveal" style="margin-bottom:clamp(8px,1.5vh,16px);">
+            <span class="tag tag-accent">RA-01</span>
+            <span class="tag tag-gold" style="margin-left:0.5rem;">90–120
+              min</span>
+          </div>
+
+          <h1 class="slide__display reveal" style="font-size:clamp(40px,8vw,90px); text-align: left;">
+            Da Bagunça<br>
+            <div class="electric-container" style="display: block;">
+              <svg viewBox="0 0 800 120" style="width:100%; height:auto; overflow:visible;">
+                <defs>
+                  <linearGradient id="electric-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="var(--accent)">
+                      <animate attributeName="offset" values="-1; 2" dur="6s" repeatCount="indefinite" />
+                    </stop>
+                    <stop offset="0%" stop-color="#fff">
+                      <animate attributeName="offset" values="-0.5; 2.5" dur="6s" repeatCount="indefinite" />
+                    </stop>
+                    <stop offset="0%" stop-color="var(--accent)">
+                      <animate attributeName="offset" values="0; 3" dur="6s" repeatCount="indefinite" />
+                    </stop>
+                  </linearGradient>
+                </defs>
+                <text x="0" y="70%" text-anchor="start" font-family="'Montserrat', sans-serif" font-weight="800"
+                  font-size="80" fill="url(#electric-grad)" style="opacity: 0.9;">ao Insight</text>
+                <text x="0" y="70%" text-anchor="start" font-family="'Montserrat', sans-serif" font-weight="800"
+                  font-size="80" class="electric-path electric-path--accent">ao Insight</text>
+              </svg>
+            </div>
+          </h1>
+
+          <div class="reveal" style="margin-top:clamp(12px,2vh,20px);">
+            <p
+              style="font-family:var(--font-editorial); font-size:clamp(20px,3vw,34px); font-style:italic; color:var(--text-dim);">
+              ETL, Data Warehouse e Agentes de IA</p>
+          </div>
+
+          <div class="reveal"
+            style="margin-top:clamp(20px,3vh,32px); display:flex; align-items:center; justify-content:flex-start; gap:clamp(12px,2vw,20px);">
+            <div
+              style="width:clamp(56px,7vw,80px); height:clamp(56px,7vw,80px); border-radius:50%; overflow:hidden; border:2px solid var(--accent); flex-shrink:0;">
+              <img src="lucas-pontes.jpg" alt="Lucas Pontes"
+                style="width:100%; height:100%; object-fit:cover; object-position:center -5%; transform:scale(1.3);">
+            </div>
+            <div style="text-align:left;">
+              <p style="font-family:var(--font-display); font-size:1.2rem; font-weight:600;"><span
+                  style="color:var(--text-dim);">Instrutor:</span> <span style="color:var(--accent);">Lucas Pontes,
+                </span></p>
+              <p
+                style="font-family:var(--font-editorial); font-size:0.9rem; font-style:italic; color:var(--text-dim); margin-top:0.1rem;">
+                Lucas Pontes &middot; Fluência Analítica</p>
+            </div>
+          </div>
+
+          <div class="reveal"
+            style="margin-top:clamp(12px,2vh,20px); display:flex; gap:0.75rem; justify-content:flex-start; flex-wrap:wrap;">
+            <span class="tag tag-accent">Radar Estratégico™</span>
+            <span class="tag tag-brand">Lucas Pontes</span>
+            <span class="tag tag-gold">Sprint Analítica</span>
+          </div>
+        </div>
+
+        <div style="flex: 1; display: flex; justify-content: center; align-items: center;" class="reveal">
+          <img src="capa_radar.png" alt="Capa Radar Estratégico"
+            style="max-width: 100%; max-height: 70vh; border-radius: 16px; box-shadow: 0 0 40px rgba(10,171,236,0.15); border: 1px solid var(--border-bright);">
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2 — CONTEXT -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: center;">
+          <div class="reveal">
+            <h2 class="slide__heading"
+              style="color: var(--accent); margin-bottom: 1.5rem; font-style: italic; font-family: var(--font-editorial);">
+              "Você não está aqui para assistir mais uma aula. Você está aqui para aplicar."</h2>
+            <p class="slide__body" style="color: var(--text-dim);">O Sprint Analítica te deu o método. O Radar te dá a
+              prática — ao vivo, em casos reais, no seu tipo de desafio.</p>
+          </div>
+
+          <div class="glass-card reveal" style="display: flex; flex-direction: column; gap: 1rem;">
+            <div
+              style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+              <span style="font-size: 1.5rem;">🔭</span>
+              <p style="font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--text);">
+                Expandir Horizontes</p>
+            </div>
+            <div
+              style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+              <span style="font-size: 1.5rem;">⚡</span>
+              <p style="font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--text);">
+                Manter-se atualizado com o estado da arte</p>
+            </div>
+            <div
+              style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+              <span style="font-size: 1.5rem;">🧠</span>
+              <p style="font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--text);">
+                Ajustar a atitude mental para a era da IA</p>
+            </div>
+            <div
+              style="display: flex; align-items: center; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+              <span style="font-size: 1.5rem;">📊</span>
+              <p style="font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--text);">
+                Gerar valor com Dados</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Cada encontro: um problema real, o Framework EDA do zero ao insight, e sua
+            empresa na mesa.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3 — PHASE FLOW -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading" style="margin-bottom: 1rem;">O Que Vem Pela Frente</h2>
+        </div>
+
+        <div class="reveal" style="display:flex;align-items:center;justify-content:center;gap:0;width:100%">
+
+          <!-- Phase 1 (Highlight) -->
+          <div
+            style="flex:1;background:var(--surface2);border:2px solid var(--brand);border-radius:16px;padding:clamp(28px,4vh,44px) clamp(20px,2vw,32px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px); animation:pulse-brand 4s ease-in-out infinite;">
+            <div
+              style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:.85rem;font-weight:700;padding:2px 12px;border-radius:6px;background:var(--brand-dim);color:var(--brand)">
+              HOJE</div>
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.4rem,2.5vw,1.8rem);font-style:italic;color:var(--brand);margin-top:.4rem">
+              Encontro 1</p>
+            <div style="margin: 0.8rem 0;"><span class="tag tag-brand">RA-01</span></div>
+            <p
+              style="font-family:var(--font-body);font-size:clamp(0.95rem,1.5vw,1.15rem);color:var(--text);margin-top:.2rem; line-height: 1.4;">
+              Da bagunça ao insight: ETL, Data Warehouse e Agentes de IA</p>
+          </div>
+
+          <div style="color:var(--text-dim);flex-shrink:0"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg></div>
+
+          <!-- Phase 2 -->
+          <div
+            style="flex:1;background:#0D0D0D;border:1.5px solid rgba(10,171,236,0.4);border-radius:16px;padding:clamp(28px,4vh,44px) clamp(20px,2vw,32px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px)">
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.4rem,2.5vw,1.8rem);font-style:italic;color:var(--accent);margin-top:1.2rem">
+              Encontro 2</p>
+            <div style="margin: 0.8rem 0;"><span class="tag tag-accent">RA-02</span></div>
+            <p
+              style="font-family:var(--font-body);font-size:clamp(0.95rem,1.5vw,1.15rem);color:var(--text-dim);margin-top:.2rem; line-height: 1.4;">
+              Resultado caindo — onde está o problema? Funil, churn e cohort</p>
+          </div>
+
+          <div style="color:var(--text-dim);flex-shrink:0"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg></div>
+
+          <!-- Phase 3 -->
+          <div
+            style="flex:1;background:#0D0D0D;border:1.5px solid rgba(10,171,236,0.4);border-radius:16px;padding:clamp(28px,4vh,44px) clamp(20px,2vw,32px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px)">
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.4rem,2.5vw,1.8rem);font-style:italic;color:var(--accent);margin-top:1.2rem">
+              Encontro 3</p>
+            <div style="margin: 0.8rem 0;"><span class="tag tag-accent">RA-03</span></div>
+            <p
+              style="font-family:var(--font-body);font-size:clamp(0.95rem,1.5vw,1.15rem);color:var(--text-dim);margin-top:.2rem; line-height: 1.4;">
+              O cliente está falando — você está ouvindo? NPS e análise de sentimento</p>
+          </div>
+
+        </div>
+
+        <!-- SVG Ribbons -->
+        <div class="reveal" style="display:flex; justify-content:center; margin-top: 2rem;">
+          <svg viewBox="0 0 960 100" style="width:100%;max-height:100px;">
+            <defs>
+              <linearGradient id="flow-g" x1="0%" x2="100%">
+                <stop offset="0%" stop-color="var(--brand)" stop-opacity="0.8" />
+                <stop offset="100%" stop-color="var(--accent)" stop-opacity="0.6" />
+              </linearGradient>
+            </defs>
+            <path d="M150,50 C300,50 400,50 500,50 C600,50 700,50 850,50" stroke="url(#flow-g)" stroke-width="4"
+              class="flow-r" fill="none" />
+          </svg>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Três encontros. Três tipos de problema. Uma metodologia: Framework EDA.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4 — FLOW ARCHITECTURE -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">Aula 1 · Construindo a Fundação da Máquina de Insights</h2>
+        </div>
+
+        <div class="reveal" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+
+          <!-- Block 1 -->
+          <div
+            style="background: var(--surface); border: 1px solid rgba(10,171,236,0.2); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+            <div
+              style="width:clamp(40px,5vh,50px);height:clamp(40px,5vh,50px);border-radius:10px;background:rgba(10,171,236,.1);border:1px solid rgba(10,171,236,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--accent);">
+              Fundamentos</h3>
+            <ul
+              style="color: var(--text-dim); font-family: var(--font-body); font-size: 0.9rem; line-height: 1.6; list-style-type: none;">
+              <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;"><span style="color:var(--accent);">▹</span>
+                Como a IA funciona</li>
+              <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;"><span style="color:var(--accent);">▹</span>
+                OLTP vs OLAP</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color:var(--accent);">▹</span> Níveis de uso da IA
+              </li>
+            </ul>
+          </div>
+
+          <!-- Block 2 -->
+          <div
+            style="background: var(--surface); border: 1px solid rgba(255,153,0,0.2); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; box-shadow: 0 0 20px rgba(255,153,0,0.05);">
+            <div
+              style="width:clamp(40px,5vh,50px);height:clamp(40px,5vh,50px);border-radius:10px;background:rgba(255,153,0,.1);border:1px solid rgba(255,153,0,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+              </svg>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--brand);">
+              Técnica</h3>
+            <ul
+              style="color: var(--text-dim); font-family: var(--font-body); font-size: 0.9rem; line-height: 1.6; list-style-type: none;">
+              <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;"><span style="color:var(--brand);">▹</span>
+                ETL</li>
+              <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;"><span style="color:var(--brand);">▹</span>
+                Lakehouse</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color:var(--brand);">▹</span> Ferramentas modernas
+              </li>
+            </ul>
+          </div>
+
+          <!-- Block 3 -->
+          <div
+            style="background: var(--surface); border: 1px solid rgba(212,175,55,0.2); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+            <div
+              style="width:clamp(40px,5vh,50px);height:clamp(40px,5vh,50px);border-radius:10px;background:rgba(212,175,55,.1);border:1px solid rgba(212,175,55,.3);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--gold);">
+              Prática</h3>
+            <ul
+              style="color: var(--text-dim); font-family: var(--font-body); font-size: 0.9rem; line-height: 1.6; list-style-type: none;">
+              <li style="margin-bottom: 0.5rem; display: flex; gap: 0.5rem;"><span style="color:var(--gold);">▹</span>
+                Agent query ao vivo</li>
+              <li style="display: flex; gap: 0.5rem;"><span style="color:var(--gold);">▹</span> Do dado bruto ao
+                Decision Briefing</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Ao final você vai saber o que pedir, o que é possível e como começar —
+            independente do seu nível técnico.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5 — HOOK QUOTE -->
+    <section class="slide slide--quote">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal">
+          <div class="slide__quote-mark">“</div>
+        </div>
+
+        <div class="reveal">
+          <blockquote>A maioria dos relatórios corporativos é construída da forma mais cara e mais frágil possível: um
+            analista junta planilhas toda semana, consolida manualmente, formata, envia. Se ele sair de férias, o
+            relatório some.</blockquote>
+        </div>
+
+        <div class="reveal" style="text-align: center; margin-top: 2rem;">
+          <p style="font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--accent);">—
+            Lucas Pontes, </p>
+          <p
+            style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); margin-top: 0.4rem; letter-spacing: 0.05em; text-transform: uppercase;">
+            Fluência Analítica</p>
+        </div>
+
+        <div class="reveal mta" style="text-align: center;">
+          <span class="tag tag-brand" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Você não precisa construir o
+            motor. Precisa saber como ele funciona.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6 — DIVIDER -->
+    <section class="slide">
+      <div
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: var(--font-display); font-size: clamp(200px, 40vw, 600px); font-weight: 800; color: transparent; -webkit-text-stroke: 2px var(--accent); opacity: 0.04; pointer-events: none; line-height: 1; z-index: 0;">
+        01</div>
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;"
+        style="position: relative; z-index: 1; text-align: center;">
+        <div class="reveal">
+          <p
+            style="font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.2em; color: var(--accent); margin-bottom: 1rem;">
+            BLOCO 1 · 35–40 MINUTOS</p>
+          <h2 class="slide__display" style="font-size: clamp(48px, 8vw, 80px); margin-bottom: 1rem;">Fundamentos
+            Teóricos</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: clamp(20px, 3vw, 32px); font-style: italic; color: var(--text-dim);">
+            Como a IA Realmente Funciona — sem a magia e sem o medo</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7 — METHOD GRID -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 1rem;">
+          <h2 class="slide__heading">O que é um LLM — Large Language Model</h2>
+        </div>
+
+        <div class="reveal method-grid">
+          <div class="method-panel panel-accent"
+            style="display: flex; flex-direction: column; gap: 1rem; position: relative;">
+            <h3 style="color: var(--accent);">❌ Mito</h3>
+            <p class="slide__body">Não é um banco de dados. Não 'sabe' as informações da sua empresa.</p>
+          </div>
+          <div class="method-panel panel-brand"
+            style="display: flex; flex-direction: column; gap: 1rem; position: relative; box-shadow: 0 0 30px rgba(255,153,0,0.05);">
+            <h3 style="color: var(--brand);">✅ Realidade</h3>
+            <p class="slide__body">É um modelo treinado em texto que aprendeu padrões de linguagem e raciocínio.</p>
+          </div>
+        </div>
+
+        <div class="reveal" style="margin-top: 1.5rem;">
+          <div
+            style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.3); border-radius: 12px; padding: 1.5rem; text-align: center;">
+            <p
+              style="font-family: var(--font-editorial); font-size: 1.2rem; font-style: italic; color: var(--gold); margin-bottom: 0.5rem;">
+              Um consultor brilhante que leu tudo — mas não conhece sua empresa. Você precisa dar a ele contexto.</p>
+            <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">O LLM é o cérebro. Os
+              dados da empresa são o mapa. Sem o mapa, o cérebro mais inteligente do mundo não encontra nada relevante.
+            </p>
+          </div>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Ponto-chave para o gestor: não culpe a IA quando ela não sabe do seu negócio —
+            você não deu o mapa.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8 — CONTEXT -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">Redes Neurais — o suficiente para não ter medo</h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: center;">
+          <div class="reveal">
+            <h3
+              style="color: var(--accent); margin-bottom: 1.5rem; font-style: italic; font-family: var(--font-editorial); font-size: clamp(28px, 4vw, 42px); line-height: 1.3;">
+              "Não é necessário entender a matemática. É necessário entender a metáfora."</h3>
+          </div>
+
+          <div class="glass-card reveal" style="display: flex; flex-direction: column; gap: 1rem;">
+            <div
+              style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+              <span style="font-size: 1.5rem; color: var(--accent);">▹</span>
+              <p style="font-family: var(--font-body); font-size: 1.1rem; color: var(--text);">Aprendem padrões por
+                exposição repetida</p>
+            </div>
+            <div
+              style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+              <span style="font-size: 1.5rem; color: var(--accent);">▹</span>
+              <p style="font-family: var(--font-body); font-size: 1.1rem; color: var(--text);">Como um funcionário que
+                após 6 meses antecipa o que o gestor vai pedir</p>
+            </div>
+            <div
+              style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+              <span style="font-size: 1.5rem; color: var(--accent);">▹</span>
+              <p style="font-family: var(--font-body); font-size: 1.1rem; color: var(--text);">São muito boas em
+                reconhecer padrões em dados — o que as torna poderosas para análise</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Você não precisa saber construir a rede. Precisa saber o que ela é capaz de
+            fazer pelos seus dados.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9 — FLOW ARCHITECTURE -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 1rem;">
+          <h2 class="slide__heading">O Conceito de Agente: Autonomia e Resolução de Problemas</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: 1.5rem; font-style: italic; color: var(--text-dim); margin-top: 0.5rem;">
+            Da execução passiva à orquestração inteligente de tarefas</p>
+        </div>
+
+        <div class="reveal" style="display: flex; justify-content: center; width: 100%;">
+          <svg viewBox="80 100 840 280" style="width:100%;max-height:clamp(400px,55vh,550px); margin: 2rem 0">
+            <defs>
+              <filter id="arch-glow">
+                <feGaussianBlur stdDeviation="4" result="b" />
+                <feMerge>
+                  <feMergeNode in="b" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+
+            <!-- Central LLM Node -->
+            <circle cx="500" cy="200" r="60" fill="rgba(10,171,236,0.1)" stroke="var(--accent)" stroke-width="2"
+              filter="url(#arch-glow)" />
+            <text x="500" y="195" text-anchor="middle" font-family="'Montserrat',sans-serif" font-weight="800"
+              font-size="24" fill="var(--accent)">Raciocinar</text>
+            <text x="500" y="215" text-anchor="middle" font-family="'Newsreader',serif" font-style="italic"
+              font-size="15" fill="#c8d8e8">LLM (Chain of Thought)</text>
+
+            <!-- Node 1: Perceber (Left) -->
+            <rect x="150" y="155" width="180" height="90" rx="12" fill="rgba(255,255,255,0.05)" stroke="var(--text-dim)"
+              stroke-width="1.5" />
+            <text x="240" y="195" text-anchor="middle" font-family="'Montserrat',sans-serif" font-weight="600"
+              font-size="20" fill="var(--text)">Perceber</text>
+            <text x="240" y="215" text-anchor="middle" font-family="'Newsreader',serif" font-style="italic"
+              font-size="14" fill="#c8d8e8">Input: prompt, dados</text>
+            <!-- Arrow L -> Center -->
+            <path d="M330,200 L440,200" stroke="var(--accent)" stroke-width="2" class="flow-r" fill="none" />
+
+            <!-- Node 3: Agir (Right) -->
+            <rect x="670" y="155" width="180" height="90" rx="12" fill="rgba(255,153,0,0.1)" stroke="var(--brand)"
+              stroke-width="1.5" filter="url(#arch-glow)" />
+            <text x="760" y="195" text-anchor="middle" font-family="'Montserrat',sans-serif" font-weight="600"
+              font-size="20" fill="var(--brand)">Agir</text>
+            <text x="760" y="215" text-anchor="middle" font-family="'Newsreader',serif" font-style="italic"
+              font-size="14" fill="#c8d8e8">Tool Calling (APIs, DB)</text>
+            <!-- Arrow Center -> R -->
+            <path d="M560,200 L670,200" stroke="var(--brand)" stroke-width="2" class="flow-r" fill="none" />
+
+            <!-- Node 4: Aprender (Bottom loop) -->
+            <rect x="410" y="295" width="180" height="80" rx="12" fill="rgba(139,92,246,0.1)" stroke="var(--purple)"
+              stroke-width="1.5" />
+            <text x="500" y="330" text-anchor="middle" font-family="'Montserrat',sans-serif" font-weight="600"
+              font-size="20" fill="var(--purple)">Aprender</text>
+            <text x="500" y="350" text-anchor="middle" font-family="'Newsreader',serif" font-style="italic"
+              font-size="14" fill="#c8d8e8">Memória e reflexão</text>
+            <!-- Feedback Loop arrows -->
+            <path d="M480,260 L480,300" stroke="var(--purple)" stroke-width="2" opacity="0.6" stroke-dasharray="6 6" />
+            <path d="M520,300 L520,260" stroke="var(--purple)" stroke-width="2" opacity="0.6" stroke-dasharray="6 6" />
+          </svg>
+        </div>
+
+        <div class="reveal" style="text-align: center;">
+          <p
+            style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--gold); padding: 1rem; border: 1px solid rgba(212,175,55,0.3); border-radius: 12px; background: rgba(212,175,55,0.05); display: inline-block;">
+            "Um Agente é como um estagiário sênior: você passa um objetivo complexo e ele planeja, busca, formata e
+            entrega."</p>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Diferença chave: o LLM responde ao que você pergunta. O Agente age sobre o que
+            você quer alcançar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10 — CONTEXT -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">Evaluation Harness — Estruturas de Avaliação Rigorosa</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: 1.5rem; font-style: italic; color: var(--text-dim); margin-top: 0.5rem;">
+            Padronizando a medição de performance em sistemas complexos</p>
+        </div>
+
+        <div class="glass-card reveal"
+          style="display: flex; flex-direction: column; gap: 1rem; max-width: 900px; margin: 0 auto;">
+          <div
+            style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+            <span style="font-size: 1.5rem; color: var(--accent);">▹</span>
+            <p style="font-family: var(--font-body); font-size: 1.1rem; color: var(--text);">Framework de software para
+              encapsular, automatizar e padronizar testes em modelos</p>
+          </div>
+          <div
+            style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+            <span style="font-size: 1.5rem; color: var(--accent);">▹</span>
+            <p style="font-family: var(--font-body); font-size: 1.1rem; color: var(--text);">Ambiente controlado: inputs
+              e outputs medidos sistematicamente</p>
+          </div>
+          <div
+            style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+            <span style="font-size: 1.5rem; color: var(--accent);">▹</span>
+            <p style="font-family: var(--font-body); font-size: 1.1rem; color: var(--text);">Permite execução de
+              benchmarks (MMLU, HumanEval) para quantificar capacidades</p>
+          </div>
+          <div
+            style="display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; background: rgba(10,171,236,0.05); border-radius: 12px; border: 1px solid var(--border);">
+            <span style="font-size: 1.5rem; color: var(--accent);">▹</span>
+            <p style="font-family: var(--font-body); font-size: 1.1rem; color: var(--text);">Garante reprodutibilidade
+              científica e comparação transparente entre arquiteturas</p>
+          </div>
+        </div>
+
+        <div class="reveal" style="text-align: center; margin-top: 1rem;">
+          <p style="font-family: var(--font-editorial); font-size: 1.2rem; font-style: italic; color: var(--text-dim);">
+            "Se o agente é o 'piloto', o Harness é o simulador de voo que certifica que as métricas são estatisticamente
+            válidas."</p>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Sem Harness, confiamos em 'feeling'. Com Harness, confiamos em evidência — a
+            diferença entre achismo e ciência de dados.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 11 — DUAL STRATEGY -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">Tool Calling — quando a IA deixa de conversar e começa a agir</h2>
+        </div>
+
+        <div class="reveal" style="display:grid;grid-template-columns:1fr 64px 1fr;gap:0;flex:1">
+          <!-- Left strategy -->
+          <div
+            style="background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:clamp(20px,3vh,32px); display:flex; flex-direction:column; justify-content:center;">
+            <h3
+              style="font-family: var(--font-display); font-size: 1.3rem; color: var(--text-dim); margin-bottom: 1rem;">
+              Sem Tool Calling</h3>
+            <p style="font-family: var(--font-body); font-size: 1.1rem; line-height: 1.6; color: var(--text-dim);">LLM
+              só de texto — responde, explica, sugere. Para aí.</p>
+          </div>
+
+          <!-- Center divider -->
+          <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem">
+            <div
+              style="width:2px;flex:1;background:linear-gradient(180deg,transparent,rgba(255,153,0,.3),transparent);max-height:30%">
+            </div>
+            <div
+              style="width:clamp(40px,5vh,56px);height:clamp(40px,5vh,56px);border-radius:50%;background:var(--brand-dim);border:2px solid rgba(255,153,0,.3);display:flex;align-items:center;justify-content:center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+            <div
+              style="width:2px;flex:1;background:linear-gradient(180deg,transparent,rgba(255,153,0,.3),transparent);max-height:30%">
+            </div>
+          </div>
+
+          <!-- Right strategy (enhanced with glow) -->
+          <div
+            style="background:rgba(255,153,0,.05);border:1px solid rgba(255,153,0,.2);border-radius:16px;padding:clamp(20px,3vh,32px);box-shadow:0 0 30px rgba(255,153,0,.1); display:flex; flex-direction:column; justify-content:center; animation:pulse-brand 4s infinite;">
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem; color: var(--brand); margin-bottom: 1rem;">
+              Com Tool Calling</h3>
+            <p style="font-family: var(--font-body); font-size: 1.1rem; line-height: 1.6; color: var(--text);">LLM +
+              Ferramentas — consulta banco, roda query, chama API, gera gráfico, entrega resultado.</p>
+          </div>
+        </div>
+
+        <div class="reveal" style="margin-top: 1.5rem;">
+          <div
+            style="background: rgba(10,171,236,0.05); border: 1px solid rgba(10,171,236,0.2); border-radius: 12px; padding: 1.5rem; text-align: center;">
+            <p
+              style="font-family: var(--font-editorial); font-size: 1.2rem; font-style: italic; color: var(--accent); margin-bottom: 0.8rem;">
+              "A diferença entre perguntar 'como fazer uma pesquisa' — e o assistente fazer a pesquisa e trazer o
+              resultado."</p>
+            <span class="tag tag-accent">É o que torna possível o agent query da Parte Prática desta aula.</span>
+          </div>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Sem Tool Calling, a IA é só texto. Com Tool Calling, ela interroga seus dados.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 12 — DIVIDER -->
+    <section class="slide">
+      <div
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: var(--font-display); font-size: clamp(200px, 40vw, 600px); font-weight: 800; color: transparent; -webkit-text-stroke: 2px var(--accent); opacity: 0.04; pointer-events: none; line-height: 1; z-index: 0;">
+        01C</div>
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;"
+        style="position: relative; z-index: 1; text-align: center;">
+        <div class="reveal">
+          <p
+            style="font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.2em; color: var(--accent); margin-bottom: 1rem;">
+            PARTE 1B + 1C · SISTEMAS & NÍVEIS DE IA</p>
+          <h2 class="slide__display" style="font-size: clamp(48px, 8vw, 80px); margin-bottom: 1rem;">A Evolução dos
+            Sistemas de Dados</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: clamp(20px, 3vw, 32px); font-style: italic; color: var(--text-dim);">
+            Por que seus sistemas de gestão não foram feitos para análise</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 13 — OLTP VS OLAP -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">OLTP vs OLAP — dois mundos, dois propósitos</h2>
+        </div>
+
+        <div class="reveal" style="display:grid;grid-template-columns:1fr 64px 1fr;gap:0;flex:1">
+          <!-- Left strategy (OLTP) -->
+          <div
+            style="background:rgba(10,171,236,.02);border:1px solid rgba(10,171,236,.2);border-radius:16px;padding:clamp(20px,3vh,32px);">
+            <p
+              style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); letter-spacing: 0.1em; margin-bottom: 0.5rem; text-transform: uppercase;">
+              Online Transaction Processing</p>
+            <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--text); margin-bottom: 1rem;">
+              OLTP</h3>
+            <ul
+              style="color: var(--text-dim); font-family: var(--font-body); font-size: 1rem; line-height: 1.6; list-style-type: none; display: flex; flex-direction: column; gap: 0.8rem;">
+              <li><span style="color:var(--accent);">▹</span> ERP, CRM, sistema de gestão, PDV</li>
+              <li><span style="color:var(--accent);">▹</span> Otimizado para velocidade de escrita</li>
+              <li><span style="color:var(--red);">⚠️</span> Péssimo para análise — consultas complexas travam o sistema
+              </li>
+            </ul>
+            <div
+              style="margin-top: 1.5rem; padding: 1rem; background: rgba(0,0,0,0.3); border-radius: 8px; border-left: 3px solid var(--red);">
+              <p style="font-family: var(--font-body); font-size: 0.85rem; color: var(--text-dim);">Exemplo: "Cruzar
+                vendas + clientes + produtos no ERP = sistema lento"</p>
+            </div>
+          </div>
+
+          <!-- Center divider -->
+          <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem">
+            <div
+              style="width:2px;flex:1;background:linear-gradient(180deg,transparent,rgba(255,255,255,.1),transparent);max-height:30%">
+            </div>
+            <div
+              style="width:clamp(40px,5vh,56px);height:clamp(40px,5vh,56px);border-radius:50%;background:rgba(255,255,255,0.05);border:2px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center">
+              <span
+                style="font-family:var(--font-display);font-style:italic;font-size:clamp(.82rem,1.2vw,1rem);color:var(--text-dim)">vs</span>
+            </div>
+            <div
+              style="width:2px;flex:1;background:linear-gradient(180deg,transparent,rgba(255,255,255,.1),transparent);max-height:30%">
+            </div>
+          </div>
+
+          <!-- Right strategy (OLAP) -->
+          <div
+            style="background:rgba(255,153,0,.05);border:1px solid rgba(255,153,0,.3);border-radius:16px;padding:clamp(20px,3vh,32px);box-shadow:0 0 30px rgba(255,153,0,.1);">
+            <p
+              style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--brand); letter-spacing: 0.1em; margin-bottom: 0.5rem; text-transform: uppercase;">
+              Online Analytical Processing</p>
+            <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--brand); margin-bottom: 1rem;">
+              OLAP</h3>
+            <ul
+              style="color: var(--text-dim); font-family: var(--font-body); font-size: 1rem; line-height: 1.6; list-style-type: none; display: flex; flex-direction: column; gap: 0.8rem;">
+              <li><span style="color:var(--brand);">▹</span> Data Warehouse, cubos de dados</li>
+              <li><span style="color:var(--brand);">▹</span> Otimizado para leitura e cruzamento de grandes volumes</li>
+              <li><span style="color:var(--green);">✅</span> Permite perguntas complexas sem travar o transacional</li>
+            </ul>
+            <div
+              style="margin-top: 1.5rem; padding: 1rem; background: rgba(0,0,0,0.3); border-radius: 8px; border-left: 3px solid var(--green);">
+              <p style="font-family: var(--font-body); font-size: 0.85rem; color: var(--text-dim);">Exemplo: "Receita
+                por região, por categoria, nos últimos 6 meses vs. ano anterior"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal" style="margin-top: 1.5rem;">
+          <div
+            style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.3); border-radius: 12px; padding: 1.5rem; text-align: center;">
+            <p style="font-family: var(--font-body); font-size: 1rem; color: var(--gold);">A maioria das PMEs tem OLTP
+              mas não tem OLAP. O analista constrói a camada analítica manualmente no Excel. Isso é caro, frágil e não
+              escala.</p>
+          </div>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            O gap não é culpa do analista. É um problema de arquitetura — e tem solução.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 14 — TABLE -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">Níveis de Interação com IA — onde você está, para onde pode ir</h2>
+        </div>
+
+        <div class="reveal" style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; text-align: left; font-family: var(--font-body);">
+            <thead>
+              <tr
+                style="border-bottom: 1px solid var(--border); color: var(--text-dim); font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.05em;">
+                <th style="padding: 1rem;">Nível</th>
+                <th style="padding: 1rem;">O que é</th>
+                <th style="padding: 1rem;">Para quem</th>
+                <th style="padding: 1rem;">Exemplo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Row 1 -->
+              <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                <td style="padding: 1rem; color: var(--text);">Chat</td>
+                <td style="padding: 1rem; color: var(--text-dim);">Conversa direta com o LLM</td>
+                <td style="padding: 1rem; color: var(--text-dim);">Qualquer profissional</td>
+                <td style="padding: 1rem; color: var(--text-dim);">ChatGPT, Claude</td>
+              </tr>
+              <!-- Row 2 (Highlight Accent) -->
+              <tr
+                style="border-bottom: 1px solid rgba(255,255,255,0.05); background: rgba(10,171,236,0.08); border-left: 3px solid var(--accent);">
+                <td style="padding: 1rem; color: var(--accent); font-weight: 600;">Prompt Engineering ⭐</td>
+                <td style="padding: 1rem; color: var(--text);">Estruturar prompts para resultados consistentes</td>
+                <td style="padding: 1rem; color: var(--text);">Profissional de negócio</td>
+                <td style="padding: 1rem; color: var(--accent);">Framework EDA — Sprint Analítica ensina isso</td>
+              </tr>
+              <!-- Row 3 -->
+              <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                <td style="padding: 1rem; color: var(--text);">Vibe Coding</td>
+                <td style="padding: 1rem; color: var(--text-dim);">Pedir e deixar a IA gerar</td>
+                <td style="padding: 1rem; color: var(--text-dim);">Profissional técnico</td>
+                <td style="padding: 1rem; color: var(--text-dim);">Lovable</td>
+              </tr>
+              <!-- Row 4 (Highlight Brand) -->
+              <tr
+                style="border-bottom: 1px solid rgba(255,255,255,0.05); background: rgba(255,153,0,0.08); border-left: 3px solid var(--brand);">
+                <td style="padding: 1rem; color: var(--brand); font-weight: 600;">Agentes com Tools 👁</td>
+                <td style="padding: 1rem; color: var(--text);">LLM com acesso a ferramentas externas</td>
+                <td style="padding: 1rem; color: var(--text);">Profissional avançado</td>
+                <td style="padding: 1rem; color: var(--brand);">Agent query — vemos hoje</td>
+              </tr>
+              <!-- Row 5 -->
+              <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                <td style="padding: 1rem; color: var(--text);">SDD</td>
+                <td style="padding: 1rem; color: var(--text-dim);">Schema-Driven Development</td>
+                <td style="padding: 1rem; color: var(--text-dim);">Técnico / Engenheiro</td>
+                <td style="padding: 1rem; color: var(--text-dim);">IA que gera código a partir de schemas</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Você não precisa ir do nível 1 ao 5. O Framework EDA vive no nível 2. Esta aula
+            mostra o nível 4 ao vivo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 15 — DIVIDER -->
+    <section class="slide">
+      <div
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: var(--font-display); font-size: clamp(200px, 40vw, 600px); font-weight: 800; color: transparent; -webkit-text-stroke: 2px var(--accent); opacity: 0.04; pointer-events: none; line-height: 1; z-index: 0;">
+        02</div>
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;"
+        style="position: relative; z-index: 1; text-align: center;">
+        <div class="reveal">
+          <p
+            style="font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.2em; color: var(--accent); margin-bottom: 1rem;">
+            BLOCO 2 · 25–30 MINUTOS</p>
+          <h2 class="slide__display" style="font-size: clamp(48px, 8vw, 80px); margin-bottom: 1rem;">Técnica</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: clamp(20px, 3vw, 32px); font-style: italic; color: var(--text-dim);">
+            ETL, Lakehouse e a arquitetura que torna a IA possível</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 16 — ETL PIPELINE -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">ETL — Extract, Transform, Load</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: 1.5rem; font-style: italic; color: var(--text-dim); margin-top: 0.5rem;">
+            O processo que ninguém vê mas todo mundo precisa</p>
+        </div>
+
+        <div class="reveal" style="display:flex;align-items:center;justify-content:center;gap:0;width:100%">
+
+          <!-- Stage 0: Fontes -->
+          <div
+            style="flex:1;background:#0D0D0D;border:1.5px solid rgba(10,171,236,0.3);border-radius:16px;padding:clamp(18px,3vh,30px) clamp(12px,1.5vw,20px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px)">
+            <div
+              style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:.65rem;font-weight:700;padding:2px 12px;border-radius:6px;background:rgba(10,171,236,0.15);color:var(--accent)">
+              FONTES (OLTP)</div>
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.05rem,1.5vw,1.25rem);font-weight:600;color:var(--text);margin-top:.4rem">
+              Sistemas</p>
+            <p
+              style="font-family:var(--font-mono);font-size:clamp(.58rem,.82vw,.68rem);color:var(--text-dim);margin-top:.2rem">
+              ERP · CRM · Planilhas · APIs</p>
+          </div>
+
+          <div style="flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg></div>
+
+          <!-- Stage 1: Extract -->
+          <div
+            style="flex:1;background:#0D0D0D;border:1.5px solid rgba(10,171,236,0.5);border-radius:16px;padding:clamp(18px,3vh,30px) clamp(12px,1.5vw,20px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px)">
+            <div
+              style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:.65rem;font-weight:700;padding:2px 12px;border-radius:6px;background:var(--accent-dim);color:var(--accent)">
+              STEP 1</div>
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.05rem,1.5vw,1.25rem);font-style:italic;color:var(--accent);margin-top:.4rem">
+              Extract</p>
+            <p
+              style="font-family:var(--font-body);font-size:clamp(.75rem,.9vw,.85rem);color:var(--text-dim);margin-top:.2rem">
+              Coleta bruta das fontes</p>
+          </div>
+
+          <div style="flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg></div>
+
+          <!-- Stage 2: Transform -->
+          <div
+            style="flex:1;background:#0D0D0D;border:1.5px solid rgba(10,171,236,0.5);border-radius:16px;padding:clamp(18px,3vh,30px) clamp(12px,1.5vw,20px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px)">
+            <div
+              style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:.65rem;font-weight:700;padding:2px 12px;border-radius:6px;background:var(--accent-dim);color:var(--accent)">
+              STEP 2</div>
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.05rem,1.5vw,1.25rem);font-style:italic;color:var(--accent);margin-top:.4rem">
+              Transform</p>
+            <p
+              style="font-family:var(--font-body);font-size:clamp(.75rem,.9vw,.85rem);color:var(--text-dim);margin-top:.2rem">
+              Limpar, padronizar, cruzar (o que hoje é feito no Excel)</p>
+          </div>
+
+          <div style="flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg></div>
+
+          <!-- Stage 3: Load -->
+          <div
+            style="flex:1;background:#0D0D0D;border:1.5px solid rgba(10,171,236,0.5);border-radius:16px;padding:clamp(18px,3vh,30px) clamp(12px,1.5vw,20px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px)">
+            <div
+              style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:.65rem;font-weight:700;padding:2px 12px;border-radius:6px;background:var(--accent-dim);color:var(--accent)">
+              STEP 3</div>
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.05rem,1.5vw,1.25rem);font-style:italic;color:var(--accent);margin-top:.4rem">
+              Load</p>
+            <p
+              style="font-family:var(--font-body);font-size:clamp(.75rem,.9vw,.85rem);color:var(--text-dim);margin-top:.2rem">
+              Carrega na camada analítica</p>
+          </div>
+
+          <div style="flex-shrink:0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--brand)"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg></div>
+
+          <!-- Stage 4: Destination -->
+          <div
+            style="flex:1;background:rgba(255,153,0,.05);border:1.5px solid rgba(255,153,0,0.5);border-radius:16px;padding:clamp(18px,3vh,30px) clamp(12px,1.5vw,20px);text-align:center;position:relative;margin:0 clamp(4px,0.5vw,8px); box-shadow:0 0 20px rgba(255,153,0,.1);">
+            <div
+              style="position:absolute;top:-10px;left:50%;transform:translateX(-50%);font-family:var(--font-mono);font-size:.65rem;font-weight:700;padding:2px 12px;border-radius:6px;background:var(--brand-dim);color:var(--brand)">
+              DESTINO</div>
+            <p
+              style="font-family:var(--font-display);font-size:clamp(1.05rem,1.5vw,1.25rem);font-weight:600;color:var(--brand);margin-top:.4rem">
+              Data Warehouse (OLAP)</p>
+            <p
+              style="font-family:var(--font-body);font-size:clamp(.75rem,.9vw,.85rem);color:var(--text);margin-top:.2rem">
+              Dashboard / Agente IA</p>
+          </div>
+
+        </div>
+
+        <div class="reveal"
+          style="display: flex; gap: 2rem; justify-content: space-between; align-items: center; margin-top: 2rem;">
+          <div style="flex: 1; display: flex; gap: 0.5rem; justify-content: flex-start; align-items: center;">
+            <span class="tag tag-blue">dbt</span>
+            <span class="tag tag-accent">Airbyte</span>
+            <span class="tag tag-gold">Fivetran</span>
+            <span class="tag tag-green">Python + Pandas</span>
+          </div>
+
+          <div
+            style="flex: 1.5; background: rgba(239,68,68,0.05); border: 1px solid rgba(239,68,68,0.3); border-radius: 12px; padding: 1rem; text-align: center;">
+            <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--red);">SEM ETL: analista consolida
+              na mão, toda semana, inconsistente, não escala, agentes de IA impossíveis.</p>
+          </div>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Você não precisa construir o ETL. Precisa saber que ele existe, por que é
+            necessário e o que pedir para um time técnico.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 17 — TIER CARDS -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">A Evolução da Arquitetura de Dados</h2>
+        </div>
+
+        <div class="reveal" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+
+          <!-- Card 1: Data Warehouse Clássico -->
+          <div class="glass-card" style="transition: all 0.3s;"
+            onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(10,171,236,0.2)'"
+            onmouseleave="this.style.transform='translateY(0)';this.style.boxShadow='0 8px 40px rgba(0,0,0,0.3)'"
+            style="display: flex; flex-direction: column; gap: 1.5rem; border-color: var(--text-dim); opacity: 0.8;">
+            <div>
+              <h3
+                style="font-family: var(--font-display); font-size: 1.4rem; color: var(--text); margin-bottom: 0.5rem;">
+                Data Warehouse Clássico</h3>
+              <p
+                style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--text-dim);">
+                Banco relacional estruturado</p>
+            </div>
+            <ul
+              style="color: var(--text-dim); font-family: var(--font-body); font-size: 1rem; line-height: 1.6; list-style-type: none; display: flex; flex-direction: column; gap: 0.8rem;">
+              <li><span style="color:var(--green);">✅</span> Estrutura e governança</li>
+              <li><span style="color:var(--red);">❌</span> Caro, rígido, não aceita dados não estruturados</li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Data Lake -->
+          <div class="glass-card" style="transition: all 0.3s;"
+            onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(10,171,236,0.2)'"
+            onmouseleave="this.style.transform='translateY(0)';this.style.boxShadow='0 8px 40px rgba(0,0,0,0.3)'"
+            style="display: flex; flex-direction: column; gap: 1.5rem; border-color: var(--text-dim); opacity: 0.8;">
+            <div>
+              <h3
+                style="font-family: var(--font-display); font-size: 1.4rem; color: var(--text); margin-bottom: 0.5rem;">
+                Data Lake</h3>
+              <p
+                style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--text-dim);">
+                Armazenamento bruto de tudo</p>
+            </div>
+            <ul
+              style="color: var(--text-dim); font-family: var(--font-body); font-size: 1rem; line-height: 1.6; list-style-type: none; display: flex; flex-direction: column; gap: 0.8rem;">
+              <li><span style="color:var(--green);">✅</span> Barato e flexível</li>
+              <li><span style="color:var(--red);">❌</span> Vira um 'pântano de dados' sem governança</li>
+            </ul>
+          </div>
+
+          <!-- Card 3: Lakehouse (Highlighted) -->
+          <div class="glass-card" style="transition: all 0.3s;"
+            onmouseenter="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 40px rgba(10,171,236,0.2)'"
+            onmouseleave="this.style.transform='translateY(0)';this.style.boxShadow='0 8px 40px rgba(0,0,0,0.3)'"
+            style="display: flex; flex-direction: column; gap: 1.5rem; border-color: var(--brand); animation: pulse-brand 4s infinite; position: relative;">
+            <div
+              style="position: absolute; top: -12px; right: -12px; background: var(--brand); color: var(--bg); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; box-shadow: 0 0 15px var(--brand);">
+              ⭐</div>
+            <div>
+              <h3
+                style="font-family: var(--font-display); font-size: 1.5rem; color: var(--brand); margin-bottom: 0.5rem;">
+                Lakehouse</h3>
+              <p style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--text);">
+                Combina estrutura + flexibilidade</p>
+            </div>
+            <ul
+              style="color: var(--text); font-family: var(--font-body); font-size: 1rem; line-height: 1.6; list-style-type: none; display: flex; flex-direction: column; gap: 0.8rem;">
+              <li><span style="color:var(--green);">✅</span> Parquet/Delta · SQL + Python + Agentes IA</li>
+              <li><span style="color:var(--green);">✅</span> Cloud barata ou local — custo próximo de zero</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Uma PME não precisa de infraestrutura de big tech para ter arquitetura moderna.
+            Com DuckDB, você tem um Lakehouse funcional, gratuito, incrivelmente rápido.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 18 — STAT CARDS -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">Ferramentas que democratizaram o Lakehouse</h2>
+        </div>
+
+        <div class="reveal" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+
+          <!-- Card 1: DuckDB -->
+          <div
+            style="background: rgba(10,171,236,0.05); border: 1px solid rgba(10,171,236,0.2); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; position: relative;">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🦆</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.6rem; color: var(--accent);">DuckDB</h3>
+            <p style="font-family: var(--font-editorial); font-size: 1.2rem; font-style: italic; color: var(--text);">
+              "Banco analítico local"</p>
+            <p style="font-family: var(--font-body); font-size: 1rem; color: var(--text-dim); margin-bottom: 1rem;">
+              Gratuito, incrivelmente rápido</p>
+            <div style="margin-top: auto;"><span class="tag tag-accent">Para quem quer começar amanhã</span></div>
+          </div>
+
+          <!-- Card 2: MotherDuck -->
+          <div
+            style="background: rgba(255,153,0,0.05); border: 1px solid rgba(255,153,0,0.2); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; position: relative;">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">☁️</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.6rem; color: var(--brand);">MotherDuck</h3>
+            <p style="font-family: var(--font-editorial); font-size: 1.2rem; font-style: italic; color: var(--text);">
+              "DuckDB na nuvem"</p>
+            <p style="font-family: var(--font-body); font-size: 1rem; color: var(--text-dim); margin-bottom: 1rem;">Sem
+              infra, sem custo inicial</p>
+            <div style="margin-top: auto;"><span class="tag tag-brand">Para quem quer escalar</span></div>
+          </div>
+
+          <!-- Card 3: dbt -->
+          <div
+            style="background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.2); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; position: relative;">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛠️</div>
+            <h3 style="font-family: var(--font-display); font-size: 1.6rem; color: var(--gold);">dbt</h3>
+            <p style="font-family: var(--font-editorial); font-size: 1.2rem; font-style: italic; color: var(--text);">
+              "Transformação em SQL declarativo"</p>
+            <p style="font-family: var(--font-body); font-size: 1rem; color: var(--text-dim); margin-bottom: 1rem;">
+              Substitui o Excel do analista</p>
+            <div style="margin-top: auto;"><span class="tag tag-gold">Para quem quer automatizar</span></div>
+          </div>
+
+        </div>
+
+        <div class="reveal"
+          style="text-align: center; margin-top: 1.5rem; display: flex; justify-content: center; gap: 1rem;">
+          <span
+            style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); border: 1px solid var(--border); padding: 0.4rem 1rem; border-radius: 100px;">[
+            PME-Ready ]</span>
+          <span
+            style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); border: 1px solid var(--border); padding: 0.4rem 1rem; border-radius: 100px;">[
+            Open Source ]</span>
+          <span
+            style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-dim); border: 1px solid var(--border); padding: 0.4rem 1rem; border-radius: 100px;">[
+            No-Lock-In ]</span>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Com DuckDB + dbt + Airbyte, uma PME tem uma stack analítica de nível enterprise
+            — sem o custo de enterprise.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 19 — DIVIDER -->
+    <section class="slide">
+      <div
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: var(--font-display); font-size: clamp(200px, 40vw, 600px); font-weight: 800; color: transparent; -webkit-text-stroke: 2px var(--accent); opacity: 0.04; pointer-events: none; line-height: 1; z-index: 0;">
+        03</div>
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;"
+        style="position: relative; z-index: 1; text-align: center;">
+        <div class="reveal">
+          <p
+            style="font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.2em; color: var(--accent); margin-bottom: 1rem;">
+            BLOCO 3 · 30–35 MINUTOS</p>
+          <h2 class="slide__display" style="font-size: clamp(48px, 8vw, 80px); margin-bottom: 1rem;">Prática</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: clamp(20px, 3vw, 32px); font-style: italic; color: var(--text-dim);">
+            Agent Query ao Vivo — do dado bruto ao Decision Briefing</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 20 — PIPELINE -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 1rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 1rem;">
+          <h2 class="slide__heading">Sequência da Demonstração ao Vivo</h2>
+        </div>
+
+        <div class="reveal" style="display:flex; flex-direction:column; gap: 1rem; margin: 1.5rem 0;">
+          <!-- Step 1 -->
+          <div
+            style="display:flex; align-items:flex-start; gap: 1rem; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem;">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: var(--accent-dim); border: 2px solid var(--accent); display:flex; align-items:center; justify-content:center; flex-shrink: 0;">
+              <span
+                style="font-family: var(--font-mono); font-weight: 700; color: var(--accent); font-size: 1.2rem;">1</span>
+            </div>
+            <div style="flex: 1;">
+              <h3
+                style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--text); display:flex; align-items:center; gap: 0.5rem;">
+                Pergunta Simples <span class="tag tag-accent" style="font-size:0.6rem;">5 min</span>
+              </h3>
+              <p
+                style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--accent); margin-bottom: 0.5rem;">
+                "Qual foi a receita total do último trimestre?"</p>
+              <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">Recebe o texto,
+                identifica tool SQL, gera a query correta, executa no banco e responde em linguagem natural.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div
+            style="display:flex; align-items:flex-start; gap: 1rem; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem;">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: var(--brand-dim); border: 2px solid var(--brand); display:flex; align-items:center; justify-content:center; flex-shrink: 0;">
+              <span
+                style="font-family: var(--font-mono); font-weight: 700; color: var(--brand); font-size: 1.2rem;">2</span>
+            </div>
+            <div style="flex: 1;">
+              <h3
+                style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--text); display:flex; align-items:center; gap: 0.5rem;">
+                Cruzamento <span class="tag tag-brand" style="font-size:0.6rem;">8 min</span>
+              </h3>
+              <p
+                style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--brand); margin-bottom: 0.5rem;">
+                "Quais são os 5 produtos com maior taxa de abandono de carrinho nos últimos 90 dias?"</p>
+              <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">Cruza dados de
+                pedidos, produtos e eventos do site. O Tool Calling orquestra múltiplas queries para construir a visão
+                completa.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div
+            style="display:flex; align-items:flex-start; gap: 1rem; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 1.5rem;">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: rgba(139, 92, 246, 0.1); border: 2px solid var(--purple); display:flex; align-items:center; justify-content:center; flex-shrink: 0;">
+              <span
+                style="font-family: var(--font-mono); font-weight: 700; color: var(--purple); font-size: 1.2rem;">3</span>
+            </div>
+            <div style="flex: 1;">
+              <h3
+                style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--text); display:flex; align-items:center; gap: 0.5rem;">
+                Análise Estratégica <span class="tag tag-purple" style="font-size:0.6rem;">10 min</span>
+              </h3>
+              <p
+                style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--purple); margin-bottom: 0.5rem;">
+                "Existe correlação entre tempo de entrega e NPS?"</p>
+              <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">O Agente performa
+                análise estatística, identifica os padrões nos dados cruzados e retorna uma interpretação executiva do
+                impacto.</p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div
+            style="display:flex; align-items:flex-start; gap: 1rem; background: rgba(212,175,55,0.05); border: 1px solid rgba(212,175,55,0.3); border-radius: 16px; padding: 1.5rem; box-shadow: 0 0 20px rgba(212,175,55,0.1);">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: rgba(212, 175, 55, 0.15); border: 2px solid var(--gold); display:flex; align-items:center; justify-content:center; flex-shrink: 0;">
+              <span
+                style="font-family: var(--font-mono); font-weight: 700; color: var(--gold); font-size: 1.2rem;">4</span>
+            </div>
+            <div style="flex: 1;">
+              <h3
+                style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--gold); display:flex; align-items:center; gap: 0.5rem;">
+                Decision Briefing <span class="tag tag-gold" style="font-size:0.6rem;">7 min</span>
+              </h3>
+              <p
+                style="font-family: var(--font-editorial); font-size: 1.1rem; font-style: italic; color: var(--text); margin-bottom: 0.5rem;">
+                "Qual é a principal alavanca de receita para o próximo trimestre?"</p>
+              <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">Sintetiza todos os
+                insights descobertos e gera uma recomendação estruturada de uma página, pronta para a mesa da diretoria.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal" style="text-align: center; margin-top: 0.5rem;">
+          <span
+            style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim); background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 0.5rem 1rem; border-radius: 100px;">Dataset:
+            DuckDB e-commerce &middot; Agente: LangChain + Tool Calling &middot; Interface: Jupyter Notebook</span>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Este é o Framework EDA em ação: do dado bruto (Extract) à análise (Discover) ao
+            argumento executivo (Act).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 21 — STAT CARDS -->
+    <section class="slide">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;">
+        <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+          <h2 class="slide__heading">O que Levar para a Sua Empresa</h2>
+          <p
+            style="font-family: var(--font-editorial); font-size: 1.5rem; font-style: italic; color: var(--text-dim); margin-top: 0.5rem;">
+            Três perguntas para refletir agora</p>
+        </div>
+
+        <div class="reveal" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+
+          <!-- Card 1 -->
+          <div
+            style="background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; position: relative;">
+            <div
+              style="font-family: var(--font-display); font-size: 3rem; font-weight: 800; color: rgba(10,171,236,0.15); line-height: 1; margin-bottom: -1rem;">
+              ?1</div>
+            <p
+              style="font-family: var(--font-editorial); font-size: 1.3rem; font-style: italic; color: var(--text); line-height: 1.4; margin-top: 1rem;">
+              "Seus dados de vendas, clientes e operações estão numa fonte consolidada — ou espalhados em planilhas?"
+            </p>
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.05);">
+              <p
+                style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); margin-bottom: 0.3rem; text-transform: uppercase;">
+                Ação Imediata</p>
+              <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">Mapear fontes e
+                estruturar um ETL simples</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            style="background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; position: relative;">
+            <div
+              style="font-family: var(--font-display); font-size: 3rem; font-weight: 800; color: rgba(255,153,0,0.15); line-height: 1; margin-bottom: -1rem;">
+              ?2</div>
+            <p
+              style="font-family: var(--font-editorial); font-size: 1.3rem; font-style: italic; color: var(--text); line-height: 1.4; margin-top: 1rem;">
+              "Quanto tempo seu time gasta consolidando dados manualmente toda semana?"</p>
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.05);">
+              <p
+                style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--brand); margin-bottom: 0.3rem; text-transform: uppercase;">
+                Ação Imediata</p>
+              <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">Há um caso de
+                negócio claro para automação</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            style="background: var(--surface); border: 1px solid rgba(212,175,55,0.3); border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1rem; position: relative; box-shadow: 0 0 20px rgba(212,175,55,0.05);">
+            <div
+              style="font-family: var(--font-display); font-size: 3rem; font-weight: 800; color: rgba(212,175,55,0.2); line-height: 1; margin-bottom: -1rem;">
+              ?3</div>
+            <p
+              style="font-family: var(--font-editorial); font-size: 1.3rem; font-style: italic; color: var(--text); line-height: 1.4; margin-top: 1rem;">
+              "Se você pudesse perguntar para seus dados em português e receber a resposta em 30 segundos, que pergunta
+              faria?"</p>
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.05);">
+              <p
+                style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--gold); margin-bottom: 0.3rem; text-transform: uppercase;">
+                Ação Imediata</p>
+              <p style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-dim);">Isso é o que você
+                vai construir nas próximas aulas</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="reveal"
+          style="text-align: center; margin-top: 1.5rem; display: flex; justify-content: center; gap: 1rem;">
+          <span class="tag tag-accent">[ Diagnóstico ]</span>
+          <span class="tag tag-brand">[ Oportunidade ]</span>
+          <span class="tag tag-gold">[ Próximo Passo ]</span>
+        </div>
+
+        <div class="reveal"
+          style="border-top: 1px solid var(--border); padding-top: clamp(12px, 1.8vh, 20px); margin-top: auto;">
+          <p
+            style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem;">
+            Por que isso importa?</p>
+          <p
+            style="font-family: var(--font-editorial); font-style: italic; font-size: 0.82rem; color: var(--text-dim); line-height: 1.5;">
+            Essas três perguntas são o começo do seu diagnóstico de maturidade analítica.
+            Guarde as respostas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 22 — CLOSING QUOTE -->
+    <section class="slide slide--quote">
+      <div
+        style="display: flex; flex-direction: column; gap: 2rem; width: 100%; max-width: 1400px; margin: auto; flex: 0 1 auto; justify-content: center;"
+        style="flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+
+        <div class="reveal">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="var(--brand)"
+            style="margin-bottom: 2rem; opacity: 0.8; filter: drop-shadow(0 0 15px rgba(255,153,0,0.4));">
+            <path
+              d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" />
+          </svg>
+        </div>
+
+        <div class="reveal" style="max-width: 1000px;">
+          <blockquote
+            style="font-family: var(--font-editorial); font-size: clamp(28px, 4vw, 42px); font-style: italic; line-height: 1.4; color: var(--text); margin-bottom: 2rem;">
+            "Agora você sabe como os dados chegam organizados e como a IA os interroga. Nas próximas aulas vamos usar
+            essa estrutura para resolver os dois tipos de desafio que mais aparecem nas empresas: problemas
+            quantitativos — onde o dinheiro está escorrendo — e problemas qualitativos — onde a voz do cliente está
+            gritando e ninguém está ouvindo."
+          </blockquote>
+          <p style="font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--accent);">—
+            Lucas Pontes, &middot; <span style="color: var(--text-dim); font-weight: 400;">Radar Estratégico™</span>
+          </p>
+        </div>
+
+        <div class="reveal" style="margin-top: 4rem;">
+          <div
+            style="background: rgba(255,153,0,0.05); border: 1px solid rgba(255,153,0,0.3); border-radius: 100px; padding: 0.6rem 1.5rem; display: inline-flex; align-items: center; gap: 0.8rem; box-shadow: 0 0 20px rgba(255,153,0,0.1);">
+            <span
+              style="font-family: var(--font-mono); font-size: 0.7rem; font-weight: 700; color: var(--brand); letter-spacing: 0.1em; text-transform: uppercase;">Próximo</span>
+            <div style="width: 1px; height: 16px; background: rgba(255,153,0,0.3);"></div>
+            <span style="font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--text);">RA-02
+              &middot; Resultado caindo — onde está o problema?</span>
+          </div>
+        </div>
+
+        <div class="reveal mta"
+          style="width: 100%; border-top: 1px solid var(--border); padding-top: 1.5rem; text-align: center;">
+          <p
+            style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.2em; color: var(--text-dim); text-transform: uppercase;">
+            RADAR ESTRATÉGICO™ &middot; SPRINT ANALÍTICA &middot; LUCAS PONTES, &middot; 2026</p>
+        </div>
+
+      </div>
+    </section>
+
+  </div> <!-- End Deck -->
+
+  <script>
+    class SlideEngine {
+      constructor() {
+        this.deck = document.getElementById('deck');
+        this.slides = [...document.querySelectorAll('.slide')];
+        this.dots = document.getElementById('dots');
+        this.progress = document.getElementById('progress');
+        this.counter = document.getElementById('counter');
+        this.hints = document.getElementById('hints');
+        this.total = this.slides.length;
+        this.current = 0;
+
+        // Create dot buttons
+        this.slides.forEach((_, i) => {
+          const d = document.createElement('button');
+          d.className = 'deck-dot';
+          d.setAttribute('aria-label', 'Ir para slide ' + (i + 1));
+          d.addEventListener('click', () => this.goTo(i));
+          this.dots.appendChild(d);
+        });
+
+        // Visibility observer — triggers reveal animations
+        const obs = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              e.target.classList.add('visible');
+              this.current = this.slides.indexOf(e.target);
+              this.updateChrome();
+            }
+          });
+        }, { root: this.deck, threshold: 0.5 });
+        this.slides.forEach(s => obs.observe(s));
+
+        // Keyboard navigation
+        document.addEventListener('keydown', e => {
+          if (['ArrowDown', 'ArrowRight', 'Space', 'PageDown'].includes(e.code)) { e.preventDefault(); this.next(); }
+          if (['ArrowUp', 'ArrowLeft', 'PageUp'].includes(e.code)) { e.preventDefault(); this.prev(); }
+          if (e.code === 'Home') { e.preventDefault(); this.goTo(0); }
+          if (e.code === 'End') { e.preventDefault(); this.goTo(this.total - 1); }
+        });
+
+        // Touch navigation (50px swipe threshold)
+        let touchY = 0;
+        this.deck.addEventListener('touchstart', e => { touchY = e.touches[0].clientY; }, { passive: true });
+        this.deck.addEventListener('touchend', e => {
+          const dy = touchY - e.changedTouches[0].clientY;
+          if (Math.abs(dy) > 50) dy > 0 ? this.next() : this.prev();
+        }, { passive: true });
+
+        // Auto-fade hints after 4s
+        if (this.hints) {
+          setTimeout(() => this.hints.classList.add('faded'), 4000);
+        }
+        this.updateChrome();
+        if (this.slides[0]) this.slides[0].classList.add('visible');
+      }
+
+      goTo(i) { this.slides[i]?.scrollIntoView({ behavior: 'smooth' }); }
+      next() { this.goTo(Math.min(this.current + 1, this.total - 1)); }
+      prev() { this.goTo(Math.max(this.current - 1, 0)); }
+
+      updateChrome() {
+        const pct = ((this.current + 1) / this.total) * 100;
+        if (this.progress) this.progress.style.width = pct + '%';
+        if (this.counter) this.counter.textContent = String(this.current + 1).padStart(2, '0') + ' / ' + String(this.total).padStart(2, '0');
+        if (this.dots) [...this.dots.children].forEach((d, i) => d.classList.toggle('active', i === this.current));
+      }
+    }
+    new SlideEngine();
+  </script>
+
+</body>
+
+</html>

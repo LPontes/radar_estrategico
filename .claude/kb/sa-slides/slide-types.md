@@ -8,7 +8,7 @@
 
 **Propósito:** Abertura da aula. Define o tom e autoridade.
 **Layout:** Centralizado, imagem do instrutor, badges de módulo/aula.
-**Elementos:** Label do Módulo, Pill da Aula (RA-X), pill de duração, título Montserrat 800 (Rebelde), subtítulo Newsreader Italic (Sábio), avatar Lucas Pontes + Nome em Montserrat, row de tags.
+**Elementos:** Label do Módulo, Pill da Aula (RA-X), pill de duração, título Montserrat 800 (Lucas Pontes), subtítulo Newsreader Italic (Lucas Pontes), avatar Lucas Pontes + Nome em Montserrat, row de tags.
 
 ## 2. Hook Quote (`slide--quote`)
 

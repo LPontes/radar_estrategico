@@ -1,4 +1,4 @@
-> Padrões visuais de alto impacto da **Sprint Analítica**. Use para diagramas de arquitetura, pipelines, fluxos de agentes e slides conceituais "Sábio Rebelde". Estes padrões elevam os slides para um nível de consultoria executiva.
+> Padrões visuais de alto impacto da **Sprint Analítica**. Use para diagramas de arquitetura, pipelines, fluxos de agentes e slides conceituais "Lucas Pontes". Estes padrões elevam os slides para um nível de consultoria executiva.
 
 ---
 

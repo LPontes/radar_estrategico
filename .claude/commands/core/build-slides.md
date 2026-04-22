@@ -75,7 +75,7 @@ LOCATE content source (in priority order):
   4. Ask user for content if none found
 
 DETERMINE palette:
-  d1-d4 decks → Semana (black/silver/blue) — read sprint-palette.md
+  d1-d4 decks → Semana (black/silver/blue) — read semana-palette.md
   l0/l1 decks → sa (navy/cyan/gold) — read design-system.md
 
 SET output path:

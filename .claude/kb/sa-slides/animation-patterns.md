@@ -8,7 +8,7 @@
 
 ## Corrente Elétrica de Borda (SVG Pattern — Premium)
 
-> Efeito "Sábio Rebelde" definitivo: uma corrente elétrica que percorre o contorno das letras de um lado a outro, acompanhada de um preenchimento com gradiente animado.
+> Efeito "Lucas Pontes" definitivo: uma corrente elétrica que percorre o contorno das letras de um lado a outro, acompanhada de um preenchimento com gradiente animado.
 
 ```css
 @keyframes border-run {

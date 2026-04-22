@@ -65,16 +65,16 @@ Replace `{{LESSON_CODE}}`, `{{LESSON_TITLE}}`, `{{LESSON_SUBTITLE}}`, `{{MODULE_
   </div>
   <div class="reveal" style="margin-top:clamp(20px,3vh,32px); display:flex; align-items:center; justify-content:center; gap:clamp(12px,2vw,20px);">
     <div style="width:clamp(56px,7vw,80px); height:clamp(56px,7vw,80px); border-radius:50%; overflow:hidden; border:2px solid var(--accent); flex-shrink:0;">
-      <img src="../../../images/lucas-pontes.png" alt="Lucas Pontes" style="width:100%; height:100%; object-fit:cover; object-position:center -5%; transform:scale(1.3);">
+      <img src="lucas-pontes.jpg" alt="Lucas Pontes" style="width:100%; height:100%; object-fit:cover; object-position:center -5%; transform:scale(1.3);">
     </div>
     <div style="text-align:left;">
       <p style="font-family:var(--font-display); font-size:1.2rem; font-weight:600;"><span style="color:var(--text-dim);">Instrutor:</span> <span style="color:var(--accent);">Lucas Pontes, PhD</span></p>
-      <p style="font-family:var(--font-editorial); font-size:0.9rem; font-style:italic; color:var(--text-dim); margin-top:0.1rem;">Sábio Rebelde &middot; Fluência Analítica</p>
+      <p style="font-family:var(--font-editorial); font-size:0.9rem; font-style:italic; color:var(--text-dim); margin-top:0.1rem;">Lucas Pontes &middot; Fluência Analítica</p>
     </div>
   </div>
   <div class="reveal" style="margin-top:clamp(12px,2vh,20px); display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
     <span class="tag tag-accent">Radar Estratégico™</span>
-    <span class="tag tag-brand">Sábio Rebelde</span>
+    <span class="tag tag-brand">Lucas Pontes</span>
     <span class="tag tag-gold">Sprint Analítica</span>
   </div>
 </section>
@@ -115,6 +115,6 @@ Before writing any HTML, verify:
 - [ ] Read the Lesson Map/Roteiro
 - [ ] Map every content item to a slide type (from `slide-types.md`)
 - [ ] Plan 15-20 slides minimum for a 90-120 min lesson
-- [ ] Every content slide has a bottom explanation panel (Sábio voice)
-- [ ] Every card has a practical example (Rebelde voice)
+- [ ] Every content slide has a bottom explanation panel (Lucas Pontes voice)
+- [ ] Every card has a practical example (Lucas Pontes voice)
 - [ ] All Portuguese text uses proper accents

@@ -40,7 +40,7 @@ presentation/l1-gen-ai/{code}/
 | [animation-patterns.md](animation-patterns.md) | Shimmer, pulse-glow, bar-fill, reveal stagger |
 | [advanced-visuals.md](advanced-visuals.md) | **Killer visuals:** SVG architectures, pipelines, agent orchestration, glassmorphism, animated ribbons |
 | [template.md](template.md) | Full HTML skeleton for starting new decks |
-| [sprint-palette.md](sprint-palette.md) | **Semana palette:** Black/silver/blue alternative for Sprint Analitica decks |
+| [semana-palette.md](semana-palette.md) | **Semana palette:** Black/silver/blue alternative for Sprint Analitica decks |
 
 ## Agent
 
