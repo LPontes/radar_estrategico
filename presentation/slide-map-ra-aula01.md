@@ -101,7 +101,7 @@
 - **SVG:** No
 - **Content:**
   - Quote: *"A maioria dos relatórios corporativos é construída da forma mais cara e mais frágil possível: um analista junta planilhas toda semana, consolida manualmente, formata, envia. Se ele sair de férias, o relatório some."*
-  - Attribution: — Lucas Pontes, PhD · Fluência Analítica
+  - Attribution: — Lucas Pontes · Fluência Analítica
   - Sub-tag: `Você não precisa construir o motor. Precisa saber como ele funciona.`
 - **Bottom panel:** No
 - **Accents:** não, está, já, férias, Analítica
@@ -410,9 +410,9 @@
 - **SVG:** No
 - **Content:**
   - Quote: *"Agora você sabe como os dados chegam organizados e como a IA os interroga. Nas próximas aulas vamos usar essa estrutura para resolver os dois tipos de desafio que mais aparecem nas empresas: problemas quantitativos — onde o dinheiro está escorrendo — e problemas qualitativos — onde a voz do cliente está gritando e ninguém está ouvindo."*
-  - Attribution: — Lucas Pontes, PhD · Radar Estratégico™
+  - Attribution: — Lucas Pontes · Radar Estratégico™
   - Next lesson pill: `Próximo: RA-02 · Resultado caindo — onde está o problema?`
-  - Footer (mono): `RADAR ESTRATÉGICO™ · SPRINT ANALÍTICA · LUCAS PONTES, PhD · 2026`
+  - Footer (mono): `RADAR ESTRATÉGICO™ · SPRINT ANALÍTICA · LUCAS PONTES · 2026`
 - **Bottom panel:** No
 - **Accents:** está, você, quantitativos, qualitativos, análise, Próximo, Estratégico
 

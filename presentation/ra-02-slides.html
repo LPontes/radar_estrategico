@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA-02 — De Dados a Decisão</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Newsreader:ital,wght@1,400;1,600&family=Inter:wght@400;500;600&family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand: #FF9900;
+            --brand-dim: rgba(255, 153, 0, 0.1);
+            --accent: #0AABEC;
+            --accent-dim: rgba(10, 171, 236, 0.1);
+            --bg: #030616;
+            --surface: #111b27;
+            --text: #f3f4f6;
+            --text-dim: #94a3b8;
+            --font-display: 'Montserrat', sans-serif;
+            --font-editorial: 'Newsreader', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'Fira Code', monospace;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--font-body);
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-container {
+            flex: 1;
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+        }
+
+        .slide {
+            min-width: 100vw;
+            height: 100%;
+            scroll-snap-align: start;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        /* sa Branding Bar */
+        .sa-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 48px;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 clamp(20px, 4vw, 60px);
+            background: rgba(3, 6, 22, 0.9);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            font-family: var(--font-body);
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .sa-bar__left {
+            color: var(--brand);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sa-bar__center {
+            color: var(--text);
+            font-weight: 500;
+            opacity: 0.8;
+            font-style: italic;
+            font-family: var(--font-editorial);
+            font-size: 0.9rem;
+            text-transform: none;
+        }
+
+        .sa-bar__right {
+            color: var(--text-dim);
+        }
+
+        /* Slide Types */
+        .slide--title {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .slide--divider {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .ghost-number {
+            position: absolute;
+            font-family: var(--font-display);
+            font-size: 25rem;
+            opacity: 0.04;
+            background: linear-gradient(180deg, #fff, transparent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .title-label {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.3em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .main-title {
+            font-family: var(--font-display);
+            font-size: clamp(3rem, 6vw, 4.5rem);
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(90deg, #fff, var(--text-dim));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .sub-title {
+            font-family: var(--font-editorial);
+            font-style: italic;
+            font-size: 1.8rem;
+            color: var(--brand);
+            margin-bottom: 3rem;
+        }
+
+        .instructor-tag {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 2rem;
+        }
+
+        .avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--brand);
+            border: 2px solid var(--brand);
+        }
+
+        /* Bottom Explanation Panel (Voz do Lucas Pontes) */
+        .bottom-panel { border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: clamp(12px, 1.8vh, 20px); display: flex; align-items: flex-start; gap: 24px; padding-bottom: 20px; }
+        .bottom-panel__label { font-family: var(--font-display); font-size: clamp(14px, 1.2vw, 16px); font-weight: 600; font-style: italic; color: var(--accent); margin-bottom: 0.2rem; min-width: 140px; }
+        .bottom-panel__text { font-family: var(--font-editorial); font-style: italic; font-size: clamp(14px, 1.1vw, 18px); color: var(--text-dim); line-height: 1.5; flex: 1; }
+        .mta { margin-top: auto; }
+        .tag-group { display: flex; gap: 8px; margin-top: 8px; }
+        .tag { font-family: var(--font-mono); font-size: 0.65rem; font-weight: 700; padding: 4px 12px; border-radius: 4px; letter-spacing: 0.05em; text-transform: uppercase; }
+        .tag-accent { background: var(--accent-dim); color: var(--accent); }
+        .tag-brand { background: var(--brand-dim); color: var(--brand); }
+        .tag-dim { background: rgba(255, 255, 255, 0.05); color: var(--text-dim); }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: clamp(20px, 3vh, 40px);
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px rgba(10, 171, 236, 0.1);
+        }
+
+        .stat-value {
+            font-family: var(--font-display);
+            font-size: clamp(1.2rem, 2.5vw, 2.2rem);
+            color: var(--brand);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-family: var(--font-mono);
+            font-size: clamp(0.6rem, 0.8vw, 0.75rem);
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        /* SVG Patterns */
+        .flow-line {
+            stroke-dasharray: 5 5;
+            animation: flow 20s linear infinite;
+        }
+
+        @keyframes flow {
+            from { stroke-dashoffset: 100; }
+            to { stroke-dashoffset: 0; }
+        }
+
+        /* Navigation */
+        .nav-hints {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .nav-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-dot.active {
+            background: var(--brand);
+            box-shadow: 0 0 10px var(--brand);
+        }
+
+        /* Cohort Table Styling */
+        .cohort-matrix {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            border-collapse: separate;
+            border-spacing: 4px;
+        }
+        .cohort-cell {
+            width: 45px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            color: #fff;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sa-bar">
+        <div class="sa-bar__left">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+            SPRINT ANALÍTICA™
+        </div>
+        <div class="sa-bar__center">Lucas Pontes — Fluência Analítica</div>
+        <div class="sa-bar__right">RA-02 // 2026</div>
+    </div>
+
+    <div class="slide-container">
+        
+        <!-- SLIDE 1: Capa -->
+        <section class="slide slide--title">
+            <div class="title-label">Módulo 2 // RA-02</div>
+            <h1 class="main-title">Radar Estratégico<br>De Dados a Decisão</h1>
+            <p class="sub-title">O Mindset do Estrategista</p>
+            <div class="instructor-tag">
+                <div class="avatar"></div>
+                <div style="text-align: left">
+                    <p style="font-family: var(--font-display); font-size: 0.9rem; font-weight: 800; margin: 0">LUCAS PONTES</p>
+                    <p style="font-family: var(--font-editorial); font-style: italic; font-size: 0.8rem; color: var(--text-dim); margin: 0">Head of Data Strategy</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: A Ilusão da Ferramenta -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">A Ilusão da Ferramenta</h2>
+            <div class="grid grid-cols-3 gap-8">
+                <div class="stat-card">
+                    <div class="stat-label">Consciência</div>
+                    <div class="stat-value">Dashboard ≠ Resposta</div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dim)">Ter dados não significa ter respostas. Ter dashboards não significa ter estratégia.</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Realidade</div>
+                    <div class="stat-value">Métrica ≠ Estratégia</div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dim)">O mercado está saturado de construtores de dashboards. A verdadeira escassez está na Inteligência de Decisão.</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Foco</div>
+                    <div class="stat-value">Alavancas de Valor</div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dim)">Nosso foco: Encontrar alavancas estratégicas de alto valor que mudam o jogo.</p>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">O Mindset PhD</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">ESTRATÉGIA</span>
+                        <span class="tag tag-brand">DECISÃO</span>
+                        <span class="tag tag-dim">ALAVANCA</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">O foco não é a ferramenta, é a alavanca estratégica de alto valor. Ter dados é o básico; saber qual pergunta fazer é o que separa o técnico do estrategista.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: Os 3 Pilares -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">Os 3 Pilares da Fluência Analítica</h2>
+            <div class="grid grid-cols-3 gap-8 h-full pb-32">
+                <div style="background: linear-gradient(135deg, rgba(10,171,236,0.1), transparent); border: 1px solid rgba(10,171,236,0.2); border-radius: 20px; padding: 40px; position: relative">
+                    <div style="position: absolute; top: -15px; left: 30px; background: var(--accent); color: #fff; font-family: var(--font-mono); font-size: 0.7rem; padding: 4px 15px; border-radius: 4px">01. FUNDAMENTOS</div>
+                    <h3 style="font-family: var(--font-display); font-size: 1.4rem; color: var(--accent); margin-bottom: 1.5rem; font-style: italic">O Domínio do Tripé</h3>
+                    <ul style="color: var(--text-dim); space-y: 1rem; list-style: none; padding: 0">
+                        <li style="margin-bottom: 1rem">● Dados Brutos + Estatística Aplicada.</li>
+                        <li style="margin-bottom: 1rem">● IA como motor de aceleração.</li>
+                        <li>● Sem fundamento, a IA apenas escala o seu erro.</li>
+                    </ul>
+                </div>
+                <div style="background: linear-gradient(135deg, rgba(255,153,0,0.1), transparent); border: 1px solid rgba(255,153,0,0.2); border-radius: 20px; padding: 40px; position: relative">
+                    <div style="position: absolute; top: -15px; left: 30px; background: var(--brand); color: #fff; font-family: var(--font-mono); font-size: 0.7rem; padding: 4px 15px; border-radius: 4px">02. REPERTÓRIO</div>
+                    <h3 style="font-family: var(--font-display); font-size: 1.4rem; color: var(--brand); margin-bottom: 1.5rem; font-style: italic">Reconhecer Padrões</h3>
+                    <ul style="color: var(--text-dim); space-y: 1rem; list-style: none; padding: 0">
+                        <li style="margin-bottom: 1rem">● Você não cria soluções do zero.</li>
+                        <li style="margin-bottom: 1rem">● Adapta estruturas mentais pré-existentes.</li>
+                        <li>● Novos cenários exigem velhos sucessos.</li>
+                    </ul>
+                </div>
+                <div style="background: linear-gradient(135deg, rgba(167,139,250,0.1), transparent); border: 1px solid rgba(167,139,250,0.2); border-radius: 20px; padding: 40px; position: relative">
+                    <div style="position: absolute; top: -15px; left: 30px; background: #a78bfa; color: #fff; font-family: var(--font-mono); font-size: 0.7rem; padding: 4px 15px; border-radius: 4px">03. COMUNICAÇÃO</div>
+                    <h3 style="font-family: var(--font-display); font-size: 1.4rem; color: #a78bfa; margin-bottom: 1.5rem; font-style: italic">Visão Executiva</h3>
+                    <ul style="color: var(--text-dim); space-y: 1rem; list-style: none; padding: 0">
+                        <li style="margin-bottom: 1rem">● Onde os técnicos falham.</li>
+                        <li style="margin-bottom: 1rem">● Não basta gerar valor matemático.</li>
+                        <li>● O executivo compra a clareza da decisão.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Visão Orquestradora</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">FUNDAMENTOS</span>
+                        <span class="tag tag-brand">REPERTÓRIO</span>
+                        <span class="tag tag-dim">COMUNICAÇÃO</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">A fluência analítica é o equilíbrio entre a técnica e a orquestração executiva. Não basta gerar o valor matemático; é preciso garantir que ele seja compreendido e comprado.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: O Caminho até Aqui (Recap) -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 1rem">O Caminho até Aqui</h2>
+            <p style="font-family: var(--font-editorial); font-style: italic; color: var(--text-dim); margin-bottom: 4rem">Recapitulação da Aula 1 e transição para o estratégico</p>
+            
+            <div style="flex: 1; display: flex; align-items: center; justify-content: center">
+                <svg viewBox="0 0 1000 200" style="width: 100%">
+                    <!-- Nodes -->
+                    <circle cx="100" cy="100" r="40" fill="var(--bg)" stroke="var(--text-dim)" stroke-width="2" />
+                    <text x="100" y="105" text-anchor="middle" fill="var(--text-dim)" font-family="var(--font-mono)" font-size="10">CAOS</text>
+                    
+                    <path d="M140 100 L260 100" stroke="var(--accent)" stroke-width="2" class="flow-line" />
+                    
+                    <circle cx="300" cy="100" r="40" fill="var(--bg)" stroke="var(--accent)" stroke-width="2" />
+                    <text x="300" y="105" text-anchor="middle" fill="var(--accent)" font-family="var(--font-mono)" font-size="10">ETL</text>
+                    
+                    <path d="M340 100 L460 100" stroke="var(--accent)" stroke-width="2" class="flow-line" />
+                    
+                    <circle cx="500" cy="100" r="40" fill="var(--bg)" stroke="var(--accent)" stroke-width="2" />
+                    <text x="500" y="105" text-anchor="middle" fill="var(--accent)" font-family="var(--font-mono)" font-size="10">DW</text>
+                    
+                    <path d="M540 100 L660 100" stroke="var(--brand)" stroke-width="2" class="flow-line" />
+                    
+                    <circle cx="700" cy="100" r="40" fill="var(--brand-dim)" stroke="var(--brand)" stroke-width="2" />
+                    <text x="700" y="105" text-anchor="middle" fill="var(--brand)" font-family="var(--font-mono)" font-size="10">DASH</text>
+                    
+                    <path d="M740 100 L860 100" stroke="var(--brand)" stroke-width="2" />
+                    <text x="930" y="105" text-anchor="middle" fill="var(--brand)" font-family="var(--font-display)" font-size="14" font-weight="800">DECISÃO</text>
+                </svg>
+            </div>
+
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Status da Jornada</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">ETL OK</span>
+                        <span class="tag tag-brand">DW READY</span>
+                        <span class="tag tag-dim">ESTRATÉGICO</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">Construímos a base técnica na Aula 1. O trabalho braçal de limpeza e modelagem acabou; agora entramos na fase de inteligência aplicada ao negócio.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: Estudo de Caso SaaS (Funil) -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">O Estudo de Caso SaaS</h2>
+            <div class="grid grid-cols-2 gap-12 items-center flex-1">
+                <div style="background: var(--surface); border-radius: 20px; padding: 40px">
+                    <p style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 1rem">FUNIL TRADICIONAL</p>
+                    <div class="space-y-4">
+                        <div style="display: flex; align-items: center; gap: 15px">
+                            <div style="width: 120px; height: 32px; background: rgba(10,171,236,0.5); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.7rem">CLIQUES</div>
+                            <div style="color: var(--text-dim); font-size: 0.8rem">177k</div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 15px">
+                            <div style="width: 100px; height: 32px; background: rgba(10,171,236,0.3); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.7rem">LEADS</div>
+                            <div style="color: var(--text-dim); font-size: 0.8rem">6.6k</div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 15px">
+                            <div style="width: 60px; height: 32px; background: var(--brand); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.7rem; color: #fff">VENDAS</div>
+                            <div style="color: var(--brand); font-weight: 700; font-size: 0.8rem">1k (CAC)</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05)">
+                        <p style="font-family: var(--font-display); font-size: 1.2rem; color: var(--brand)">MRR & ROI</p>
+                        <p style="color: var(--text-dim); font-size: 0.9rem">O dashboard brilha mostrando o volume deste funil.</p>
+                    </div>
+                </div>
+                <div>
+                    <blockquote style="font-family: var(--font-editorial); font-style: italic; font-size: 1.8rem; line-height: 1.4; color: #fff; border-left: 4px solid var(--brand); padding-left: 30px">
+                        "Um dashboard é excelente para mostrar o volume. Mas o que acontece quando as vendas batem recordes, mas a empresa continua sem caixa?"
+                    </blockquote>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Interrogatório de Dados</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">ROI</span>
+                        <span class="tag tag-brand">CAC</span>
+                        <span class="tag tag-dim">CASHFLOW</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">Onde os dados estão mentindo para você? O volume de vendas pode ser um sinal falso se o custo de aquisição ou o churn estiverem corroendo a margem silenciosamente.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 6: O Mito do Usuário Ativo -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">O Mito do Usuário Ativo</h2>
+            <div class="grid grid-cols-2 gap-0 flex-1 border border-white/5 rounded-3xl overflow-hidden">
+                <div style="padding: 60px; background: rgba(248,81,73,0.03); border-right: 1px solid rgba(255,255,255,0.05)">
+                    <p style="font-family: var(--font-mono); font-size: 0.7rem; color: #f85149; margin-bottom: 1rem">VAIDADE (DAU/MAU)</p>
+                    <h3 style="font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 2rem">A Ilusão do Crescimento</h3>
+                    <p style="color: var(--text-dim); line-height: 1.8">Se você adquire 1.000 clientes novos hoje e perde 900 antigos, seu MAU sobe. O volume total mascara a realidade operacional.</p>
+                    <div style="margin-top: 3rem; font-family: var(--font-editorial); font-style: italic; font-size: 1.2rem; color: #f85149">"O crescimento esconde a morte do produto."</div>
+                </div>
+                <div style="padding: 60px; background: rgba(10,171,236,0.03)">
+                    <p style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 1rem">REALIDADE (RETENÇÃO)</p>
+                    <h3 style="font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 2rem">O Evento de Valor</h3>
+                    <p style="color: var(--text-dim); line-height: 1.8">Só porque o cliente fez login, não significa que ele percebeu valor. A retenção real acontece na ação, não no acesso.</p>
+                    <div style="margin-top: 3rem; font-family: var(--font-editorial); font-style: italic; font-size: 1.2rem; color: var(--accent)">"Ação é a única métrica de verdade."</div>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Ponto de Corte</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">REALIDADE</span>
+                        <span class="tag tag-brand">RETENÇÃO</span>
+                        <span class="tag tag-dim">SUCESSO</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">Pare de medir acessos vazios. Comece a medir o sucesso real do cliente através de eventos que comprovem que o valor prometido foi entregue.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 7: O Evento de Valor -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">O Evento de Valor</h2>
+            <div class="flex-1 flex flex-col justify-center">
+                <div class="grid grid-cols-4 gap-6">
+                    <div style="background: var(--surface); padding: 30px; border-radius: 20px; text-align: center">
+                        <div style="width: 40px; height: 40px; background: var(--accent-dim); color: var(--accent); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                        </div>
+                        <p style="font-family: var(--font-display); font-size: 1rem; color: #fff; margin-bottom: 0.5rem">Exportação</p>
+                        <p style="font-size: 0.75rem; color: var(--text-dim)">Gerou relatório para o chefe</p>
+                    </div>
+                    <div style="background: var(--surface); padding: 30px; border-radius: 20px; text-align: center">
+                        <div style="width: 40px; height: 40px; background: var(--brand-dim); color: var(--brand); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                        </div>
+                        <p style="font-family: var(--font-display); font-size: 1rem; color: #fff; margin-bottom: 0.5rem">Integração</p>
+                        <p style="font-size: 0.75rem; color: var(--text-dim)">Conectou a primeira fonte</p>
+                    </div>
+                    <div style="background: var(--surface); padding: 30px; border-radius: 20px; text-align: center">
+                        <div style="width: 40px; height: 40px; background: rgba(167,139,250,0.1); color: #a78bfa; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <p style="font-family: var(--font-display); font-size: 1rem; color: #fff; margin-bottom: 0.5rem">Convite</p>
+                        <p style="font-size: 0.75rem; color: var(--text-dim)">Trouxe o time para a plataforma</p>
+                    </div>
+                    <div style="background: var(--surface); padding: 30px; border-radius: 20px; text-align: center">
+                        <div style="width: 40px; height: 40px; background: rgba(52,211,153,0.1); color: #34d399; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <p style="font-family: var(--font-display); font-size: 1rem; color: #fff; margin-bottom: 0.5rem">Renovação</p>
+                        <p style="font-size: 0.75rem; color: var(--text-dim)">Provou valor no ciclo anterior</p>
+                    </div>
+                </div>
+                <div style="margin-top: 4rem; text-align: center">
+                    <p style="font-family: var(--font-editorial); font-style: italic; font-size: 1.4rem; color: var(--text-dim)">Antes de medir a retenção, é preciso definir o que estamos retendo.</p>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Métrica Norte</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">EVENTO CHAVE</span>
+                        <span class="tag tag-brand">LTV GATILHO</span>
+                        <span class="tag tag-dim">RETENÇÃO</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">O evento de valor é o verdadeiro gatilho de LTV. Identificar este momento é o primeiro passo para criar uma máquina de retenção previsível e escalável.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 8: Divider Cohort -->
+        <section class="slide slide--divider">
+            <div class="ghost-number">03</div>
+            <div class="title-label">Seção 3</div>
+            <h2 class="main-title">O Antídoto:<br>Análise de Cohort</h2>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Diagnóstico</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">COHORT</span>
+                        <span class="tag tag-brand">CHURN</span>
+                        <span class="tag tag-dim">AQUISIÇÃO</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">A cohort isola o problema com precisão cirúrgica: o defeito está no produto que não retém ou na qualidade da aquisição que traz o público errado?</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 9: Lendo as Curvas -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">Lendo as Curvas de Retenção</h2>
+            <div class="grid grid-cols-2 gap-12 flex-1 items-center">
+                <div style="background: var(--surface); padding: 40px; border-radius: 24px">
+                    <table class="cohort-matrix">
+                        <thead>
+                            <tr>
+                                <th style="padding: 10px; color: var(--text-dim)">Cohort</th>
+                                <th style="padding: 10px; color: var(--text-dim)">M0</th>
+                                <th style="padding: 10px; color: var(--text-dim)">M1</th>
+                                <th style="padding: 10px; color: var(--text-dim)">M2</th>
+                                <th style="padding: 10px; color: var(--text-dim)">M3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="padding: 10px; color: var(--accent)">Jan 2025</td>
+                                <td><div class="cohort-cell" style="background: #0AABEC">100%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(10,171,236,0.8)">82%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(10,171,236,0.6)">75%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(10,171,236,0.5)">72%</div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; color: var(--accent)">Fev 2025</td>
+                                <td><div class="cohort-cell" style="background: #0AABEC">100%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(10,171,236,0.7)">65%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(248,81,73,0.5)">42%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(248,81,73,0.7)">21%</div></td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 10px; color: var(--accent)">Mar 2025</td>
+                                <td><div class="cohort-cell" style="background: #0AABEC">100%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(248,81,73,0.6)">50%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(248,81,73,0.8)">12%</div></td>
+                                <td><div class="cohort-cell" style="background: rgba(248,81,73,1)">5%</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--brand); margin-bottom: 1.5rem">Visualizando o Caos</h3>
+                    <p style="color: var(--text-dim); line-height: 1.8; margin-bottom: 2rem">
+                        <span style="color: #fff; font-weight: 700">Curva Saudável:</span> Achata ao longo do tempo. Cria uma base previsível.<br><br>
+                        <span style="color: #f85149; font-weight: 700">Curva Doente:</span> Despenca rumo a zero (O Sorriso Invertido).
+                    </p>
+                    <div style="padding: 20px; border: 1px dashed var(--brand); border-radius: 12px; font-family: var(--font-editorial); font-style: italic">
+                        "As cohorts mais recentes estão caindo mais rápido. Há um vazamento no balde que o marketing está tentando esconder com volume."
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Diagnóstico de Curva</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">RETENÇÃO</span>
+                        <span class="tag tag-brand">MATRIZ</span>
+                        <span class="tag tag-dim">PREVISÃO</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">A cohort revela o que o MAU esconde. Curvas que não achatam indicam um produto que está morrendo, independentemente do volume de novos usuários entrando.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 10: LTV Matemático vs Comportamental -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">LTV e Comportamento</h2>
+            <div class="grid grid-cols-2 gap-12 flex-1 items-center">
+                <div>
+                    <div style="background: var(--surface); padding: 40px; border-radius: 24px; border: 1px solid var(--accent)">
+                        <p style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); margin-bottom: 1rem">A FÓRMULA</p>
+                        <div style="font-family: var(--font-display); font-size: 2.5rem; color: #fff; margin-bottom: 2rem">
+                            LTV = <span style="color: var(--brand)">ARPA</span> / <span style="color: #f85149">Churn</span>
+                        </div>
+                        <p style="color: var(--text-dim); line-height: 1.6">Reduzir o churn em 2% tem um impacto geométrico maior no LTV do que aumentar o preço em 10%.</p>
+                    </div>
+                </div>
+                <div style="space-y: 6">
+                    <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--brand); margin-bottom: 1.5rem">O Paradoxo da Receita</h3>
+                    <p style="color: var(--text-dim); line-height: 1.8">O LTV é matemático, mas a retenção é puramente comportamental. Não se gerencia o LTV, gerencia-se o hábito do cliente.</p>
+                    <div style="margin-top: 2rem; display: flex; align-items: center; gap: 20px">
+                        <div style="flex: 1; height: 8px; background: #333; border-radius: 4px; overflow: hidden">
+                            <div style="width: 85%; height: 100%; background: var(--brand)"></div>
+                        </div>
+                        <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--brand)">85% RETENÇÃO</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Alavanca de Crescimento</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">PAYBACK</span>
+                        <span class="tag tag-brand">LTV MATH</span>
+                        <span class="tag tag-dim">ROI</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">O Payback Period é onde a sobrevivência da empresa é decidida. Dominar a matemática do LTV permite investir em aquisição com segurança e escala.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 11: Framework Retention Stack -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">Framework: Retention Stack</h2>
+            <div class="grid grid-cols-4 gap-6 flex-1">
+                <div style="background: linear-gradient(180deg, rgba(248,81,73,0.1), transparent); border: 1px solid rgba(248,81,73,0.2); padding: 30px; border-radius: 20px">
+                    <div style="font-family: var(--font-display); font-size: 1.2rem; color: #f85149; margin-bottom: 1rem">Fundamental</div>
+                    <p style="font-size: 0.85rem; color: var(--text-dim)">Qual é o evento chave que prova o sucesso do cliente?</p>
+                </div>
+                <div style="background: linear-gradient(180deg, rgba(255,153,0,0.1), transparent); border: 1px solid rgba(255,153,0,0.2); padding: 30px; border-radius: 20px">
+                    <div style="font-family: var(--font-display); font-size: 1.2rem; color: var(--brand); margin-bottom: 1rem">Temporal</div>
+                    <p style="font-size: 0.85rem; color: var(--text-dim)">Qual é o intervalo natural de uso? (Diário, Semanal ou Mensal?)</p>
+                </div>
+                <div style="background: linear-gradient(180deg, rgba(10,171,236,0.1), transparent); border: 1px solid rgba(10,171,236,0.2); padding: 30px; border-radius: 20px">
+                    <div style="font-family: var(--font-display); font-size: 1.2rem; color: var(--accent); margin-bottom: 1rem">Monetária</div>
+                    <p style="font-size: 0.85rem; color: var(--text-dim)">Como o uso se converte em expansão de MRR? (Upsell/Cross-sell)</p>
+                </div>
+                <div style="background: linear-gradient(180deg, rgba(167,139,250,0.1), transparent); border: 1px solid rgba(167,139,250,0.2); padding: 30px; border-radius: 20px">
+                    <div style="font-family: var(--font-display); font-size: 1.2rem; color: #a78bfa; margin-bottom: 1rem">Comportamental</div>
+                    <p style="font-size: 0.85rem; color: var(--text-dim)">O que diferencia o usuário fiel do usuário que cancela?</p>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">Estrutura de Retenção</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">HABITO</span>
+                        <span class="tag tag-brand">VALOR</span>
+                        <span class="tag tag-dim">FIDELIDADE</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">A retenção não é um simples KPI de vaidade; é um ecossistema complexo de comportamentos que devem ser incentivados em cada etapa da jornada do usuário.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 12: Extraindo Padrões com IA -->
+        <section class="slide">
+            <h2 style="font-family: var(--font-display); font-size: 2.2rem; margin-bottom: 3rem">Extraindo Padrões com IA</h2>
+            <div class="grid grid-cols-2 gap-12 flex-1 items-center">
+                <div style="position: relative">
+                    <div style="background: var(--surface); padding: 40px; border-radius: 24px; border: 1px dashed var(--accent)">
+                        <code style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--accent)">
+                            "IA, compare os usuários da Cohort de Junho que cancelaram no Mês 2 com os que renovaram. Qual é a correlação comportamental?"
+                        </code>
+                    </div>
+                    <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 10px">
+                        <div style="padding: 15px; background: rgba(167,139,250,0.1); border-radius: 10px; border: 1px solid rgba(167,139,250,0.2); font-size: 0.85rem">
+                            <span style="color: #a78bfa; font-weight: 700">Sinal:</span> Cancelados abriram tickets na semana 1.
+                        </div>
+                        <div style="padding: 15px; background: rgba(52,211,153,0.1); border-radius: 10px; border: 1px solid rgba(52,211,153,0.2); font-size: 0.85rem">
+                            <span style="color: #34d399; font-weight: 700">Sinal:</span> Ativos criaram 3+ dashboards no Mês 1.
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: #fff; margin-bottom: 1.5rem">O Papel da IA</h3>
+                    <p style="color: var(--text-dim); line-height: 1.8">
+                        É humanamente impossível cruzar milhares de linhas de engajamento manualmente.<br><br>
+                        Usamos a IA como um <span style="color: var(--accent)">Pattern Matcher</span> em cima do Star Schema para descobrir por que as pessoas ficam.
+                    </p>
+                </div>
+            </div>
+            <div class="bottom-panel mta">
+                <div>
+                    <p class="bottom-panel__label">IA como Alavanca</p>
+                    <div class="tag-group">
+                        <span class="tag tag-accent">PATTERNS</span>
+                        <span class="tag tag-brand">INSIGHTS</span>
+                        <span class="tag tag-dim">AUTOMATION</span>
+                    </div>
+                </div>
+                <p class="bottom-panel__text">A IA automatiza a descoberta de padrões que seriam invisíveis ao olho humano. O seu papel é transformar essas descobertas em ações estratégicas coordenadas.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 13: Resumo Executivo -->
+        <section class="slide slide--title">
+            <div style="font-family: var(--font-editorial); font-style: italic; font-size: 2.5rem; color: #fff; max-width: 800px; line-height: 1.4; margin-bottom: 4rem">
+                "Venda o insight, não a query SQL. Use a IA para descobrir o problema, e a Comunicação Executiva para orquestrar a solução."
+            </div>
+            <div class="instructor-tag">
+                <div class="avatar"></div>
+                <div style="text-align: left">
+                    <p style="font-family: var(--font-display); font-size: 0.9rem; font-weight: 800; margin: 0">LUCAS PONTES</p>
+                    <p style="font-family: var(--font-editorial); font-style: italic; font-size: 0.8rem; color: var(--text-dim); margin: 0">Fluência Analítica</p>
+                </div>
+            </div>
+            <div style="margin-top: 5rem; padding: 10px 30px; background: var(--brand-dim); border: 1px solid var(--brand); border-radius: 100px; font-family: var(--font-mono); font-size: 0.7rem; color: var(--brand)">
+                PRÓXIMA AULA: RA-03 // ARQUITETURA DE EXPANSÃO
+            </div>
+        </section>
+
+    </div>
+
+    <div class="nav-hints">
+        <div class="nav-dot active"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+        <div class="nav-dot"></div>
+    </div>
+
+    <script>
+        const container = document.querySelector('.slide-container');
+        const dots = document.querySelectorAll('.nav-dot');
+        
+        container.addEventListener('scroll', () => {
+            const index = Math.round(container.scrollLeft / window.innerWidth);
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+        });
+
+        // Keyboard navigation
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') container.scrollBy({ left: window.innerWidth, behavior: 'smooth' });
+            if (e.key === 'ArrowLeft') container.scrollBy({ left: -window.innerWidth, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

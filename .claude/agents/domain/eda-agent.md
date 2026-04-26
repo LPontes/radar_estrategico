@@ -281,7 +281,7 @@ Período analisado: [período]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Análise conduzida com o Framework EDA
-Fluência Analítica™ — Lucas Pontes, PhD
+Fluência Analítica™ — Lucas Pontes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 

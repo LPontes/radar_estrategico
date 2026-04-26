@@ -3,7 +3,7 @@
 **Produto:** Agente EDA 2.0 — Análise Exploratória com IA para Profissionais de Negócio
 **Versão:** 1.0
 **Data:** Abril 2026
-**Owner:** Lucas Pontes, PhD — Fluência Analítica
+**Owner:** Lucas Pontes — Fluência Analítica
 
 ---
 
@@ -230,7 +230,7 @@ Período analisado: [período]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Análise conduzida com o Framework EDA
-Fluência Analítica™ — Lucas Pontes, PhD
+Fluência Analítica™ — Lucas Pontes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -387,7 +387,7 @@ O dataset deve ser construído para que a análise com o Framework EDA revele:
 
 ```
 [IDENTIDADE]
-Você é o Agente EDA da Fluência Analítica, criado por Lucas Pontes, PhD.
+Você é o Agente EDA da Fluência Analítica, criado por Lucas Pontes.
 Sua função é guiar profissionais de negócio pelo Framework EDA — da base 
 de dados bruta ao Decision Briefing executivo — sem exigir conhecimento 
 técnico do usuário.
@@ -496,7 +496,7 @@ Período analisado: [período]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Análise conduzida com o Framework EDA
-Fluência Analítica™ — Lucas Pontes, PhD
+Fluência Analítica™ — Lucas Pontes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [DADOS INSUFICIENTES]
@@ -588,5 +588,5 @@ o nível de confiança: Alta / Média / Limitada.
 
 ---
 
-*Fluência Analítica™ · Lucas Pontes, PhD · Abril 2026*
+*Fluência Analítica™ · Lucas Pontes · Abril 2026*
 *Documento confidencial — uso interno*

@@ -1,260 +1,2172 @@
-﻿id_oportunidade,id_lead,data_abertura,data_fechamento,estagio,valor_estimado,valor_fechado,probabilidade,produto_interesse,responsavel,numero_interacoes,dias_no_funil,motivo_perda,id_cliente
-OPP-00001,LEAD-00007,2025-12-18,2025-12-31,Fechado Ganho,2814,2781.92,100,Consultoria Setup,Patricia Rocha,6,20,,CLI-00001
-OPP-00002,LEAD-00015,2025-03-28,2025-05-12,Fechado Perdido,8330,,50,Plano Anual Pro,Carlos Mendes,6,45,Orçamento cortado,
-OPP-00003,LEAD-00017,2025-03-24,2025-04-30,Fechado Ganho,1874,1701.32,100,Consultoria Setup,Carlos Mendes,6,37,,CLI-00002
-OPP-00004,LEAD-00018,2025-08-14,2025-09-05,Negociação,15243,,11,Plano Anual Ent.,Rodrigo Lima,10,22,,
-OPP-00005,LEAD-00020,2025-08-11,2025-08-25,Proposta,3963,,58,Plano Mensal Starter,Diego Alves,9,14,,
-OPP-00006,LEAD-00023,2025-01-27,2025-03-03,Proposta,1716,,43,Consultoria Setup,Juliana Costa,6,35,,
-OPP-00007,LEAD-00032,2025-07-15,2025-08-14,Fechado Perdido,8095,,61,Plano Mensal Pro,Rodrigo Lima,10,30,Sem urgência,
-OPP-00008,LEAD-00046,2025-01-07,2025-02-07,Fechado Perdido,14967,,64,Plano Anual Ent.,Rodrigo Lima,7,31,Concorrência,
-OPP-00009,LEAD-00048,2025-01-20,2025-02-26,Fechado Ganho,6955,6638.96,100,Plano Anual Pro,Patricia Rocha,3,37,,CLI-00003
-OPP-00010,LEAD-00058,2025-06-26,2025-08-01,Fechado Perdido,16318,,62,Plano Anual Ent.,Carlos Mendes,3,36,Escolheu solução interna,
-OPP-00011,LEAD-00059,2025-10-14,2025-11-11,Fechado Perdido,2782,,52,Consultoria Setup,Rodrigo Lima,5,28,Concorrência,
-OPP-00012,LEAD-00060,2025-08-14,2025-08-22,Negociação,7676,,10,Plano Anual Pro,Diego Alves,6,8,,
-OPP-00013,LEAD-00066,2025-12-22,2025-12-31,Fechado Ganho,7597,7155.88,100,Plano Anual Pro,Carlos Mendes,7,31,,CLI-00004
-OPP-00014,LEAD-00067,2025-10-21,2025-11-14,Fechado Ganho,8365,7624.14,100,Plano Anual Pro,Juliana Costa,4,24,,CLI-00005
-OPP-00015,LEAD-00068,2025-04-05,2025-04-18,Negociação,9113,,24,Plano Mensal Pro,Patricia Rocha,2,13,,
-OPP-00016,LEAD-00070,2025-02-20,2025-03-14,Fechado Perdido,9659,,55,Plano Mensal Pro,Diego Alves,9,22,Sem urgência,
-OPP-00017,LEAD-00071,2025-09-21,2025-09-29,Fechado Perdido,8895,,21,Plano Mensal Pro,Carlos Mendes,8,8,Preço,
-OPP-00018,LEAD-00074,2025-12-04,2025-12-31,Fechado Perdido,1299,,59,Consultoria Setup,Juliana Costa,5,37,Orçamento cortado,
-OPP-00019,LEAD-00076,2025-09-23,2025-11-06,Fechado Ganho,15403,14129.38,100,Plano Anual Ent.,Rodrigo Lima,5,44,,CLI-00006
-OPP-00020,LEAD-00077,2025-12-29,2025-12-31,Fechado Perdido,2021,,42,Consultoria Setup,Diego Alves,7,8,Preço,
-OPP-00021,LEAD-00079,2025-03-10,2025-04-03,Negociação,3972,,55,Plano Mensal Starter,Patricia Rocha,8,24,,
-OPP-00022,LEAD-00081,2025-08-19,2025-08-31,Fechado Perdido,15723,,24,Plano Anual Ent.,Patricia Rocha,4,12,Orçamento cortado,
-OPP-00023,LEAD-00082,2025-10-18,2025-11-16,Fechado Perdido,7896,,31,Plano Mensal Pro,Rodrigo Lima,6,29,Preço,
-OPP-00024,LEAD-00107,2025-11-18,2025-11-29,Fechado Ganho,15375,14365.06,100,Plano Anual Ent.,Rodrigo Lima,10,11,,CLI-00007
-OPP-00025,LEAD-00111,2025-04-29,2025-05-16,Fechado Perdido,7603,,15,Plano Anual Pro,Rodrigo Lima,10,17,Orçamento cortado,
-OPP-00026,LEAD-00112,2025-04-07,2025-05-03,Fechado Perdido,7927,,30,Plano Anual Pro,Patricia Rocha,10,26,Preço,
-OPP-00027,LEAD-00114,2025-07-17,2025-08-23,Fechado Perdido,1444,,65,Consultoria Setup,Rodrigo Lima,7,37,Preço,
-OPP-00028,LEAD-00124,2025-12-29,2025-12-31,Fechado Perdido,9609,,12,Plano Mensal Pro,Juliana Costa,8,29,Orçamento cortado,
-OPP-00029,LEAD-00129,2025-11-12,2025-11-25,Fechado Perdido,1496,,45,Consultoria Setup,Juliana Costa,2,13,Concorrência,
-OPP-00030,LEAD-00140,2025-04-29,2025-05-20,Fechado Perdido,2578,,19,Consultoria Setup,Carlos Mendes,6,21,Escolheu solução interna,
-OPP-00031,LEAD-00141,2025-10-08,2025-10-21,Fechado Ganho,14964,13174.74,100,Plano Anual Ent.,Juliana Costa,5,13,,CLI-00008
-OPP-00032,LEAD-00146,2025-01-06,2025-02-05,Fechado Perdido,3899,,45,Plano Mensal Starter,Diego Alves,10,30,Concorrência,
-OPP-00033,LEAD-00148,2025-01-27,2025-02-10,Fechado Perdido,8271,,44,Plano Mensal Pro,Juliana Costa,8,14,Sem urgência,
-OPP-00034,LEAD-00158,2025-11-27,2025-12-31,Fechado Ganho,15230,15980.32,100,Plano Anual Ent.,Diego Alves,7,37,,CLI-00009
-OPP-00035,LEAD-00162,2025-09-16,2025-10-11,Fechado Ganho,4724,4159.53,100,Plano Mensal Starter,Juliana Costa,9,25,,CLI-00010
-OPP-00036,LEAD-00163,2025-04-29,2025-05-24,Fechado Ganho,3430,3209.78,100,Plano Mensal Starter,Rodrigo Lima,10,25,,CLI-00011
-OPP-00037,LEAD-00164,2025-01-18,2025-02-14,Fechado Ganho,7552,7220.35,100,Plano Anual Pro,Patricia Rocha,7,27,,CLI-00012
-OPP-00038,LEAD-00165,2025-05-19,2025-06-25,Fechado Ganho,7959,7716.15,100,Plano Mensal Pro,Patricia Rocha,6,37,,CLI-00013
-OPP-00039,LEAD-00168,2025-12-10,2025-12-22,Fechado Ganho,6591,6684.37,100,Plano Anual Pro,Diego Alves,5,12,,CLI-00014
-OPP-00040,LEAD-00169,2025-11-09,2025-11-23,Fechado Ganho,16039,15969.88,100,Plano Anual Ent.,Carlos Mendes,3,14,,CLI-00015
-OPP-00041,LEAD-00170,2025-02-22,2025-03-28,Fechado Ganho,3537,3502.14,100,Plano Mensal Starter,Carlos Mendes,6,34,,CLI-00016
-OPP-00042,LEAD-00173,2025-04-25,2025-05-04,Fechado Perdido,7157,,45,Plano Anual Pro,Diego Alves,2,9,Escolheu solução interna,
-OPP-00043,LEAD-00175,2025-05-29,2025-06-06,Fechado Ganho,16260,16774.01,100,Plano Anual Ent.,Rodrigo Lima,2,8,,CLI-00017
-OPP-00044,LEAD-00178,2025-07-17,2025-08-12,Fechado Ganho,1495,1399.99,100,Consultoria Setup,Diego Alves,10,26,,CLI-00018
-OPP-00045,LEAD-00184,2025-05-15,2025-06-16,Fechado Perdido,8690,,28,Plano Mensal Pro,Juliana Costa,4,32,Concorrência,
-OPP-00046,LEAD-00185,2025-05-23,2025-06-05,Fechado Ganho,14548,14098.12,100,Plano Anual Ent.,Patricia Rocha,5,13,,CLI-00019
-OPP-00047,LEAD-00189,2025-04-21,2025-05-09,Fechado Perdido,2291,,63,Consultoria Setup,Juliana Costa,8,18,Concorrência,
-OPP-00048,LEAD-00191,2025-05-06,2025-05-15,Fechado Ganho,7201,6596.06,100,Plano Anual Pro,Rodrigo Lima,2,9,,CLI-00020
-OPP-00049,LEAD-00199,2025-06-25,2025-08-05,Proposta,15485,,50,Plano Anual Ent.,Patricia Rocha,7,41,,
-OPP-00050,LEAD-00202,2025-04-01,2025-05-02,Fechado Ganho,4576,4367.24,100,Plano Mensal Starter,Rodrigo Lima,10,31,,CLI-00021
-OPP-00051,LEAD-00205,2025-06-01,2025-06-08,Fechado Ganho,2026,2116.49,100,Consultoria Setup,Juliana Costa,8,7,,CLI-00022
-OPP-00052,LEAD-00213,2025-11-23,2025-12-14,Fechado Ganho,1602,1513.18,100,Consultoria Setup,Carlos Mendes,4,21,,CLI-00023
-OPP-00053,LEAD-00214,2025-11-14,2025-12-15,Fechado Ganho,7136,6596.44,100,Plano Anual Pro,Juliana Costa,8,31,,CLI-00024
-OPP-00054,LEAD-00219,2025-12-06,2025-12-31,Fechado Ganho,8727,7840.0,100,Plano Mensal Pro,Juliana Costa,8,29,,CLI-00025
-OPP-00055,LEAD-00220,2025-10-11,2025-10-28,Proposta,1726,,69,Consultoria Setup,Juliana Costa,6,17,,
-OPP-00056,LEAD-00222,2025-12-27,2025-12-31,Fechado Ganho,2326,2246.81,100,Consultoria Setup,Juliana Costa,3,10,,CLI-00026
-OPP-00057,LEAD-00226,2025-02-18,2025-03-02,Fechado Ganho,8055,7767.65,100,Plano Anual Pro,Juliana Costa,2,12,,CLI-00027
-OPP-00058,LEAD-00231,2025-02-06,2025-03-01,Fechado Ganho,7387,6610.52,100,Plano Anual Pro,Juliana Costa,7,23,,CLI-00028
-OPP-00059,LEAD-00235,2025-06-16,2025-07-16,Fechado Ganho,8744,8083.04,100,Plano Mensal Pro,Diego Alves,10,30,,CLI-00029
-OPP-00060,LEAD-00236,2025-08-12,2025-09-26,Fechado Ganho,7961,8340.14,100,Plano Anual Pro,Diego Alves,3,45,,CLI-00030
-OPP-00061,LEAD-00237,2025-12-13,2025-12-31,Negociação,15612,,12,Plano Anual Ent.,Diego Alves,10,21,,
-OPP-00062,LEAD-00239,2025-07-16,2025-08-30,Fechado Ganho,9524,9267.7,100,Plano Mensal Pro,Patricia Rocha,9,45,,CLI-00031
-OPP-00063,LEAD-00243,2025-11-15,2025-12-02,Fechado Ganho,8311,7558.98,100,Plano Anual Pro,Juliana Costa,8,17,,CLI-00032
-OPP-00064,LEAD-00253,2025-10-28,2025-11-11,Fechado Perdido,8200,,58,Plano Anual Pro,Diego Alves,2,14,Concorrência,
-OPP-00065,LEAD-00254,2025-05-11,2025-05-30,Fechado Ganho,6787,6348.18,100,Plano Anual Pro,Diego Alves,8,19,,CLI-00033
-OPP-00066,LEAD-00261,2025-05-11,2025-05-27,Fechado Ganho,3489,3386.67,100,Plano Mensal Starter,Carlos Mendes,7,16,,CLI-00034
-OPP-00067,LEAD-00262,2025-03-16,2025-04-14,Fechado Perdido,9647,,50,Plano Mensal Pro,Diego Alves,4,29,Orçamento cortado,
-OPP-00068,LEAD-00271,2025-12-29,2025-12-31,Fechado Ganho,4109,4247.91,100,Plano Mensal Starter,Rodrigo Lima,4,39,,CLI-00035
-OPP-00069,LEAD-00277,2025-10-29,2025-11-09,Fechado Perdido,8284,,29,Plano Mensal Pro,Carlos Mendes,4,11,Escolheu solução interna,
-OPP-00070,LEAD-00280,2025-12-28,2025-12-31,Fechado Perdido,14794,,38,Plano Anual Ent.,Patricia Rocha,5,22,Concorrência,
-OPP-00071,LEAD-00282,2025-02-11,2025-03-17,Fechado Ganho,15066,14370.72,100,Plano Anual Ent.,Rodrigo Lima,7,34,,CLI-00036
-OPP-00072,LEAD-00283,2025-09-22,2025-11-05,Proposta,8031,,34,Plano Anual Pro,Rodrigo Lima,9,44,,
-OPP-00073,LEAD-00284,2025-04-28,2025-06-11,Proposta,1592,,27,Consultoria Setup,Rodrigo Lima,5,44,,
-OPP-00074,LEAD-00286,2025-02-22,2025-03-23,Fechado Ganho,14791,15500.85,100,Plano Anual Ent.,Juliana Costa,8,29,,CLI-00037
-OPP-00075,LEAD-00297,2025-05-29,2025-06-05,Negociação,6940,,35,Plano Anual Pro,Juliana Costa,9,7,,
-OPP-00076,LEAD-00298,2025-05-23,2025-06-01,Fechado Ganho,8018,7596.75,100,Plano Mensal Pro,Patricia Rocha,3,9,,CLI-00038
-OPP-00077,LEAD-00305,2025-12-21,2025-12-31,Fechado Perdido,8999,,53,Plano Mensal Pro,Rodrigo Lima,5,22,Concorrência,
-OPP-00078,LEAD-00309,2025-08-26,2025-10-04,Fechado Perdido,15294,,27,Plano Anual Ent.,Rodrigo Lima,2,39,Concorrência,
-OPP-00079,LEAD-00311,2025-10-13,2025-10-27,Fechado Ganho,1454,1403.29,100,Consultoria Setup,Rodrigo Lima,7,14,,CLI-00039
-OPP-00080,LEAD-00315,2025-02-09,2025-03-24,Fechado Ganho,15584,16122.35,100,Plano Anual Ent.,Diego Alves,9,43,,CLI-00040
-OPP-00081,LEAD-00333,2025-02-09,2025-03-25,Proposta,4443,,34,Plano Mensal Starter,Juliana Costa,2,44,,
-OPP-00082,LEAD-00346,2025-08-04,2025-09-04,Fechado Perdido,7283,,12,Plano Anual Pro,Patricia Rocha,8,31,Concorrência,
-OPP-00083,LEAD-00347,2025-03-09,2025-04-20,Fechado Ganho,1269,1147.92,100,Consultoria Setup,Diego Alves,3,42,,CLI-00041
-OPP-00084,LEAD-00351,2025-04-23,2025-05-27,Negociação,4994,,60,Plano Mensal Starter,Patricia Rocha,7,34,,
-OPP-00085,LEAD-00353,2025-09-14,2025-09-24,Fechado Ganho,1592,1409.94,100,Consultoria Setup,Diego Alves,9,10,,CLI-00042
-OPP-00086,LEAD-00354,2025-10-10,2025-10-18,Fechado Perdido,2810,,43,Consultoria Setup,Carlos Mendes,2,8,Escolheu solução interna,
-OPP-00087,LEAD-00366,2025-10-26,2025-12-05,Fechado Ganho,15326,15917.16,100,Plano Anual Ent.,Carlos Mendes,10,40,,CLI-00043
-OPP-00088,LEAD-00370,2025-05-11,2025-06-22,Negociação,8096,,28,Plano Mensal Pro,Carlos Mendes,9,42,,
-OPP-00089,LEAD-00376,2025-02-07,2025-03-15,Fechado Ganho,4955,4596.74,100,Plano Mensal Starter,Patricia Rocha,2,36,,CLI-00044
-OPP-00090,LEAD-00377,2025-04-24,2025-05-02,Fechado Ganho,3762,3851.3,100,Plano Mensal Starter,Juliana Costa,4,8,,CLI-00045
-OPP-00091,LEAD-00378,2025-12-24,2025-12-31,Fechado Ganho,7478,6943.48,100,Plano Anual Pro,Diego Alves,9,18,,CLI-00046
-OPP-00092,LEAD-00381,2025-11-06,2025-11-23,Fechado Perdido,8809,,24,Plano Mensal Pro,Rodrigo Lima,3,17,Sem urgência,
-OPP-00093,LEAD-00391,2025-02-04,2025-02-22,Fechado Ganho,9041,8653.12,100,Plano Mensal Pro,Patricia Rocha,7,18,,CLI-00047
-OPP-00094,LEAD-00393,2025-03-04,2025-03-26,Fechado Ganho,2400,2499.9,100,Consultoria Setup,Diego Alves,9,22,,CLI-00048
-OPP-00095,LEAD-00397,2025-05-14,2025-05-26,Fechado Ganho,2099,1990.5,100,Consultoria Setup,Diego Alves,7,12,,CLI-00049
-OPP-00096,LEAD-00399,2025-05-27,2025-06-06,Fechado Perdido,1355,,57,Consultoria Setup,Diego Alves,8,10,Concorrência,
-OPP-00097,LEAD-00407,2025-11-27,2025-12-19,Fechado Perdido,7206,,50,Plano Anual Pro,Diego Alves,2,22,Sem urgência,
-OPP-00098,LEAD-00410,2025-12-03,2025-12-31,Fechado Ganho,15209,13483.96,100,Plano Anual Ent.,Juliana Costa,9,41,,CLI-00050
-OPP-00099,LEAD-00414,2025-10-20,2025-11-03,Fechado Ganho,16086,14551.68,100,Plano Anual Ent.,Carlos Mendes,5,14,,CLI-00051
-OPP-00100,LEAD-00418,2025-10-21,2025-10-28,Fechado Perdido,8348,,17,Plano Mensal Pro,Diego Alves,8,7,Escolheu solução interna,
-OPP-00101,LEAD-00420,2025-08-17,2025-08-29,Fechado Ganho,7300,6462.46,100,Plano Anual Pro,Rodrigo Lima,5,12,,CLI-00052
-OPP-00102,LEAD-00425,2025-05-12,2025-06-15,Fechado Ganho,8220,8364.73,100,Plano Mensal Pro,Juliana Costa,2,34,,CLI-00053
-OPP-00103,LEAD-00433,2025-06-12,2025-07-06,Fechado Ganho,9421,8909.21,100,Plano Mensal Pro,Patricia Rocha,5,24,,CLI-00054
-OPP-00104,LEAD-00439,2025-10-25,2025-12-06,Fechado Ganho,8253,7410.52,100,Plano Mensal Pro,Carlos Mendes,9,42,,CLI-00055
-OPP-00105,LEAD-00446,2025-06-12,2025-07-26,Fechado Perdido,16356,,57,Plano Anual Ent.,Diego Alves,2,44,Sem urgência,
-OPP-00106,LEAD-00447,2025-12-30,2025-12-31,Fechado Perdido,4288,,67,Plano Mensal Starter,Carlos Mendes,2,30,Sem urgência,
-OPP-00107,LEAD-00448,2025-10-16,2025-11-14,Fechado Perdido,14932,,33,Plano Anual Ent.,Rodrigo Lima,7,29,Preço,
-OPP-00108,LEAD-00449,2025-10-25,2025-11-12,Fechado Perdido,9199,,70,Plano Mensal Pro,Carlos Mendes,4,18,Concorrência,
-OPP-00109,LEAD-00451,2025-12-07,2025-12-31,Negociação,3876,,36,Plano Mensal Starter,Diego Alves,8,37,,
-OPP-00110,LEAD-00454,2025-06-10,2025-06-29,Fechado Ganho,8279,7912.88,100,Plano Anual Pro,Juliana Costa,6,19,,CLI-00056
-OPP-00111,LEAD-00455,2025-09-14,2025-10-14,Fechado Ganho,14645,14128.38,100,Plano Anual Ent.,Patricia Rocha,4,30,,CLI-00057
-OPP-00112,LEAD-00458,2025-04-27,2025-06-04,Proposta,6804,,35,Plano Anual Pro,Carlos Mendes,7,38,,
-OPP-00113,LEAD-00462,2025-05-19,2025-06-28,Fechado Perdido,3885,,62,Plano Mensal Starter,Rodrigo Lima,5,40,Preço,
-OPP-00114,LEAD-00464,2025-11-05,2025-11-17,Fechado Ganho,3592,3260.18,100,Plano Mensal Starter,Diego Alves,3,12,,CLI-00058
-OPP-00115,LEAD-00465,2025-10-28,2025-11-23,Negociação,8448,,36,Plano Anual Pro,Juliana Costa,5,26,,
-OPP-00116,LEAD-00469,2025-04-30,2025-06-04,Fechado Perdido,16304,,63,Plano Anual Ent.,Diego Alves,3,35,Escolheu solução interna,
-OPP-00117,LEAD-00470,2025-03-27,2025-04-28,Fechado Ganho,1657,1545.56,100,Consultoria Setup,Diego Alves,2,32,,CLI-00059
-OPP-00118,LEAD-00473,2025-01-20,2025-02-08,Fechado Perdido,4394,,60,Plano Mensal Starter,Carlos Mendes,9,19,Orçamento cortado,
-OPP-00119,LEAD-00481,2025-04-16,2025-05-17,Fechado Ganho,3486,3453.03,100,Plano Mensal Starter,Carlos Mendes,3,31,,CLI-00060
-OPP-00120,LEAD-00483,2025-08-22,2025-10-02,Fechado Ganho,9619,8612.67,100,Plano Mensal Pro,Rodrigo Lima,3,41,,CLI-00061
-OPP-00121,LEAD-00485,2025-04-22,2025-05-19,Fechado Ganho,15672,14805.58,100,Plano Anual Ent.,Juliana Costa,6,27,,CLI-00062
-OPP-00122,LEAD-00486,2025-11-21,2025-12-18,Fechado Ganho,8222,7416.9,100,Plano Anual Pro,Juliana Costa,2,27,,CLI-00063
-OPP-00123,LEAD-00494,2025-08-22,2025-09-07,Negociação,3315,,36,Plano Mensal Starter,Diego Alves,5,16,,
-OPP-00124,LEAD-00496,2025-01-07,2025-01-18,Proposta,8269,,40,Plano Anual Pro,Diego Alves,6,11,,
-OPP-00125,LEAD-00497,2025-09-18,2025-10-12,Negociação,1298,,18,Consultoria Setup,Patricia Rocha,2,24,,
-OPP-00126,LEAD-00498,2025-09-09,2025-09-24,Proposta,3929,,68,Plano Mensal Starter,Rodrigo Lima,6,15,,
-OPP-00127,LEAD-00503,2025-02-27,2025-03-28,Fechado Ganho,4349,4345.9,100,Plano Mensal Starter,Rodrigo Lima,4,29,,CLI-00064
-OPP-00128,LEAD-00504,2025-09-09,2025-10-11,Fechado Perdido,4795,,58,Plano Mensal Starter,Juliana Costa,6,32,Orçamento cortado,
-OPP-00129,LEAD-00520,2025-05-28,2025-06-10,Fechado Ganho,16010,16446.32,100,Plano Anual Ent.,Rodrigo Lima,7,13,,CLI-00065
-OPP-00130,LEAD-00524,2025-05-10,2025-06-04,Fechado Ganho,3260,3251.77,100,Plano Mensal Starter,Patricia Rocha,9,25,,CLI-00066
-OPP-00131,LEAD-00528,2025-06-03,2025-06-28,Fechado Ganho,15991,16477.38,100,Plano Anual Ent.,Patricia Rocha,3,25,,CLI-00067
-OPP-00132,LEAD-00529,2025-03-25,2025-05-05,Fechado Ganho,2736,2725.79,100,Consultoria Setup,Juliana Costa,10,41,,CLI-00068
-OPP-00133,LEAD-00530,2025-06-12,2025-07-17,Proposta,3292,,45,Plano Mensal Starter,Rodrigo Lima,5,35,,
-OPP-00134,LEAD-00539,2025-04-05,2025-04-29,Proposta,15097,,63,Plano Anual Ent.,Juliana Costa,5,24,,
-OPP-00135,LEAD-00540,2025-03-14,2025-04-28,Fechado Perdido,16024,,48,Plano Anual Ent.,Juliana Costa,2,45,Preço,
-OPP-00136,LEAD-00542,2025-07-05,2025-07-21,Proposta,8183,,25,Plano Anual Pro,Carlos Mendes,9,16,,
-OPP-00137,LEAD-00543,2025-02-16,2025-02-23,Fechado Ganho,1438,1381.26,100,Consultoria Setup,Carlos Mendes,3,7,,CLI-00069
-OPP-00138,LEAD-00548,2025-07-27,2025-09-08,Proposta,7789,,11,Plano Anual Pro,Rodrigo Lima,7,43,,
-OPP-00139,LEAD-00553,2025-10-25,2025-11-03,Fechado Ganho,1717,1651.97,100,Consultoria Setup,Rodrigo Lima,4,9,,CLI-00070
-OPP-00140,LEAD-00556,2025-12-06,2025-12-22,Fechado Perdido,1101,,35,Consultoria Setup,Patricia Rocha,4,16,Sem urgência,
-OPP-00141,LEAD-00563,2025-05-23,2025-06-04,Fechado Perdido,6542,,61,Plano Anual Pro,Juliana Costa,4,12,Orçamento cortado,
-OPP-00142,LEAD-00567,2025-12-10,2025-12-18,Fechado Perdido,2506,,57,Consultoria Setup,Carlos Mendes,8,8,Escolheu solução interna,
-OPP-00143,LEAD-00569,2025-10-22,2025-11-07,Fechado Ganho,4006,4163.09,100,Plano Mensal Starter,Diego Alves,4,16,,CLI-00071
-OPP-00144,LEAD-00571,2025-11-17,2025-12-07,Fechado Ganho,9821,8778.23,100,Plano Mensal Pro,Diego Alves,8,20,,CLI-00072
-OPP-00145,LEAD-00573,2025-02-18,2025-03-10,Fechado Ganho,2743,2574.27,100,Consultoria Setup,Juliana Costa,3,20,,CLI-00073
-OPP-00146,LEAD-00575,2025-11-14,2025-12-07,Fechado Perdido,8090,,21,Plano Anual Pro,Juliana Costa,9,23,Concorrência,
-OPP-00147,LEAD-00583,2025-05-28,2025-06-18,Fechado Ganho,16237,14990.72,100,Plano Anual Ent.,Carlos Mendes,6,21,,CLI-00074
-OPP-00148,LEAD-00586,2025-01-28,2025-02-15,Fechado Ganho,3963,3887.57,100,Plano Mensal Starter,Juliana Costa,6,18,,CLI-00075
-OPP-00149,LEAD-00589,2025-02-17,2025-02-28,Proposta,1588,,19,Consultoria Setup,Diego Alves,2,11,,
-OPP-00150,LEAD-00592,2025-01-18,2025-02-15,Fechado Perdido,4832,,59,Plano Mensal Starter,Rodrigo Lima,7,28,Sem urgência,
-OPP-00151,LEAD-00593,2025-12-24,2025-12-31,Fechado Perdido,1458,,35,Consultoria Setup,Diego Alves,4,38,Orçamento cortado,
-OPP-00152,LEAD-00594,2025-09-24,2025-10-10,Fechado Perdido,3928,,53,Plano Mensal Starter,Carlos Mendes,4,16,Escolheu solução interna,
-OPP-00153,LEAD-00597,2025-04-27,2025-05-10,Fechado Ganho,3554,3523.62,100,Plano Mensal Starter,Carlos Mendes,3,13,,CLI-00076
-OPP-00154,LEAD-00599,2025-04-15,2025-04-24,Fechado Ganho,9642,8911.36,100,Plano Mensal Pro,Rodrigo Lima,6,9,,CLI-00077
-OPP-00155,LEAD-00601,2025-05-26,2025-06-12,Fechado Perdido,8235,,24,Plano Mensal Pro,Patricia Rocha,2,17,Escolheu solução interna,
-OPP-00156,LEAD-00602,2025-05-30,2025-07-06,Fechado Ganho,4991,5043.82,100,Plano Mensal Starter,Rodrigo Lima,6,37,,CLI-00078
-OPP-00157,LEAD-00604,2025-01-13,2025-02-04,Fechado Perdido,2996,,32,Consultoria Setup,Rodrigo Lima,9,22,Escolheu solução interna,
-OPP-00158,LEAD-00606,2025-10-27,2025-11-17,Negociação,3932,,62,Plano Mensal Starter,Rodrigo Lima,4,21,,
-OPP-00159,LEAD-00607,2025-09-24,2025-10-01,Proposta,1428,,38,Consultoria Setup,Carlos Mendes,7,7,,
-OPP-00160,LEAD-00610,2025-03-28,2025-05-08,Fechado Ganho,7022,7032.13,100,Plano Anual Pro,Rodrigo Lima,10,41,,CLI-00079
-OPP-00161,LEAD-00611,2025-02-27,2025-03-06,Fechado Perdido,7801,,38,Plano Anual Pro,Patricia Rocha,10,7,Preço,
-OPP-00162,LEAD-00616,2025-12-11,2025-12-21,Proposta,1545,,35,Consultoria Setup,Patricia Rocha,6,10,,
-OPP-00163,LEAD-00623,2025-05-20,2025-06-24,Fechado Ganho,16277,17045.74,100,Plano Anual Ent.,Carlos Mendes,7,35,,CLI-00080
-OPP-00164,LEAD-00624,2025-01-15,2025-02-23,Fechado Perdido,9742,,26,Plano Mensal Pro,Rodrigo Lima,3,39,Preço,
-OPP-00165,LEAD-00626,2025-10-14,2025-11-01,Fechado Ganho,2335,2350.94,100,Consultoria Setup,Rodrigo Lima,7,18,,CLI-00081
-OPP-00166,LEAD-00629,2025-12-25,2025-12-31,Fechado Perdido,2997,,45,Consultoria Setup,Patricia Rocha,7,24,Escolheu solução interna,
-OPP-00167,LEAD-00630,2025-09-10,2025-09-21,Fechado Ganho,7342,7422.21,100,Plano Anual Pro,Carlos Mendes,7,11,,CLI-00082
-OPP-00168,LEAD-00631,2025-03-14,2025-04-03,Proposta,16050,,11,Plano Anual Ent.,Juliana Costa,8,20,,
-OPP-00169,LEAD-00632,2025-09-27,2025-10-29,Fechado Perdido,8049,,16,Plano Mensal Pro,Rodrigo Lima,3,32,Orçamento cortado,
-OPP-00170,LEAD-00638,2025-08-21,2025-09-18,Fechado Perdido,7916,,48,Plano Mensal Pro,Patricia Rocha,9,28,Concorrência,
-OPP-00171,LEAD-00641,2025-01-06,2025-01-16,Fechado Perdido,15745,,14,Plano Anual Ent.,Juliana Costa,2,10,Concorrência,
-OPP-00172,LEAD-00643,2025-09-27,2025-10-05,Fechado Perdido,2189,,18,Consultoria Setup,Carlos Mendes,2,8,Sem urgência,
-OPP-00173,LEAD-00646,2025-08-26,2025-09-11,Fechado Ganho,3865,3521.12,100,Plano Mensal Starter,Diego Alves,9,16,,CLI-00083
-OPP-00174,LEAD-00648,2025-12-06,2025-12-30,Fechado Ganho,14969,13547.89,100,Plano Anual Ent.,Diego Alves,2,24,,CLI-00084
-OPP-00175,LEAD-00650,2025-01-14,2025-02-26,Proposta,3750,,55,Plano Mensal Starter,Patricia Rocha,8,43,,
-OPP-00176,LEAD-00656,2025-11-13,2025-11-27,Fechado Perdido,14795,,68,Plano Anual Ent.,Carlos Mendes,7,14,Orçamento cortado,
-OPP-00177,LEAD-00661,2025-06-17,2025-06-25,Proposta,7894,,54,Plano Anual Pro,Diego Alves,2,8,,
-OPP-00178,LEAD-00663,2025-10-29,2025-12-13,Proposta,15575,,65,Plano Anual Ent.,Diego Alves,6,45,,
-OPP-00179,LEAD-00666,2025-08-19,2025-09-29,Fechado Ganho,4752,4770.79,100,Plano Mensal Starter,Diego Alves,6,41,,CLI-00085
-OPP-00180,LEAD-00672,2025-03-03,2025-04-02,Fechado Ganho,5058,5219.37,100,Plano Mensal Starter,Diego Alves,7,30,,CLI-00086
-OPP-00181,LEAD-00675,2025-06-05,2025-06-12,Fechado Perdido,7963,,17,Plano Mensal Pro,Juliana Costa,9,7,Sem urgência,
-OPP-00182,LEAD-00677,2025-12-07,2025-12-16,Negociação,3210,,24,Plano Mensal Starter,Diego Alves,3,9,,
-OPP-00183,LEAD-00685,2025-01-26,2025-02-05,Fechado Ganho,15760,15151.48,100,Plano Anual Ent.,Rodrigo Lima,3,10,,CLI-00087
-OPP-00184,LEAD-00692,2025-02-25,2025-03-31,Fechado Perdido,1527,,10,Consultoria Setup,Carlos Mendes,2,34,Preço,
-OPP-00185,LEAD-00701,2025-01-14,2025-02-16,Fechado Ganho,8209,7724.62,100,Plano Anual Pro,Rodrigo Lima,9,33,,CLI-00088
-OPP-00186,LEAD-00712,2025-11-30,2025-12-31,Proposta,6818,,33,Plano Anual Pro,Juliana Costa,2,41,,
-OPP-00187,LEAD-00713,2025-02-23,2025-04-09,Fechado Perdido,7281,,37,Plano Anual Pro,Patricia Rocha,7,45,Orçamento cortado,
-OPP-00188,LEAD-00719,2025-11-08,2025-12-18,Fechado Ganho,4490,4310.34,100,Plano Mensal Starter,Diego Alves,3,40,,CLI-00089
-OPP-00189,LEAD-00720,2025-11-10,2025-11-23,Proposta,15192,,21,Plano Anual Ent.,Diego Alves,2,13,,
-OPP-00190,LEAD-00727,2025-03-09,2025-04-06,Fechado Ganho,1046,975.3,100,Consultoria Setup,Carlos Mendes,7,28,,CLI-00090
-OPP-00191,LEAD-00728,2025-03-15,2025-04-22,Fechado Perdido,15870,,27,Plano Anual Ent.,Juliana Costa,9,38,Orçamento cortado,
-OPP-00192,LEAD-00730,2025-09-10,2025-09-19,Proposta,9455,,62,Plano Mensal Pro,Patricia Rocha,5,9,,
-OPP-00193,LEAD-00731,2025-03-16,2025-03-26,Fechado Perdido,8443,,34,Plano Anual Pro,Carlos Mendes,8,10,Escolheu solução interna,
-OPP-00194,LEAD-00735,2025-11-21,2025-12-31,Fechado Ganho,15049,14178.12,100,Plano Anual Ent.,Rodrigo Lima,4,44,,CLI-00091
-OPP-00195,LEAD-00740,2025-04-14,2025-05-05,Fechado Ganho,8905,9190.89,100,Plano Mensal Pro,Carlos Mendes,3,21,,CLI-00092
-OPP-00196,LEAD-00745,2025-11-20,2025-12-05,Fechado Perdido,8041,,41,Plano Anual Pro,Rodrigo Lima,4,15,Escolheu solução interna,
-OPP-00197,LEAD-00748,2025-05-28,2025-06-09,Proposta,8344,,63,Plano Anual Pro,Diego Alves,10,12,,
-OPP-00198,LEAD-00756,2025-08-12,2025-08-20,Negociação,2352,,29,Consultoria Setup,Juliana Costa,7,8,,
-OPP-00199,LEAD-00758,2025-12-12,2025-12-31,Fechado Perdido,1316,,51,Consultoria Setup,Diego Alves,10,32,Escolheu solução interna,
-OPP-00200,LEAD-00764,2025-12-13,2025-12-31,Fechado Ganho,15283,15179.59,100,Plano Anual Ent.,Juliana Costa,8,22,,CLI-00093
-OPP-00201,LEAD-00771,2025-12-27,2025-12-31,Fechado Perdido,3722,,25,Plano Mensal Starter,Diego Alves,4,20,Sem urgência,
-OPP-00202,LEAD-00778,2025-06-18,2025-07-24,Fechado Ganho,3931,3544.01,100,Plano Mensal Starter,Rodrigo Lima,9,36,,CLI-00094
-OPP-00203,LEAD-00779,2025-10-31,2025-12-04,Fechado Perdido,16013,,13,Plano Anual Ent.,Rodrigo Lima,3,34,Escolheu solução interna,
-OPP-00204,LEAD-00782,2025-04-12,2025-04-29,Fechado Ganho,16187,14941.09,100,Plano Anual Ent.,Diego Alves,5,17,,CLI-00095
-OPP-00205,LEAD-00784,2025-06-18,2025-07-26,Proposta,4151,,60,Plano Mensal Starter,Diego Alves,8,38,,
-OPP-00206,LEAD-00786,2025-11-13,2025-11-27,Fechado Perdido,8202,,51,Plano Anual Pro,Juliana Costa,5,14,Escolheu solução interna,
-OPP-00207,LEAD-00788,2025-05-20,2025-06-27,Fechado Perdido,8222,,27,Plano Anual Pro,Juliana Costa,9,38,Orçamento cortado,
-OPP-00208,LEAD-00791,2025-04-19,2025-04-28,Fechado Perdido,16202,,64,Plano Anual Ent.,Juliana Costa,2,9,Concorrência,
-OPP-00209,LEAD-00803,2025-09-09,2025-10-09,Negociação,7735,,28,Plano Anual Pro,Carlos Mendes,10,30,,
-OPP-00210,LEAD-00808,2025-01-08,2025-02-07,Fechado Perdido,8868,,26,Plano Mensal Pro,Diego Alves,10,30,Sem urgência,
-OPP-00211,LEAD-00810,2025-05-29,2025-06-29,Negociação,14901,,25,Plano Anual Ent.,Diego Alves,6,31,,
-OPP-00212,LEAD-00822,2025-04-23,2025-05-01,Negociação,8419,,23,Plano Anual Pro,Carlos Mendes,9,8,,
-OPP-00213,LEAD-00824,2025-07-09,2025-07-24,Fechado Perdido,8836,,34,Plano Mensal Pro,Rodrigo Lima,7,15,Escolheu solução interna,
-OPP-00214,LEAD-00830,2025-11-23,2025-12-31,Negociação,9370,,66,Plano Mensal Pro,Juliana Costa,8,44,,
-OPP-00215,LEAD-00834,2025-02-08,2025-03-21,Fechado Ganho,4677,4621.61,100,Plano Mensal Starter,Juliana Costa,8,41,,CLI-00096
-OPP-00216,LEAD-00837,2025-10-31,2025-11-18,Fechado Ganho,2971,3030.57,100,Consultoria Setup,Diego Alves,5,18,,CLI-00097
-OPP-00217,LEAD-00838,2025-09-17,2025-11-01,Fechado Ganho,16112,14459.61,100,Plano Anual Ent.,Diego Alves,5,45,,CLI-00098
-OPP-00218,LEAD-00840,2025-04-13,2025-05-23,Fechado Perdido,7475,,16,Plano Anual Pro,Juliana Costa,6,40,Escolheu solução interna,
-OPP-00219,LEAD-00847,2025-02-10,2025-03-26,Fechado Ganho,6514,6678.61,100,Plano Anual Pro,Juliana Costa,4,44,,CLI-00099
-OPP-00220,LEAD-00853,2025-05-13,2025-05-26,Fechado Ganho,15711,14023.21,100,Plano Anual Ent.,Juliana Costa,9,13,,CLI-00100
-OPP-00221,LEAD-00855,2025-09-21,2025-10-07,Fechado Perdido,15841,,12,Plano Anual Ent.,Carlos Mendes,10,16,Preço,
-OPP-00222,LEAD-00859,2025-04-23,2025-06-06,Fechado Perdido,9803,,59,Plano Mensal Pro,Juliana Costa,6,44,Concorrência,
-OPP-00223,LEAD-00863,2025-05-20,2025-06-07,Proposta,7746,,28,Plano Anual Pro,Carlos Mendes,10,18,,
-OPP-00224,LEAD-00864,2025-02-25,2025-03-26,Negociação,1241,,17,Consultoria Setup,Patricia Rocha,6,29,,
-OPP-00225,LEAD-00865,2025-07-13,2025-07-24,Fechado Ganho,4174,3783.59,100,Plano Mensal Starter,Juliana Costa,3,11,,CLI-00101
-OPP-00226,LEAD-00867,2025-06-16,2025-07-15,Fechado Perdido,4402,,19,Plano Mensal Starter,Carlos Mendes,5,29,Concorrência,
-OPP-00227,LEAD-00869,2025-05-11,2025-06-10,Proposta,15355,,53,Plano Anual Ent.,Juliana Costa,6,30,,
-OPP-00228,LEAD-00870,2025-06-04,2025-06-23,Fechado Perdido,9340,,40,Plano Mensal Pro,Diego Alves,6,19,Concorrência,
-OPP-00229,LEAD-00873,2025-10-27,2025-12-03,Fechado Ganho,14964,13948.0,100,Plano Anual Ent.,Rodrigo Lima,7,37,,CLI-00102
-OPP-00230,LEAD-00881,2025-03-17,2025-04-21,Fechado Ganho,16088,14531.15,100,Plano Anual Ent.,Carlos Mendes,9,35,,CLI-00103
-OPP-00231,LEAD-00882,2025-05-31,2025-06-17,Fechado Perdido,7191,,22,Plano Anual Pro,Patricia Rocha,8,17,Orçamento cortado,
-OPP-00232,LEAD-00884,2025-05-31,2025-07-09,Fechado Ganho,9279,8900.37,100,Plano Mensal Pro,Juliana Costa,10,39,,CLI-00104
-OPP-00233,LEAD-00885,2025-09-11,2025-10-25,Negociação,2801,,52,Consultoria Setup,Rodrigo Lima,6,44,,
-OPP-00234,LEAD-00888,2025-05-14,2025-06-23,Fechado Ganho,15376,13964.12,100,Plano Anual Ent.,Juliana Costa,9,40,,CLI-00105
-OPP-00235,LEAD-00890,2025-10-23,2025-11-04,Fechado Perdido,3971,,34,Plano Mensal Starter,Patricia Rocha,8,12,Escolheu solução interna,
-OPP-00236,LEAD-00893,2025-03-28,2025-04-10,Fechado Ganho,7465,6848.9,100,Plano Anual Pro,Rodrigo Lima,2,13,,CLI-00106
-OPP-00237,LEAD-00895,2025-10-05,2025-10-16,Fechado Ganho,4006,4073.96,100,Plano Mensal Starter,Rodrigo Lima,3,11,,CLI-00107
-OPP-00238,LEAD-00898,2025-03-22,2025-04-13,Proposta,8798,,13,Plano Mensal Pro,Patricia Rocha,8,22,,
-OPP-00239,LEAD-00907,2025-04-15,2025-05-10,Proposta,9503,,32,Plano Mensal Pro,Diego Alves,2,25,,
-OPP-00240,LEAD-00909,2025-02-27,2025-03-10,Fechado Ganho,3126,3219.73,100,Plano Mensal Starter,Diego Alves,10,11,,CLI-00108
-OPP-00241,LEAD-00911,2025-06-27,2025-07-09,Fechado Ganho,8841,7866.56,100,Plano Mensal Pro,Carlos Mendes,3,12,,CLI-00109
-OPP-00242,LEAD-00919,2025-04-12,2025-04-24,Fechado Ganho,15206,14453.68,100,Plano Anual Ent.,Carlos Mendes,9,12,,CLI-00110
-OPP-00243,LEAD-00925,2025-03-21,2025-04-10,Fechado Perdido,9571,,48,Plano Mensal Pro,Juliana Costa,2,20,Preço,
-OPP-00244,LEAD-00929,2025-07-17,2025-08-11,Fechado Perdido,14790,,14,Plano Anual Ent.,Rodrigo Lima,4,25,Concorrência,
-OPP-00245,LEAD-00931,2025-06-28,2025-07-05,Negociação,14628,,23,Plano Anual Ent.,Rodrigo Lima,8,7,,
-OPP-00246,LEAD-00934,2025-03-13,2025-04-16,Negociação,3414,,68,Plano Mensal Starter,Diego Alves,3,34,,
-OPP-00247,LEAD-00953,2025-05-04,2025-05-28,Fechado Ganho,14640,13042.84,100,Plano Anual Ent.,Rodrigo Lima,2,24,,CLI-00111
-OPP-00248,LEAD-00959,2025-03-25,2025-04-06,Fechado Ganho,7998,7367.85,100,Plano Anual Pro,Carlos Mendes,3,12,,CLI-00112
-OPP-00249,LEAD-00962,2025-08-18,2025-08-28,Fechado Ganho,8850,8399.18,100,Plano Mensal Pro,Patricia Rocha,6,10,,CLI-00113
-OPP-00250,LEAD-00972,2025-10-27,2025-12-04,Proposta,14571,,64,Plano Anual Ent.,Diego Alves,6,38,,
-OPP-00251,LEAD-00974,2025-06-12,2025-07-13,Fechado Perdido,15186,,10,Plano Anual Ent.,Diego Alves,4,31,Concorrência,
-OPP-00252,LEAD-00977,2025-10-24,2025-11-24,Fechado Perdido,7827,,57,Plano Anual Pro,Rodrigo Lima,8,31,Preço,
-OPP-00253,LEAD-00982,2025-07-19,2025-08-11,Negociação,1326,,41,Consultoria Setup,Juliana Costa,3,23,,
-OPP-00254,LEAD-00984,2025-06-01,2025-06-14,Fechado Ganho,14583,13748.06,100,Plano Anual Ent.,Rodrigo Lima,2,13,,CLI-00114
-OPP-00255,LEAD-00988,2025-05-25,2025-06-23,Negociação,4204,,20,Plano Mensal Starter,Juliana Costa,9,29,,
-OPP-00256,LEAD-00990,2025-07-31,2025-08-09,Fechado Ganho,7024,7057.72,100,Plano Anual Pro,Carlos Mendes,6,9,,CLI-00115
-OPP-00257,LEAD-00991,2025-06-23,2025-07-16,Fechado Ganho,9397,8915.39,100,Plano Mensal Pro,Carlos Mendes,10,23,,CLI-00116
-OPP-00258,LEAD-00995,2025-05-06,2025-05-17,Fechado Perdido,3529,,38,Plano Mensal Starter,Rodrigo Lima,8,11,Concorrência,
-OPP-00259,LEAD-00998,2025-11-17,2025-12-22,Fechado Ganho,3664,3313.38,100,Plano Mensal Starter,Carlos Mendes,8,35,,CLI-00117
+id_oportunidade,id_lead,data_abertura,data_fechamento,estagio,valor_estimado
+OPP-00001,L-00001,2025-01-20,2025-01-28,Fechado Perdido,999.0
+OPP-00002,L-00002,2025-01-23,2025-01-31,Fechado Ganho,99.0
+OPP-00003,L-00003,2025-01-16,2025-01-24,Fechado Ganho,299.0
+OPP-00004,L-00004,2025-01-16,2025-01-24,Fechado Perdido,999.0
+OPP-00005,L-00006,2025-01-10,2025-01-18,Fechado Ganho,99.0
+OPP-00006,L-00010,2025-01-30,2025-02-07,Fechado Ganho,999.0
+OPP-00007,L-00012,2025-01-06,2025-01-14,Fechado Ganho,99.0
+OPP-00008,L-00014,2025-01-31,2025-02-08,Fechado Perdido,99.0
+OPP-00009,L-00016,2025-01-28,2025-02-05,Fechado Ganho,999.0
+OPP-00010,L-00019,2025-01-30,2025-02-07,Fechado Perdido,299.0
+OPP-00011,L-00020,2025-01-22,2025-01-30,Fechado Perdido,99.0
+OPP-00012,L-00024,2025-01-16,2025-01-24,Fechado Perdido,299.0
+OPP-00013,L-00027,2025-01-28,2025-02-05,Fechado Ganho,999.0
+OPP-00014,L-00037,2025-01-06,2025-01-14,Fechado Perdido,299.0
+OPP-00015,L-00039,2025-01-22,2025-01-30,Fechado Ganho,999.0
+OPP-00016,L-00042,2025-01-18,2025-01-26,Fechado Ganho,999.0
+OPP-00017,L-00044,2025-01-11,2025-01-19,Fechado Ganho,99.0
+OPP-00018,L-00045,2025-01-31,2025-02-08,Fechado Perdido,99.0
+OPP-00019,L-00046,2025-01-20,2025-01-28,Fechado Ganho,99.0
+OPP-00020,L-00047,2025-01-21,2025-01-29,Fechado Perdido,299.0
+OPP-00021,L-00050,2025-01-22,2025-01-30,Fechado Ganho,299.0
+OPP-00022,L-00053,2025-01-14,2025-01-22,Fechado Ganho,99.0
+OPP-00023,L-00054,2025-01-07,2025-01-15,Fechado Perdido,99.0
+OPP-00024,L-00055,2025-01-14,2025-01-22,Fechado Perdido,299.0
+OPP-00025,L-00056,2025-01-28,2025-02-05,Fechado Ganho,299.0
+OPP-00026,L-00059,2025-01-28,2025-02-05,Fechado Ganho,999.0
+OPP-00027,L-00060,2025-01-06,2025-01-14,Fechado Ganho,999.0
+OPP-00028,L-00062,2025-01-20,2025-01-28,Fechado Perdido,999.0
+OPP-00029,L-00063,2025-01-18,2025-01-26,Fechado Ganho,299.0
+OPP-00030,L-00064,2025-01-28,2025-02-05,Fechado Ganho,299.0
+OPP-00031,L-00065,2025-01-27,2025-02-04,Fechado Perdido,999.0
+OPP-00032,L-00067,2025-01-07,2025-01-15,Fechado Ganho,99.0
+OPP-00033,L-00068,2025-01-18,2025-01-26,Fechado Perdido,999.0
+OPP-00034,L-00069,2025-01-29,2025-02-06,Fechado Ganho,299.0
+OPP-00035,L-00073,2025-01-28,2025-02-05,Fechado Ganho,999.0
+OPP-00036,L-00077,2025-01-25,2025-02-02,Fechado Ganho,99.0
+OPP-00037,L-00078,2025-01-29,2025-02-06,Fechado Ganho,299.0
+OPP-00038,L-00081,2025-01-31,2025-02-08,Fechado Ganho,99.0
+OPP-00039,L-00082,2025-01-31,2025-02-08,Fechado Perdido,299.0
+OPP-00040,L-00084,2025-01-07,2025-01-15,Fechado Perdido,999.0
+OPP-00041,L-00086,2025-01-09,2025-01-17,Fechado Perdido,999.0
+OPP-00042,L-00091,2025-01-25,2025-02-02,Fechado Perdido,99.0
+OPP-00043,L-00093,2025-01-19,2025-01-27,Fechado Ganho,299.0
+OPP-00044,L-00096,2025-01-12,2025-01-20,Fechado Perdido,299.0
+OPP-00045,L-00098,2025-01-08,2025-01-16,Fechado Perdido,299.0
+OPP-00046,L-00099,2025-01-08,2025-01-16,Fechado Ganho,299.0
+OPP-00047,L-00100,2025-01-10,2025-01-18,Fechado Ganho,99.0
+OPP-00048,L-00104,2025-01-15,2025-01-23,Fechado Perdido,99.0
+OPP-00049,L-00105,2025-01-19,2025-01-27,Fechado Ganho,999.0
+OPP-00050,L-00107,2025-01-09,2025-01-17,Fechado Perdido,99.0
+OPP-00051,L-00109,2025-01-22,2025-01-30,Fechado Ganho,299.0
+OPP-00052,L-00112,2025-01-16,2025-01-24,Fechado Perdido,999.0
+OPP-00053,L-00113,2025-01-07,2025-01-15,Fechado Ganho,299.0
+OPP-00054,L-00114,2025-01-25,2025-02-02,Fechado Perdido,999.0
+OPP-00055,L-00121,2025-01-08,2025-01-16,Fechado Perdido,999.0
+OPP-00056,L-00124,2025-01-14,2025-01-22,Fechado Ganho,999.0
+OPP-00057,L-00129,2025-01-18,2025-01-26,Fechado Perdido,999.0
+OPP-00058,L-00131,2025-01-20,2025-01-28,Fechado Ganho,999.0
+OPP-00059,L-00135,2025-01-06,2025-01-14,Fechado Perdido,999.0
+OPP-00060,L-00141,2025-01-10,2025-01-18,Fechado Perdido,299.0
+OPP-00061,L-00147,2025-02-01,2025-02-09,Fechado Perdido,999.0
+OPP-00062,L-00148,2025-01-09,2025-01-17,Fechado Perdido,299.0
+OPP-00063,L-00150,2025-01-22,2025-01-30,Fechado Perdido,999.0
+OPP-00064,L-00151,2025-01-16,2025-01-24,Fechado Perdido,299.0
+OPP-00065,L-00152,2025-01-29,2025-02-06,Fechado Perdido,99.0
+OPP-00066,L-00158,2025-01-14,2025-01-22,Fechado Ganho,999.0
+OPP-00067,L-00159,2025-01-26,2025-02-03,Fechado Perdido,299.0
+OPP-00068,L-00161,2025-01-20,2025-01-28,Fechado Perdido,999.0
+OPP-00069,L-00162,2025-01-15,2025-01-23,Fechado Perdido,99.0
+OPP-00070,L-00164,2025-01-20,2025-01-28,Fechado Perdido,299.0
+OPP-00071,L-00170,2025-01-27,2025-02-04,Fechado Ganho,99.0
+OPP-00072,L-00172,2025-02-01,2025-02-09,Fechado Perdido,999.0
+OPP-00073,L-00173,2025-01-29,2025-02-06,Fechado Perdido,299.0
+OPP-00074,L-00182,2025-01-26,2025-02-03,Fechado Perdido,299.0
+OPP-00075,L-00186,2025-01-27,2025-02-04,Fechado Perdido,99.0
+OPP-00076,L-00191,2025-01-11,2025-01-19,Fechado Perdido,299.0
+OPP-00077,L-00192,2025-01-11,2025-01-19,Fechado Perdido,99.0
+OPP-00078,L-00196,2025-01-22,2025-01-30,Fechado Ganho,299.0
+OPP-00079,L-00197,2025-01-19,2025-01-27,Fechado Ganho,299.0
+OPP-00080,L-00203,2025-01-22,2025-01-30,Fechado Perdido,999.0
+OPP-00081,L-00205,2025-01-29,2025-02-06,Fechado Ganho,999.0
+OPP-00082,L-00208,2025-01-06,2025-01-14,Fechado Perdido,999.0
+OPP-00083,L-00209,2025-01-11,2025-01-19,Fechado Ganho,99.0
+OPP-00084,L-00210,2025-01-21,2025-01-29,Fechado Perdido,99.0
+OPP-00085,L-00212,2025-01-17,2025-01-25,Fechado Perdido,999.0
+OPP-00086,L-00214,2025-01-12,2025-01-20,Fechado Ganho,999.0
+OPP-00087,L-00217,2025-01-06,2025-01-14,Fechado Ganho,99.0
+OPP-00088,L-00221,2025-01-29,2025-02-06,Fechado Ganho,299.0
+OPP-00089,L-00223,2025-01-24,2025-02-01,Fechado Perdido,299.0
+OPP-00090,L-00224,2025-01-16,2025-01-24,Fechado Perdido,999.0
+OPP-00091,L-00225,2025-01-06,2025-01-14,Fechado Perdido,299.0
+OPP-00092,L-00226,2025-01-07,2025-01-15,Fechado Perdido,99.0
+OPP-00093,L-00229,2025-01-23,2025-01-31,Fechado Ganho,99.0
+OPP-00094,L-00232,2025-01-25,2025-02-02,Fechado Ganho,999.0
+OPP-00095,L-00235,2025-01-24,2025-02-01,Fechado Perdido,99.0
+OPP-00096,L-00236,2025-01-22,2025-01-30,Fechado Perdido,299.0
+OPP-00097,L-00239,2025-02-01,2025-02-09,Fechado Ganho,299.0
+OPP-00098,L-00242,2025-01-21,2025-01-29,Fechado Ganho,999.0
+OPP-00099,L-00244,2025-01-09,2025-01-17,Fechado Ganho,999.0
+OPP-00100,L-00251,2025-01-21,2025-01-29,Fechado Perdido,299.0
+OPP-00101,L-00254,2025-01-31,2025-02-08,Fechado Perdido,99.0
+OPP-00102,L-00255,2025-01-16,2025-01-24,Fechado Perdido,999.0
+OPP-00103,L-00256,2025-01-22,2025-01-30,Fechado Perdido,299.0
+OPP-00104,L-00259,2025-01-17,2025-01-25,Fechado Perdido,299.0
+OPP-00105,L-00263,2025-01-25,2025-02-02,Fechado Perdido,999.0
+OPP-00106,L-00269,2025-02-01,2025-02-09,Fechado Ganho,999.0
+OPP-00107,L-00270,2025-01-06,2025-01-14,Fechado Perdido,99.0
+OPP-00108,L-00272,2025-01-09,2025-01-17,Fechado Ganho,999.0
+OPP-00109,L-00274,2025-01-25,2025-02-02,Fechado Perdido,999.0
+OPP-00110,L-00279,2025-01-06,2025-01-14,Fechado Ganho,999.0
+OPP-00111,L-00282,2025-01-21,2025-01-29,Fechado Perdido,999.0
+OPP-00112,L-00283,2025-01-20,2025-01-28,Fechado Perdido,99.0
+OPP-00113,L-00287,2025-01-24,2025-02-01,Fechado Ganho,299.0
+OPP-00114,L-00289,2025-01-16,2025-01-24,Fechado Ganho,299.0
+OPP-00115,L-00292,2025-01-13,2025-01-21,Fechado Ganho,99.0
+OPP-00116,L-00293,2025-01-10,2025-01-18,Fechado Ganho,299.0
+OPP-00117,L-00294,2025-01-18,2025-01-26,Fechado Ganho,299.0
+OPP-00118,L-00299,2025-01-09,2025-01-17,Fechado Ganho,999.0
+OPP-00119,L-00301,2025-01-08,2025-01-16,Fechado Perdido,299.0
+OPP-00120,L-00306,2025-01-23,2025-01-31,Fechado Ganho,99.0
+OPP-00121,L-00309,2025-01-14,2025-01-22,Fechado Perdido,299.0
+OPP-00122,L-00310,2025-01-11,2025-01-19,Fechado Perdido,299.0
+OPP-00123,L-00311,2025-01-18,2025-01-26,Fechado Perdido,299.0
+OPP-00124,L-00317,2025-01-18,2025-01-26,Fechado Perdido,99.0
+OPP-00125,L-00321,2025-01-10,2025-01-18,Fechado Ganho,299.0
+OPP-00126,L-00323,2025-01-08,2025-01-16,Fechado Perdido,299.0
+OPP-00127,L-00324,2025-01-17,2025-01-25,Fechado Perdido,299.0
+OPP-00128,L-00326,2025-01-14,2025-01-22,Fechado Perdido,99.0
+OPP-00129,L-00327,2025-01-19,2025-01-27,Fechado Ganho,299.0
+OPP-00130,L-00329,2025-01-29,2025-02-06,Fechado Ganho,999.0
+OPP-00131,L-00332,2025-02-01,2025-02-09,Fechado Perdido,999.0
+OPP-00132,L-00335,2025-01-29,2025-02-06,Fechado Ganho,999.0
+OPP-00133,L-00337,2025-01-13,2025-01-21,Fechado Perdido,999.0
+OPP-00134,L-00338,2025-01-13,2025-01-21,Fechado Perdido,299.0
+OPP-00135,L-00341,2025-01-16,2025-01-24,Fechado Ganho,299.0
+OPP-00136,L-00344,2025-01-29,2025-02-06,Fechado Ganho,99.0
+OPP-00137,L-00351,2025-02-01,2025-02-09,Fechado Ganho,999.0
+OPP-00138,L-00353,2025-01-30,2025-02-07,Fechado Ganho,99.0
+OPP-00139,L-00356,2025-01-30,2025-02-07,Fechado Perdido,299.0
+OPP-00140,L-00357,2025-01-15,2025-01-23,Fechado Ganho,299.0
+OPP-00141,L-00358,2025-01-08,2025-01-16,Fechado Ganho,999.0
+OPP-00142,L-00360,2025-01-09,2025-01-17,Fechado Ganho,999.0
+OPP-00143,L-00361,2025-01-07,2025-01-15,Fechado Perdido,99.0
+OPP-00144,L-00362,2025-01-23,2025-01-31,Fechado Perdido,99.0
+OPP-00145,L-00364,2025-01-31,2025-02-08,Fechado Perdido,299.0
+OPP-00146,L-00367,2025-01-28,2025-02-05,Fechado Ganho,999.0
+OPP-00147,L-00369,2025-01-17,2025-01-25,Fechado Perdido,99.0
+OPP-00148,L-00375,2025-01-07,2025-01-15,Fechado Ganho,999.0
+OPP-00149,L-00378,2025-01-13,2025-01-21,Fechado Perdido,999.0
+OPP-00150,L-00379,2025-01-30,2025-02-07,Fechado Ganho,299.0
+OPP-00151,L-00380,2025-01-29,2025-02-06,Fechado Ganho,999.0
+OPP-00152,L-00381,2025-01-14,2025-01-22,Fechado Perdido,299.0
+OPP-00153,L-00383,2025-01-23,2025-01-31,Fechado Perdido,999.0
+OPP-00154,L-00387,2025-02-14,2025-02-22,Fechado Perdido,299.0
+OPP-00155,L-00392,2025-02-03,2025-02-11,Fechado Ganho,299.0
+OPP-00156,L-00393,2025-02-06,2025-02-14,Fechado Perdido,299.0
+OPP-00157,L-00394,2025-02-13,2025-02-21,Fechado Ganho,299.0
+OPP-00158,L-00396,2025-02-12,2025-02-20,Fechado Perdido,999.0
+OPP-00159,L-00397,2025-02-10,2025-02-18,Fechado Perdido,99.0
+OPP-00160,L-00401,2025-02-13,2025-02-21,Fechado Perdido,999.0
+OPP-00161,L-00410,2025-02-25,2025-03-05,Fechado Perdido,99.0
+OPP-00162,L-00411,2025-02-19,2025-02-27,Fechado Ganho,999.0
+OPP-00163,L-00412,2025-02-06,2025-02-14,Fechado Ganho,299.0
+OPP-00164,L-00413,2025-02-22,2025-03-02,Fechado Ganho,299.0
+OPP-00165,L-00414,2025-02-28,2025-03-08,Fechado Ganho,299.0
+OPP-00166,L-00416,2025-02-15,2025-02-23,Fechado Ganho,99.0
+OPP-00167,L-00417,2025-02-08,2025-02-16,Fechado Perdido,299.0
+OPP-00168,L-00420,2025-02-15,2025-02-23,Fechado Perdido,99.0
+OPP-00169,L-00421,2025-03-01,2025-03-09,Fechado Perdido,999.0
+OPP-00170,L-00424,2025-02-16,2025-02-24,Fechado Perdido,299.0
+OPP-00171,L-00427,2025-02-05,2025-02-13,Fechado Perdido,99.0
+OPP-00172,L-00434,2025-02-13,2025-02-21,Fechado Perdido,99.0
+OPP-00173,L-00443,2025-02-11,2025-02-19,Fechado Ganho,99.0
+OPP-00174,L-00444,2025-02-05,2025-02-13,Fechado Perdido,99.0
+OPP-00175,L-00446,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00176,L-00447,2025-02-16,2025-02-24,Fechado Perdido,299.0
+OPP-00177,L-00449,2025-02-25,2025-03-05,Fechado Ganho,99.0
+OPP-00178,L-00450,2025-02-17,2025-02-25,Fechado Perdido,999.0
+OPP-00179,L-00452,2025-02-23,2025-03-03,Fechado Perdido,99.0
+OPP-00180,L-00454,2025-02-21,2025-03-01,Fechado Perdido,299.0
+OPP-00181,L-00455,2025-02-08,2025-02-16,Fechado Ganho,99.0
+OPP-00182,L-00456,2025-02-08,2025-02-16,Fechado Ganho,999.0
+OPP-00183,L-00457,2025-02-28,2025-03-08,Fechado Perdido,99.0
+OPP-00184,L-00458,2025-02-21,2025-03-01,Fechado Perdido,999.0
+OPP-00185,L-00462,2025-02-23,2025-03-03,Fechado Perdido,999.0
+OPP-00186,L-00464,2025-02-15,2025-02-23,Fechado Perdido,999.0
+OPP-00187,L-00468,2025-02-15,2025-02-23,Fechado Perdido,299.0
+OPP-00188,L-00471,2025-02-19,2025-02-27,Fechado Perdido,299.0
+OPP-00189,L-00472,2025-02-21,2025-03-01,Fechado Perdido,999.0
+OPP-00190,L-00475,2025-03-01,2025-03-09,Fechado Ganho,999.0
+OPP-00191,L-00476,2025-02-28,2025-03-08,Fechado Ganho,99.0
+OPP-00192,L-00477,2025-02-14,2025-02-22,Fechado Perdido,99.0
+OPP-00193,L-00478,2025-02-15,2025-02-23,Fechado Perdido,99.0
+OPP-00194,L-00479,2025-02-17,2025-02-25,Fechado Ganho,299.0
+OPP-00195,L-00480,2025-02-04,2025-02-12,Fechado Ganho,299.0
+OPP-00196,L-00482,2025-02-15,2025-02-23,Fechado Perdido,299.0
+OPP-00197,L-00486,2025-02-14,2025-02-22,Fechado Ganho,299.0
+OPP-00198,L-00487,2025-02-21,2025-03-01,Fechado Perdido,99.0
+OPP-00199,L-00490,2025-03-01,2025-03-09,Fechado Ganho,999.0
+OPP-00200,L-00491,2025-02-11,2025-02-19,Fechado Ganho,999.0
+OPP-00201,L-00494,2025-02-14,2025-02-22,Fechado Ganho,299.0
+OPP-00202,L-00497,2025-02-13,2025-02-21,Fechado Perdido,299.0
+OPP-00203,L-00498,2025-02-17,2025-02-25,Fechado Perdido,999.0
+OPP-00204,L-00500,2025-02-28,2025-03-08,Fechado Perdido,299.0
+OPP-00205,L-00501,2025-02-17,2025-02-25,Fechado Perdido,99.0
+OPP-00206,L-00502,2025-02-17,2025-02-25,Fechado Ganho,999.0
+OPP-00207,L-00504,2025-02-03,2025-02-11,Fechado Ganho,99.0
+OPP-00208,L-00506,2025-02-05,2025-02-13,Fechado Ganho,999.0
+OPP-00209,L-00511,2025-02-17,2025-02-25,Fechado Ganho,99.0
+OPP-00210,L-00515,2025-02-14,2025-02-22,Fechado Ganho,299.0
+OPP-00211,L-00518,2025-02-25,2025-03-05,Fechado Perdido,999.0
+OPP-00212,L-00519,2025-02-09,2025-02-17,Fechado Ganho,299.0
+OPP-00213,L-00520,2025-02-03,2025-02-11,Fechado Perdido,99.0
+OPP-00214,L-00522,2025-02-18,2025-02-26,Fechado Ganho,299.0
+OPP-00215,L-00523,2025-02-07,2025-02-15,Fechado Perdido,999.0
+OPP-00216,L-00524,2025-02-12,2025-02-20,Fechado Ganho,999.0
+OPP-00217,L-00525,2025-02-15,2025-02-23,Fechado Perdido,99.0
+OPP-00218,L-00527,2025-02-24,2025-03-04,Fechado Perdido,99.0
+OPP-00219,L-00530,2025-02-17,2025-02-25,Fechado Ganho,299.0
+OPP-00220,L-00533,2025-02-09,2025-02-17,Fechado Ganho,999.0
+OPP-00221,L-00535,2025-02-25,2025-03-05,Fechado Ganho,299.0
+OPP-00222,L-00537,2025-02-22,2025-03-02,Fechado Ganho,299.0
+OPP-00223,L-00540,2025-02-19,2025-02-27,Fechado Ganho,99.0
+OPP-00224,L-00542,2025-02-14,2025-02-22,Fechado Perdido,299.0
+OPP-00225,L-00543,2025-02-17,2025-02-25,Fechado Ganho,999.0
+OPP-00226,L-00548,2025-02-07,2025-02-15,Fechado Perdido,999.0
+OPP-00227,L-00550,2025-02-19,2025-02-27,Fechado Ganho,299.0
+OPP-00228,L-00554,2025-02-26,2025-03-06,Fechado Perdido,999.0
+OPP-00229,L-00556,2025-02-19,2025-02-27,Fechado Ganho,99.0
+OPP-00230,L-00557,2025-02-03,2025-02-11,Fechado Ganho,299.0
+OPP-00231,L-00563,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00232,L-00565,2025-02-09,2025-02-17,Fechado Ganho,299.0
+OPP-00233,L-00566,2025-02-26,2025-03-06,Fechado Ganho,999.0
+OPP-00234,L-00570,2025-02-04,2025-02-12,Fechado Ganho,999.0
+OPP-00235,L-00571,2025-02-19,2025-02-27,Fechado Perdido,99.0
+OPP-00236,L-00574,2025-02-22,2025-03-02,Fechado Perdido,99.0
+OPP-00237,L-00577,2025-02-13,2025-02-21,Fechado Ganho,99.0
+OPP-00238,L-00578,2025-02-14,2025-02-22,Fechado Ganho,99.0
+OPP-00239,L-00579,2025-02-07,2025-02-15,Fechado Ganho,299.0
+OPP-00240,L-00582,2025-02-19,2025-02-27,Fechado Ganho,299.0
+OPP-00241,L-00584,2025-02-27,2025-03-07,Fechado Ganho,999.0
+OPP-00242,L-00585,2025-02-18,2025-02-26,Fechado Ganho,999.0
+OPP-00243,L-00592,2025-02-04,2025-02-12,Fechado Ganho,999.0
+OPP-00244,L-00593,2025-02-06,2025-02-14,Fechado Perdido,99.0
+OPP-00245,L-00595,2025-02-08,2025-02-16,Fechado Perdido,99.0
+OPP-00246,L-00597,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00247,L-00598,2025-02-19,2025-02-27,Fechado Perdido,999.0
+OPP-00248,L-00600,2025-02-25,2025-03-05,Fechado Ganho,299.0
+OPP-00249,L-00604,2025-02-20,2025-02-28,Fechado Perdido,999.0
+OPP-00250,L-00607,2025-02-28,2025-03-08,Fechado Ganho,99.0
+OPP-00251,L-00608,2025-02-07,2025-02-15,Fechado Perdido,299.0
+OPP-00252,L-00613,2025-02-22,2025-03-02,Fechado Ganho,299.0
+OPP-00253,L-00616,2025-02-27,2025-03-07,Fechado Perdido,299.0
+OPP-00254,L-00617,2025-02-14,2025-02-22,Fechado Perdido,299.0
+OPP-00255,L-00618,2025-02-12,2025-02-20,Fechado Perdido,99.0
+OPP-00256,L-00621,2025-02-23,2025-03-03,Fechado Perdido,99.0
+OPP-00257,L-00622,2025-02-26,2025-03-06,Fechado Ganho,999.0
+OPP-00258,L-00623,2025-02-23,2025-03-03,Fechado Perdido,999.0
+OPP-00259,L-00632,2025-02-27,2025-03-07,Fechado Perdido,99.0
+OPP-00260,L-00634,2025-02-17,2025-02-25,Fechado Perdido,99.0
+OPP-00261,L-00635,2025-02-08,2025-02-16,Fechado Ganho,999.0
+OPP-00262,L-00637,2025-02-25,2025-03-05,Fechado Ganho,299.0
+OPP-00263,L-00638,2025-02-09,2025-02-17,Fechado Ganho,99.0
+OPP-00264,L-00640,2025-02-08,2025-02-16,Fechado Perdido,99.0
+OPP-00265,L-00641,2025-02-26,2025-03-06,Fechado Perdido,999.0
+OPP-00266,L-00644,2025-02-15,2025-02-23,Fechado Perdido,299.0
+OPP-00267,L-00650,2025-02-12,2025-02-20,Fechado Perdido,299.0
+OPP-00268,L-00651,2025-02-03,2025-02-11,Fechado Ganho,99.0
+OPP-00269,L-00654,2025-02-09,2025-02-17,Fechado Perdido,299.0
+OPP-00270,L-00655,2025-02-14,2025-02-22,Fechado Perdido,99.0
+OPP-00271,L-00657,2025-02-13,2025-02-21,Fechado Ganho,299.0
+OPP-00272,L-00659,2025-02-10,2025-02-18,Fechado Perdido,999.0
+OPP-00273,L-00660,2025-02-21,2025-03-01,Fechado Perdido,999.0
+OPP-00274,L-00662,2025-02-15,2025-02-23,Fechado Ganho,99.0
+OPP-00275,L-00663,2025-02-19,2025-02-27,Fechado Perdido,299.0
+OPP-00276,L-00664,2025-02-28,2025-03-08,Fechado Perdido,999.0
+OPP-00277,L-00665,2025-02-14,2025-02-22,Fechado Perdido,99.0
+OPP-00278,L-00668,2025-02-18,2025-02-26,Fechado Ganho,999.0
+OPP-00279,L-00669,2025-02-19,2025-02-27,Fechado Ganho,299.0
+OPP-00280,L-00672,2025-02-08,2025-02-16,Fechado Perdido,299.0
+OPP-00281,L-00676,2025-02-27,2025-03-07,Fechado Ganho,999.0
+OPP-00282,L-00677,2025-02-28,2025-03-08,Fechado Perdido,99.0
+OPP-00283,L-00679,2025-02-07,2025-02-15,Fechado Perdido,299.0
+OPP-00284,L-00683,2025-02-26,2025-03-06,Fechado Perdido,999.0
+OPP-00285,L-00684,2025-02-08,2025-02-16,Fechado Ganho,99.0
+OPP-00286,L-00687,2025-02-13,2025-02-21,Fechado Ganho,999.0
+OPP-00287,L-00690,2025-02-07,2025-02-15,Fechado Ganho,299.0
+OPP-00288,L-00691,2025-02-04,2025-02-12,Fechado Perdido,999.0
+OPP-00289,L-00693,2025-02-22,2025-03-02,Fechado Ganho,99.0
+OPP-00290,L-00695,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00291,L-00696,2025-02-12,2025-02-20,Fechado Perdido,999.0
+OPP-00292,L-00701,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00293,L-00703,2025-02-07,2025-02-15,Fechado Ganho,999.0
+OPP-00294,L-00704,2025-02-04,2025-02-12,Fechado Perdido,999.0
+OPP-00295,L-00705,2025-02-09,2025-02-17,Fechado Ganho,299.0
+OPP-00296,L-00708,2025-02-04,2025-02-12,Fechado Perdido,999.0
+OPP-00297,L-00709,2025-02-25,2025-03-05,Fechado Perdido,299.0
+OPP-00298,L-00712,2025-02-19,2025-02-27,Fechado Ganho,299.0
+OPP-00299,L-00720,2025-02-22,2025-03-02,Fechado Ganho,99.0
+OPP-00300,L-00724,2025-02-11,2025-02-19,Fechado Ganho,999.0
+OPP-00301,L-00729,2025-02-08,2025-02-16,Fechado Ganho,299.0
+OPP-00302,L-00732,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00303,L-00733,2025-02-08,2025-02-16,Fechado Perdido,299.0
+OPP-00304,L-00743,2025-02-09,2025-02-17,Fechado Perdido,999.0
+OPP-00305,L-00747,2025-02-24,2025-03-04,Fechado Perdido,999.0
+OPP-00306,L-00748,2025-02-27,2025-03-07,Fechado Ganho,999.0
+OPP-00307,L-00750,2025-02-06,2025-02-14,Fechado Perdido,99.0
+OPP-00308,L-00751,2025-02-27,2025-03-07,Fechado Ganho,99.0
+OPP-00309,L-00753,2025-02-15,2025-02-23,Fechado Perdido,299.0
+OPP-00310,L-00755,2025-02-04,2025-02-12,Fechado Ganho,999.0
+OPP-00311,L-00757,2025-02-23,2025-03-03,Fechado Perdido,99.0
+OPP-00312,L-00760,2025-02-15,2025-02-23,Fechado Perdido,999.0
+OPP-00313,L-00761,2025-02-11,2025-02-19,Fechado Perdido,299.0
+OPP-00314,L-00768,2025-02-11,2025-02-19,Fechado Ganho,999.0
+OPP-00315,L-00769,2025-02-14,2025-02-22,Fechado Ganho,999.0
+OPP-00316,L-00770,2025-02-28,2025-03-08,Fechado Perdido,99.0
+OPP-00317,L-00773,2025-02-06,2025-02-14,Fechado Perdido,99.0
+OPP-00318,L-00776,2025-02-23,2025-03-03,Fechado Ganho,999.0
+OPP-00319,L-00779,2025-02-24,2025-03-04,Fechado Perdido,999.0
+OPP-00320,L-00780,2025-02-06,2025-02-14,Fechado Perdido,299.0
+OPP-00321,L-00781,2025-02-04,2025-02-12,Fechado Ganho,99.0
+OPP-00322,L-00782,2025-02-03,2025-02-11,Fechado Ganho,999.0
+OPP-00323,L-00783,2025-02-25,2025-03-05,Fechado Perdido,999.0
+OPP-00324,L-00792,2025-02-14,2025-02-22,Fechado Ganho,299.0
+OPP-00325,L-00794,2025-02-11,2025-02-19,Fechado Ganho,299.0
+OPP-00326,L-00796,2025-02-05,2025-02-13,Fechado Perdido,99.0
+OPP-00327,L-00797,2025-02-16,2025-02-24,Fechado Perdido,99.0
+OPP-00328,L-00799,2025-02-10,2025-02-18,Fechado Perdido,99.0
+OPP-00329,L-00801,2025-02-28,2025-03-08,Fechado Perdido,999.0
+OPP-00330,L-00803,2025-02-27,2025-03-07,Fechado Ganho,299.0
+OPP-00331,L-00804,2025-02-23,2025-03-03,Fechado Ganho,999.0
+OPP-00332,L-00806,2025-02-12,2025-02-20,Fechado Perdido,299.0
+OPP-00333,L-00809,2025-02-03,2025-02-11,Fechado Ganho,299.0
+OPP-00334,L-00811,2025-02-26,2025-03-06,Fechado Perdido,999.0
+OPP-00335,L-00812,2025-02-23,2025-03-03,Fechado Perdido,999.0
+OPP-00336,L-00814,2025-02-28,2025-03-08,Fechado Perdido,999.0
+OPP-00337,L-00818,2025-02-03,2025-02-11,Fechado Perdido,999.0
+OPP-00338,L-00822,2025-02-15,2025-02-23,Fechado Ganho,299.0
+OPP-00339,L-00823,2025-02-22,2025-03-02,Fechado Ganho,299.0
+OPP-00340,L-00826,2025-02-25,2025-03-05,Fechado Perdido,999.0
+OPP-00341,L-00827,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00342,L-00832,2025-02-17,2025-02-25,Fechado Ganho,299.0
+OPP-00343,L-00844,2025-02-07,2025-02-15,Fechado Perdido,99.0
+OPP-00344,L-00845,2025-02-10,2025-02-18,Fechado Perdido,999.0
+OPP-00345,L-00846,2025-03-27,2025-04-04,Fechado Ganho,99.0
+OPP-00346,L-00848,2025-03-10,2025-03-18,Fechado Ganho,299.0
+OPP-00347,L-00849,2025-03-13,2025-03-21,Fechado Ganho,999.0
+OPP-00348,L-00850,2025-03-29,2025-04-06,Fechado Perdido,999.0
+OPP-00349,L-00853,2025-03-28,2025-04-05,Fechado Perdido,99.0
+OPP-00350,L-00855,2025-03-10,2025-03-18,Fechado Perdido,999.0
+OPP-00351,L-00857,2025-03-28,2025-04-05,Fechado Perdido,999.0
+OPP-00352,L-00859,2025-03-07,2025-03-15,Fechado Ganho,99.0
+OPP-00353,L-00860,2025-03-24,2025-04-01,Fechado Perdido,999.0
+OPP-00354,L-00861,2025-03-23,2025-03-31,Fechado Perdido,299.0
+OPP-00355,L-00862,2025-03-26,2025-04-03,Fechado Ganho,999.0
+OPP-00356,L-00863,2025-03-14,2025-03-22,Fechado Ganho,299.0
+OPP-00357,L-00864,2025-04-01,2025-04-09,Fechado Ganho,999.0
+OPP-00358,L-00865,2025-03-12,2025-03-20,Fechado Perdido,299.0
+OPP-00359,L-00866,2025-03-23,2025-03-31,Fechado Ganho,999.0
+OPP-00360,L-00867,2025-03-06,2025-03-14,Fechado Perdido,299.0
+OPP-00361,L-00868,2025-03-16,2025-03-24,Fechado Perdido,999.0
+OPP-00362,L-00869,2025-03-11,2025-03-19,Fechado Ganho,999.0
+OPP-00363,L-00871,2025-03-23,2025-03-31,Fechado Perdido,999.0
+OPP-00364,L-00872,2025-03-23,2025-03-31,Fechado Ganho,99.0
+OPP-00365,L-00875,2025-03-20,2025-03-28,Fechado Perdido,299.0
+OPP-00366,L-00877,2025-03-08,2025-03-16,Fechado Ganho,299.0
+OPP-00367,L-00880,2025-03-17,2025-03-25,Fechado Perdido,999.0
+OPP-00368,L-00881,2025-03-13,2025-03-21,Fechado Perdido,99.0
+OPP-00369,L-00884,2025-04-01,2025-04-09,Fechado Ganho,999.0
+OPP-00370,L-00886,2025-03-09,2025-03-17,Fechado Perdido,299.0
+OPP-00371,L-00888,2025-03-23,2025-03-31,Fechado Ganho,999.0
+OPP-00372,L-00892,2025-03-27,2025-04-04,Fechado Perdido,299.0
+OPP-00373,L-00895,2025-03-29,2025-04-06,Fechado Perdido,299.0
+OPP-00374,L-00898,2025-03-17,2025-03-25,Fechado Ganho,999.0
+OPP-00375,L-00900,2025-03-29,2025-04-06,Fechado Perdido,999.0
+OPP-00376,L-00904,2025-03-30,2025-04-07,Fechado Perdido,299.0
+OPP-00377,L-00905,2025-03-10,2025-03-18,Fechado Ganho,299.0
+OPP-00378,L-00907,2025-03-27,2025-04-04,Fechado Ganho,99.0
+OPP-00379,L-00909,2025-03-06,2025-03-14,Fechado Ganho,999.0
+OPP-00380,L-00911,2025-03-16,2025-03-24,Fechado Perdido,299.0
+OPP-00381,L-00912,2025-03-14,2025-03-22,Fechado Ganho,299.0
+OPP-00382,L-00913,2025-03-10,2025-03-18,Fechado Ganho,999.0
+OPP-00383,L-00916,2025-03-28,2025-04-05,Fechado Ganho,99.0
+OPP-00384,L-00919,2025-03-11,2025-03-19,Fechado Ganho,999.0
+OPP-00385,L-00921,2025-03-31,2025-04-08,Fechado Ganho,299.0
+OPP-00386,L-00923,2025-03-28,2025-04-05,Fechado Ganho,99.0
+OPP-00387,L-00924,2025-03-27,2025-04-04,Fechado Perdido,99.0
+OPP-00388,L-00925,2025-03-06,2025-03-14,Fechado Ganho,99.0
+OPP-00389,L-00931,2025-03-18,2025-03-26,Fechado Perdido,299.0
+OPP-00390,L-00932,2025-03-10,2025-03-18,Fechado Ganho,999.0
+OPP-00391,L-00937,2025-03-22,2025-03-30,Fechado Perdido,99.0
+OPP-00392,L-00939,2025-03-29,2025-04-06,Fechado Ganho,99.0
+OPP-00393,L-00941,2025-03-19,2025-03-27,Fechado Perdido,999.0
+OPP-00394,L-00944,2025-03-17,2025-03-25,Fechado Ganho,999.0
+OPP-00395,L-00946,2025-03-13,2025-03-21,Fechado Ganho,99.0
+OPP-00396,L-00950,2025-03-20,2025-03-28,Fechado Ganho,99.0
+OPP-00397,L-00952,2025-03-08,2025-03-16,Fechado Perdido,299.0
+OPP-00398,L-00953,2025-03-11,2025-03-19,Fechado Ganho,99.0
+OPP-00399,L-00955,2025-03-16,2025-03-24,Fechado Ganho,299.0
+OPP-00400,L-00956,2025-03-09,2025-03-17,Fechado Ganho,99.0
+OPP-00401,L-00957,2025-03-13,2025-03-21,Fechado Ganho,999.0
+OPP-00402,L-00960,2025-03-13,2025-03-21,Fechado Ganho,99.0
+OPP-00403,L-00961,2025-03-17,2025-03-25,Fechado Perdido,99.0
+OPP-00404,L-00963,2025-03-18,2025-03-26,Fechado Ganho,99.0
+OPP-00405,L-00968,2025-03-15,2025-03-23,Fechado Perdido,999.0
+OPP-00406,L-00970,2025-03-12,2025-03-20,Fechado Perdido,999.0
+OPP-00407,L-00973,2025-03-07,2025-03-15,Fechado Perdido,999.0
+OPP-00408,L-00975,2025-03-10,2025-03-18,Fechado Ganho,999.0
+OPP-00409,L-00980,2025-03-31,2025-04-08,Fechado Perdido,999.0
+OPP-00410,L-00986,2025-03-15,2025-03-23,Fechado Ganho,299.0
+OPP-00411,L-00987,2025-03-28,2025-04-05,Fechado Ganho,999.0
+OPP-00412,L-00988,2025-03-31,2025-04-08,Fechado Perdido,999.0
+OPP-00413,L-00991,2025-03-31,2025-04-08,Fechado Ganho,999.0
+OPP-00414,L-00994,2025-03-16,2025-03-24,Fechado Ganho,99.0
+OPP-00415,L-00996,2025-03-18,2025-03-26,Fechado Ganho,999.0
+OPP-00416,L-00998,2025-03-10,2025-03-18,Fechado Perdido,299.0
+OPP-00417,L-01001,2025-03-30,2025-04-07,Fechado Ganho,999.0
+OPP-00418,L-01003,2025-03-08,2025-03-16,Fechado Perdido,999.0
+OPP-00419,L-01005,2025-03-07,2025-03-15,Fechado Ganho,99.0
+OPP-00420,L-01006,2025-03-18,2025-03-26,Fechado Perdido,999.0
+OPP-00421,L-01007,2025-03-28,2025-04-05,Fechado Ganho,999.0
+OPP-00422,L-01008,2025-03-08,2025-03-16,Fechado Ganho,999.0
+OPP-00423,L-01009,2025-03-31,2025-04-08,Fechado Perdido,299.0
+OPP-00424,L-01010,2025-03-17,2025-03-25,Fechado Ganho,299.0
+OPP-00425,L-01017,2025-03-23,2025-03-31,Fechado Ganho,999.0
+OPP-00426,L-01018,2025-03-26,2025-04-03,Fechado Ganho,999.0
+OPP-00427,L-01019,2025-03-21,2025-03-29,Fechado Ganho,999.0
+OPP-00428,L-01021,2025-03-25,2025-04-02,Fechado Perdido,999.0
+OPP-00429,L-01024,2025-03-20,2025-03-28,Fechado Ganho,999.0
+OPP-00430,L-01027,2025-03-14,2025-03-22,Fechado Perdido,999.0
+OPP-00431,L-01028,2025-03-10,2025-03-18,Fechado Ganho,299.0
+OPP-00432,L-01029,2025-03-15,2025-03-23,Fechado Perdido,299.0
+OPP-00433,L-01030,2025-03-10,2025-03-18,Fechado Perdido,999.0
+OPP-00434,L-01033,2025-03-12,2025-03-20,Fechado Ganho,99.0
+OPP-00435,L-01040,2025-03-17,2025-03-25,Fechado Perdido,299.0
+OPP-00436,L-01041,2025-03-13,2025-03-21,Fechado Ganho,99.0
+OPP-00437,L-01043,2025-03-13,2025-03-21,Fechado Ganho,99.0
+OPP-00438,L-01044,2025-03-27,2025-04-04,Fechado Ganho,999.0
+OPP-00439,L-01045,2025-03-25,2025-04-02,Fechado Ganho,299.0
+OPP-00440,L-01049,2025-03-13,2025-03-21,Fechado Ganho,299.0
+OPP-00441,L-01050,2025-03-10,2025-03-18,Fechado Perdido,99.0
+OPP-00442,L-01053,2025-03-17,2025-03-25,Fechado Ganho,299.0
+OPP-00443,L-01055,2025-03-25,2025-04-02,Fechado Perdido,999.0
+OPP-00444,L-01057,2025-03-15,2025-03-23,Fechado Perdido,299.0
+OPP-00445,L-01059,2025-03-08,2025-03-16,Fechado Ganho,999.0
+OPP-00446,L-01061,2025-03-08,2025-03-16,Fechado Perdido,299.0
+OPP-00447,L-01063,2025-03-15,2025-03-23,Fechado Perdido,99.0
+OPP-00448,L-01065,2025-03-13,2025-03-21,Fechado Ganho,999.0
+OPP-00449,L-01066,2025-03-24,2025-04-01,Fechado Ganho,299.0
+OPP-00450,L-01067,2025-03-15,2025-03-23,Fechado Ganho,999.0
+OPP-00451,L-01072,2025-03-30,2025-04-07,Fechado Perdido,299.0
+OPP-00452,L-01073,2025-03-17,2025-03-25,Fechado Ganho,99.0
+OPP-00453,L-01074,2025-03-24,2025-04-01,Fechado Perdido,99.0
+OPP-00454,L-01080,2025-03-20,2025-03-28,Fechado Ganho,999.0
+OPP-00455,L-01087,2025-03-20,2025-03-28,Fechado Ganho,299.0
+OPP-00456,L-01090,2025-03-30,2025-04-07,Fechado Ganho,99.0
+OPP-00457,L-01096,2025-03-17,2025-03-25,Fechado Ganho,299.0
+OPP-00458,L-01097,2025-03-18,2025-03-26,Fechado Perdido,299.0
+OPP-00459,L-01102,2025-03-10,2025-03-18,Fechado Ganho,299.0
+OPP-00460,L-01105,2025-03-26,2025-04-03,Fechado Ganho,299.0
+OPP-00461,L-01107,2025-03-15,2025-03-23,Fechado Ganho,99.0
+OPP-00462,L-01119,2025-03-19,2025-03-27,Fechado Perdido,299.0
+OPP-00463,L-01120,2025-03-09,2025-03-17,Fechado Perdido,999.0
+OPP-00464,L-01121,2025-03-22,2025-03-30,Fechado Perdido,299.0
+OPP-00465,L-01124,2025-03-31,2025-04-08,Fechado Ganho,299.0
+OPP-00466,L-01126,2025-03-09,2025-03-17,Fechado Ganho,99.0
+OPP-00467,L-01127,2025-03-30,2025-04-07,Fechado Ganho,999.0
+OPP-00468,L-01128,2025-03-16,2025-03-24,Fechado Ganho,999.0
+OPP-00469,L-01131,2025-03-25,2025-04-02,Fechado Ganho,99.0
+OPP-00470,L-01135,2025-03-25,2025-04-02,Fechado Ganho,999.0
+OPP-00471,L-01137,2025-03-28,2025-04-05,Fechado Ganho,99.0
+OPP-00472,L-01145,2025-03-13,2025-03-21,Fechado Ganho,299.0
+OPP-00473,L-01148,2025-03-11,2025-03-19,Fechado Ganho,99.0
+OPP-00474,L-01149,2025-03-06,2025-03-14,Fechado Ganho,999.0
+OPP-00475,L-01151,2025-03-23,2025-03-31,Fechado Ganho,999.0
+OPP-00476,L-01152,2025-03-15,2025-03-23,Fechado Perdido,299.0
+OPP-00477,L-01158,2025-03-26,2025-04-03,Fechado Ganho,99.0
+OPP-00478,L-01165,2025-03-26,2025-04-03,Fechado Ganho,299.0
+OPP-00479,L-01169,2025-03-07,2025-03-15,Fechado Perdido,299.0
+OPP-00480,L-01171,2025-03-24,2025-04-01,Fechado Perdido,999.0
+OPP-00481,L-01181,2025-03-09,2025-03-17,Fechado Perdido,99.0
+OPP-00482,L-01184,2025-03-25,2025-04-02,Fechado Ganho,299.0
+OPP-00483,L-01185,2025-03-14,2025-03-22,Fechado Ganho,999.0
+OPP-00484,L-01188,2025-03-12,2025-03-20,Fechado Perdido,299.0
+OPP-00485,L-01191,2025-04-01,2025-04-09,Fechado Perdido,99.0
+OPP-00486,L-01193,2025-04-01,2025-04-09,Fechado Perdido,999.0
+OPP-00487,L-01194,2025-03-06,2025-03-14,Fechado Perdido,999.0
+OPP-00488,L-01197,2025-03-17,2025-03-25,Fechado Ganho,99.0
+OPP-00489,L-01199,2025-03-31,2025-04-08,Fechado Ganho,999.0
+OPP-00490,L-01200,2025-03-24,2025-04-01,Fechado Ganho,999.0
+OPP-00491,L-01202,2025-03-26,2025-04-03,Fechado Perdido,99.0
+OPP-00492,L-01206,2025-03-07,2025-03-15,Fechado Ganho,999.0
+OPP-00493,L-01208,2025-03-26,2025-04-03,Fechado Perdido,299.0
+OPP-00494,L-01209,2025-03-30,2025-04-07,Fechado Perdido,299.0
+OPP-00495,L-01210,2025-03-07,2025-03-15,Fechado Ganho,99.0
+OPP-00496,L-01212,2025-04-01,2025-04-09,Fechado Perdido,299.0
+OPP-00497,L-01213,2025-03-23,2025-03-31,Fechado Ganho,99.0
+OPP-00498,L-01217,2025-04-25,2025-05-03,Fechado Ganho,999.0
+OPP-00499,L-01218,2025-04-19,2025-04-27,Fechado Perdido,99.0
+OPP-00500,L-01219,2025-04-08,2025-04-16,Fechado Perdido,299.0
+OPP-00501,L-01224,2025-04-15,2025-04-23,Fechado Perdido,99.0
+OPP-00502,L-01226,2025-04-27,2025-05-05,Fechado Perdido,99.0
+OPP-00503,L-01228,2025-04-30,2025-05-08,Fechado Ganho,99.0
+OPP-00504,L-01231,2025-04-16,2025-04-24,Fechado Ganho,99.0
+OPP-00505,L-01237,2025-04-21,2025-04-29,Fechado Ganho,99.0
+OPP-00506,L-01241,2025-04-20,2025-04-28,Fechado Ganho,999.0
+OPP-00507,L-01243,2025-04-12,2025-04-20,Fechado Ganho,99.0
+OPP-00508,L-01244,2025-04-10,2025-04-18,Fechado Perdido,299.0
+OPP-00509,L-01245,2025-05-01,2025-05-09,Fechado Ganho,999.0
+OPP-00510,L-01246,2025-04-06,2025-04-14,Fechado Ganho,999.0
+OPP-00511,L-01248,2025-04-18,2025-04-26,Fechado Perdido,999.0
+OPP-00512,L-01253,2025-04-25,2025-05-03,Fechado Ganho,99.0
+OPP-00513,L-01254,2025-04-06,2025-04-14,Fechado Ganho,999.0
+OPP-00514,L-01257,2025-04-09,2025-04-17,Fechado Ganho,299.0
+OPP-00515,L-01258,2025-04-10,2025-04-18,Fechado Ganho,99.0
+OPP-00516,L-01260,2025-04-26,2025-05-04,Fechado Ganho,299.0
+OPP-00517,L-01264,2025-04-23,2025-05-01,Fechado Ganho,99.0
+OPP-00518,L-01266,2025-04-20,2025-04-28,Fechado Perdido,99.0
+OPP-00519,L-01273,2025-04-22,2025-04-30,Fechado Perdido,999.0
+OPP-00520,L-01275,2025-04-15,2025-04-23,Fechado Ganho,299.0
+OPP-00521,L-01277,2025-04-15,2025-04-23,Fechado Perdido,299.0
+OPP-00522,L-01280,2025-04-26,2025-05-04,Fechado Ganho,99.0
+OPP-00523,L-01281,2025-04-28,2025-05-06,Fechado Perdido,99.0
+OPP-00524,L-01283,2025-04-20,2025-04-28,Fechado Perdido,99.0
+OPP-00525,L-01290,2025-04-11,2025-04-19,Fechado Ganho,99.0
+OPP-00526,L-01291,2025-04-06,2025-04-14,Fechado Ganho,99.0
+OPP-00527,L-01294,2025-04-05,2025-04-13,Fechado Ganho,299.0
+OPP-00528,L-01295,2025-04-09,2025-04-17,Fechado Perdido,999.0
+OPP-00529,L-01296,2025-04-25,2025-05-03,Fechado Ganho,999.0
+OPP-00530,L-01297,2025-04-12,2025-04-20,Fechado Ganho,299.0
+OPP-00531,L-01298,2025-04-24,2025-05-02,Fechado Ganho,999.0
+OPP-00532,L-01302,2025-04-28,2025-05-06,Fechado Perdido,999.0
+OPP-00533,L-01305,2025-04-19,2025-04-27,Fechado Ganho,99.0
+OPP-00534,L-01306,2025-04-11,2025-04-19,Fechado Perdido,99.0
+OPP-00535,L-01307,2025-04-07,2025-04-15,Fechado Ganho,999.0
+OPP-00536,L-01308,2025-04-29,2025-05-07,Fechado Perdido,999.0
+OPP-00537,L-01310,2025-04-24,2025-05-02,Fechado Ganho,99.0
+OPP-00538,L-01311,2025-04-21,2025-04-29,Fechado Perdido,99.0
+OPP-00539,L-01315,2025-04-27,2025-05-05,Fechado Perdido,299.0
+OPP-00540,L-01318,2025-04-30,2025-05-08,Fechado Perdido,99.0
+OPP-00541,L-01320,2025-04-25,2025-05-03,Fechado Ganho,299.0
+OPP-00542,L-01324,2025-04-22,2025-04-30,Fechado Perdido,999.0
+OPP-00543,L-01325,2025-04-08,2025-04-16,Fechado Perdido,999.0
+OPP-00544,L-01328,2025-04-29,2025-05-07,Fechado Perdido,299.0
+OPP-00545,L-01331,2025-04-28,2025-05-06,Fechado Perdido,299.0
+OPP-00546,L-01335,2025-04-28,2025-05-06,Fechado Ganho,299.0
+OPP-00547,L-01337,2025-04-28,2025-05-06,Fechado Ganho,99.0
+OPP-00548,L-01338,2025-04-08,2025-04-16,Fechado Perdido,299.0
+OPP-00549,L-01340,2025-04-27,2025-05-05,Fechado Perdido,299.0
+OPP-00550,L-01341,2025-04-30,2025-05-08,Fechado Ganho,299.0
+OPP-00551,L-01342,2025-04-16,2025-04-24,Fechado Ganho,999.0
+OPP-00552,L-01345,2025-04-07,2025-04-15,Fechado Ganho,999.0
+OPP-00553,L-01351,2025-04-28,2025-05-06,Fechado Ganho,999.0
+OPP-00554,L-01352,2025-04-23,2025-05-01,Fechado Ganho,999.0
+OPP-00555,L-01353,2025-04-21,2025-04-29,Fechado Ganho,999.0
+OPP-00556,L-01355,2025-04-18,2025-04-26,Fechado Ganho,99.0
+OPP-00557,L-01356,2025-04-16,2025-04-24,Fechado Perdido,299.0
+OPP-00558,L-01359,2025-04-27,2025-05-05,Fechado Perdido,299.0
+OPP-00559,L-01360,2025-04-30,2025-05-08,Fechado Perdido,99.0
+OPP-00560,L-01364,2025-04-06,2025-04-14,Fechado Perdido,299.0
+OPP-00561,L-01368,2025-04-05,2025-04-13,Fechado Ganho,299.0
+OPP-00562,L-01371,2025-04-15,2025-04-23,Fechado Ganho,99.0
+OPP-00563,L-01372,2025-04-16,2025-04-24,Fechado Perdido,999.0
+OPP-00564,L-01379,2025-04-06,2025-04-14,Fechado Ganho,99.0
+OPP-00565,L-01381,2025-04-11,2025-04-19,Fechado Perdido,999.0
+OPP-00566,L-01384,2025-04-20,2025-04-28,Fechado Perdido,999.0
+OPP-00567,L-01385,2025-04-06,2025-04-14,Fechado Perdido,299.0
+OPP-00568,L-01386,2025-04-09,2025-04-17,Fechado Perdido,99.0
+OPP-00569,L-01388,2025-04-11,2025-04-19,Fechado Ganho,999.0
+OPP-00570,L-01389,2025-04-14,2025-04-22,Fechado Perdido,99.0
+OPP-00571,L-01390,2025-04-18,2025-04-26,Fechado Ganho,999.0
+OPP-00572,L-01391,2025-04-22,2025-04-30,Fechado Ganho,999.0
+OPP-00573,L-01395,2025-04-13,2025-04-21,Fechado Ganho,99.0
+OPP-00574,L-01396,2025-04-06,2025-04-14,Fechado Perdido,299.0
+OPP-00575,L-01397,2025-04-20,2025-04-28,Fechado Perdido,299.0
+OPP-00576,L-01403,2025-04-06,2025-04-14,Fechado Ganho,299.0
+OPP-00577,L-01404,2025-04-12,2025-04-20,Fechado Perdido,99.0
+OPP-00578,L-01405,2025-04-26,2025-05-04,Fechado Perdido,99.0
+OPP-00579,L-01415,2025-04-13,2025-04-21,Fechado Ganho,999.0
+OPP-00580,L-01416,2025-04-29,2025-05-07,Fechado Perdido,299.0
+OPP-00581,L-01419,2025-04-29,2025-05-07,Fechado Ganho,99.0
+OPP-00582,L-01424,2025-04-25,2025-05-03,Fechado Ganho,299.0
+OPP-00583,L-01428,2025-04-23,2025-05-01,Fechado Ganho,99.0
+OPP-00584,L-01431,2025-04-25,2025-05-03,Fechado Ganho,999.0
+OPP-00585,L-01433,2025-04-08,2025-04-16,Fechado Ganho,99.0
+OPP-00586,L-01435,2025-04-05,2025-04-13,Fechado Perdido,99.0
+OPP-00587,L-01437,2025-04-10,2025-04-18,Fechado Perdido,999.0
+OPP-00588,L-01439,2025-04-16,2025-04-24,Fechado Perdido,99.0
+OPP-00589,L-01442,2025-04-14,2025-04-22,Fechado Perdido,999.0
+OPP-00590,L-01443,2025-04-05,2025-04-13,Fechado Perdido,99.0
+OPP-00591,L-01445,2025-04-15,2025-04-23,Fechado Ganho,999.0
+OPP-00592,L-01450,2025-04-23,2025-05-01,Fechado Ganho,999.0
+OPP-00593,L-01451,2025-04-27,2025-05-05,Fechado Perdido,299.0
+OPP-00594,L-01452,2025-04-18,2025-04-26,Fechado Ganho,99.0
+OPP-00595,L-01453,2025-04-07,2025-04-15,Fechado Perdido,999.0
+OPP-00596,L-01455,2025-04-30,2025-05-08,Fechado Ganho,999.0
+OPP-00597,L-01462,2025-04-25,2025-05-03,Fechado Ganho,99.0
+OPP-00598,L-01464,2025-04-27,2025-05-05,Fechado Ganho,299.0
+OPP-00599,L-01466,2025-04-06,2025-04-14,Fechado Ganho,99.0
+OPP-00600,L-01470,2025-04-13,2025-04-21,Fechado Perdido,299.0
+OPP-00601,L-01473,2025-04-17,2025-04-25,Fechado Ganho,99.0
+OPP-00602,L-01475,2025-04-14,2025-04-22,Fechado Perdido,999.0
+OPP-00603,L-01477,2025-04-29,2025-05-07,Fechado Ganho,299.0
+OPP-00604,L-01478,2025-04-08,2025-04-16,Fechado Perdido,299.0
+OPP-00605,L-01484,2025-04-15,2025-04-23,Fechado Perdido,999.0
+OPP-00606,L-01486,2025-04-26,2025-05-04,Fechado Perdido,99.0
+OPP-00607,L-01488,2025-04-27,2025-05-05,Fechado Perdido,299.0
+OPP-00608,L-01489,2025-04-22,2025-04-30,Fechado Perdido,999.0
+OPP-00609,L-01492,2025-04-19,2025-04-27,Fechado Ganho,99.0
+OPP-00610,L-01495,2025-04-24,2025-05-02,Fechado Ganho,299.0
+OPP-00611,L-01497,2025-04-19,2025-04-27,Fechado Perdido,999.0
+OPP-00612,L-01499,2025-04-30,2025-05-08,Fechado Ganho,299.0
+OPP-00613,L-01500,2025-04-20,2025-04-28,Fechado Ganho,99.0
+OPP-00614,L-01501,2025-05-01,2025-05-09,Fechado Ganho,299.0
+OPP-00615,L-01502,2025-04-08,2025-04-16,Fechado Ganho,999.0
+OPP-00616,L-01503,2025-04-30,2025-05-08,Fechado Perdido,99.0
+OPP-00617,L-01505,2025-04-23,2025-05-01,Fechado Perdido,999.0
+OPP-00618,L-01510,2025-04-16,2025-04-24,Fechado Perdido,299.0
+OPP-00619,L-01511,2025-04-07,2025-04-15,Fechado Ganho,299.0
+OPP-00620,L-01519,2025-04-10,2025-04-18,Fechado Ganho,99.0
+OPP-00621,L-01521,2025-04-16,2025-04-24,Fechado Ganho,999.0
+OPP-00622,L-01524,2025-04-09,2025-04-17,Fechado Perdido,299.0
+OPP-00623,L-01525,2025-04-11,2025-04-19,Fechado Ganho,299.0
+OPP-00624,L-01532,2025-04-05,2025-04-13,Fechado Perdido,99.0
+OPP-00625,L-01537,2025-04-11,2025-04-19,Fechado Ganho,999.0
+OPP-00626,L-01540,2025-04-21,2025-04-29,Fechado Perdido,99.0
+OPP-00627,L-01543,2025-04-06,2025-04-14,Fechado Perdido,999.0
+OPP-00628,L-01552,2025-04-05,2025-04-13,Fechado Perdido,999.0
+OPP-00629,L-01554,2025-04-21,2025-04-29,Fechado Perdido,99.0
+OPP-00630,L-01559,2025-04-29,2025-05-07,Fechado Ganho,299.0
+OPP-00631,L-01560,2025-04-30,2025-05-08,Fechado Ganho,999.0
+OPP-00632,L-01561,2025-04-22,2025-04-30,Fechado Ganho,99.0
+OPP-00633,L-01563,2025-04-17,2025-04-25,Fechado Perdido,99.0
+OPP-00634,L-01566,2025-05-01,2025-05-09,Fechado Ganho,299.0
+OPP-00635,L-01567,2025-04-24,2025-05-02,Fechado Perdido,99.0
+OPP-00636,L-01569,2025-04-11,2025-04-19,Fechado Perdido,299.0
+OPP-00637,L-01574,2025-04-13,2025-04-21,Fechado Ganho,99.0
+OPP-00638,L-01577,2025-04-16,2025-04-24,Fechado Perdido,299.0
+OPP-00639,L-01579,2025-04-17,2025-04-25,Fechado Ganho,299.0
+OPP-00640,L-01583,2025-04-10,2025-04-18,Fechado Perdido,299.0
+OPP-00641,L-01585,2025-04-10,2025-04-18,Fechado Ganho,999.0
+OPP-00642,L-01586,2025-04-11,2025-04-19,Fechado Ganho,299.0
+OPP-00643,L-01592,2025-04-23,2025-05-01,Fechado Ganho,299.0
+OPP-00644,L-01593,2025-04-06,2025-04-14,Fechado Perdido,299.0
+OPP-00645,L-01594,2025-04-26,2025-05-04,Fechado Ganho,299.0
+OPP-00646,L-01595,2025-04-12,2025-04-20,Fechado Perdido,99.0
+OPP-00647,L-01596,2025-04-19,2025-04-27,Fechado Ganho,299.0
+OPP-00648,L-01597,2025-04-19,2025-04-27,Fechado Ganho,299.0
+OPP-00649,L-01599,2025-04-28,2025-05-06,Fechado Perdido,299.0
+OPP-00650,L-01600,2025-04-21,2025-04-29,Fechado Ganho,299.0
+OPP-00651,L-01601,2025-04-15,2025-04-23,Fechado Perdido,999.0
+OPP-00652,L-01603,2025-05-18,2025-05-26,Fechado Ganho,99.0
+OPP-00653,L-01604,2025-05-11,2025-05-19,Fechado Ganho,999.0
+OPP-00654,L-01605,2025-05-29,2025-06-06,Fechado Perdido,99.0
+OPP-00655,L-01606,2025-05-29,2025-06-06,Fechado Perdido,99.0
+OPP-00656,L-01607,2025-05-29,2025-06-06,Fechado Ganho,99.0
+OPP-00657,L-01608,2025-05-17,2025-05-25,Fechado Perdido,299.0
+OPP-00658,L-01609,2025-05-14,2025-05-22,Fechado Ganho,299.0
+OPP-00659,L-01611,2025-05-06,2025-05-14,Fechado Perdido,99.0
+OPP-00660,L-01612,2025-06-01,2025-06-09,Fechado Perdido,299.0
+OPP-00661,L-01616,2025-05-07,2025-05-15,Fechado Ganho,299.0
+OPP-00662,L-01619,2025-05-29,2025-06-06,Fechado Perdido,99.0
+OPP-00663,L-01620,2025-05-21,2025-05-29,Fechado Ganho,299.0
+OPP-00664,L-01625,2025-05-23,2025-05-31,Fechado Perdido,299.0
+OPP-00665,L-01628,2025-06-01,2025-06-09,Fechado Ganho,999.0
+OPP-00666,L-01629,2025-05-15,2025-05-23,Fechado Perdido,999.0
+OPP-00667,L-01634,2025-05-09,2025-05-17,Fechado Perdido,299.0
+OPP-00668,L-01635,2025-05-23,2025-05-31,Fechado Ganho,999.0
+OPP-00669,L-01636,2025-05-27,2025-06-04,Fechado Ganho,999.0
+OPP-00670,L-01637,2025-05-28,2025-06-05,Fechado Ganho,99.0
+OPP-00671,L-01645,2025-05-07,2025-05-15,Fechado Ganho,999.0
+OPP-00672,L-01648,2025-05-14,2025-05-22,Fechado Perdido,299.0
+OPP-00673,L-01650,2025-05-26,2025-06-03,Fechado Perdido,999.0
+OPP-00674,L-01653,2025-05-10,2025-05-18,Fechado Ganho,999.0
+OPP-00675,L-01658,2025-05-27,2025-06-04,Fechado Ganho,99.0
+OPP-00676,L-01661,2025-05-07,2025-05-15,Fechado Perdido,999.0
+OPP-00677,L-01671,2025-05-06,2025-05-14,Fechado Perdido,99.0
+OPP-00678,L-01674,2025-05-25,2025-06-02,Fechado Perdido,99.0
+OPP-00679,L-01677,2025-05-18,2025-05-26,Fechado Perdido,99.0
+OPP-00680,L-01683,2025-05-14,2025-05-22,Fechado Ganho,999.0
+OPP-00681,L-01685,2025-05-25,2025-06-02,Fechado Perdido,999.0
+OPP-00682,L-01689,2025-05-15,2025-05-23,Fechado Perdido,299.0
+OPP-00683,L-01690,2025-05-23,2025-05-31,Fechado Ganho,999.0
+OPP-00684,L-01691,2025-05-28,2025-06-05,Fechado Ganho,999.0
+OPP-00685,L-01692,2025-05-23,2025-05-31,Fechado Perdido,99.0
+OPP-00686,L-01694,2025-05-28,2025-06-05,Fechado Perdido,299.0
+OPP-00687,L-01696,2025-05-07,2025-05-15,Fechado Ganho,99.0
+OPP-00688,L-01699,2025-05-31,2025-06-08,Fechado Ganho,299.0
+OPP-00689,L-01703,2025-05-24,2025-06-01,Fechado Perdido,99.0
+OPP-00690,L-01709,2025-05-27,2025-06-04,Fechado Ganho,299.0
+OPP-00691,L-01713,2025-05-18,2025-05-26,Fechado Ganho,299.0
+OPP-00692,L-01714,2025-05-23,2025-05-31,Fechado Ganho,299.0
+OPP-00693,L-01715,2025-05-15,2025-05-23,Fechado Ganho,999.0
+OPP-00694,L-01721,2025-05-28,2025-06-05,Fechado Perdido,99.0
+OPP-00695,L-01722,2025-05-20,2025-05-28,Fechado Ganho,99.0
+OPP-00696,L-01726,2025-05-17,2025-05-25,Fechado Ganho,299.0
+OPP-00697,L-01728,2025-05-14,2025-05-22,Fechado Perdido,299.0
+OPP-00698,L-01735,2025-05-25,2025-06-02,Fechado Ganho,99.0
+OPP-00699,L-01738,2025-06-01,2025-06-09,Fechado Ganho,299.0
+OPP-00700,L-01739,2025-05-08,2025-05-16,Fechado Ganho,999.0
+OPP-00701,L-01744,2025-05-24,2025-06-01,Fechado Ganho,999.0
+OPP-00702,L-01746,2025-05-10,2025-05-18,Fechado Ganho,99.0
+OPP-00703,L-01749,2025-05-27,2025-06-04,Fechado Perdido,99.0
+OPP-00704,L-01752,2025-05-30,2025-06-07,Fechado Ganho,999.0
+OPP-00705,L-01753,2025-05-11,2025-05-19,Fechado Ganho,299.0
+OPP-00706,L-01754,2025-05-26,2025-06-03,Fechado Perdido,99.0
+OPP-00707,L-01755,2025-05-08,2025-05-16,Fechado Ganho,99.0
+OPP-00708,L-01757,2025-05-11,2025-05-19,Fechado Ganho,299.0
+OPP-00709,L-01760,2025-05-12,2025-05-20,Fechado Ganho,999.0
+OPP-00710,L-01761,2025-05-26,2025-06-03,Fechado Ganho,999.0
+OPP-00711,L-01762,2025-05-15,2025-05-23,Fechado Ganho,99.0
+OPP-00712,L-01763,2025-05-31,2025-06-08,Fechado Ganho,99.0
+OPP-00713,L-01765,2025-05-17,2025-05-25,Fechado Perdido,99.0
+OPP-00714,L-01767,2025-05-17,2025-05-25,Fechado Ganho,299.0
+OPP-00715,L-01770,2025-05-24,2025-06-01,Fechado Ganho,999.0
+OPP-00716,L-01772,2025-05-12,2025-05-20,Fechado Perdido,299.0
+OPP-00717,L-01773,2025-05-27,2025-06-04,Fechado Perdido,999.0
+OPP-00718,L-01779,2025-05-10,2025-05-18,Fechado Ganho,99.0
+OPP-00719,L-01785,2025-05-17,2025-05-25,Fechado Ganho,99.0
+OPP-00720,L-01786,2025-05-12,2025-05-20,Fechado Ganho,299.0
+OPP-00721,L-01787,2025-05-21,2025-05-29,Fechado Ganho,999.0
+OPP-00722,L-01789,2025-05-07,2025-05-15,Fechado Ganho,999.0
+OPP-00723,L-01791,2025-05-19,2025-05-27,Fechado Perdido,999.0
+OPP-00724,L-01796,2025-05-30,2025-06-07,Fechado Ganho,999.0
+OPP-00725,L-01798,2025-05-26,2025-06-03,Fechado Ganho,99.0
+OPP-00726,L-01799,2025-05-08,2025-05-16,Fechado Perdido,99.0
+OPP-00727,L-01803,2025-05-12,2025-05-20,Fechado Ganho,99.0
+OPP-00728,L-01806,2025-05-11,2025-05-19,Fechado Ganho,999.0
+OPP-00729,L-01808,2025-05-06,2025-05-14,Fechado Perdido,99.0
+OPP-00730,L-01812,2025-05-09,2025-05-17,Fechado Perdido,99.0
+OPP-00731,L-01814,2025-05-27,2025-06-04,Fechado Ganho,299.0
+OPP-00732,L-01815,2025-05-25,2025-06-02,Fechado Ganho,999.0
+OPP-00733,L-01817,2025-05-15,2025-05-23,Fechado Perdido,999.0
+OPP-00734,L-01826,2025-05-25,2025-06-02,Fechado Perdido,999.0
+OPP-00735,L-01834,2025-05-25,2025-06-02,Fechado Perdido,299.0
+OPP-00736,L-01838,2025-05-08,2025-05-16,Fechado Ganho,99.0
+OPP-00737,L-01840,2025-05-26,2025-06-03,Fechado Perdido,999.0
+OPP-00738,L-01841,2025-05-19,2025-05-27,Fechado Ganho,999.0
+OPP-00739,L-01842,2025-05-21,2025-05-29,Fechado Ganho,299.0
+OPP-00740,L-01843,2025-05-14,2025-05-22,Fechado Perdido,99.0
+OPP-00741,L-01844,2025-05-17,2025-05-25,Fechado Perdido,99.0
+OPP-00742,L-01847,2025-05-30,2025-06-07,Fechado Perdido,299.0
+OPP-00743,L-01850,2025-05-10,2025-05-18,Fechado Perdido,999.0
+OPP-00744,L-01852,2025-05-19,2025-05-27,Fechado Ganho,299.0
+OPP-00745,L-01853,2025-05-08,2025-05-16,Fechado Ganho,999.0
+OPP-00746,L-01856,2025-05-30,2025-06-07,Fechado Ganho,99.0
+OPP-00747,L-01860,2025-05-22,2025-05-30,Fechado Ganho,999.0
+OPP-00748,L-01861,2025-05-10,2025-05-18,Fechado Perdido,999.0
+OPP-00749,L-01862,2025-05-25,2025-06-02,Fechado Ganho,299.0
+OPP-00750,L-01863,2025-05-20,2025-05-28,Fechado Ganho,299.0
+OPP-00751,L-01867,2025-05-26,2025-06-03,Fechado Ganho,999.0
+OPP-00752,L-01869,2025-05-19,2025-05-27,Fechado Perdido,299.0
+OPP-00753,L-01870,2025-05-27,2025-06-04,Fechado Perdido,999.0
+OPP-00754,L-01872,2025-05-11,2025-05-19,Fechado Perdido,299.0
+OPP-00755,L-01876,2025-05-31,2025-06-08,Fechado Ganho,999.0
+OPP-00756,L-01881,2025-05-20,2025-05-28,Fechado Perdido,299.0
+OPP-00757,L-01887,2025-05-25,2025-06-02,Fechado Ganho,999.0
+OPP-00758,L-01888,2025-05-24,2025-06-01,Fechado Perdido,99.0
+OPP-00759,L-01891,2025-05-21,2025-05-29,Fechado Perdido,999.0
+OPP-00760,L-01892,2025-05-23,2025-05-31,Fechado Ganho,999.0
+OPP-00761,L-01894,2025-05-13,2025-05-21,Fechado Ganho,299.0
+OPP-00762,L-01899,2025-05-06,2025-05-14,Fechado Perdido,999.0
+OPP-00763,L-01900,2025-05-10,2025-05-18,Fechado Ganho,999.0
+OPP-00764,L-01902,2025-05-31,2025-06-08,Fechado Ganho,99.0
+OPP-00765,L-01904,2025-05-13,2025-05-21,Fechado Perdido,299.0
+OPP-00766,L-01907,2025-05-28,2025-06-05,Fechado Perdido,99.0
+OPP-00767,L-01910,2025-05-25,2025-06-02,Fechado Ganho,99.0
+OPP-00768,L-01923,2025-05-26,2025-06-03,Fechado Ganho,299.0
+OPP-00769,L-01924,2025-05-11,2025-05-19,Fechado Ganho,99.0
+OPP-00770,L-01927,2025-05-23,2025-05-31,Fechado Perdido,299.0
+OPP-00771,L-01928,2025-05-21,2025-05-29,Fechado Perdido,99.0
+OPP-00772,L-01930,2025-05-19,2025-05-27,Fechado Perdido,299.0
+OPP-00773,L-01931,2025-05-06,2025-05-14,Fechado Perdido,999.0
+OPP-00774,L-01934,2025-05-10,2025-05-18,Fechado Perdido,999.0
+OPP-00775,L-01936,2025-05-16,2025-05-24,Fechado Perdido,299.0
+OPP-00776,L-01938,2025-05-15,2025-05-23,Fechado Ganho,299.0
+OPP-00777,L-01943,2025-05-15,2025-05-23,Fechado Ganho,299.0
+OPP-00778,L-01945,2025-05-09,2025-05-17,Fechado Ganho,99.0
+OPP-00779,L-01946,2025-05-21,2025-05-29,Fechado Ganho,999.0
+OPP-00780,L-01947,2025-05-10,2025-05-18,Fechado Perdido,299.0
+OPP-00781,L-01950,2025-05-06,2025-05-14,Fechado Ganho,999.0
+OPP-00782,L-01952,2025-05-19,2025-05-27,Fechado Perdido,99.0
+OPP-00783,L-01953,2025-05-26,2025-06-03,Fechado Ganho,99.0
+OPP-00784,L-01960,2025-05-19,2025-05-27,Fechado Perdido,999.0
+OPP-00785,L-01964,2025-05-08,2025-05-16,Fechado Perdido,299.0
+OPP-00786,L-01966,2025-05-06,2025-05-14,Fechado Ganho,999.0
+OPP-00787,L-01968,2025-05-23,2025-05-31,Fechado Perdido,99.0
+OPP-00788,L-01969,2025-05-22,2025-05-30,Fechado Perdido,999.0
+OPP-00789,L-01971,2025-05-27,2025-06-04,Fechado Ganho,999.0
+OPP-00790,L-01973,2025-05-11,2025-05-19,Fechado Perdido,999.0
+OPP-00791,L-01974,2025-05-21,2025-05-29,Fechado Ganho,999.0
+OPP-00792,L-01977,2025-05-15,2025-05-23,Fechado Perdido,299.0
+OPP-00793,L-01979,2025-05-17,2025-05-25,Fechado Ganho,999.0
+OPP-00794,L-01980,2025-05-16,2025-05-24,Fechado Ganho,99.0
+OPP-00795,L-01982,2025-05-07,2025-05-15,Fechado Ganho,999.0
+OPP-00796,L-01984,2025-05-20,2025-05-28,Fechado Perdido,999.0
+OPP-00797,L-01985,2025-05-10,2025-05-18,Fechado Perdido,299.0
+OPP-00798,L-01987,2025-05-23,2025-05-31,Fechado Perdido,999.0
+OPP-00799,L-01988,2025-05-28,2025-06-05,Fechado Perdido,299.0
+OPP-00800,L-01996,2025-06-30,2025-07-08,Fechado Perdido,999.0
+OPP-00801,L-02004,2025-06-21,2025-06-29,Fechado Perdido,299.0
+OPP-00802,L-02007,2025-06-25,2025-07-03,Fechado Perdido,299.0
+OPP-00803,L-02015,2025-06-26,2025-07-04,Fechado Ganho,999.0
+OPP-00804,L-02022,2025-06-28,2025-07-06,Fechado Perdido,99.0
+OPP-00805,L-02024,2025-06-26,2025-07-04,Fechado Perdido,299.0
+OPP-00806,L-02025,2025-06-15,2025-06-23,Fechado Ganho,999.0
+OPP-00807,L-02027,2025-06-13,2025-06-21,Fechado Perdido,99.0
+OPP-00808,L-02028,2025-06-26,2025-07-04,Fechado Ganho,999.0
+OPP-00809,L-02034,2025-06-12,2025-06-20,Fechado Ganho,299.0
+OPP-00810,L-02038,2025-06-05,2025-06-13,Fechado Perdido,299.0
+OPP-00811,L-02045,2025-06-11,2025-06-19,Fechado Perdido,999.0
+OPP-00812,L-02058,2025-06-19,2025-06-27,Fechado Ganho,999.0
+OPP-00813,L-02061,2025-06-28,2025-07-06,Fechado Ganho,299.0
+OPP-00814,L-02066,2025-06-12,2025-06-20,Fechado Perdido,999.0
+OPP-00815,L-02073,2025-06-30,2025-07-08,Fechado Perdido,99.0
+OPP-00816,L-02078,2025-06-10,2025-06-18,Fechado Ganho,299.0
+OPP-00817,L-02082,2025-06-29,2025-07-07,Fechado Perdido,299.0
+OPP-00818,L-02083,2025-06-17,2025-06-25,Fechado Ganho,99.0
+OPP-00819,L-02087,2025-06-20,2025-06-28,Fechado Ganho,99.0
+OPP-00820,L-02089,2025-06-21,2025-06-29,Fechado Perdido,99.0
+OPP-00821,L-02094,2025-06-22,2025-06-30,Fechado Ganho,99.0
+OPP-00822,L-02100,2025-06-06,2025-06-14,Fechado Perdido,299.0
+OPP-00823,L-02102,2025-06-19,2025-06-27,Fechado Ganho,999.0
+OPP-00824,L-02103,2025-06-17,2025-06-25,Fechado Perdido,299.0
+OPP-00825,L-02115,2025-06-18,2025-06-26,Fechado Ganho,99.0
+OPP-00826,L-02121,2025-06-19,2025-06-27,Fechado Perdido,99.0
+OPP-00827,L-02122,2025-06-14,2025-06-22,Fechado Perdido,299.0
+OPP-00828,L-02131,2025-06-30,2025-07-08,Fechado Perdido,999.0
+OPP-00829,L-02134,2025-06-29,2025-07-07,Fechado Perdido,999.0
+OPP-00830,L-02143,2025-06-22,2025-06-30,Fechado Perdido,99.0
+OPP-00831,L-02153,2025-06-12,2025-06-20,Fechado Perdido,299.0
+OPP-00832,L-02156,2025-06-30,2025-07-08,Fechado Perdido,99.0
+OPP-00833,L-02158,2025-06-12,2025-06-20,Fechado Perdido,999.0
+OPP-00834,L-02159,2025-06-30,2025-07-08,Fechado Perdido,999.0
+OPP-00835,L-02160,2025-06-21,2025-06-29,Fechado Ganho,299.0
+OPP-00836,L-02162,2025-06-11,2025-06-19,Fechado Ganho,999.0
+OPP-00837,L-02163,2025-06-20,2025-06-28,Fechado Perdido,99.0
+OPP-00838,L-02165,2025-06-12,2025-06-20,Fechado Perdido,999.0
+OPP-00839,L-02194,2025-06-15,2025-06-23,Fechado Ganho,99.0
+OPP-00840,L-02197,2025-06-08,2025-06-16,Fechado Ganho,299.0
+OPP-00841,L-02206,2025-06-20,2025-06-28,Fechado Ganho,999.0
+OPP-00842,L-02207,2025-06-15,2025-06-23,Fechado Perdido,299.0
+OPP-00843,L-02213,2025-06-17,2025-06-25,Fechado Perdido,299.0
+OPP-00844,L-02214,2025-06-12,2025-06-20,Fechado Perdido,999.0
+OPP-00845,L-02217,2025-06-07,2025-06-15,Fechado Ganho,299.0
+OPP-00846,L-02223,2025-06-14,2025-06-22,Fechado Ganho,99.0
+OPP-00847,L-02225,2025-06-29,2025-07-07,Fechado Perdido,999.0
+OPP-00848,L-02227,2025-06-27,2025-07-05,Fechado Perdido,999.0
+OPP-00849,L-02228,2025-06-23,2025-07-01,Fechado Perdido,299.0
+OPP-00850,L-02245,2025-07-01,2025-07-09,Fechado Ganho,99.0
+OPP-00851,L-02249,2025-06-28,2025-07-06,Fechado Ganho,99.0
+OPP-00852,L-02253,2025-06-16,2025-06-24,Fechado Perdido,99.0
+OPP-00853,L-02254,2025-06-11,2025-06-19,Fechado Ganho,99.0
+OPP-00854,L-02255,2025-06-22,2025-06-30,Fechado Ganho,99.0
+OPP-00855,L-02262,2025-06-30,2025-07-08,Fechado Ganho,99.0
+OPP-00856,L-02264,2025-06-10,2025-06-18,Fechado Ganho,999.0
+OPP-00857,L-02276,2025-06-30,2025-07-08,Fechado Ganho,99.0
+OPP-00858,L-02285,2025-06-14,2025-06-22,Fechado Perdido,999.0
+OPP-00859,L-02288,2025-06-15,2025-06-23,Fechado Ganho,999.0
+OPP-00860,L-02292,2025-06-28,2025-07-06,Fechado Ganho,99.0
+OPP-00861,L-02295,2025-06-16,2025-06-24,Fechado Perdido,999.0
+OPP-00862,L-02304,2025-06-11,2025-06-19,Fechado Ganho,999.0
+OPP-00863,L-02305,2025-06-17,2025-06-25,Fechado Perdido,99.0
+OPP-00864,L-02308,2025-06-21,2025-06-29,Fechado Perdido,999.0
+OPP-00865,L-02318,2025-06-30,2025-07-08,Fechado Ganho,299.0
+OPP-00866,L-02339,2025-06-25,2025-07-03,Fechado Ganho,299.0
+OPP-00867,L-02342,2025-06-17,2025-06-25,Fechado Perdido,999.0
+OPP-00868,L-02345,2025-06-30,2025-07-08,Fechado Perdido,299.0
+OPP-00869,L-02346,2025-06-30,2025-07-08,Fechado Perdido,299.0
+OPP-00870,L-02352,2025-06-19,2025-06-27,Fechado Perdido,99.0
+OPP-00871,L-02358,2025-06-23,2025-07-01,Fechado Perdido,99.0
+OPP-00872,L-02359,2025-06-16,2025-06-24,Fechado Perdido,299.0
+OPP-00873,L-02361,2025-06-26,2025-07-04,Fechado Perdido,299.0
+OPP-00874,L-02364,2025-06-06,2025-06-14,Fechado Perdido,999.0
+OPP-00875,L-02371,2025-06-28,2025-07-06,Fechado Perdido,99.0
+OPP-00876,L-02379,2025-06-19,2025-06-27,Fechado Perdido,299.0
+OPP-00877,L-02386,2025-06-29,2025-07-07,Fechado Ganho,999.0
+OPP-00878,L-02388,2025-06-30,2025-07-08,Fechado Ganho,999.0
+OPP-00879,L-02389,2025-06-07,2025-06-15,Fechado Ganho,299.0
+OPP-00880,L-02394,2025-06-10,2025-06-18,Fechado Ganho,299.0
+OPP-00881,L-02399,2025-06-26,2025-07-04,Fechado Ganho,99.0
+OPP-00882,L-02408,2025-06-06,2025-06-14,Fechado Ganho,299.0
+OPP-00883,L-02416,2025-06-19,2025-06-27,Fechado Ganho,299.0
+OPP-00884,L-02418,2025-06-19,2025-06-27,Fechado Ganho,999.0
+OPP-00885,L-02420,2025-06-17,2025-06-25,Fechado Perdido,999.0
+OPP-00886,L-02422,2025-06-15,2025-06-23,Fechado Perdido,99.0
+OPP-00887,L-02431,2025-06-21,2025-06-29,Fechado Ganho,99.0
+OPP-00888,L-02436,2025-07-01,2025-07-09,Fechado Ganho,299.0
+OPP-00889,L-02448,2025-06-07,2025-06-15,Fechado Ganho,299.0
+OPP-00890,L-02451,2025-06-09,2025-06-17,Fechado Ganho,999.0
+OPP-00891,L-02452,2025-06-12,2025-06-20,Fechado Ganho,99.0
+OPP-00892,L-02457,2025-06-14,2025-06-22,Fechado Ganho,299.0
+OPP-00893,L-02458,2025-06-22,2025-06-30,Fechado Ganho,299.0
+OPP-00894,L-02460,2025-06-09,2025-06-17,Fechado Perdido,299.0
+OPP-00895,L-02461,2025-06-20,2025-06-28,Fechado Perdido,999.0
+OPP-00896,L-02463,2025-06-27,2025-07-05,Fechado Ganho,299.0
+OPP-00897,L-02464,2025-06-23,2025-07-01,Fechado Ganho,99.0
+OPP-00898,L-02465,2025-06-09,2025-06-17,Fechado Perdido,299.0
+OPP-00899,L-02466,2025-06-09,2025-06-17,Fechado Ganho,999.0
+OPP-00900,L-02469,2025-06-26,2025-07-04,Fechado Perdido,299.0
+OPP-00901,L-02474,2025-06-23,2025-07-01,Fechado Perdido,299.0
+OPP-00902,L-02479,2025-06-17,2025-06-25,Fechado Ganho,999.0
+OPP-00903,L-02482,2025-06-28,2025-07-06,Fechado Perdido,999.0
+OPP-00904,L-02484,2025-06-23,2025-07-01,Fechado Perdido,99.0
+OPP-00905,L-02485,2025-06-19,2025-06-27,Fechado Perdido,999.0
+OPP-00906,L-02497,2025-06-07,2025-06-15,Fechado Perdido,999.0
+OPP-00907,L-02499,2025-06-23,2025-07-01,Fechado Perdido,999.0
+OPP-00908,L-02502,2025-06-29,2025-07-07,Fechado Ganho,99.0
+OPP-00909,L-02508,2025-06-09,2025-06-17,Fechado Ganho,299.0
+OPP-00910,L-02509,2025-06-14,2025-06-22,Fechado Ganho,299.0
+OPP-00911,L-02514,2025-06-13,2025-06-21,Fechado Perdido,999.0
+OPP-00912,L-02518,2025-06-05,2025-06-13,Fechado Perdido,299.0
+OPP-00913,L-02520,2025-06-29,2025-07-07,Fechado Ganho,99.0
+OPP-00914,L-02522,2025-06-28,2025-07-06,Fechado Perdido,99.0
+OPP-00915,L-02526,2025-07-01,2025-07-09,Fechado Ganho,999.0
+OPP-00916,L-02534,2025-06-13,2025-06-21,Fechado Perdido,99.0
+OPP-00917,L-02536,2025-06-19,2025-06-27,Fechado Ganho,99.0
+OPP-00918,L-02537,2025-06-23,2025-07-01,Fechado Perdido,299.0
+OPP-00919,L-02545,2025-06-17,2025-06-25,Fechado Perdido,999.0
+OPP-00920,L-02550,2025-06-24,2025-07-02,Fechado Ganho,99.0
+OPP-00921,L-02551,2025-06-12,2025-06-20,Fechado Perdido,99.0
+OPP-00922,L-02558,2025-06-16,2025-06-24,Fechado Ganho,999.0
+OPP-00923,L-02567,2025-06-28,2025-07-06,Fechado Ganho,299.0
+OPP-00924,L-02576,2025-06-25,2025-07-03,Fechado Perdido,299.0
+OPP-00925,L-02592,2025-06-06,2025-06-14,Fechado Perdido,999.0
+OPP-00926,L-02598,2025-06-30,2025-07-08,Fechado Ganho,99.0
+OPP-00927,L-02607,2025-06-11,2025-06-19,Fechado Ganho,999.0
+OPP-00928,L-02609,2025-06-23,2025-07-01,Fechado Perdido,99.0
+OPP-00929,L-02611,2025-06-11,2025-06-19,Fechado Ganho,99.0
+OPP-00930,L-02612,2025-06-18,2025-06-26,Fechado Perdido,99.0
+OPP-00931,L-02613,2025-06-06,2025-06-14,Fechado Ganho,299.0
+OPP-00932,L-02618,2025-06-06,2025-06-14,Fechado Ganho,99.0
+OPP-00933,L-02619,2025-06-15,2025-06-23,Fechado Ganho,299.0
+OPP-00934,L-02620,2025-06-05,2025-06-13,Fechado Ganho,999.0
+OPP-00935,L-02621,2025-06-07,2025-06-15,Fechado Ganho,999.0
+OPP-00936,L-02623,2025-06-24,2025-07-02,Fechado Perdido,999.0
+OPP-00937,L-02625,2025-06-05,2025-06-13,Fechado Ganho,999.0
+OPP-00938,L-02626,2025-07-01,2025-07-09,Fechado Ganho,999.0
+OPP-00939,L-02631,2025-06-17,2025-06-25,Fechado Perdido,99.0
+OPP-00940,L-02633,2025-06-26,2025-07-04,Fechado Perdido,299.0
+OPP-00941,L-02647,2025-06-09,2025-06-17,Fechado Perdido,99.0
+OPP-00942,L-02650,2025-06-12,2025-06-20,Fechado Ganho,999.0
+OPP-00943,L-02653,2025-06-16,2025-06-24,Fechado Perdido,299.0
+OPP-00944,L-02656,2025-06-26,2025-07-04,Fechado Ganho,99.0
+OPP-00945,L-02672,2025-06-06,2025-06-14,Fechado Ganho,99.0
+OPP-00946,L-02674,2025-06-29,2025-07-07,Fechado Perdido,299.0
+OPP-00947,L-02677,2025-06-18,2025-06-26,Fechado Ganho,299.0
+OPP-00948,L-02691,2025-06-10,2025-06-18,Fechado Perdido,99.0
+OPP-00949,L-02692,2025-06-21,2025-06-29,Fechado Ganho,999.0
+OPP-00950,L-02695,2025-06-16,2025-06-24,Fechado Ganho,999.0
+OPP-00951,L-02715,2025-07-01,2025-07-09,Fechado Ganho,999.0
+OPP-00952,L-02718,2025-07-01,2025-07-09,Fechado Perdido,999.0
+OPP-00953,L-02724,2025-06-24,2025-07-02,Fechado Perdido,299.0
+OPP-00954,L-02726,2025-06-17,2025-06-25,Fechado Ganho,999.0
+OPP-00955,L-02730,2025-06-07,2025-06-15,Fechado Ganho,299.0
+OPP-00956,L-02731,2025-06-22,2025-06-30,Fechado Perdido,99.0
+OPP-00957,L-02732,2025-06-22,2025-06-30,Fechado Perdido,99.0
+OPP-00958,L-02735,2025-06-13,2025-06-21,Fechado Perdido,299.0
+OPP-00959,L-02745,2025-06-15,2025-06-23,Fechado Perdido,999.0
+OPP-00960,L-02750,2025-06-21,2025-06-29,Fechado Perdido,99.0
+OPP-00961,L-02751,2025-06-07,2025-06-15,Fechado Perdido,99.0
+OPP-00962,L-02753,2025-06-28,2025-07-06,Fechado Ganho,299.0
+OPP-00963,L-02755,2025-07-01,2025-07-09,Fechado Perdido,999.0
+OPP-00964,L-02757,2025-06-08,2025-06-16,Fechado Ganho,299.0
+OPP-00965,L-02758,2025-06-15,2025-06-23,Fechado Ganho,99.0
+OPP-00966,L-02760,2025-06-13,2025-06-21,Fechado Ganho,299.0
+OPP-00967,L-02771,2025-06-28,2025-07-06,Fechado Perdido,999.0
+OPP-00968,L-02774,2025-06-09,2025-06-17,Fechado Perdido,299.0
+OPP-00969,L-02782,2025-06-11,2025-06-19,Fechado Ganho,99.0
+OPP-00970,L-02795,2025-06-15,2025-06-23,Fechado Ganho,99.0
+OPP-00971,L-02800,2025-06-21,2025-06-29,Fechado Perdido,299.0
+OPP-00972,L-02801,2025-06-27,2025-07-05,Fechado Ganho,99.0
+OPP-00973,L-02803,2025-06-19,2025-06-27,Fechado Ganho,99.0
+OPP-00974,L-02807,2025-06-10,2025-06-18,Fechado Perdido,299.0
+OPP-00975,L-02813,2025-06-21,2025-06-29,Fechado Perdido,999.0
+OPP-00976,L-02816,2025-06-16,2025-06-24,Fechado Ganho,299.0
+OPP-00977,L-02820,2025-06-17,2025-06-25,Fechado Perdido,99.0
+OPP-00978,L-02832,2025-06-23,2025-07-01,Fechado Perdido,299.0
+OPP-00979,L-02837,2025-06-10,2025-06-18,Fechado Ganho,99.0
+OPP-00980,L-02839,2025-06-06,2025-06-14,Fechado Perdido,99.0
+OPP-00981,L-02845,2025-06-11,2025-06-19,Fechado Ganho,99.0
+OPP-00982,L-02848,2025-06-24,2025-07-02,Fechado Perdido,299.0
+OPP-00983,L-02849,2025-06-17,2025-06-25,Fechado Perdido,999.0
+OPP-00984,L-02850,2025-06-27,2025-07-05,Fechado Ganho,999.0
+OPP-00985,L-02853,2025-06-17,2025-06-25,Fechado Ganho,299.0
+OPP-00986,L-02859,2025-06-14,2025-06-22,Fechado Perdido,299.0
+OPP-00987,L-02862,2025-06-11,2025-06-19,Fechado Ganho,999.0
+OPP-00988,L-02866,2025-07-01,2025-07-09,Fechado Perdido,99.0
+OPP-00989,L-02869,2025-06-06,2025-06-14,Fechado Ganho,99.0
+OPP-00990,L-02879,2025-06-21,2025-06-29,Fechado Perdido,99.0
+OPP-00991,L-02882,2025-06-09,2025-06-17,Fechado Perdido,999.0
+OPP-00992,L-02895,2025-06-18,2025-06-26,Fechado Perdido,999.0
+OPP-00993,L-02898,2025-07-01,2025-07-09,Fechado Ganho,99.0
+OPP-00994,L-02904,2025-07-01,2025-07-09,Fechado Perdido,999.0
+OPP-00995,L-02907,2025-06-16,2025-06-24,Fechado Ganho,999.0
+OPP-00996,L-02916,2025-06-29,2025-07-07,Fechado Perdido,99.0
+OPP-00997,L-02920,2025-06-30,2025-07-08,Fechado Perdido,999.0
+OPP-00998,L-02929,2025-06-08,2025-06-16,Fechado Perdido,299.0
+OPP-00999,L-02936,2025-06-19,2025-06-27,Fechado Ganho,999.0
+OPP-01000,L-02941,2025-07-01,2025-07-09,Fechado Perdido,99.0
+OPP-01001,L-02944,2025-06-24,2025-07-02,Fechado Ganho,999.0
+OPP-01002,L-02946,2025-06-28,2025-07-06,Fechado Ganho,999.0
+OPP-01003,L-02949,2025-06-09,2025-06-17,Fechado Ganho,99.0
+OPP-01004,L-02956,2025-06-29,2025-07-07,Fechado Perdido,99.0
+OPP-01005,L-02960,2025-06-22,2025-06-30,Fechado Perdido,999.0
+OPP-01006,L-02978,2025-06-07,2025-06-15,Fechado Perdido,999.0
+OPP-01007,L-02982,2025-07-01,2025-07-09,Fechado Ganho,99.0
+OPP-01008,L-02985,2025-06-07,2025-06-15,Fechado Ganho,999.0
+OPP-01009,L-02989,2025-06-08,2025-06-16,Fechado Ganho,999.0
+OPP-01010,L-02990,2025-06-19,2025-06-27,Fechado Perdido,299.0
+OPP-01011,L-03003,2025-07-01,2025-07-09,Fechado Ganho,999.0
+OPP-01012,L-03011,2025-06-13,2025-06-21,Fechado Perdido,299.0
+OPP-01013,L-03012,2025-06-12,2025-06-20,Fechado Perdido,999.0
+OPP-01014,L-03014,2025-06-08,2025-06-16,Fechado Perdido,299.0
+OPP-01015,L-03016,2025-07-01,2025-07-09,Fechado Perdido,99.0
+OPP-01016,L-03018,2025-06-16,2025-06-24,Fechado Perdido,99.0
+OPP-01017,L-03019,2025-06-28,2025-07-06,Fechado Perdido,999.0
+OPP-01018,L-03029,2025-06-10,2025-06-18,Fechado Ganho,299.0
+OPP-01019,L-03030,2025-06-05,2025-06-13,Fechado Ganho,99.0
+OPP-01020,L-03031,2025-06-19,2025-06-27,Fechado Perdido,99.0
+OPP-01021,L-03038,2025-06-20,2025-06-28,Fechado Perdido,99.0
+OPP-01022,L-03039,2025-06-26,2025-07-04,Fechado Ganho,299.0
+OPP-01023,L-03040,2025-06-05,2025-06-13,Fechado Ganho,999.0
+OPP-01024,L-03044,2025-06-07,2025-06-15,Fechado Ganho,99.0
+OPP-01025,L-03049,2025-07-01,2025-07-09,Fechado Ganho,999.0
+OPP-01026,L-03053,2025-06-17,2025-06-25,Fechado Ganho,99.0
+OPP-01027,L-03054,2025-06-18,2025-06-26,Fechado Ganho,299.0
+OPP-01028,L-03064,2025-06-10,2025-06-18,Fechado Ganho,999.0
+OPP-01029,L-03065,2025-06-23,2025-07-01,Fechado Perdido,299.0
+OPP-01030,L-03067,2025-06-14,2025-06-22,Fechado Ganho,99.0
+OPP-01031,L-03071,2025-06-07,2025-06-15,Fechado Perdido,999.0
+OPP-01032,L-03073,2025-06-16,2025-06-24,Fechado Ganho,299.0
+OPP-01033,L-03075,2025-06-10,2025-06-18,Fechado Perdido,299.0
+OPP-01034,L-03080,2025-06-15,2025-06-23,Fechado Perdido,99.0
+OPP-01035,L-03084,2025-06-08,2025-06-16,Fechado Ganho,999.0
+OPP-01036,L-03085,2025-06-10,2025-06-18,Fechado Ganho,299.0
+OPP-01037,L-03091,2025-06-23,2025-07-01,Fechado Perdido,299.0
+OPP-01038,L-03093,2025-06-25,2025-07-03,Fechado Ganho,99.0
+OPP-01039,L-03094,2025-06-23,2025-07-01,Fechado Perdido,999.0
+OPP-01040,L-03100,2025-06-30,2025-07-08,Fechado Perdido,99.0
+OPP-01041,L-03103,2025-06-27,2025-07-05,Fechado Perdido,299.0
+OPP-01042,L-03106,2025-06-19,2025-06-27,Fechado Perdido,999.0
+OPP-01043,L-03108,2025-06-17,2025-06-25,Fechado Ganho,299.0
+OPP-01044,L-03109,2025-06-25,2025-07-03,Fechado Ganho,999.0
+OPP-01045,L-03110,2025-06-25,2025-07-03,Fechado Ganho,999.0
+OPP-01046,L-03112,2025-06-07,2025-06-15,Fechado Ganho,99.0
+OPP-01047,L-03113,2025-06-19,2025-06-27,Fechado Perdido,99.0
+OPP-01048,L-03116,2025-06-27,2025-07-05,Fechado Perdido,999.0
+OPP-01049,L-03127,2025-06-10,2025-06-18,Fechado Ganho,299.0
+OPP-01050,L-03128,2025-06-30,2025-07-08,Fechado Ganho,299.0
+OPP-01051,L-03134,2025-06-30,2025-07-08,Fechado Ganho,299.0
+OPP-01052,L-03147,2025-06-26,2025-07-04,Fechado Perdido,99.0
+OPP-01053,L-03152,2025-06-13,2025-06-21,Fechado Ganho,999.0
+OPP-01054,L-03161,2025-06-30,2025-07-08,Fechado Ganho,999.0
+OPP-01055,L-03166,2025-06-22,2025-06-30,Fechado Ganho,999.0
+OPP-01056,L-03169,2025-06-15,2025-06-23,Fechado Perdido,299.0
+OPP-01057,L-03171,2025-06-10,2025-06-18,Fechado Ganho,299.0
+OPP-01058,L-03184,2025-06-13,2025-06-21,Fechado Perdido,99.0
+OPP-01059,L-03187,2025-06-18,2025-06-26,Fechado Ganho,999.0
+OPP-01060,L-03192,2025-06-18,2025-06-26,Fechado Perdido,99.0
+OPP-01061,L-03199,2025-07-01,2025-07-09,Fechado Perdido,999.0
+OPP-01062,L-03200,2025-06-05,2025-06-13,Fechado Perdido,99.0
+OPP-01063,L-03202,2025-07-01,2025-07-09,Fechado Perdido,99.0
+OPP-01064,L-03206,2025-06-05,2025-06-13,Fechado Ganho,999.0
+OPP-01065,L-03210,2025-07-01,2025-07-09,Fechado Perdido,99.0
+OPP-01066,L-03212,2025-06-08,2025-06-16,Fechado Perdido,99.0
+OPP-01067,L-03217,2025-06-17,2025-06-25,Fechado Perdido,999.0
+OPP-01068,L-03227,2025-06-25,2025-07-03,Fechado Ganho,999.0
+OPP-01069,L-03229,2025-07-01,2025-07-09,Fechado Perdido,299.0
+OPP-01070,L-03234,2025-07-22,2025-07-30,Fechado Perdido,299.0
+OPP-01071,L-03243,2025-07-12,2025-07-20,Fechado Perdido,999.0
+OPP-01072,L-03255,2025-07-29,2025-08-06,Fechado Perdido,99.0
+OPP-01073,L-03269,2025-07-20,2025-07-28,Fechado Ganho,299.0
+OPP-01074,L-03281,2025-07-23,2025-07-31,Fechado Ganho,99.0
+OPP-01075,L-03282,2025-07-17,2025-07-25,Fechado Perdido,299.0
+OPP-01076,L-03289,2025-07-10,2025-07-18,Fechado Perdido,999.0
+OPP-01077,L-03290,2025-07-07,2025-07-15,Fechado Ganho,99.0
+OPP-01078,L-03298,2025-07-25,2025-08-02,Fechado Perdido,999.0
+OPP-01079,L-03303,2025-07-19,2025-07-27,Fechado Ganho,999.0
+OPP-01080,L-03306,2025-07-29,2025-08-06,Fechado Ganho,999.0
+OPP-01081,L-03309,2025-07-30,2025-08-07,Fechado Ganho,99.0
+OPP-01082,L-03322,2025-07-27,2025-08-04,Fechado Perdido,99.0
+OPP-01083,L-03323,2025-07-24,2025-08-01,Fechado Perdido,99.0
+OPP-01084,L-03328,2025-07-30,2025-08-07,Fechado Ganho,299.0
+OPP-01085,L-03330,2025-07-10,2025-07-18,Fechado Ganho,999.0
+OPP-01086,L-03331,2025-07-18,2025-07-26,Fechado Ganho,999.0
+OPP-01087,L-03333,2025-07-26,2025-08-03,Fechado Perdido,99.0
+OPP-01088,L-03340,2025-07-22,2025-07-30,Fechado Perdido,99.0
+OPP-01089,L-03342,2025-07-27,2025-08-04,Fechado Perdido,299.0
+OPP-01090,L-03346,2025-07-11,2025-07-19,Fechado Ganho,999.0
+OPP-01091,L-03350,2025-08-01,2025-08-09,Fechado Ganho,999.0
+OPP-01092,L-03380,2025-07-18,2025-07-26,Fechado Perdido,299.0
+OPP-01093,L-03393,2025-07-13,2025-07-21,Fechado Perdido,99.0
+OPP-01094,L-03394,2025-07-26,2025-08-03,Fechado Ganho,999.0
+OPP-01095,L-03401,2025-07-12,2025-07-20,Fechado Perdido,299.0
+OPP-01096,L-03406,2025-07-26,2025-08-03,Fechado Perdido,99.0
+OPP-01097,L-03408,2025-07-08,2025-07-16,Fechado Perdido,99.0
+OPP-01098,L-03411,2025-07-24,2025-08-01,Fechado Ganho,299.0
+OPP-01099,L-03412,2025-07-30,2025-08-07,Fechado Perdido,99.0
+OPP-01100,L-03417,2025-07-23,2025-07-31,Fechado Ganho,99.0
+OPP-01101,L-03419,2025-07-21,2025-07-29,Fechado Perdido,299.0
+OPP-01102,L-03440,2025-07-09,2025-07-17,Fechado Perdido,299.0
+OPP-01103,L-03442,2025-07-10,2025-07-18,Fechado Perdido,99.0
+OPP-01104,L-03446,2025-07-13,2025-07-21,Fechado Perdido,299.0
+OPP-01105,L-03458,2025-07-30,2025-08-07,Fechado Ganho,299.0
+OPP-01106,L-03461,2025-07-27,2025-08-04,Fechado Ganho,999.0
+OPP-01107,L-03467,2025-07-13,2025-07-21,Fechado Perdido,999.0
+OPP-01108,L-03470,2025-07-13,2025-07-21,Fechado Ganho,999.0
+OPP-01109,L-03475,2025-07-27,2025-08-04,Fechado Perdido,999.0
+OPP-01110,L-03476,2025-07-22,2025-07-30,Fechado Perdido,299.0
+OPP-01111,L-03477,2025-07-21,2025-07-29,Fechado Perdido,999.0
+OPP-01112,L-03478,2025-07-15,2025-07-23,Fechado Ganho,99.0
+OPP-01113,L-03480,2025-07-12,2025-07-20,Fechado Ganho,99.0
+OPP-01114,L-03482,2025-07-27,2025-08-04,Fechado Perdido,299.0
+OPP-01115,L-03484,2025-07-06,2025-07-14,Fechado Perdido,999.0
+OPP-01116,L-03485,2025-07-21,2025-07-29,Fechado Ganho,299.0
+OPP-01117,L-03494,2025-07-30,2025-08-07,Fechado Ganho,99.0
+OPP-01118,L-03496,2025-08-01,2025-08-09,Fechado Ganho,99.0
+OPP-01119,L-03509,2025-07-07,2025-07-15,Fechado Ganho,99.0
+OPP-01120,L-03513,2025-07-11,2025-07-19,Fechado Ganho,99.0
+OPP-01121,L-03518,2025-07-10,2025-07-18,Fechado Perdido,999.0
+OPP-01122,L-03520,2025-07-23,2025-07-31,Fechado Ganho,299.0
+OPP-01123,L-03521,2025-07-27,2025-08-04,Fechado Perdido,999.0
+OPP-01124,L-03523,2025-07-22,2025-07-30,Fechado Ganho,999.0
+OPP-01125,L-03525,2025-07-23,2025-07-31,Fechado Perdido,99.0
+OPP-01126,L-03528,2025-07-22,2025-07-30,Fechado Perdido,99.0
+OPP-01127,L-03529,2025-07-07,2025-07-15,Fechado Ganho,99.0
+OPP-01128,L-03531,2025-07-26,2025-08-03,Fechado Perdido,299.0
+OPP-01129,L-03535,2025-07-07,2025-07-15,Fechado Ganho,299.0
+OPP-01130,L-03536,2025-07-12,2025-07-20,Fechado Ganho,99.0
+OPP-01131,L-03540,2025-07-26,2025-08-03,Fechado Ganho,999.0
+OPP-01132,L-03549,2025-07-22,2025-07-30,Fechado Ganho,999.0
+OPP-01133,L-03550,2025-07-27,2025-08-04,Fechado Ganho,99.0
+OPP-01134,L-03555,2025-07-29,2025-08-06,Fechado Ganho,99.0
+OPP-01135,L-03560,2025-07-23,2025-07-31,Fechado Perdido,999.0
+OPP-01136,L-03562,2025-07-16,2025-07-24,Fechado Perdido,999.0
+OPP-01137,L-03565,2025-07-27,2025-08-04,Fechado Ganho,999.0
+OPP-01138,L-03567,2025-07-08,2025-07-16,Fechado Perdido,999.0
+OPP-01139,L-03568,2025-07-06,2025-07-14,Fechado Ganho,99.0
+OPP-01140,L-03575,2025-07-31,2025-08-08,Fechado Ganho,99.0
+OPP-01141,L-03583,2025-07-16,2025-07-24,Fechado Ganho,999.0
+OPP-01142,L-03585,2025-08-01,2025-08-09,Fechado Ganho,299.0
+OPP-01143,L-03586,2025-07-22,2025-07-30,Fechado Perdido,999.0
+OPP-01144,L-03588,2025-07-09,2025-07-17,Fechado Ganho,299.0
+OPP-01145,L-03592,2025-07-16,2025-07-24,Fechado Ganho,99.0
+OPP-01146,L-03595,2025-07-11,2025-07-19,Fechado Ganho,99.0
+OPP-01147,L-03601,2025-07-26,2025-08-03,Fechado Ganho,299.0
+OPP-01148,L-03602,2025-07-21,2025-07-29,Fechado Ganho,99.0
+OPP-01149,L-03606,2025-07-26,2025-08-03,Fechado Perdido,999.0
+OPP-01150,L-03615,2025-07-06,2025-07-14,Fechado Ganho,299.0
+OPP-01151,L-03616,2025-07-13,2025-07-21,Fechado Perdido,999.0
+OPP-01152,L-03617,2025-07-18,2025-07-26,Fechado Perdido,99.0
+OPP-01153,L-03619,2025-07-12,2025-07-20,Fechado Ganho,299.0
+OPP-01154,L-03627,2025-07-15,2025-07-23,Fechado Ganho,99.0
+OPP-01155,L-03629,2025-07-11,2025-07-19,Fechado Ganho,299.0
+OPP-01156,L-03630,2025-07-28,2025-08-05,Fechado Ganho,999.0
+OPP-01157,L-03633,2025-07-10,2025-07-18,Fechado Ganho,999.0
+OPP-01158,L-03639,2025-07-26,2025-08-03,Fechado Perdido,99.0
+OPP-01159,L-03650,2025-07-23,2025-07-31,Fechado Ganho,299.0
+OPP-01160,L-03675,2025-07-24,2025-08-01,Fechado Ganho,99.0
+OPP-01161,L-03678,2025-07-23,2025-07-31,Fechado Ganho,999.0
+OPP-01162,L-03680,2025-07-07,2025-07-15,Fechado Ganho,299.0
+OPP-01163,L-03689,2025-07-11,2025-07-19,Fechado Perdido,299.0
+OPP-01164,L-03703,2025-07-23,2025-07-31,Fechado Perdido,99.0
+OPP-01165,L-03705,2025-07-15,2025-07-23,Fechado Ganho,299.0
+OPP-01166,L-03707,2025-07-30,2025-08-07,Fechado Perdido,299.0
+OPP-01167,L-03719,2025-07-24,2025-08-01,Fechado Perdido,999.0
+OPP-01168,L-03720,2025-07-19,2025-07-27,Fechado Ganho,99.0
+OPP-01169,L-03722,2025-07-25,2025-08-02,Fechado Perdido,999.0
+OPP-01170,L-03731,2025-07-15,2025-07-23,Fechado Perdido,999.0
+OPP-01171,L-03732,2025-07-29,2025-08-06,Fechado Perdido,299.0
+OPP-01172,L-03736,2025-07-16,2025-07-24,Fechado Ganho,99.0
+OPP-01173,L-03743,2025-07-17,2025-07-25,Fechado Perdido,299.0
+OPP-01174,L-03745,2025-07-07,2025-07-15,Fechado Perdido,999.0
+OPP-01175,L-03767,2025-07-22,2025-07-30,Fechado Perdido,99.0
+OPP-01176,L-03775,2025-07-08,2025-07-16,Fechado Perdido,99.0
+OPP-01177,L-03793,2025-07-08,2025-07-16,Fechado Perdido,99.0
+OPP-01178,L-03797,2025-07-15,2025-07-23,Fechado Perdido,99.0
+OPP-01179,L-03800,2025-07-22,2025-07-30,Fechado Perdido,99.0
+OPP-01180,L-03804,2025-07-26,2025-08-03,Fechado Perdido,99.0
+OPP-01181,L-03813,2025-07-21,2025-07-29,Fechado Perdido,999.0
+OPP-01182,L-03823,2025-07-20,2025-07-28,Fechado Ganho,299.0
+OPP-01183,L-03830,2025-07-26,2025-08-03,Fechado Perdido,999.0
+OPP-01184,L-03839,2025-07-27,2025-08-04,Fechado Ganho,299.0
+OPP-01185,L-03841,2025-07-18,2025-07-26,Fechado Perdido,299.0
+OPP-01186,L-03842,2025-07-30,2025-08-07,Fechado Ganho,999.0
+OPP-01187,L-03843,2025-07-07,2025-07-15,Fechado Perdido,99.0
+OPP-01188,L-03844,2025-07-13,2025-07-21,Fechado Perdido,99.0
+OPP-01189,L-03852,2025-07-19,2025-07-27,Fechado Perdido,999.0
+OPP-01190,L-03854,2025-07-18,2025-07-26,Fechado Perdido,99.0
+OPP-01191,L-03859,2025-07-25,2025-08-02,Fechado Perdido,299.0
+OPP-01192,L-03860,2025-07-14,2025-07-22,Fechado Perdido,999.0
+OPP-01193,L-03865,2025-08-01,2025-08-09,Fechado Perdido,99.0
+OPP-01194,L-03875,2025-07-20,2025-07-28,Fechado Perdido,299.0
+OPP-01195,L-03879,2025-07-13,2025-07-21,Fechado Ganho,299.0
+OPP-01196,L-03886,2025-07-19,2025-07-27,Fechado Ganho,299.0
+OPP-01197,L-03887,2025-08-01,2025-08-09,Fechado Ganho,99.0
+OPP-01198,L-03893,2025-07-24,2025-08-01,Fechado Ganho,299.0
+OPP-01199,L-03896,2025-07-30,2025-08-07,Fechado Ganho,99.0
+OPP-01200,L-03900,2025-07-25,2025-08-02,Fechado Perdido,999.0
+OPP-01201,L-03905,2025-07-06,2025-07-14,Fechado Ganho,99.0
+OPP-01202,L-03909,2025-07-21,2025-07-29,Fechado Perdido,99.0
+OPP-01203,L-03925,2025-07-09,2025-07-17,Fechado Perdido,99.0
+OPP-01204,L-03928,2025-07-20,2025-07-28,Fechado Perdido,999.0
+OPP-01205,L-03935,2025-07-24,2025-08-01,Fechado Ganho,99.0
+OPP-01206,L-03941,2025-07-09,2025-07-17,Fechado Ganho,99.0
+OPP-01207,L-03951,2025-07-27,2025-08-04,Fechado Perdido,999.0
+OPP-01208,L-03957,2025-07-12,2025-07-20,Fechado Perdido,999.0
+OPP-01209,L-03958,2025-07-14,2025-07-22,Fechado Perdido,299.0
+OPP-01210,L-03962,2025-07-26,2025-08-03,Fechado Ganho,99.0
+OPP-01211,L-03964,2025-07-13,2025-07-21,Fechado Perdido,99.0
+OPP-01212,L-03967,2025-07-20,2025-07-28,Fechado Perdido,99.0
+OPP-01213,L-03968,2025-07-14,2025-07-22,Fechado Ganho,999.0
+OPP-01214,L-03974,2025-07-22,2025-07-30,Fechado Ganho,999.0
+OPP-01215,L-03975,2025-07-31,2025-08-08,Fechado Perdido,999.0
+OPP-01216,L-03979,2025-07-13,2025-07-21,Fechado Perdido,299.0
+OPP-01217,L-03984,2025-07-25,2025-08-02,Fechado Ganho,99.0
+OPP-01218,L-03986,2025-07-12,2025-07-20,Fechado Ganho,299.0
+OPP-01219,L-03988,2025-07-10,2025-07-18,Fechado Perdido,99.0
+OPP-01220,L-03998,2025-07-22,2025-07-30,Fechado Perdido,99.0
+OPP-01221,L-04000,2025-07-12,2025-07-20,Fechado Ganho,999.0
+OPP-01222,L-04005,2025-07-19,2025-07-27,Fechado Perdido,99.0
+OPP-01223,L-04006,2025-07-30,2025-08-07,Fechado Perdido,299.0
+OPP-01224,L-04008,2025-07-12,2025-07-20,Fechado Ganho,299.0
+OPP-01225,L-04009,2025-07-07,2025-07-15,Fechado Perdido,99.0
+OPP-01226,L-04014,2025-07-29,2025-08-06,Fechado Ganho,299.0
+OPP-01227,L-04021,2025-07-18,2025-07-26,Fechado Perdido,99.0
+OPP-01228,L-04022,2025-07-18,2025-07-26,Fechado Perdido,299.0
+OPP-01229,L-04033,2025-07-22,2025-07-30,Fechado Ganho,999.0
+OPP-01230,L-04034,2025-07-10,2025-07-18,Fechado Ganho,99.0
+OPP-01231,L-04049,2025-07-21,2025-07-29,Fechado Ganho,299.0
+OPP-01232,L-04061,2025-07-20,2025-07-28,Fechado Ganho,999.0
+OPP-01233,L-04069,2025-07-20,2025-07-28,Fechado Ganho,99.0
+OPP-01234,L-04077,2025-07-26,2025-08-03,Fechado Ganho,299.0
+OPP-01235,L-04085,2025-07-08,2025-07-16,Fechado Perdido,999.0
+OPP-01236,L-04089,2025-07-07,2025-07-15,Fechado Ganho,999.0
+OPP-01237,L-04092,2025-07-06,2025-07-14,Fechado Perdido,99.0
+OPP-01238,L-04107,2025-07-07,2025-07-15,Fechado Ganho,99.0
+OPP-01239,L-04108,2025-07-16,2025-07-24,Fechado Perdido,999.0
+OPP-01240,L-04112,2025-07-13,2025-07-21,Fechado Ganho,99.0
+OPP-01241,L-04131,2025-07-26,2025-08-03,Fechado Perdido,99.0
+OPP-01242,L-04139,2025-07-23,2025-07-31,Fechado Ganho,99.0
+OPP-01243,L-04149,2025-07-22,2025-07-30,Fechado Ganho,99.0
+OPP-01244,L-04152,2025-07-23,2025-07-31,Fechado Perdido,999.0
+OPP-01245,L-04153,2025-07-14,2025-07-22,Fechado Perdido,999.0
+OPP-01246,L-04160,2025-07-08,2025-07-16,Fechado Ganho,299.0
+OPP-01247,L-04161,2025-07-12,2025-07-20,Fechado Perdido,99.0
+OPP-01248,L-04164,2025-08-01,2025-08-09,Fechado Perdido,999.0
+OPP-01249,L-04166,2025-07-21,2025-07-29,Fechado Perdido,299.0
+OPP-01250,L-04167,2025-07-21,2025-07-29,Fechado Perdido,99.0
+OPP-01251,L-04169,2025-07-08,2025-07-16,Fechado Perdido,299.0
+OPP-01252,L-04172,2025-07-09,2025-07-17,Fechado Perdido,99.0
+OPP-01253,L-04176,2025-07-20,2025-07-28,Fechado Perdido,299.0
+OPP-01254,L-04178,2025-07-25,2025-08-02,Fechado Perdido,299.0
+OPP-01255,L-04180,2025-07-25,2025-08-02,Fechado Ganho,999.0
+OPP-01256,L-04183,2025-07-31,2025-08-08,Fechado Perdido,299.0
+OPP-01257,L-04185,2025-07-22,2025-07-30,Fechado Ganho,99.0
+OPP-01258,L-04187,2025-07-21,2025-07-29,Fechado Ganho,299.0
+OPP-01259,L-04188,2025-07-31,2025-08-08,Fechado Perdido,999.0
+OPP-01260,L-04190,2025-07-28,2025-08-05,Fechado Perdido,299.0
+OPP-01261,L-04192,2025-07-16,2025-07-24,Fechado Ganho,99.0
+OPP-01262,L-04196,2025-07-26,2025-08-03,Fechado Ganho,999.0
+OPP-01263,L-04198,2025-07-19,2025-07-27,Fechado Perdido,99.0
+OPP-01264,L-04202,2025-07-12,2025-07-20,Fechado Perdido,999.0
+OPP-01265,L-04204,2025-07-06,2025-07-14,Fechado Perdido,299.0
+OPP-01266,L-04212,2025-07-07,2025-07-15,Fechado Ganho,299.0
+OPP-01267,L-04218,2025-07-10,2025-07-18,Fechado Ganho,99.0
+OPP-01268,L-04224,2025-07-16,2025-07-24,Fechado Ganho,99.0
+OPP-01269,L-04225,2025-07-09,2025-07-17,Fechado Ganho,299.0
+OPP-01270,L-04226,2025-07-15,2025-07-23,Fechado Ganho,999.0
+OPP-01271,L-04227,2025-07-14,2025-07-22,Fechado Perdido,999.0
+OPP-01272,L-04230,2025-07-27,2025-08-04,Fechado Perdido,999.0
+OPP-01273,L-04237,2025-07-09,2025-07-17,Fechado Perdido,999.0
+OPP-01274,L-04238,2025-07-13,2025-07-21,Fechado Perdido,99.0
+OPP-01275,L-04239,2025-07-11,2025-07-19,Fechado Perdido,99.0
+OPP-01276,L-04241,2025-07-28,2025-08-05,Fechado Ganho,999.0
+OPP-01277,L-04247,2025-07-26,2025-08-03,Fechado Perdido,99.0
+OPP-01278,L-04250,2025-07-26,2025-08-03,Fechado Ganho,99.0
+OPP-01279,L-04264,2025-07-26,2025-08-03,Fechado Perdido,999.0
+OPP-01280,L-04265,2025-07-10,2025-07-18,Fechado Ganho,99.0
+OPP-01281,L-04269,2025-07-15,2025-07-23,Fechado Ganho,299.0
+OPP-01282,L-04276,2025-07-11,2025-07-19,Fechado Ganho,299.0
+OPP-01283,L-04284,2025-07-14,2025-07-22,Fechado Ganho,99.0
+OPP-01284,L-04296,2025-07-18,2025-07-26,Fechado Ganho,999.0
+OPP-01285,L-04300,2025-07-20,2025-07-28,Fechado Ganho,99.0
+OPP-01286,L-04302,2025-07-17,2025-07-25,Fechado Perdido,299.0
+OPP-01287,L-04303,2025-07-21,2025-07-29,Fechado Perdido,999.0
+OPP-01288,L-04305,2025-07-09,2025-07-17,Fechado Perdido,999.0
+OPP-01289,L-04309,2025-07-08,2025-07-16,Fechado Perdido,999.0
+OPP-01290,L-04310,2025-07-18,2025-07-26,Fechado Ganho,299.0
+OPP-01291,L-04313,2025-07-21,2025-07-29,Fechado Ganho,99.0
+OPP-01292,L-04315,2025-07-29,2025-08-06,Fechado Ganho,99.0
+OPP-01293,L-04316,2025-07-17,2025-07-25,Fechado Ganho,999.0
+OPP-01294,L-04317,2025-07-27,2025-08-04,Fechado Perdido,299.0
+OPP-01295,L-04318,2025-07-07,2025-07-15,Fechado Ganho,299.0
+OPP-01296,L-04324,2025-07-21,2025-07-29,Fechado Ganho,299.0
+OPP-01297,L-04329,2025-07-28,2025-08-05,Fechado Ganho,99.0
+OPP-01298,L-04330,2025-07-27,2025-08-04,Fechado Ganho,999.0
+OPP-01299,L-04331,2025-07-22,2025-07-30,Fechado Ganho,99.0
+OPP-01300,L-04336,2025-07-25,2025-08-02,Fechado Perdido,99.0
+OPP-01301,L-04338,2025-07-25,2025-08-02,Fechado Ganho,299.0
+OPP-01302,L-04343,2025-07-30,2025-08-07,Fechado Perdido,99.0
+OPP-01303,L-04358,2025-07-10,2025-07-18,Fechado Ganho,999.0
+OPP-01304,L-04359,2025-07-15,2025-07-23,Fechado Perdido,999.0
+OPP-01305,L-04366,2025-07-22,2025-07-30,Fechado Ganho,99.0
+OPP-01306,L-04367,2025-07-17,2025-07-25,Fechado Ganho,99.0
+OPP-01307,L-04372,2025-08-01,2025-08-09,Fechado Ganho,999.0
+OPP-01308,L-04374,2025-07-20,2025-07-28,Fechado Perdido,299.0
+OPP-01309,L-04377,2025-07-08,2025-07-16,Fechado Ganho,999.0
+OPP-01310,L-04384,2025-07-29,2025-08-06,Fechado Perdido,99.0
+OPP-01311,L-04392,2025-07-25,2025-08-02,Fechado Perdido,99.0
+OPP-01312,L-04397,2025-07-15,2025-07-23,Fechado Perdido,999.0
+OPP-01313,L-04398,2025-07-18,2025-07-26,Fechado Ganho,99.0
+OPP-01314,L-04403,2025-08-01,2025-08-09,Fechado Perdido,299.0
+OPP-01315,L-04405,2025-07-09,2025-07-17,Fechado Perdido,999.0
+OPP-01316,L-04408,2025-07-08,2025-07-16,Fechado Perdido,299.0
+OPP-01317,L-04410,2025-08-01,2025-08-09,Fechado Ganho,99.0
+OPP-01318,L-04411,2025-07-06,2025-07-14,Fechado Ganho,299.0
+OPP-01319,L-04421,2025-07-29,2025-08-06,Fechado Perdido,299.0
+OPP-01320,L-04424,2025-07-23,2025-07-31,Fechado Ganho,99.0
+OPP-01321,L-04428,2025-07-17,2025-07-25,Fechado Ganho,99.0
+OPP-01322,L-04439,2025-07-11,2025-07-19,Fechado Perdido,999.0
+OPP-01323,L-04440,2025-07-16,2025-07-24,Fechado Ganho,299.0
+OPP-01324,L-04443,2025-07-25,2025-08-02,Fechado Perdido,99.0
+OPP-01325,L-04454,2025-07-12,2025-07-20,Fechado Perdido,299.0
+OPP-01326,L-04458,2025-07-25,2025-08-02,Fechado Perdido,299.0
+OPP-01327,L-04466,2025-07-25,2025-08-02,Fechado Ganho,299.0
+OPP-01328,L-04467,2025-07-27,2025-08-04,Fechado Perdido,999.0
+OPP-01329,L-04471,2025-07-30,2025-08-07,Fechado Perdido,999.0
+OPP-01330,L-04476,2025-07-17,2025-07-25,Fechado Perdido,99.0
+OPP-01331,L-04477,2025-07-17,2025-07-25,Fechado Ganho,999.0
+OPP-01332,L-04494,2025-08-01,2025-08-09,Fechado Ganho,999.0
+OPP-01333,L-04504,2025-07-09,2025-07-17,Fechado Ganho,999.0
+OPP-01334,L-04507,2025-07-10,2025-07-18,Fechado Perdido,299.0
+OPP-01335,L-04509,2025-07-17,2025-07-25,Fechado Perdido,999.0
+OPP-01336,L-04528,2025-07-17,2025-07-25,Fechado Ganho,999.0
+OPP-01337,L-04534,2025-07-26,2025-08-03,Fechado Perdido,99.0
+OPP-01338,L-04535,2025-07-20,2025-07-28,Fechado Ganho,999.0
+OPP-01339,L-04536,2025-07-10,2025-07-18,Fechado Perdido,999.0
+OPP-01340,L-04539,2025-07-23,2025-07-31,Fechado Ganho,999.0
+OPP-01341,L-04566,2025-07-29,2025-08-06,Fechado Ganho,999.0
+OPP-01342,L-04568,2025-07-15,2025-07-23,Fechado Ganho,299.0
+OPP-01343,L-04569,2025-07-12,2025-07-20,Fechado Perdido,99.0
+OPP-01344,L-04574,2025-07-09,2025-07-17,Fechado Perdido,999.0
+OPP-01345,L-04578,2025-07-13,2025-07-21,Fechado Perdido,299.0
+OPP-01346,L-04583,2025-07-14,2025-07-22,Fechado Ganho,299.0
+OPP-01347,L-04587,2025-07-16,2025-07-24,Fechado Perdido,999.0
+OPP-01348,L-04590,2025-07-24,2025-08-01,Fechado Perdido,99.0
+OPP-01349,L-04596,2025-07-20,2025-07-28,Fechado Ganho,99.0
+OPP-01350,L-04601,2025-07-23,2025-07-31,Fechado Ganho,999.0
+OPP-01351,L-04609,2025-07-15,2025-07-23,Fechado Perdido,999.0
+OPP-01352,L-04614,2025-07-21,2025-07-29,Fechado Ganho,99.0
+OPP-01353,L-04615,2025-07-24,2025-08-01,Fechado Ganho,999.0
+OPP-01354,L-04622,2025-07-30,2025-08-07,Fechado Perdido,299.0
+OPP-01355,L-04625,2025-07-20,2025-07-28,Fechado Ganho,999.0
+OPP-01356,L-04632,2025-07-17,2025-07-25,Fechado Perdido,99.0
+OPP-01357,L-04640,2025-07-22,2025-07-30,Fechado Perdido,99.0
+OPP-01358,L-04645,2025-08-11,2025-08-19,Fechado Ganho,99.0
+OPP-01359,L-04649,2025-08-14,2025-08-22,Fechado Perdido,99.0
+OPP-01360,L-04650,2025-08-07,2025-08-15,Fechado Perdido,99.0
+OPP-01361,L-04654,2025-08-06,2025-08-14,Fechado Ganho,99.0
+OPP-01362,L-04655,2025-08-22,2025-08-30,Fechado Ganho,299.0
+OPP-01363,L-04657,2025-08-24,2025-09-01,Fechado Perdido,999.0
+OPP-01364,L-04659,2025-08-29,2025-09-06,Fechado Ganho,299.0
+OPP-01365,L-04663,2025-08-24,2025-09-01,Fechado Ganho,99.0
+OPP-01366,L-04667,2025-08-12,2025-08-20,Fechado Perdido,999.0
+OPP-01367,L-04670,2025-08-11,2025-08-19,Fechado Perdido,99.0
+OPP-01368,L-04671,2025-08-08,2025-08-16,Fechado Ganho,299.0
+OPP-01369,L-04676,2025-08-31,2025-09-08,Fechado Perdido,99.0
+OPP-01370,L-04680,2025-08-26,2025-09-03,Fechado Ganho,99.0
+OPP-01371,L-04681,2025-08-12,2025-08-20,Fechado Ganho,999.0
+OPP-01372,L-04693,2025-08-25,2025-09-02,Fechado Perdido,299.0
+OPP-01373,L-04699,2025-08-22,2025-08-30,Fechado Perdido,299.0
+OPP-01374,L-04701,2025-08-08,2025-08-16,Fechado Ganho,99.0
+OPP-01375,L-04702,2025-08-06,2025-08-14,Fechado Perdido,299.0
+OPP-01376,L-04703,2025-08-08,2025-08-16,Fechado Perdido,299.0
+OPP-01377,L-04705,2025-08-09,2025-08-17,Fechado Perdido,299.0
+OPP-01378,L-04707,2025-08-07,2025-08-15,Fechado Perdido,999.0
+OPP-01379,L-04709,2025-08-22,2025-08-30,Fechado Perdido,299.0
+OPP-01380,L-04712,2025-09-01,2025-09-09,Fechado Perdido,999.0
+OPP-01381,L-04717,2025-08-14,2025-08-22,Fechado Ganho,299.0
+OPP-01382,L-04718,2025-08-25,2025-09-02,Fechado Perdido,999.0
+OPP-01383,L-04722,2025-08-06,2025-08-14,Fechado Ganho,299.0
+OPP-01384,L-04723,2025-08-31,2025-09-08,Fechado Ganho,99.0
+OPP-01385,L-04724,2025-08-21,2025-08-29,Fechado Ganho,299.0
+OPP-01386,L-04727,2025-08-26,2025-09-03,Fechado Ganho,299.0
+OPP-01387,L-04730,2025-08-12,2025-08-20,Fechado Ganho,299.0
+OPP-01388,L-04735,2025-08-29,2025-09-06,Fechado Perdido,99.0
+OPP-01389,L-04737,2025-08-10,2025-08-18,Fechado Ganho,99.0
+OPP-01390,L-04738,2025-08-23,2025-08-31,Fechado Perdido,299.0
+OPP-01391,L-04739,2025-08-16,2025-08-24,Fechado Ganho,99.0
+OPP-01392,L-04741,2025-08-23,2025-08-31,Fechado Perdido,999.0
+OPP-01393,L-04742,2025-08-26,2025-09-03,Fechado Ganho,299.0
+OPP-01394,L-04747,2025-08-26,2025-09-03,Fechado Perdido,999.0
+OPP-01395,L-04753,2025-08-20,2025-08-28,Fechado Perdido,99.0
+OPP-01396,L-04756,2025-08-06,2025-08-14,Fechado Ganho,999.0
+OPP-01397,L-04760,2025-08-11,2025-08-19,Fechado Ganho,299.0
+OPP-01398,L-04761,2025-08-11,2025-08-19,Fechado Perdido,999.0
+OPP-01399,L-04762,2025-08-11,2025-08-19,Fechado Perdido,299.0
+OPP-01400,L-04765,2025-08-19,2025-08-27,Fechado Ganho,999.0
+OPP-01401,L-04767,2025-08-13,2025-08-21,Fechado Ganho,99.0
+OPP-01402,L-04768,2025-08-06,2025-08-14,Fechado Perdido,299.0
+OPP-01403,L-04770,2025-09-01,2025-09-09,Fechado Perdido,99.0
+OPP-01404,L-04771,2025-08-15,2025-08-23,Fechado Perdido,99.0
+OPP-01405,L-04772,2025-08-23,2025-08-31,Fechado Ganho,99.0
+OPP-01406,L-04776,2025-08-11,2025-08-19,Fechado Perdido,299.0
+OPP-01407,L-04780,2025-09-01,2025-09-09,Fechado Perdido,999.0
+OPP-01408,L-04783,2025-08-22,2025-08-30,Fechado Perdido,99.0
+OPP-01409,L-04785,2025-08-28,2025-09-05,Fechado Perdido,99.0
+OPP-01410,L-04787,2025-08-26,2025-09-03,Fechado Perdido,999.0
+OPP-01411,L-04788,2025-08-14,2025-08-22,Fechado Perdido,999.0
+OPP-01412,L-04794,2025-08-18,2025-08-26,Fechado Perdido,99.0
+OPP-01413,L-04798,2025-08-24,2025-09-01,Fechado Perdido,299.0
+OPP-01414,L-04799,2025-08-20,2025-08-28,Fechado Perdido,299.0
+OPP-01415,L-04800,2025-08-17,2025-08-25,Fechado Perdido,999.0
+OPP-01416,L-04811,2025-08-25,2025-09-02,Fechado Ganho,999.0
+OPP-01417,L-04812,2025-08-09,2025-08-17,Fechado Ganho,999.0
+OPP-01418,L-04813,2025-08-12,2025-08-20,Fechado Ganho,99.0
+OPP-01419,L-04821,2025-08-20,2025-08-28,Fechado Perdido,999.0
+OPP-01420,L-04825,2025-08-16,2025-08-24,Fechado Perdido,299.0
+OPP-01421,L-04826,2025-08-22,2025-08-30,Fechado Ganho,299.0
+OPP-01422,L-04831,2025-08-06,2025-08-14,Fechado Ganho,999.0
+OPP-01423,L-04833,2025-08-20,2025-08-28,Fechado Perdido,299.0
+OPP-01424,L-04834,2025-08-30,2025-09-07,Fechado Perdido,99.0
+OPP-01425,L-04838,2025-08-14,2025-08-22,Fechado Perdido,299.0
+OPP-01426,L-04842,2025-08-24,2025-09-01,Fechado Perdido,299.0
+OPP-01427,L-04843,2025-08-26,2025-09-03,Fechado Ganho,299.0
+OPP-01428,L-04844,2025-08-10,2025-08-18,Fechado Perdido,299.0
+OPP-01429,L-04847,2025-08-28,2025-09-05,Fechado Perdido,299.0
+OPP-01430,L-04848,2025-08-10,2025-08-18,Fechado Perdido,999.0
+OPP-01431,L-04852,2025-08-23,2025-08-31,Fechado Ganho,99.0
+OPP-01432,L-04853,2025-08-18,2025-08-26,Fechado Ganho,299.0
+OPP-01433,L-04855,2025-08-23,2025-08-31,Fechado Ganho,999.0
+OPP-01434,L-04861,2025-08-07,2025-08-15,Fechado Perdido,299.0
+OPP-01435,L-04863,2025-08-25,2025-09-02,Fechado Perdido,999.0
+OPP-01436,L-04865,2025-08-06,2025-08-14,Fechado Ganho,99.0
+OPP-01437,L-04868,2025-08-17,2025-08-25,Fechado Perdido,299.0
+OPP-01438,L-04869,2025-08-11,2025-08-19,Fechado Ganho,999.0
+OPP-01439,L-04870,2025-08-12,2025-08-20,Fechado Perdido,999.0
+OPP-01440,L-04872,2025-08-27,2025-09-04,Fechado Perdido,299.0
+OPP-01441,L-04875,2025-08-22,2025-08-30,Fechado Ganho,99.0
+OPP-01442,L-04880,2025-08-15,2025-08-23,Fechado Perdido,299.0
+OPP-01443,L-04881,2025-08-16,2025-08-24,Fechado Perdido,299.0
+OPP-01444,L-04884,2025-08-10,2025-08-18,Fechado Ganho,999.0
+OPP-01445,L-04885,2025-08-11,2025-08-19,Fechado Perdido,99.0
+OPP-01446,L-04889,2025-08-28,2025-09-05,Fechado Ganho,999.0
+OPP-01447,L-04890,2025-08-26,2025-09-03,Fechado Ganho,299.0
+OPP-01448,L-04891,2025-08-10,2025-08-18,Fechado Ganho,999.0
+OPP-01449,L-04894,2025-08-17,2025-08-25,Fechado Ganho,999.0
+OPP-01450,L-04897,2025-08-06,2025-08-14,Fechado Perdido,999.0
+OPP-01451,L-04899,2025-08-20,2025-08-28,Fechado Ganho,999.0
+OPP-01452,L-04901,2025-08-23,2025-08-31,Fechado Perdido,299.0
+OPP-01453,L-04902,2025-08-30,2025-09-07,Fechado Ganho,99.0
+OPP-01454,L-04904,2025-08-09,2025-08-17,Fechado Perdido,99.0
+OPP-01455,L-04905,2025-08-16,2025-08-24,Fechado Perdido,999.0
+OPP-01456,L-04907,2025-08-23,2025-08-31,Fechado Perdido,299.0
+OPP-01457,L-04915,2025-08-09,2025-08-17,Fechado Perdido,99.0
+OPP-01458,L-04916,2025-08-30,2025-09-07,Fechado Ganho,99.0
+OPP-01459,L-04917,2025-08-23,2025-08-31,Fechado Perdido,99.0
+OPP-01460,L-04920,2025-08-09,2025-08-17,Fechado Perdido,999.0
+OPP-01461,L-04923,2025-08-23,2025-08-31,Fechado Ganho,999.0
+OPP-01462,L-04924,2025-08-11,2025-08-19,Fechado Perdido,999.0
+OPP-01463,L-04925,2025-08-16,2025-08-24,Fechado Perdido,99.0
+OPP-01464,L-04934,2025-08-14,2025-08-22,Fechado Perdido,999.0
+OPP-01465,L-04936,2025-08-20,2025-08-28,Fechado Perdido,99.0
+OPP-01466,L-04938,2025-08-20,2025-08-28,Fechado Perdido,999.0
+OPP-01467,L-04941,2025-08-11,2025-08-19,Fechado Perdido,999.0
+OPP-01468,L-04942,2025-08-12,2025-08-20,Fechado Perdido,999.0
+OPP-01469,L-04948,2025-08-06,2025-08-14,Fechado Perdido,99.0
+OPP-01470,L-04954,2025-08-16,2025-08-24,Fechado Ganho,99.0
+OPP-01471,L-04956,2025-08-30,2025-09-07,Fechado Ganho,999.0
+OPP-01472,L-04958,2025-08-30,2025-09-07,Fechado Perdido,299.0
+OPP-01473,L-04961,2025-08-29,2025-09-06,Fechado Perdido,999.0
+OPP-01474,L-04965,2025-09-01,2025-09-09,Fechado Perdido,999.0
+OPP-01475,L-04966,2025-08-25,2025-09-02,Fechado Ganho,99.0
+OPP-01476,L-04970,2025-08-09,2025-08-17,Fechado Ganho,99.0
+OPP-01477,L-04971,2025-08-11,2025-08-19,Fechado Perdido,299.0
+OPP-01478,L-04973,2025-08-16,2025-08-24,Fechado Ganho,299.0
+OPP-01479,L-04975,2025-08-19,2025-08-27,Fechado Perdido,299.0
+OPP-01480,L-04977,2025-08-23,2025-08-31,Fechado Perdido,99.0
+OPP-01481,L-04979,2025-08-17,2025-08-25,Fechado Ganho,999.0
+OPP-01482,L-04980,2025-08-22,2025-08-30,Fechado Ganho,99.0
+OPP-01483,L-04984,2025-08-21,2025-08-29,Fechado Ganho,299.0
+OPP-01484,L-04986,2025-08-28,2025-09-05,Fechado Ganho,99.0
+OPP-01485,L-04988,2025-08-16,2025-08-24,Fechado Perdido,99.0
+OPP-01486,L-04991,2025-08-08,2025-08-16,Fechado Ganho,99.0
+OPP-01487,L-04995,2025-08-26,2025-09-03,Fechado Perdido,99.0
+OPP-01488,L-04996,2025-08-30,2025-09-07,Fechado Perdido,99.0
+OPP-01489,L-05001,2025-08-31,2025-09-08,Fechado Ganho,999.0
+OPP-01490,L-05009,2025-08-07,2025-08-15,Fechado Perdido,299.0
+OPP-01491,L-05010,2025-08-13,2025-08-21,Fechado Perdido,999.0
+OPP-01492,L-05011,2025-09-23,2025-10-01,Fechado Perdido,299.0
+OPP-01493,L-05013,2025-09-11,2025-09-19,Fechado Ganho,299.0
+OPP-01494,L-05014,2025-09-30,2025-10-08,Fechado Ganho,299.0
+OPP-01495,L-05015,2025-09-27,2025-10-05,Fechado Perdido,99.0
+OPP-01496,L-05021,2025-09-08,2025-09-16,Fechado Ganho,99.0
+OPP-01497,L-05024,2025-09-21,2025-09-29,Fechado Ganho,299.0
+OPP-01498,L-05031,2025-09-09,2025-09-17,Fechado Perdido,99.0
+OPP-01499,L-05032,2025-09-25,2025-10-03,Fechado Ganho,999.0
+OPP-01500,L-05036,2025-09-16,2025-09-24,Fechado Perdido,99.0
+OPP-01501,L-05037,2025-09-17,2025-09-25,Fechado Perdido,999.0
+OPP-01502,L-05043,2025-09-20,2025-09-28,Fechado Ganho,999.0
+OPP-01503,L-05045,2025-10-01,2025-10-09,Fechado Perdido,99.0
+OPP-01504,L-05047,2025-09-22,2025-09-30,Fechado Ganho,299.0
+OPP-01505,L-05052,2025-09-20,2025-09-28,Fechado Perdido,99.0
+OPP-01506,L-05053,2025-10-01,2025-10-09,Fechado Perdido,99.0
+OPP-01507,L-05054,2025-09-11,2025-09-19,Fechado Ganho,999.0
+OPP-01508,L-05057,2025-09-25,2025-10-03,Fechado Perdido,299.0
+OPP-01509,L-05060,2025-09-17,2025-09-25,Fechado Perdido,999.0
+OPP-01510,L-05061,2025-09-26,2025-10-04,Fechado Ganho,99.0
+OPP-01511,L-05062,2025-09-27,2025-10-05,Fechado Perdido,999.0
+OPP-01512,L-05063,2025-09-07,2025-09-15,Fechado Ganho,99.0
+OPP-01513,L-05064,2025-09-25,2025-10-03,Fechado Perdido,299.0
+OPP-01514,L-05066,2025-09-27,2025-10-05,Fechado Perdido,99.0
+OPP-01515,L-05067,2025-09-18,2025-09-26,Fechado Perdido,999.0
+OPP-01516,L-05069,2025-09-24,2025-10-02,Fechado Ganho,999.0
+OPP-01517,L-05071,2025-09-26,2025-10-04,Fechado Perdido,999.0
+OPP-01518,L-05074,2025-09-19,2025-09-27,Fechado Ganho,99.0
+OPP-01519,L-05078,2025-09-24,2025-10-02,Fechado Ganho,99.0
+OPP-01520,L-05080,2025-09-06,2025-09-14,Fechado Perdido,299.0
+OPP-01521,L-05083,2025-09-16,2025-09-24,Fechado Perdido,299.0
+OPP-01522,L-05086,2025-09-20,2025-09-28,Fechado Perdido,299.0
+OPP-01523,L-05087,2025-09-18,2025-09-26,Fechado Perdido,99.0
+OPP-01524,L-05092,2025-09-16,2025-09-24,Fechado Perdido,99.0
+OPP-01525,L-05093,2025-09-12,2025-09-20,Fechado Perdido,299.0
+OPP-01526,L-05094,2025-09-16,2025-09-24,Fechado Perdido,299.0
+OPP-01527,L-05096,2025-09-06,2025-09-14,Fechado Ganho,999.0
+OPP-01528,L-05098,2025-09-23,2025-10-01,Fechado Ganho,99.0
+OPP-01529,L-05101,2025-09-07,2025-09-15,Fechado Ganho,999.0
+OPP-01530,L-05103,2025-09-09,2025-09-17,Fechado Perdido,99.0
+OPP-01531,L-05105,2025-09-16,2025-09-24,Fechado Perdido,99.0
+OPP-01532,L-05107,2025-09-24,2025-10-02,Fechado Ganho,99.0
+OPP-01533,L-05109,2025-09-30,2025-10-08,Fechado Ganho,299.0
+OPP-01534,L-05110,2025-09-19,2025-09-27,Fechado Ganho,999.0
+OPP-01535,L-05111,2025-10-01,2025-10-09,Fechado Perdido,99.0
+OPP-01536,L-05116,2025-10-01,2025-10-09,Fechado Ganho,99.0
+OPP-01537,L-05117,2025-09-06,2025-09-14,Fechado Perdido,299.0
+OPP-01538,L-05118,2025-09-07,2025-09-15,Fechado Ganho,999.0
+OPP-01539,L-05121,2025-09-12,2025-09-20,Fechado Perdido,299.0
+OPP-01540,L-05122,2025-09-17,2025-09-25,Fechado Perdido,299.0
+OPP-01541,L-05129,2025-09-30,2025-10-08,Fechado Ganho,299.0
+OPP-01542,L-05130,2025-09-08,2025-09-16,Fechado Perdido,99.0
+OPP-01543,L-05132,2025-09-21,2025-09-29,Fechado Ganho,299.0
+OPP-01544,L-05133,2025-09-12,2025-09-20,Fechado Perdido,999.0
+OPP-01545,L-05140,2025-09-22,2025-09-30,Fechado Ganho,999.0
+OPP-01546,L-05141,2025-09-11,2025-09-19,Fechado Ganho,299.0
+OPP-01547,L-05143,2025-09-17,2025-09-25,Fechado Perdido,99.0
+OPP-01548,L-05146,2025-09-27,2025-10-05,Fechado Perdido,299.0
+OPP-01549,L-05155,2025-09-13,2025-09-21,Fechado Ganho,299.0
+OPP-01550,L-05156,2025-09-25,2025-10-03,Fechado Perdido,299.0
+OPP-01551,L-05157,2025-09-10,2025-09-18,Fechado Ganho,99.0
+OPP-01552,L-05158,2025-09-18,2025-09-26,Fechado Perdido,999.0
+OPP-01553,L-05161,2025-09-29,2025-10-07,Fechado Perdido,99.0
+OPP-01554,L-05164,2025-09-17,2025-09-25,Fechado Perdido,99.0
+OPP-01555,L-05166,2025-09-15,2025-09-23,Fechado Ganho,99.0
+OPP-01556,L-05169,2025-09-28,2025-10-06,Fechado Perdido,999.0
+OPP-01557,L-05171,2025-09-27,2025-10-05,Fechado Perdido,99.0
+OPP-01558,L-05172,2025-09-16,2025-09-24,Fechado Perdido,299.0
+OPP-01559,L-05174,2025-09-05,2025-09-13,Fechado Ganho,99.0
+OPP-01560,L-05175,2025-09-21,2025-09-29,Fechado Ganho,99.0
+OPP-01561,L-05176,2025-09-24,2025-10-02,Fechado Ganho,999.0
+OPP-01562,L-05178,2025-09-11,2025-09-19,Fechado Perdido,99.0
+OPP-01563,L-05181,2025-09-22,2025-09-30,Fechado Perdido,99.0
+OPP-01564,L-05183,2025-09-05,2025-09-13,Fechado Perdido,299.0
+OPP-01565,L-05187,2025-09-24,2025-10-02,Fechado Ganho,999.0
+OPP-01566,L-05191,2025-09-15,2025-09-23,Fechado Ganho,999.0
+OPP-01567,L-05192,2025-09-12,2025-09-20,Fechado Ganho,99.0
+OPP-01568,L-05197,2025-09-24,2025-10-02,Fechado Ganho,99.0
+OPP-01569,L-05202,2025-09-19,2025-09-27,Fechado Perdido,999.0
+OPP-01570,L-05208,2025-09-12,2025-09-20,Fechado Ganho,299.0
+OPP-01571,L-05210,2025-09-27,2025-10-05,Fechado Ganho,999.0
+OPP-01572,L-05211,2025-09-19,2025-09-27,Fechado Ganho,299.0
+OPP-01573,L-05213,2025-09-06,2025-09-14,Fechado Perdido,999.0
+OPP-01574,L-05214,2025-09-10,2025-09-18,Fechado Ganho,999.0
+OPP-01575,L-05218,2025-09-22,2025-09-30,Fechado Ganho,99.0
+OPP-01576,L-05219,2025-09-08,2025-09-16,Fechado Perdido,99.0
+OPP-01577,L-05221,2025-09-18,2025-09-26,Fechado Ganho,99.0
+OPP-01578,L-05222,2025-09-25,2025-10-03,Fechado Ganho,999.0
+OPP-01579,L-05223,2025-09-20,2025-09-28,Fechado Perdido,999.0
+OPP-01580,L-05224,2025-09-23,2025-10-01,Fechado Perdido,999.0
+OPP-01581,L-05225,2025-09-05,2025-09-13,Fechado Ganho,299.0
+OPP-01582,L-05228,2025-09-30,2025-10-08,Fechado Ganho,299.0
+OPP-01583,L-05231,2025-09-23,2025-10-01,Fechado Perdido,999.0
+OPP-01584,L-05233,2025-09-29,2025-10-07,Fechado Perdido,99.0
+OPP-01585,L-05235,2025-10-01,2025-10-09,Fechado Perdido,99.0
+OPP-01586,L-05237,2025-09-15,2025-09-23,Fechado Perdido,299.0
+OPP-01587,L-05240,2025-09-09,2025-09-17,Fechado Ganho,999.0
+OPP-01588,L-05242,2025-09-14,2025-09-22,Fechado Perdido,99.0
+OPP-01589,L-05243,2025-09-26,2025-10-04,Fechado Perdido,99.0
+OPP-01590,L-05244,2025-09-05,2025-09-13,Fechado Perdido,999.0
+OPP-01591,L-05245,2025-09-11,2025-09-19,Fechado Perdido,299.0
+OPP-01592,L-05248,2025-09-30,2025-10-08,Fechado Perdido,299.0
+OPP-01593,L-05260,2025-09-08,2025-09-16,Fechado Ganho,299.0
+OPP-01594,L-05262,2025-09-28,2025-10-06,Fechado Perdido,999.0
+OPP-01595,L-05267,2025-09-08,2025-09-16,Fechado Ganho,299.0
+OPP-01596,L-05268,2025-09-20,2025-09-28,Fechado Perdido,299.0
+OPP-01597,L-05271,2025-09-18,2025-09-26,Fechado Ganho,999.0
+OPP-01598,L-05273,2025-09-16,2025-09-24,Fechado Perdido,99.0
+OPP-01599,L-05274,2025-09-12,2025-09-20,Fechado Ganho,299.0
+OPP-01600,L-05275,2025-09-29,2025-10-07,Fechado Ganho,299.0
+OPP-01601,L-05276,2025-09-15,2025-09-23,Fechado Ganho,999.0
+OPP-01602,L-05277,2025-09-10,2025-09-18,Fechado Ganho,299.0
+OPP-01603,L-05283,2025-09-24,2025-10-02,Fechado Ganho,999.0
+OPP-01604,L-05284,2025-09-25,2025-10-03,Fechado Ganho,299.0
+OPP-01605,L-05285,2025-09-07,2025-09-15,Fechado Perdido,99.0
+OPP-01606,L-05286,2025-09-23,2025-10-01,Fechado Perdido,99.0
+OPP-01607,L-05288,2025-09-14,2025-09-22,Fechado Perdido,99.0
+OPP-01608,L-05289,2025-09-11,2025-09-19,Fechado Perdido,99.0
+OPP-01609,L-05290,2025-09-16,2025-09-24,Fechado Ganho,99.0
+OPP-01610,L-05292,2025-09-11,2025-09-19,Fechado Ganho,99.0
+OPP-01611,L-05299,2025-09-21,2025-09-29,Fechado Ganho,99.0
+OPP-01612,L-05302,2025-09-09,2025-09-17,Fechado Perdido,299.0
+OPP-01613,L-05303,2025-09-26,2025-10-04,Fechado Perdido,299.0
+OPP-01614,L-05304,2025-09-27,2025-10-05,Fechado Ganho,999.0
+OPP-01615,L-05306,2025-09-19,2025-09-27,Fechado Ganho,999.0
+OPP-01616,L-05310,2025-09-27,2025-10-05,Fechado Ganho,99.0
+OPP-01617,L-05312,2025-09-14,2025-09-22,Fechado Ganho,999.0
+OPP-01618,L-05315,2025-09-07,2025-09-15,Fechado Perdido,99.0
+OPP-01619,L-05317,2025-09-12,2025-09-20,Fechado Perdido,99.0
+OPP-01620,L-05319,2025-09-27,2025-10-05,Fechado Ganho,999.0
+OPP-01621,L-05320,2025-09-20,2025-09-28,Fechado Ganho,299.0
+OPP-01622,L-05321,2025-09-23,2025-10-01,Fechado Perdido,999.0
+OPP-01623,L-05323,2025-09-09,2025-09-17,Fechado Perdido,99.0
+OPP-01624,L-05324,2025-09-08,2025-09-16,Fechado Ganho,99.0
+OPP-01625,L-05327,2025-09-21,2025-09-29,Fechado Perdido,299.0
+OPP-01626,L-05328,2025-09-26,2025-10-04,Fechado Ganho,999.0
+OPP-01627,L-05332,2025-09-06,2025-09-14,Fechado Ganho,299.0
+OPP-01628,L-05337,2025-09-22,2025-09-30,Fechado Perdido,999.0
+OPP-01629,L-05340,2025-09-10,2025-09-18,Fechado Perdido,99.0
+OPP-01630,L-05341,2025-09-16,2025-09-24,Fechado Ganho,299.0
+OPP-01631,L-05342,2025-09-27,2025-10-05,Fechado Ganho,99.0
+OPP-01632,L-05343,2025-09-26,2025-10-04,Fechado Perdido,299.0
+OPP-01633,L-05344,2025-09-21,2025-09-29,Fechado Perdido,999.0
+OPP-01634,L-05349,2025-09-11,2025-09-19,Fechado Perdido,299.0
+OPP-01635,L-05351,2025-09-09,2025-09-17,Fechado Perdido,999.0
+OPP-01636,L-05353,2025-09-15,2025-09-23,Fechado Perdido,299.0
+OPP-01637,L-05357,2025-09-17,2025-09-25,Fechado Ganho,99.0
+OPP-01638,L-05362,2025-09-20,2025-09-28,Fechado Ganho,999.0
+OPP-01639,L-05366,2025-09-11,2025-09-19,Fechado Perdido,299.0
+OPP-01640,L-05368,2025-09-09,2025-09-17,Fechado Ganho,999.0
+OPP-01641,L-05370,2025-09-15,2025-09-23,Fechado Ganho,99.0
+OPP-01642,L-05377,2025-09-17,2025-09-25,Fechado Ganho,99.0
+OPP-01643,L-05378,2025-09-06,2025-09-14,Fechado Perdido,99.0
+OPP-01644,L-05380,2025-09-07,2025-09-15,Fechado Perdido,999.0
+OPP-01645,L-05384,2025-09-30,2025-10-08,Fechado Perdido,299.0
+OPP-01646,L-05387,2025-09-18,2025-09-26,Fechado Ganho,99.0
+OPP-01647,L-05396,2025-09-24,2025-10-02,Fechado Perdido,99.0
+OPP-01648,L-05398,2025-09-07,2025-09-15,Fechado Ganho,299.0
+OPP-01649,L-05401,2025-09-13,2025-09-21,Fechado Perdido,99.0
+OPP-01650,L-05404,2025-09-24,2025-10-02,Fechado Ganho,299.0
+OPP-01651,L-05406,2025-09-28,2025-10-06,Fechado Perdido,299.0
+OPP-01652,L-05407,2025-09-26,2025-10-04,Fechado Perdido,299.0
+OPP-01653,L-05408,2025-09-16,2025-09-24,Fechado Perdido,999.0
+OPP-01654,L-05411,2025-09-26,2025-10-04,Fechado Perdido,299.0
+OPP-01655,L-05417,2025-09-17,2025-09-25,Fechado Ganho,999.0
+OPP-01656,L-05419,2025-09-16,2025-09-24,Fechado Ganho,99.0
+OPP-01657,L-05422,2025-09-25,2025-10-03,Fechado Perdido,299.0
+OPP-01658,L-05423,2025-09-23,2025-10-01,Fechado Perdido,99.0
+OPP-01659,L-05424,2025-09-11,2025-09-19,Fechado Ganho,299.0
+OPP-01660,L-05428,2025-09-07,2025-09-15,Fechado Perdido,99.0
+OPP-01661,L-05429,2025-09-08,2025-09-16,Fechado Ganho,99.0
+OPP-01662,L-05431,2025-09-21,2025-09-29,Fechado Ganho,999.0
+OPP-01663,L-05432,2025-09-12,2025-09-20,Fechado Perdido,99.0
+OPP-01664,L-05433,2025-09-19,2025-09-27,Fechado Perdido,99.0
+OPP-01665,L-05434,2025-09-19,2025-09-27,Fechado Perdido,99.0
+OPP-01666,L-05436,2025-09-12,2025-09-20,Fechado Perdido,999.0
+OPP-01667,L-05438,2025-09-08,2025-09-16,Fechado Perdido,99.0
+OPP-01668,L-05439,2025-09-28,2025-10-06,Fechado Perdido,99.0
+OPP-01669,L-05440,2025-09-28,2025-10-06,Fechado Ganho,999.0
+OPP-01670,L-05441,2025-09-29,2025-10-07,Fechado Ganho,99.0
+OPP-01671,L-05442,2025-09-26,2025-10-04,Fechado Ganho,999.0
+OPP-01672,L-05444,2025-09-05,2025-09-13,Fechado Ganho,999.0
+OPP-01673,L-05446,2025-09-06,2025-09-14,Fechado Perdido,999.0
+OPP-01674,L-05448,2025-09-28,2025-10-06,Fechado Perdido,99.0
+OPP-01675,L-05449,2025-09-25,2025-10-03,Fechado Perdido,299.0
+OPP-01676,L-05450,2025-09-16,2025-09-24,Fechado Perdido,99.0
+OPP-01677,L-05453,2025-09-05,2025-09-13,Fechado Perdido,299.0
+OPP-01678,L-05455,2025-09-30,2025-10-08,Fechado Perdido,99.0
+OPP-01679,L-05461,2025-09-07,2025-09-15,Fechado Perdido,299.0
+OPP-01680,L-05462,2025-09-08,2025-09-16,Fechado Perdido,99.0
+OPP-01681,L-05463,2025-09-18,2025-09-26,Fechado Ganho,99.0
+OPP-01682,L-05464,2025-09-22,2025-09-30,Fechado Ganho,299.0
+OPP-01683,L-05467,2025-09-23,2025-10-01,Fechado Perdido,999.0
+OPP-01684,L-05468,2025-09-24,2025-10-02,Fechado Perdido,999.0
+OPP-01685,L-05471,2025-11-01,2025-11-09,Fechado Ganho,299.0
+OPP-01686,L-05472,2025-10-18,2025-10-26,Fechado Perdido,99.0
+OPP-01687,L-05473,2025-10-19,2025-10-27,Fechado Ganho,99.0
+OPP-01688,L-05475,2025-10-14,2025-10-22,Fechado Ganho,299.0
+OPP-01689,L-05477,2025-10-22,2025-10-30,Fechado Ganho,999.0
+OPP-01690,L-05479,2025-10-20,2025-10-28,Fechado Ganho,99.0
+OPP-01691,L-05480,2025-10-30,2025-11-07,Fechado Ganho,999.0
+OPP-01692,L-05481,2025-10-20,2025-10-28,Fechado Perdido,299.0
+OPP-01693,L-05483,2025-10-25,2025-11-02,Fechado Ganho,999.0
+OPP-01694,L-05486,2025-10-24,2025-11-01,Fechado Ganho,99.0
+OPP-01695,L-05490,2025-10-12,2025-10-20,Fechado Perdido,299.0
+OPP-01696,L-05491,2025-10-17,2025-10-25,Fechado Perdido,999.0
+OPP-01697,L-05492,2025-10-09,2025-10-17,Fechado Ganho,99.0
+OPP-01698,L-05497,2025-11-01,2025-11-09,Fechado Perdido,299.0
+OPP-01699,L-05498,2025-11-01,2025-11-09,Fechado Ganho,99.0
+OPP-01700,L-05499,2025-10-20,2025-10-28,Fechado Ganho,999.0
+OPP-01701,L-05508,2025-10-06,2025-10-14,Fechado Perdido,99.0
+OPP-01702,L-05513,2025-10-27,2025-11-04,Fechado Ganho,999.0
+OPP-01703,L-05515,2025-10-12,2025-10-20,Fechado Perdido,999.0
+OPP-01704,L-05521,2025-10-10,2025-10-18,Fechado Perdido,99.0
+OPP-01705,L-05529,2025-10-13,2025-10-21,Fechado Ganho,99.0
+OPP-01706,L-05537,2025-10-10,2025-10-18,Fechado Ganho,99.0
+OPP-01707,L-05539,2025-10-15,2025-10-23,Fechado Perdido,999.0
+OPP-01708,L-05540,2025-10-13,2025-10-21,Fechado Perdido,999.0
+OPP-01709,L-05542,2025-10-30,2025-11-07,Fechado Ganho,99.0
+OPP-01710,L-05543,2025-10-24,2025-11-01,Fechado Ganho,299.0
+OPP-01711,L-05552,2025-10-25,2025-11-02,Fechado Ganho,299.0
+OPP-01712,L-05553,2025-10-19,2025-10-27,Fechado Ganho,999.0
+OPP-01713,L-05556,2025-10-16,2025-10-24,Fechado Ganho,99.0
+OPP-01714,L-05558,2025-10-26,2025-11-03,Fechado Ganho,999.0
+OPP-01715,L-05560,2025-10-08,2025-10-16,Fechado Perdido,299.0
+OPP-01716,L-05561,2025-10-24,2025-11-01,Fechado Ganho,99.0
+OPP-01717,L-05562,2025-10-13,2025-10-21,Fechado Ganho,99.0
+OPP-01718,L-05563,2025-11-01,2025-11-09,Fechado Perdido,999.0
+OPP-01719,L-05566,2025-10-18,2025-10-26,Fechado Perdido,299.0
+OPP-01720,L-05567,2025-10-31,2025-11-08,Fechado Perdido,999.0
+OPP-01721,L-05575,2025-10-18,2025-10-26,Fechado Perdido,999.0
+OPP-01722,L-05576,2025-10-14,2025-10-22,Fechado Ganho,999.0
+OPP-01723,L-05578,2025-10-13,2025-10-21,Fechado Ganho,299.0
+OPP-01724,L-05580,2025-10-13,2025-10-21,Fechado Ganho,299.0
+OPP-01725,L-05586,2025-10-18,2025-10-26,Fechado Ganho,999.0
+OPP-01726,L-05587,2025-10-11,2025-10-19,Fechado Perdido,99.0
+OPP-01727,L-05588,2025-10-06,2025-10-14,Fechado Perdido,99.0
+OPP-01728,L-05591,2025-10-18,2025-10-26,Fechado Ganho,999.0
+OPP-01729,L-05592,2025-10-11,2025-10-19,Fechado Ganho,299.0
+OPP-01730,L-05595,2025-10-26,2025-11-03,Fechado Ganho,999.0
+OPP-01731,L-05600,2025-10-18,2025-10-26,Fechado Perdido,999.0
+OPP-01732,L-05604,2025-10-07,2025-10-15,Fechado Ganho,99.0
+OPP-01733,L-05605,2025-10-20,2025-10-28,Fechado Ganho,999.0
+OPP-01734,L-05606,2025-10-26,2025-11-03,Fechado Ganho,99.0
+OPP-01735,L-05607,2025-10-26,2025-11-03,Fechado Ganho,99.0
+OPP-01736,L-05608,2025-10-13,2025-10-21,Fechado Perdido,299.0
+OPP-01737,L-05609,2025-10-21,2025-10-29,Fechado Ganho,299.0
+OPP-01738,L-05610,2025-10-06,2025-10-14,Fechado Ganho,299.0
+OPP-01739,L-05612,2025-10-16,2025-10-24,Fechado Perdido,999.0
+OPP-01740,L-05613,2025-10-20,2025-10-28,Fechado Perdido,99.0
+OPP-01741,L-05616,2025-10-11,2025-10-19,Fechado Ganho,299.0
+OPP-01742,L-05620,2025-10-12,2025-10-20,Fechado Perdido,999.0
+OPP-01743,L-05621,2025-10-09,2025-10-17,Fechado Perdido,999.0
+OPP-01744,L-05627,2025-10-07,2025-10-15,Fechado Perdido,999.0
+OPP-01745,L-05629,2025-10-15,2025-10-23,Fechado Ganho,99.0
+OPP-01746,L-05632,2025-10-28,2025-11-05,Fechado Perdido,299.0
+OPP-01747,L-05637,2025-10-30,2025-11-07,Fechado Perdido,99.0
+OPP-01748,L-05638,2025-10-16,2025-10-24,Fechado Perdido,999.0
+OPP-01749,L-05640,2025-10-25,2025-11-02,Fechado Perdido,999.0
+OPP-01750,L-05641,2025-10-15,2025-10-23,Fechado Ganho,99.0
+OPP-01751,L-05645,2025-10-19,2025-10-27,Fechado Ganho,99.0
+OPP-01752,L-05649,2025-10-23,2025-10-31,Fechado Perdido,99.0
+OPP-01753,L-05653,2025-10-31,2025-11-08,Fechado Ganho,999.0
+OPP-01754,L-05654,2025-11-01,2025-11-09,Fechado Ganho,999.0
+OPP-01755,L-05656,2025-10-22,2025-10-30,Fechado Perdido,999.0
+OPP-01756,L-05658,2025-10-08,2025-10-16,Fechado Ganho,299.0
+OPP-01757,L-05660,2025-10-22,2025-10-30,Fechado Perdido,999.0
+OPP-01758,L-05661,2025-10-13,2025-10-21,Fechado Ganho,299.0
+OPP-01759,L-05662,2025-10-25,2025-11-02,Fechado Perdido,299.0
+OPP-01760,L-05664,2025-10-25,2025-11-02,Fechado Ganho,299.0
+OPP-01761,L-05666,2025-10-12,2025-10-20,Fechado Ganho,99.0
+OPP-01762,L-05668,2025-11-01,2025-11-09,Fechado Ganho,299.0
+OPP-01763,L-05669,2025-10-14,2025-10-22,Fechado Perdido,99.0
+OPP-01764,L-05671,2025-10-12,2025-10-20,Fechado Ganho,99.0
+OPP-01765,L-05672,2025-10-16,2025-10-24,Fechado Ganho,999.0
+OPP-01766,L-05673,2025-10-31,2025-11-08,Fechado Perdido,299.0
+OPP-01767,L-05676,2025-10-17,2025-10-25,Fechado Ganho,99.0
+OPP-01768,L-05679,2025-10-17,2025-10-25,Fechado Perdido,299.0
+OPP-01769,L-05685,2025-10-31,2025-11-08,Fechado Perdido,99.0
+OPP-01770,L-05687,2025-10-24,2025-11-01,Fechado Ganho,299.0
+OPP-01771,L-05689,2025-10-24,2025-11-01,Fechado Ganho,99.0
+OPP-01772,L-05690,2025-10-24,2025-11-01,Fechado Perdido,99.0
+OPP-01773,L-05693,2025-10-22,2025-10-30,Fechado Ganho,999.0
+OPP-01774,L-05694,2025-10-11,2025-10-19,Fechado Perdido,99.0
+OPP-01775,L-05695,2025-10-26,2025-11-03,Fechado Perdido,999.0
+OPP-01776,L-05696,2025-10-19,2025-10-27,Fechado Perdido,99.0
+OPP-01777,L-05697,2025-10-28,2025-11-05,Fechado Ganho,299.0
+OPP-01778,L-05700,2025-10-23,2025-10-31,Fechado Perdido,299.0
+OPP-01779,L-05703,2025-10-10,2025-10-18,Fechado Perdido,99.0
+OPP-01780,L-05707,2025-10-21,2025-10-29,Fechado Perdido,299.0
+OPP-01781,L-05708,2025-10-17,2025-10-25,Fechado Ganho,99.0
+OPP-01782,L-05709,2025-10-07,2025-10-15,Fechado Ganho,299.0
+OPP-01783,L-05712,2025-10-12,2025-10-20,Fechado Perdido,999.0
+OPP-01784,L-05715,2025-10-23,2025-10-31,Fechado Ganho,99.0
+OPP-01785,L-05717,2025-10-24,2025-11-01,Fechado Ganho,999.0
+OPP-01786,L-05718,2025-10-20,2025-10-28,Fechado Perdido,99.0
+OPP-01787,L-05721,2025-10-12,2025-10-20,Fechado Ganho,99.0
+OPP-01788,L-05722,2025-10-19,2025-10-27,Fechado Perdido,99.0
+OPP-01789,L-05723,2025-10-17,2025-10-25,Fechado Perdido,999.0
+OPP-01790,L-05727,2025-10-26,2025-11-03,Fechado Perdido,299.0
+OPP-01791,L-05729,2025-10-27,2025-11-04,Fechado Perdido,99.0
+OPP-01792,L-05730,2025-10-12,2025-10-20,Fechado Perdido,999.0
+OPP-01793,L-05731,2025-10-18,2025-10-26,Fechado Perdido,999.0
+OPP-01794,L-05734,2025-10-31,2025-11-08,Fechado Ganho,99.0
+OPP-01795,L-05735,2025-10-28,2025-11-05,Fechado Perdido,299.0
+OPP-01796,L-05739,2025-10-26,2025-11-03,Fechado Perdido,999.0
+OPP-01797,L-05742,2025-10-15,2025-10-23,Fechado Ganho,99.0
+OPP-01798,L-05743,2025-10-22,2025-10-30,Fechado Ganho,299.0
+OPP-01799,L-05745,2025-10-18,2025-10-26,Fechado Perdido,999.0
+OPP-01800,L-05746,2025-10-14,2025-10-22,Fechado Ganho,299.0
+OPP-01801,L-05754,2025-10-20,2025-10-28,Fechado Ganho,99.0
+OPP-01802,L-05755,2025-10-21,2025-10-29,Fechado Ganho,299.0
+OPP-01803,L-05756,2025-10-27,2025-11-04,Fechado Ganho,99.0
+OPP-01804,L-05757,2025-10-30,2025-11-07,Fechado Ganho,99.0
+OPP-01805,L-05763,2025-11-01,2025-11-09,Fechado Perdido,299.0
+OPP-01806,L-05764,2025-10-31,2025-11-08,Fechado Perdido,299.0
+OPP-01807,L-05765,2025-10-20,2025-10-28,Fechado Perdido,299.0
+OPP-01808,L-05767,2025-10-20,2025-10-28,Fechado Perdido,999.0
+OPP-01809,L-05771,2025-10-09,2025-10-17,Fechado Perdido,299.0
+OPP-01810,L-05774,2025-11-01,2025-11-09,Fechado Ganho,999.0
+OPP-01811,L-05779,2025-10-24,2025-11-01,Fechado Ganho,299.0
+OPP-01812,L-05783,2025-10-21,2025-10-29,Fechado Perdido,99.0
+OPP-01813,L-05785,2025-10-25,2025-11-02,Fechado Perdido,99.0
+OPP-01814,L-05788,2025-10-22,2025-10-30,Fechado Perdido,299.0
+OPP-01815,L-05790,2025-10-22,2025-10-30,Fechado Ganho,299.0
+OPP-01816,L-05793,2025-10-15,2025-10-23,Fechado Perdido,299.0
+OPP-01817,L-05795,2025-10-26,2025-11-03,Fechado Ganho,99.0
+OPP-01818,L-05797,2025-10-15,2025-10-23,Fechado Perdido,99.0
+OPP-01819,L-05802,2025-10-16,2025-10-24,Fechado Perdido,299.0
+OPP-01820,L-05803,2025-10-15,2025-10-23,Fechado Ganho,99.0
+OPP-01821,L-05804,2025-10-14,2025-10-22,Fechado Perdido,99.0
+OPP-01822,L-05805,2025-10-29,2025-11-06,Fechado Perdido,99.0
+OPP-01823,L-05807,2025-10-10,2025-10-18,Fechado Ganho,99.0
+OPP-01824,L-05808,2025-10-12,2025-10-20,Fechado Ganho,99.0
+OPP-01825,L-05810,2025-10-29,2025-11-06,Fechado Perdido,999.0
+OPP-01826,L-05812,2025-10-23,2025-10-31,Fechado Perdido,299.0
+OPP-01827,L-05813,2025-10-12,2025-10-20,Fechado Perdido,999.0
+OPP-01828,L-05815,2025-10-24,2025-11-01,Fechado Ganho,99.0
+OPP-01829,L-05819,2025-10-06,2025-10-14,Fechado Ganho,99.0
+OPP-01830,L-05821,2025-10-13,2025-10-21,Fechado Perdido,299.0
+OPP-01831,L-05823,2025-10-22,2025-10-30,Fechado Ganho,299.0
+OPP-01832,L-05824,2025-10-29,2025-11-06,Fechado Perdido,999.0
+OPP-01833,L-05827,2025-10-20,2025-10-28,Fechado Ganho,299.0
+OPP-01834,L-05828,2025-10-07,2025-10-15,Fechado Ganho,299.0
+OPP-01835,L-05829,2025-10-11,2025-10-19,Fechado Ganho,299.0
+OPP-01836,L-05835,2025-10-07,2025-10-15,Fechado Ganho,99.0
+OPP-01837,L-05836,2025-10-25,2025-11-02,Fechado Ganho,999.0
+OPP-01838,L-05837,2025-10-08,2025-10-16,Fechado Ganho,999.0
+OPP-01839,L-05842,2025-10-18,2025-10-26,Fechado Perdido,999.0
+OPP-01840,L-05845,2025-10-28,2025-11-05,Fechado Perdido,299.0
+OPP-01841,L-05851,2025-10-08,2025-10-16,Fechado Ganho,99.0
+OPP-01842,L-05852,2025-10-23,2025-10-31,Fechado Perdido,99.0
+OPP-01843,L-05861,2025-11-07,2025-11-15,Fechado Perdido,299.0
+OPP-01844,L-05863,2025-11-25,2025-12-03,Fechado Perdido,999.0
+OPP-01845,L-05865,2025-11-11,2025-11-19,Fechado Ganho,299.0
+OPP-01846,L-05867,2025-11-19,2025-11-27,Fechado Perdido,299.0
+OPP-01847,L-05868,2025-11-17,2025-11-25,Fechado Ganho,299.0
+OPP-01848,L-05871,2025-11-11,2025-11-19,Fechado Ganho,99.0
+OPP-01849,L-05873,2025-11-26,2025-12-04,Fechado Ganho,999.0
+OPP-01850,L-05880,2025-11-20,2025-11-28,Fechado Ganho,999.0
+OPP-01851,L-05882,2025-11-12,2025-11-20,Fechado Ganho,299.0
+OPP-01852,L-05883,2025-11-08,2025-11-16,Fechado Ganho,99.0
+OPP-01853,L-05884,2025-11-27,2025-12-05,Fechado Ganho,999.0
+OPP-01854,L-05885,2025-11-24,2025-12-02,Fechado Ganho,299.0
+OPP-01855,L-05886,2025-12-01,2025-12-09,Fechado Ganho,299.0
+OPP-01856,L-05888,2025-11-22,2025-11-30,Fechado Ganho,999.0
+OPP-01857,L-05889,2025-11-09,2025-11-17,Fechado Ganho,999.0
+OPP-01858,L-05890,2025-11-25,2025-12-03,Fechado Ganho,299.0
+OPP-01859,L-05892,2025-11-17,2025-11-25,Fechado Ganho,99.0
+OPP-01860,L-05893,2025-11-11,2025-11-19,Fechado Perdido,999.0
+OPP-01861,L-05894,2025-11-09,2025-11-17,Fechado Ganho,999.0
+OPP-01862,L-05895,2025-11-28,2025-12-06,Fechado Perdido,99.0
+OPP-01863,L-05896,2025-11-20,2025-11-28,Fechado Perdido,299.0
+OPP-01864,L-05901,2025-11-18,2025-11-26,Fechado Perdido,299.0
+OPP-01865,L-05904,2025-11-30,2025-12-08,Fechado Ganho,299.0
+OPP-01866,L-05905,2025-11-25,2025-12-03,Fechado Perdido,299.0
+OPP-01867,L-05906,2025-11-19,2025-11-27,Fechado Perdido,99.0
+OPP-01868,L-05907,2025-11-05,2025-11-13,Fechado Ganho,99.0
+OPP-01869,L-05908,2025-11-08,2025-11-16,Fechado Perdido,299.0
+OPP-01870,L-05910,2025-11-19,2025-11-27,Fechado Ganho,299.0
+OPP-01871,L-05911,2025-11-30,2025-12-08,Fechado Ganho,999.0
+OPP-01872,L-05915,2025-11-25,2025-12-03,Fechado Ganho,299.0
+OPP-01873,L-05916,2025-11-18,2025-11-26,Fechado Perdido,299.0
+OPP-01874,L-05917,2025-11-18,2025-11-26,Fechado Perdido,999.0
+OPP-01875,L-05918,2025-11-17,2025-11-25,Fechado Ganho,299.0
+OPP-01876,L-05919,2025-11-24,2025-12-02,Fechado Ganho,99.0
+OPP-01877,L-05925,2025-11-26,2025-12-04,Fechado Perdido,99.0
+OPP-01878,L-05927,2025-11-07,2025-11-15,Fechado Perdido,299.0
+OPP-01879,L-05934,2025-11-22,2025-11-30,Fechado Perdido,999.0
+OPP-01880,L-05935,2025-11-14,2025-11-22,Fechado Ganho,999.0
+OPP-01881,L-05941,2025-11-20,2025-11-28,Fechado Ganho,999.0
+OPP-01882,L-05947,2025-11-17,2025-11-25,Fechado Ganho,999.0
+OPP-01883,L-05948,2025-11-21,2025-11-29,Fechado Ganho,99.0
+OPP-01884,L-05953,2025-11-10,2025-11-18,Fechado Ganho,999.0
+OPP-01885,L-05954,2025-11-26,2025-12-04,Fechado Perdido,999.0
+OPP-01886,L-05955,2025-11-26,2025-12-04,Fechado Perdido,299.0
+OPP-01887,L-05956,2025-11-12,2025-11-20,Fechado Ganho,99.0
+OPP-01888,L-05957,2025-11-22,2025-11-30,Fechado Ganho,299.0
+OPP-01889,L-05958,2025-11-09,2025-11-17,Fechado Ganho,99.0
+OPP-01890,L-05961,2025-11-23,2025-12-01,Fechado Perdido,99.0
+OPP-01891,L-05964,2025-11-10,2025-11-18,Fechado Ganho,299.0
+OPP-01892,L-05968,2025-11-14,2025-11-22,Fechado Perdido,999.0
+OPP-01893,L-05971,2025-11-17,2025-11-25,Fechado Perdido,99.0
+OPP-01894,L-05976,2025-11-19,2025-11-27,Fechado Perdido,299.0
+OPP-01895,L-05977,2025-11-28,2025-12-06,Fechado Ganho,299.0
+OPP-01896,L-05978,2025-11-09,2025-11-17,Fechado Perdido,99.0
+OPP-01897,L-05983,2025-11-22,2025-11-30,Fechado Ganho,999.0
+OPP-01898,L-05984,2025-11-18,2025-11-26,Fechado Perdido,999.0
+OPP-01899,L-05985,2025-11-15,2025-11-23,Fechado Ganho,299.0
+OPP-01900,L-05988,2025-11-08,2025-11-16,Fechado Ganho,99.0
+OPP-01901,L-05990,2025-11-12,2025-11-20,Fechado Ganho,999.0
+OPP-01902,L-05995,2025-11-23,2025-12-01,Fechado Ganho,999.0
+OPP-01903,L-05996,2025-11-10,2025-11-18,Fechado Ganho,99.0
+OPP-01904,L-05998,2025-11-13,2025-11-21,Fechado Ganho,299.0
+OPP-01905,L-06000,2025-11-06,2025-11-14,Fechado Ganho,999.0
+OPP-01906,L-06001,2025-11-27,2025-12-05,Fechado Perdido,299.0
+OPP-01907,L-06004,2025-11-26,2025-12-04,Fechado Ganho,99.0
+OPP-01908,L-06008,2025-11-08,2025-11-16,Fechado Perdido,999.0
+OPP-01909,L-06011,2025-11-12,2025-11-20,Fechado Perdido,99.0
+OPP-01910,L-06012,2025-11-19,2025-11-27,Fechado Perdido,99.0
+OPP-01911,L-06015,2025-11-10,2025-11-18,Fechado Ganho,999.0
+OPP-01912,L-06016,2025-11-08,2025-11-16,Fechado Perdido,299.0
+OPP-01913,L-06017,2025-11-07,2025-11-15,Fechado Ganho,999.0
+OPP-01914,L-06018,2025-11-12,2025-11-20,Fechado Perdido,99.0
+OPP-01915,L-06021,2025-11-09,2025-11-17,Fechado Ganho,999.0
+OPP-01916,L-06026,2025-11-24,2025-12-02,Fechado Perdido,999.0
+OPP-01917,L-06027,2025-11-29,2025-12-07,Fechado Perdido,999.0
+OPP-01918,L-06028,2025-11-15,2025-11-23,Fechado Ganho,99.0
+OPP-01919,L-06032,2025-11-19,2025-11-27,Fechado Perdido,999.0
+OPP-01920,L-06038,2025-11-22,2025-11-30,Fechado Perdido,999.0
+OPP-01921,L-06039,2025-11-05,2025-11-13,Fechado Ganho,99.0
+OPP-01922,L-06047,2025-11-29,2025-12-07,Fechado Perdido,999.0
+OPP-01923,L-06049,2025-11-29,2025-12-07,Fechado Ganho,299.0
+OPP-01924,L-06051,2025-11-05,2025-11-13,Fechado Ganho,299.0
+OPP-01925,L-06052,2025-11-05,2025-11-13,Fechado Ganho,99.0
+OPP-01926,L-06056,2025-11-17,2025-11-25,Fechado Ganho,99.0
+OPP-01927,L-06057,2025-11-11,2025-11-19,Fechado Ganho,999.0
+OPP-01928,L-06061,2025-11-15,2025-11-23,Fechado Perdido,299.0
+OPP-01929,L-06064,2025-11-05,2025-11-13,Fechado Perdido,99.0
+OPP-01930,L-06067,2025-11-28,2025-12-06,Fechado Ganho,999.0
+OPP-01931,L-06069,2025-11-18,2025-11-26,Fechado Perdido,299.0
+OPP-01932,L-06070,2025-11-27,2025-12-05,Fechado Ganho,99.0
+OPP-01933,L-06071,2025-11-25,2025-12-03,Fechado Ganho,299.0
+OPP-01934,L-06072,2025-11-16,2025-11-24,Fechado Ganho,299.0
+OPP-01935,L-06073,2025-11-19,2025-11-27,Fechado Ganho,299.0
+OPP-01936,L-06075,2025-11-14,2025-11-22,Fechado Perdido,999.0
+OPP-01937,L-06082,2025-11-24,2025-12-02,Fechado Ganho,299.0
+OPP-01938,L-06083,2025-11-12,2025-11-20,Fechado Perdido,299.0
+OPP-01939,L-06087,2025-11-12,2025-11-20,Fechado Ganho,99.0
+OPP-01940,L-06088,2025-11-11,2025-11-19,Fechado Ganho,299.0
+OPP-01941,L-06089,2025-11-09,2025-11-17,Fechado Ganho,299.0
+OPP-01942,L-06092,2025-11-10,2025-11-18,Fechado Perdido,299.0
+OPP-01943,L-06093,2025-12-01,2025-12-09,Fechado Perdido,99.0
+OPP-01944,L-06096,2025-11-18,2025-11-26,Fechado Perdido,999.0
+OPP-01945,L-06099,2025-11-24,2025-12-02,Fechado Perdido,99.0
+OPP-01946,L-06100,2025-11-14,2025-11-22,Fechado Ganho,999.0
+OPP-01947,L-06102,2025-11-24,2025-12-02,Fechado Ganho,299.0
+OPP-01948,L-06108,2025-11-24,2025-12-02,Fechado Ganho,999.0
+OPP-01949,L-06110,2025-11-14,2025-11-22,Fechado Perdido,99.0
+OPP-01950,L-06112,2025-11-15,2025-11-23,Fechado Ganho,999.0
+OPP-01951,L-06114,2025-11-30,2025-12-08,Fechado Ganho,99.0
+OPP-01952,L-06120,2025-11-13,2025-11-21,Fechado Ganho,999.0
+OPP-01953,L-06121,2025-11-18,2025-11-26,Fechado Perdido,99.0
+OPP-01954,L-06122,2025-11-26,2025-12-04,Fechado Perdido,999.0
+OPP-01955,L-06124,2025-12-01,2025-12-09,Fechado Perdido,299.0
+OPP-01956,L-06125,2025-11-16,2025-11-24,Fechado Ganho,299.0
+OPP-01957,L-06127,2025-11-06,2025-11-14,Fechado Perdido,299.0
+OPP-01958,L-06132,2025-11-05,2025-11-13,Fechado Perdido,99.0
+OPP-01959,L-06136,2025-11-22,2025-11-30,Fechado Ganho,999.0
+OPP-01960,L-06147,2025-11-11,2025-11-19,Fechado Ganho,299.0
+OPP-01961,L-06151,2025-11-05,2025-11-13,Fechado Perdido,299.0
+OPP-01962,L-06153,2025-11-09,2025-11-17,Fechado Ganho,999.0
+OPP-01963,L-06155,2025-11-17,2025-11-25,Fechado Perdido,299.0
+OPP-01964,L-06162,2025-11-17,2025-11-25,Fechado Perdido,999.0
+OPP-01965,L-06164,2025-11-10,2025-11-18,Fechado Ganho,299.0
+OPP-01966,L-06165,2025-11-18,2025-11-26,Fechado Ganho,99.0
+OPP-01967,L-06166,2025-11-16,2025-11-24,Fechado Ganho,99.0
+OPP-01968,L-06167,2025-11-20,2025-11-28,Fechado Ganho,999.0
+OPP-01969,L-06168,2025-11-20,2025-11-28,Fechado Ganho,99.0
+OPP-01970,L-06171,2025-11-14,2025-11-22,Fechado Perdido,99.0
+OPP-01971,L-06176,2025-12-01,2025-12-09,Fechado Ganho,99.0
+OPP-01972,L-06178,2025-11-28,2025-12-06,Fechado Perdido,99.0
+OPP-01973,L-06179,2025-11-30,2025-12-08,Fechado Ganho,299.0
+OPP-01974,L-06180,2025-11-22,2025-11-30,Fechado Perdido,99.0
+OPP-01975,L-06181,2025-11-19,2025-11-27,Fechado Perdido,999.0
+OPP-01976,L-06182,2025-11-10,2025-11-18,Fechado Perdido,299.0
+OPP-01977,L-06186,2025-11-17,2025-11-25,Fechado Ganho,99.0
+OPP-01978,L-06187,2025-11-12,2025-11-20,Fechado Ganho,299.0
+OPP-01979,L-06188,2025-11-24,2025-12-02,Fechado Ganho,99.0
+OPP-01980,L-06190,2025-11-28,2025-12-06,Fechado Perdido,999.0
+OPP-01981,L-06193,2025-11-06,2025-11-14,Fechado Ganho,299.0
+OPP-01982,L-06194,2025-11-12,2025-11-20,Fechado Ganho,299.0
+OPP-01983,L-06196,2025-11-23,2025-12-01,Fechado Ganho,999.0
+OPP-01984,L-06200,2025-11-23,2025-12-01,Fechado Perdido,999.0
+OPP-01985,L-06205,2025-11-11,2025-11-19,Fechado Ganho,99.0
+OPP-01986,L-06206,2025-11-05,2025-11-13,Fechado Ganho,999.0
+OPP-01987,L-06209,2025-11-05,2025-11-13,Fechado Ganho,999.0
+OPP-01988,L-06211,2025-11-23,2025-12-01,Fechado Ganho,99.0
+OPP-01989,L-06212,2025-11-15,2025-11-23,Fechado Ganho,99.0
+OPP-01990,L-06213,2025-11-16,2025-11-24,Fechado Perdido,299.0
+OPP-01991,L-06215,2025-11-10,2025-11-18,Fechado Perdido,299.0
+OPP-01992,L-06218,2025-11-10,2025-11-18,Fechado Ganho,299.0
+OPP-01993,L-06219,2025-11-25,2025-12-03,Fechado Perdido,299.0
+OPP-01994,L-06226,2025-11-25,2025-12-03,Fechado Perdido,99.0
+OPP-01995,L-06227,2025-11-07,2025-11-15,Fechado Perdido,999.0
+OPP-01996,L-06228,2025-11-08,2025-11-16,Fechado Ganho,299.0
+OPP-01997,L-06233,2025-11-12,2025-11-20,Fechado Perdido,99.0
+OPP-01998,L-06236,2025-11-28,2025-12-06,Fechado Perdido,99.0
+OPP-01999,L-06237,2025-11-12,2025-11-20,Fechado Perdido,999.0
+OPP-02000,L-06239,2025-11-20,2025-11-28,Fechado Perdido,299.0
+OPP-02001,L-06240,2026-01-01,2026-01-09,Fechado Perdido,99.0
+OPP-02002,L-06243,2025-12-08,2025-12-16,Fechado Ganho,299.0
+OPP-02003,L-06244,2025-12-16,2025-12-24,Fechado Ganho,99.0
+OPP-02004,L-06248,2025-12-27,2026-01-04,Fechado Ganho,999.0
+OPP-02005,L-06250,2025-12-22,2025-12-30,Fechado Perdido,299.0
+OPP-02006,L-06252,2025-12-13,2025-12-21,Fechado Ganho,299.0
+OPP-02007,L-06253,2025-12-24,2026-01-01,Fechado Ganho,999.0
+OPP-02008,L-06254,2025-12-18,2025-12-26,Fechado Ganho,99.0
+OPP-02009,L-06261,2025-12-20,2025-12-28,Fechado Ganho,299.0
+OPP-02010,L-06264,2025-12-19,2025-12-27,Fechado Ganho,999.0
+OPP-02011,L-06269,2025-12-06,2025-12-14,Fechado Ganho,299.0
+OPP-02012,L-06274,2025-12-08,2025-12-16,Fechado Ganho,999.0
+OPP-02013,L-06278,2025-12-21,2025-12-29,Fechado Ganho,299.0
+OPP-02014,L-06279,2026-01-01,2026-01-09,Fechado Perdido,299.0
+OPP-02015,L-06280,2025-12-15,2025-12-23,Fechado Perdido,299.0
+OPP-02016,L-06281,2025-12-19,2025-12-27,Fechado Perdido,999.0
+OPP-02017,L-06282,2025-12-11,2025-12-19,Fechado Ganho,299.0
+OPP-02018,L-06283,2025-12-22,2025-12-30,Fechado Perdido,999.0
+OPP-02019,L-06284,2025-12-13,2025-12-21,Fechado Ganho,999.0
+OPP-02020,L-06285,2025-12-18,2025-12-26,Fechado Ganho,99.0
+OPP-02021,L-06289,2026-01-01,2026-01-09,Fechado Ganho,299.0
+OPP-02022,L-06292,2025-12-06,2025-12-14,Fechado Ganho,999.0
+OPP-02023,L-06294,2025-12-31,2026-01-08,Fechado Perdido,99.0
+OPP-02024,L-06301,2025-12-30,2026-01-07,Fechado Perdido,99.0
+OPP-02025,L-06303,2025-12-26,2026-01-03,Fechado Perdido,299.0
+OPP-02026,L-06304,2025-12-29,2026-01-06,Fechado Ganho,299.0
+OPP-02027,L-06305,2025-12-10,2025-12-18,Fechado Ganho,99.0
+OPP-02028,L-06306,2025-12-29,2026-01-06,Fechado Perdido,999.0
+OPP-02029,L-06307,2025-12-10,2025-12-18,Fechado Perdido,299.0
+OPP-02030,L-06310,2025-12-17,2025-12-25,Fechado Perdido,99.0
+OPP-02031,L-06311,2025-12-31,2026-01-08,Fechado Ganho,99.0
+OPP-02032,L-06314,2025-12-15,2025-12-23,Fechado Ganho,999.0
+OPP-02033,L-06316,2025-12-09,2025-12-17,Fechado Perdido,999.0
+OPP-02034,L-06318,2025-12-18,2025-12-26,Fechado Ganho,299.0
+OPP-02035,L-06320,2025-12-13,2025-12-21,Fechado Perdido,299.0
+OPP-02036,L-06327,2025-12-23,2025-12-31,Fechado Perdido,299.0
+OPP-02037,L-06328,2025-12-29,2026-01-06,Fechado Ganho,99.0
+OPP-02038,L-06330,2025-12-15,2025-12-23,Fechado Perdido,99.0
+OPP-02039,L-06332,2025-12-13,2025-12-21,Fechado Perdido,299.0
+OPP-02040,L-06334,2025-12-09,2025-12-17,Fechado Ganho,299.0
+OPP-02041,L-06337,2025-12-23,2025-12-31,Fechado Perdido,299.0
+OPP-02042,L-06342,2025-12-13,2025-12-21,Fechado Ganho,999.0
+OPP-02043,L-06344,2025-12-14,2025-12-22,Fechado Perdido,99.0
+OPP-02044,L-06349,2025-12-26,2026-01-03,Fechado Ganho,299.0
+OPP-02045,L-06357,2025-12-17,2025-12-25,Fechado Perdido,999.0
+OPP-02046,L-06359,2025-12-24,2026-01-01,Fechado Ganho,999.0
+OPP-02047,L-06360,2025-12-18,2025-12-26,Fechado Perdido,999.0
+OPP-02048,L-06362,2025-12-15,2025-12-23,Fechado Perdido,99.0
+OPP-02049,L-06363,2025-12-12,2025-12-20,Fechado Ganho,99.0
+OPP-02050,L-06364,2025-12-18,2025-12-26,Fechado Perdido,999.0
+OPP-02051,L-06366,2025-12-08,2025-12-16,Fechado Ganho,999.0
+OPP-02052,L-06368,2025-12-11,2025-12-19,Fechado Perdido,299.0
+OPP-02053,L-06371,2025-12-22,2025-12-30,Fechado Ganho,99.0
+OPP-02054,L-06372,2025-12-23,2025-12-31,Fechado Ganho,999.0
+OPP-02055,L-06375,2025-12-21,2025-12-29,Fechado Ganho,999.0
+OPP-02056,L-06381,2025-12-09,2025-12-17,Fechado Perdido,299.0
+OPP-02057,L-06382,2025-12-14,2025-12-22,Fechado Perdido,99.0
+OPP-02058,L-06385,2025-12-30,2026-01-07,Fechado Perdido,299.0
+OPP-02059,L-06388,2025-12-15,2025-12-23,Fechado Perdido,299.0
+OPP-02060,L-06389,2025-12-13,2025-12-21,Fechado Ganho,999.0
+OPP-02061,L-06390,2025-12-07,2025-12-15,Fechado Perdido,299.0
+OPP-02062,L-06391,2025-12-07,2025-12-15,Fechado Perdido,99.0
+OPP-02063,L-06395,2025-12-30,2026-01-07,Fechado Ganho,999.0
+OPP-02064,L-06396,2025-12-15,2025-12-23,Fechado Ganho,99.0
+OPP-02065,L-06397,2025-12-19,2025-12-27,Fechado Perdido,299.0
+OPP-02066,L-06398,2025-12-29,2026-01-06,Fechado Perdido,999.0
+OPP-02067,L-06405,2025-12-25,2026-01-02,Fechado Ganho,299.0
+OPP-02068,L-06408,2025-12-28,2026-01-05,Fechado Ganho,999.0
+OPP-02069,L-06410,2025-12-29,2026-01-06,Fechado Ganho,99.0
+OPP-02070,L-06413,2025-12-23,2025-12-31,Fechado Perdido,999.0
+OPP-02071,L-06416,2025-12-27,2026-01-04,Fechado Ganho,99.0
+OPP-02072,L-06417,2025-12-10,2025-12-18,Fechado Ganho,99.0
+OPP-02073,L-06418,2025-12-25,2026-01-02,Fechado Perdido,999.0
+OPP-02074,L-06426,2025-12-06,2025-12-14,Fechado Ganho,999.0
+OPP-02075,L-06427,2025-12-11,2025-12-19,Fechado Ganho,99.0
+OPP-02076,L-06429,2025-12-30,2026-01-07,Fechado Ganho,299.0
+OPP-02077,L-06430,2025-12-27,2026-01-04,Fechado Ganho,99.0
+OPP-02078,L-06431,2025-12-23,2025-12-31,Fechado Ganho,999.0
+OPP-02079,L-06436,2025-12-09,2025-12-17,Fechado Perdido,99.0
+OPP-02080,L-06440,2025-12-10,2025-12-18,Fechado Perdido,299.0
+OPP-02081,L-06444,2025-12-29,2026-01-06,Fechado Ganho,999.0
+OPP-02082,L-06449,2025-12-20,2025-12-28,Fechado Ganho,999.0
+OPP-02083,L-06454,2025-12-15,2025-12-23,Fechado Ganho,999.0
+OPP-02084,L-06456,2025-12-09,2025-12-17,Fechado Perdido,99.0
+OPP-02085,L-06459,2026-01-01,2026-01-09,Fechado Ganho,99.0
+OPP-02086,L-06460,2025-12-21,2025-12-29,Fechado Ganho,99.0
+OPP-02087,L-06462,2025-12-07,2025-12-15,Fechado Ganho,99.0
+OPP-02088,L-06464,2025-12-11,2025-12-19,Fechado Ganho,999.0
+OPP-02089,L-06466,2025-12-19,2025-12-27,Fechado Ganho,99.0
+OPP-02090,L-06468,2025-12-26,2026-01-03,Fechado Perdido,299.0
+OPP-02091,L-06471,2025-12-08,2025-12-16,Fechado Ganho,299.0
+OPP-02092,L-06474,2025-12-14,2025-12-22,Fechado Ganho,999.0
+OPP-02093,L-06478,2025-12-12,2025-12-20,Fechado Perdido,99.0
+OPP-02094,L-06479,2025-12-15,2025-12-23,Fechado Perdido,299.0
+OPP-02095,L-06480,2025-12-16,2025-12-24,Fechado Ganho,299.0
+OPP-02096,L-06481,2025-12-24,2026-01-01,Fechado Ganho,99.0
+OPP-02097,L-06483,2025-12-21,2025-12-29,Fechado Ganho,299.0
+OPP-02098,L-06484,2025-12-06,2025-12-14,Fechado Perdido,999.0
+OPP-02099,L-06492,2025-12-29,2026-01-06,Fechado Perdido,299.0
+OPP-02100,L-06493,2025-12-13,2025-12-21,Fechado Ganho,999.0
+OPP-02101,L-06494,2025-12-19,2025-12-27,Fechado Ganho,99.0
+OPP-02102,L-06497,2025-12-08,2025-12-16,Fechado Perdido,999.0
+OPP-02103,L-06498,2025-12-16,2025-12-24,Fechado Ganho,299.0
+OPP-02104,L-06499,2025-12-11,2025-12-19,Fechado Perdido,99.0
+OPP-02105,L-06503,2025-12-30,2026-01-07,Fechado Perdido,299.0
+OPP-02106,L-06504,2025-12-31,2026-01-08,Fechado Perdido,299.0
+OPP-02107,L-06506,2025-12-08,2025-12-16,Fechado Ganho,999.0
+OPP-02108,L-06507,2025-12-07,2025-12-15,Fechado Ganho,999.0
+OPP-02109,L-06508,2025-12-13,2025-12-21,Fechado Perdido,99.0
+OPP-02110,L-06515,2025-12-08,2025-12-16,Fechado Ganho,299.0
+OPP-02111,L-06516,2025-12-21,2025-12-29,Fechado Perdido,99.0
+OPP-02112,L-06518,2025-12-08,2025-12-16,Fechado Perdido,99.0
+OPP-02113,L-06520,2025-12-17,2025-12-25,Fechado Ganho,999.0
+OPP-02114,L-06521,2025-12-07,2025-12-15,Fechado Perdido,299.0
+OPP-02115,L-06524,2025-12-10,2025-12-18,Fechado Perdido,299.0
+OPP-02116,L-06525,2025-12-26,2026-01-03,Fechado Perdido,299.0
+OPP-02117,L-06526,2025-12-14,2025-12-22,Fechado Ganho,99.0
+OPP-02118,L-06528,2025-12-12,2025-12-20,Fechado Perdido,99.0
+OPP-02119,L-06529,2025-12-21,2025-12-29,Fechado Perdido,999.0
+OPP-02120,L-06531,2025-12-16,2025-12-24,Fechado Perdido,99.0
+OPP-02121,L-06532,2025-12-26,2026-01-03,Fechado Ganho,999.0
+OPP-02122,L-06542,2025-12-10,2025-12-18,Fechado Ganho,999.0
+OPP-02123,L-06544,2025-12-30,2026-01-07,Fechado Perdido,999.0
+OPP-02124,L-06546,2025-12-19,2025-12-27,Fechado Ganho,99.0
+OPP-02125,L-06547,2025-12-08,2025-12-16,Fechado Ganho,999.0
+OPP-02126,L-06551,2025-12-12,2025-12-20,Fechado Ganho,99.0
+OPP-02127,L-06552,2025-12-21,2025-12-29,Fechado Ganho,99.0
+OPP-02128,L-06553,2025-12-30,2026-01-07,Fechado Ganho,999.0
+OPP-02129,L-06554,2025-12-13,2025-12-21,Fechado Perdido,999.0
+OPP-02130,L-06557,2025-12-15,2025-12-23,Fechado Ganho,299.0
+OPP-02131,L-06559,2025-12-06,2025-12-14,Fechado Ganho,99.0
+OPP-02132,L-06561,2025-12-27,2026-01-04,Fechado Perdido,999.0
+OPP-02133,L-06563,2025-12-31,2026-01-08,Fechado Perdido,99.0
+OPP-02134,L-06565,2025-12-13,2025-12-21,Fechado Ganho,299.0
+OPP-02135,L-06566,2025-12-12,2025-12-20,Fechado Perdido,99.0
+OPP-02136,L-06568,2025-12-12,2025-12-20,Fechado Perdido,999.0
+OPP-02137,L-06569,2025-12-14,2025-12-22,Fechado Perdido,99.0
+OPP-02138,L-06571,2025-12-20,2025-12-28,Fechado Ganho,999.0
+OPP-02139,L-06575,2025-12-06,2025-12-14,Fechado Perdido,299.0
+OPP-02140,L-06576,2025-12-14,2025-12-22,Fechado Ganho,299.0
+OPP-02141,L-06577,2025-12-14,2025-12-22,Fechado Ganho,99.0
+OPP-02142,L-06578,2025-12-16,2025-12-24,Fechado Ganho,999.0
+OPP-02143,L-06580,2025-12-26,2026-01-03,Fechado Perdido,999.0
+OPP-02144,L-06581,2025-12-17,2025-12-25,Fechado Ganho,999.0
+OPP-02145,L-06583,2025-12-21,2025-12-29,Fechado Ganho,999.0
+OPP-02146,L-06585,2026-01-01,2026-01-09,Fechado Perdido,99.0
+OPP-02147,L-06587,2025-12-26,2026-01-03,Fechado Perdido,299.0
+OPP-02148,L-06594,2025-12-27,2026-01-04,Fechado Perdido,99.0
+OPP-02149,L-06606,2025-12-26,2026-01-03,Fechado Perdido,99.0
+OPP-02150,L-06610,2025-12-16,2025-12-24,Fechado Ganho,99.0
+OPP-02151,L-06615,2025-12-17,2025-12-25,Fechado Perdido,99.0
+OPP-02152,L-06620,2025-12-17,2025-12-25,Fechado Perdido,99.0
+OPP-02153,L-06623,2025-12-18,2025-12-26,Fechado Ganho,99.0
+OPP-02154,L-06625,2025-12-17,2025-12-25,Fechado Perdido,99.0
+OPP-02155,L-06626,2025-12-12,2025-12-20,Fechado Ganho,999.0
+OPP-02156,L-06629,2025-12-24,2026-01-01,Fechado Perdido,299.0
+OPP-02157,L-06632,2025-12-21,2025-12-29,Fechado Ganho,999.0
+OPP-02158,L-06633,2025-12-21,2025-12-29,Fechado Ganho,999.0
+OPP-02159,L-06639,2025-12-16,2025-12-24,Fechado Perdido,299.0
+OPP-02160,L-06642,2025-12-14,2025-12-22,Fechado Ganho,999.0
+OPP-02161,L-06644,2025-12-21,2025-12-29,Fechado Ganho,99.0
+OPP-02162,L-06645,2025-12-31,2026-01-08,Fechado Perdido,99.0
+OPP-02163,L-06649,2025-12-16,2025-12-24,Fechado Ganho,299.0
+OPP-02164,L-06651,2025-12-19,2025-12-27,Fechado Ganho,999.0
+OPP-02165,L-06656,2025-12-29,2026-01-06,Fechado Ganho,299.0
+OPP-02166,L-06657,2025-12-30,2026-01-07,Fechado Perdido,99.0
+OPP-02167,L-06666,2025-12-13,2025-12-21,Fechado Ganho,999.0
+OPP-02168,L-06667,2025-12-20,2025-12-28,Fechado Ganho,99.0
+OPP-02169,L-06669,2025-12-17,2025-12-25,Fechado Ganho,299.0
+OPP-02170,L-06670,2025-12-13,2025-12-21,Fechado Perdido,999.0
+OPP-02171,L-06672,2025-12-06,2025-12-14,Fechado Perdido,999.0

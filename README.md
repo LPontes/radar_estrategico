@@ -1,5 +1,5 @@
 # Radar Estratégico™
-*Fluência Analítica | Lucas Pontes, PhD*
+*Fluência Analítica | Lucas Pontes*
 
 **Radar Estratégico™** é um evento de 3 encontros práticos ao vivo desenhado para profissionais que precisam sair do dado bruto e chegar ao insight executivo — usando o **Framework EDA** aplicado a desafios reais de negócios, sem precisar programar.
 

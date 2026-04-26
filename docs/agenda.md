@@ -160,4 +160,4 @@ Aula 3:  EU DIRIJO, IA EXECUTA          → Referência estratégica que a empre
 
 ---
 
-*Radar Estratégico™ · Sprint Analítica™ · Lucas Pontes, PhD — Fluência Analítica · 2026*
+*Radar Estratégico™ · Sprint Analítica™ · Lucas Pontes — Fluência Analítica · 2026*

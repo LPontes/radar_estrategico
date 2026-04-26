@@ -1,364 +1,676 @@
-﻿id_ticket,id_cliente,id_pedido,data_abertura,data_primeira_resposta,data_resolucao,canal,categoria,prioridade,status,agente,descricao_ticket,resolvido_primeiro_contato,tempo_primeira_resposta_min,tempo_resolucao_horas,satisfacao_csat,comentario_csat,sentimento_label
-TKT-000001,CLI-00001,,2025-12-31 00:00:00,2025-12-31 06:12:00,2025-12-31 17:51:36,Chat,Cancelamento,Urgente,Fechado,Pedro Rocha,"Quero cancelar minha assinatura, preço muito alto",0,372,17.86,3,Péssima experiência,Negativo
-TKT-000002,CLI-00001,,2025-12-31 00:00:00,2025-12-31 00:16:00,2025-12-31 04:53:24,Email,Cancelamento,Urgente,Fechado,Pedro Rocha,"Empresa passou por reestruturação, preciso cancelar",1,16,4.89,5,Excelente atendimento!,Positivo
-TKT-000003,CLI-00001,,2025-12-31 00:00:00,2025-12-31 01:03:00,2025-12-31 02:11:24,Chat,Cancelamento,Alta,Fechado,Pedro Rocha,Vou pausar a assinatura temporariamente,1,63,2.19,4,Demorou um pouco mas ok,Neutro
-TKT-000004,CLI-00002,PED-000002,2025-10-20 00:00:00,2025-10-20 00:43:00,2025-10-20 01:55:12,Chat,Bug,Alta,Fechado,Pedro Rocha,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,43,1.92,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000005,CLI-00002,PED-000002,2025-07-19 00:00:00,2025-07-19 00:20:00,2025-07-19 01:18:00,Telefone,Acesso,Baixa,Fechado,Aline Costa,"Perdi a senha, suporte ajudou em minutos",1,20,1.3,4,Atenção e agilidade impecáveis,Positivo
-TKT-000006,CLI-00002,PED-000002,2025-08-08 00:00:00,2025-08-08 04:05:00,2025-08-08 11:51:36,Telefone,Acesso,Média,Fechado,Carla Santos,Sistema trava toda vez que tento entrar! Inaceitável,0,245,11.86,3,Demorou demais para resolver,Negativo
-TKT-000007,CLI-00003,PED-000003,2025-12-07 00:00:00,2025-12-07 06:03:00,2025-12-08 15:19:48,Chat,Cobrança,Média,Fechado,Marcos Oliveira,Reembolso prometido há 30 dias e não veio,0,363,39.33,1,Péssima experiência,Negativo
-TKT-000008,CLI-00003,PED-000003,2025-10-07 00:00:00,2025-10-07 01:11:00,2025-10-07 10:26:24,Telefone,Dúvida,Alta,Fechado,Carla Santos,É possível integrar com Google Sheets?,0,71,10.44,4,Atendimento razoável,Neutro
-TKT-000009,CLI-00003,PED-000003,2025-04-19 00:00:00,2025-04-19 00:47:00,2025-04-19 00:31:12,Email,Cobrança,Média,Fechado,Aline Costa,Fui cobrado mas o estorno foi rápido e eficiente,1,47,0.52,4,Muito profissional e eficiente,Positivo
-TKT-000010,CLI-00003,PED-000003,2025-08-18 00:00:00,2025-08-18 04:41:00,2025-08-19 07:12:36,WhatsApp,Dúvida,Alta,Fechado,Fernanda Lima,"Só respostas automáticas, ninguém realmente ajuda",0,281,31.21,3,Problema não foi totalmente resolvido,Negativo
-TKT-000011,CLI-00004,,2025-12-31 00:00:00,2025-12-31 00:57:00,2025-12-31 02:46:12,Chat,Dúvida,Média,Fechado,Marcos Oliveira,Suporte muito atencioso e paciente,1,57,2.77,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000012,CLI-00004,,2025-12-31 00:00:00,2025-12-31 06:51:00,2025-12-31 12:10:12,Chat,Dúvida,Urgente,Fechado,Pedro Rocha,Esperei 2 horas no chat sem resposta,0,411,12.17,2,Demorou demais para resolver,Negativo
-TKT-000013,CLI-00004,,2025-12-31 00:00:00,2025-12-31 02:19:00,2025-12-31 19:52:12,Telefone,Bug,Alta,Fechado,Marcos Oliveira,"Sistema com muitos erros, estou pensando em cancelar",0,139,19.87,1,Problema não foi totalmente resolvido,Negativo
-TKT-000014,CLI-00004,,2025-12-31 00:00:00,2025-12-31 07:02:00,2026-01-01 20:01:48,Chat,Acesso,Média,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,422,44.03,1,Demorou demais para resolver,Negativo
-TKT-000015,CLI-00004,,2025-12-31 00:00:00,2025-12-31 02:38:00,2026-01-01 22:55:48,Email,Acesso,Baixa,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,158,46.93,1,Precisei ligar 3 vezes,Negativo
-TKT-000016,CLI-00004,,2025-12-31 00:00:00,2025-12-31 06:38:00,2025-12-31 15:04:12,Chat,Dúvida,Baixa,Fechado,Aline Costa,"Só respostas automáticas, ninguém realmente ajuda",0,398,15.07,2,Precisei ligar 3 vezes,Negativo
-TKT-000017,CLI-00005,PED-000006,2025-12-31 00:00:00,2025-12-31 00:25:00,2025-12-31 01:38:24,Chat,Cancelamento,Urgente,Fechado,Carla Santos,"Empresa passou por reestruturação, preciso cancelar",0,25,1.64,4,Melhor suporte que já tive,Positivo
-TKT-000018,CLI-00006,PED-000008,2025-12-31 00:00:00,2025-12-31 00:43:00,2025-12-31 04:12:36,Telefone,Bug,Baixa,Fechado,Marcos Oliveira,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,43,4.21,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000019,CLI-00006,PED-000008,2025-12-31 00:00:00,2025-12-31 01:00:00,2025-12-31 01:55:48,Chat,Bug,Média,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,60,1.93,4,Muito profissional e eficiente,Positivo
-TKT-000020,CLI-00007,PED-000010,2025-12-31 00:00:00,2025-12-31 00:34:00,2025-12-31 05:58:48,WhatsApp,Dúvida,Média,Fechado,Aline Costa,Como faço para criar um dashboard compartilhável?,0,34,5.98,4,"Ok, resolvido",Neutro
-TKT-000021,CLI-00008,PED-000012,2025-12-31 00:00:00,2025-12-31 01:43:00,2025-12-31 11:32:24,Telefone,Cancelamento,Alta,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",0,103,11.54,3,Poderia ser mais rápido,Neutro
-TKT-000022,CLI-00008,PED-000012,2025-12-31 00:00:00,2025-12-31 00:51:00,2025-12-31 02:48:00,Telefone,Bug,Baixa,Fechado,Fernanda Lima,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,51,2.8,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000023,CLI-00009,,2025-12-31 00:00:00,2025-12-31 00:57:00,2025-12-31 00:33:36,Telefone,Dúvida,Alta,Fechado,Fernanda Lima,Suporte muito atencioso e paciente,1,57,0.56,4,Melhor suporte que já tive,Positivo
-TKT-000024,CLI-00009,,2025-12-31 00:00:00,2025-12-31 00:35:00,2025-12-31 00:31:12,Chat,Acesso,Média,Fechado,Fernanda Lima,"Perdi a senha, suporte ajudou em minutos",1,35,0.52,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000025,CLI-00009,,2025-12-31 00:00:00,2025-12-31 01:00:00,2026-01-01 10:31:12,Telefone,Cobrança,Alta,Fechado,Marcos Oliveira,Reembolso prometido há 30 dias e não veio,0,60,34.52,2,Péssima experiência,Negativo
-TKT-000026,CLI-00009,,2025-12-31 00:00:00,2025-12-31 00:15:00,2025-12-31 03:52:12,Telefone,Dúvida,Urgente,Fechado,Pedro Rocha,Suporte muito atencioso e paciente,1,15,3.87,4,Atenção e agilidade impecáveis,Positivo
-TKT-000027,CLI-00010,PED-000015,2025-12-31 00:00:00,2025-12-31 00:05:00,2025-12-31 05:23:24,WhatsApp,Bug,Média,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,5,5.39,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000028,CLI-00010,PED-000015,2025-12-31 00:00:00,2025-12-31 00:21:00,2025-12-31 02:39:00,WhatsApp,Cobrança,Urgente,Fechado,Marcos Oliveira,Fui cobrado mas o estorno foi rápido e eficiente,1,21,2.65,4,Atenção e agilidade impecáveis,Positivo
-TKT-000029,CLI-00010,PED-000015,2025-11-10 00:00:00,2025-11-10 04:13:00,2025-11-11 03:04:12,WhatsApp,Bug,Baixa,Fechado,Pedro Rocha,"Dashboard não carrega há uma semana, perdi reunião por isso",0,253,27.07,2,Problema não foi totalmente resolvido,Negativo
-TKT-000030,CLI-00010,PED-000015,2025-11-14 00:00:00,2025-11-14 00:47:00,2025-11-14 04:38:24,Chat,Cancelamento,Alta,Fechado,Pedro Rocha,"Empresa passou por reestruturação, preciso cancelar",1,47,4.64,5,Excelente atendimento!,Positivo
-TKT-000031,CLI-00011,PED-000017,2025-09-30 00:00:00,2025-09-30 01:59:00,2025-10-01 21:37:12,Telefone,Cancelamento,Alta,Fechado,Pedro Rocha,"Quero cancelar minha assinatura, preço muito alto",0,119,45.62,1,Péssima experiência,Negativo
-TKT-000032,CLI-00011,PED-000017,2025-08-25 00:00:00,2025-08-25 01:49:00,2025-08-25 07:47:24,Telefone,Acesso,Baixa,Fechado,Pedro Rocha,Usuário novo não consegue acessar,0,109,7.79,4,Demorou um pouco mas ok,Neutro
-TKT-000033,CLI-00011,PED-000017,2025-09-28 00:00:00,2025-09-28 03:51:00,2025-09-29 12:30:36,WhatsApp,Cancelamento,Alta,Fechado,Marcos Oliveira,"Quero cancelar minha assinatura, preço muito alto",0,231,36.51,3,Problema não foi totalmente resolvido,Negativo
-TKT-000034,CLI-00011,PED-000017,2025-10-09 00:00:00,2025-10-09 04:56:00,2025-10-10 16:30:00,WhatsApp,Cancelamento,Alta,Fechado,Marcos Oliveira,"Quero cancelar minha assinatura, preço muito alto",0,296,40.5,2,Precisei ligar 3 vezes,Negativo
-TKT-000035,CLI-00012,PED-000020,2025-05-29 00:00:00,2025-05-29 04:37:00,2025-05-30 10:37:12,WhatsApp,Bug,Média,Fechado,Aline Costa,"Dashboard não carrega há uma semana, perdi reunião por isso",0,277,34.62,3,Não fiquei satisfeito,Negativo
-TKT-000036,CLI-00012,PED-000020,2025-07-03 00:00:00,2025-07-03 06:10:00,2025-07-04 06:57:00,Chat,Cancelamento,Alta,Fechado,Aline Costa,"Quero cancelar minha assinatura, preço muito alto",0,370,30.95,2,Precisei ligar 3 vezes,Negativo
-TKT-000037,CLI-00012,PED-000020,2025-07-10 00:00:00,2025-07-10 00:58:00,2025-07-10 02:51:00,WhatsApp,Bug,Baixa,Fechado,Marcos Oliveira,Exportação de PDF com formatação errada,0,58,2.85,3,"Ok, resolvido",Neutro
-TKT-000038,CLI-00013,PED-000022,2025-11-03 00:00:00,2025-11-03 05:56:00,2025-11-04 00:03:36,Chat,Bug,Urgente,Fechado,Carla Santos,"Dashboard não carrega há uma semana, perdi reunião por isso",0,356,24.06,2,Não fiquei satisfeito,Negativo
-TKT-000039,CLI-00013,PED-000022,2025-09-23 00:00:00,2025-09-23 07:38:00,2025-09-23 22:48:00,Telefone,Bug,Baixa,Fechado,Pedro Rocha,"Dashboard não carrega há uma semana, perdi reunião por isso",0,458,22.8,3,Demorou demais para resolver,Negativo
-TKT-000040,CLI-00013,PED-000022,2025-10-30 00:00:00,2025-10-30 01:25:00,2025-10-31 22:35:24,Telefone,Bug,Média,Fechado,Aline Costa,"Dashboard não carrega há uma semana, perdi reunião por isso",0,85,46.59,3,Péssima experiência,Negativo
-TKT-000041,CLI-00013,PED-000022,2025-11-02 00:00:00,2025-11-02 07:32:00,2025-11-03 16:40:48,WhatsApp,Acesso,Baixa,Fechado,Fernanda Lima,Sistema trava toda vez que tento entrar! Inaceitável,0,452,40.68,1,Problema não foi totalmente resolvido,Negativo
-TKT-000042,CLI-00013,PED-000022,2025-10-01 00:00:00,2025-10-01 00:51:00,2025-10-01 00:43:48,Telefone,Acesso,Baixa,Fechado,Fernanda Lima,"Perdi a senha, suporte ajudou em minutos",1,51,0.73,4,Atenção e agilidade impecáveis,Positivo
-TKT-000043,CLI-00014,PED-000023,2025-12-31 00:00:00,2025-12-31 07:27:00,2026-01-01 12:00:00,Email,Cancelamento,Alta,Fechado,Fernanda Lima,"Quero cancelar minha assinatura, preço muito alto",0,447,36.0,3,Não fiquei satisfeito,Negativo
-TKT-000044,CLI-00014,PED-000023,2025-12-31 00:00:00,2025-12-31 00:48:00,2025-12-31 05:03:36,WhatsApp,Cancelamento,Alta,Fechado,Carla Santos,"Empresa passou por reestruturação, preciso cancelar",1,48,5.06,4,Muito profissional e eficiente,Positivo
-TKT-000045,CLI-00015,PED-000026,2025-12-31 00:00:00,2025-12-31 01:02:00,2025-12-31 08:07:48,Telefone,Acesso,Média,Fechado,Carla Santos,Preciso redefinir minha senha,0,62,8.13,4,Poderia ser mais rápido,Neutro
-TKT-000046,CLI-00015,PED-000026,2025-12-31 00:00:00,2025-12-31 00:55:00,2025-12-31 04:06:36,Telefone,Dúvida,Baixa,Fechado,Carla Santos,Como faço para criar um dashboard compartilhável?,0,55,4.11,4,"Ok, resolvido",Neutro
-TKT-000047,CLI-00016,PED-000028,2025-08-28 00:00:00,2025-08-28 03:30:00,2025-08-28 11:34:12,Email,Acesso,Média,Fechado,Pedro Rocha,Estou sem acesso há 3 dias e ninguém resolve,0,210,11.57,1,Demorou demais para resolver,Negativo
-TKT-000048,CLI-00017,PED-000029,2025-10-23 00:00:00,2025-10-23 00:45:00,2025-10-23 04:35:24,Email,Bug,Alta,Fechado,Pedro Rocha,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,45,4.59,5,Melhor suporte que já tive,Positivo
-TKT-000049,CLI-00017,PED-000029,2025-09-23 00:00:00,2025-09-23 02:00:00,2025-09-23 08:18:00,Email,Acesso,Baixa,Fechado,Aline Costa,Preciso redefinir minha senha,0,120,8.3,4,Demorou um pouco mas ok,Neutro
-TKT-000050,CLI-00017,PED-000029,2025-12-31 00:00:00,2025-12-31 04:42:00,2026-01-01 10:36:36,Chat,Cobrança,Baixa,Fechado,Marcos Oliveira,Fui cobrado duas vezes e ninguém me deu retorno,0,282,34.61,3,Demorou demais para resolver,Negativo
-TKT-000051,CLI-00017,PED-000029,2025-12-20 00:00:00,2025-12-20 01:39:00,2025-12-20 10:01:12,Chat,Cancelamento,Alta,Fechado,Aline Costa,Vou pausar a assinatura temporariamente,0,99,10.02,3,Demorou um pouco mas ok,Neutro
-TKT-000052,CLI-00018,PED-000030,2025-08-29 00:00:00,2025-08-29 04:50:00,2025-08-30 08:19:48,Chat,Cancelamento,Alta,Fechado,Carla Santos,"O produto não entregou o que promete, quero reembolso",0,290,32.33,2,Problema não foi totalmente resolvido,Negativo
-TKT-000053,CLI-00018,PED-000030,2025-09-24 00:00:00,2025-09-24 03:58:00,2025-09-24 19:40:48,Chat,Bug,Alta,Fechado,Aline Costa,"Dashboard não carrega há uma semana, perdi reunião por isso",0,238,19.68,2,Problema não foi totalmente resolvido,Negativo
-TKT-000054,CLI-00018,PED-000030,2025-09-04 00:00:00,2025-09-04 06:39:00,2025-09-04 14:16:12,WhatsApp,Acesso,Média,Fechado,Aline Costa,Estou sem acesso há 3 dias e ninguém resolve,0,399,14.27,3,Não fiquei satisfeito,Negativo
-TKT-000055,CLI-00018,PED-000030,2025-09-27 00:00:00,2025-09-27 01:05:00,2025-09-28 08:17:24,Email,Acesso,Baixa,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,65,32.29,3,Péssima experiência,Negativo
-TKT-000056,CLI-00018,PED-000030,2025-08-23 00:00:00,2025-08-23 01:43:00,2025-08-23 11:30:36,Email,Acesso,Alta,Fechado,Pedro Rocha,Preciso redefinir minha senha,0,103,11.51,3,Atendimento razoável,Neutro
-TKT-000057,CLI-00018,PED-000030,2025-09-27 00:00:00,2025-09-27 07:59:00,2025-09-27 16:39:36,Email,Acesso,Baixa,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,479,16.66,2,Precisei ligar 3 vezes,Negativo
-TKT-000058,CLI-00019,PED-000036,2025-12-31 00:00:00,2025-12-31 00:40:00,2025-12-31 02:24:00,Email,Dúvida,Média,Fechado,Fernanda Lima,Suporte muito atencioso e paciente,1,40,2.4,4,Excelente atendimento!,Positivo
-TKT-000059,CLI-00019,PED-000036,2025-12-13 00:00:00,2025-12-13 00:40:00,2025-12-13 05:10:12,Email,Cobrança,Média,Fechado,Pedro Rocha,Ajuste de fatura feito sem burocracia,1,40,5.17,4,Muito profissional e eficiente,Positivo
-TKT-000060,CLI-00019,PED-000036,2025-12-14 00:00:00,2025-12-14 00:31:00,2025-12-14 11:44:24,Email,Cobrança,Baixa,Fechado,Pedro Rocha,Dúvida sobre próximo vencimento,0,31,11.74,3,Atendimento razoável,Neutro
-TKT-000061,CLI-00019,PED-000036,2025-07-07 00:00:00,2025-07-07 05:53:00,2025-07-07 10:58:48,Chat,Bug,Baixa,Fechado,Fernanda Lima,"Dashboard não carrega há uma semana, perdi reunião por isso",0,353,10.98,1,Precisei ligar 3 vezes,Negativo
-TKT-000062,CLI-00020,PED-000040,2025-09-14 00:00:00,2025-09-14 00:08:00,2025-09-14 05:55:48,Chat,Cobrança,Média,Fechado,Aline Costa,Fui cobrado mas o estorno foi rápido e eficiente,0,8,5.93,5,Muito profissional e eficiente,Positivo
-TKT-000063,CLI-00021,PED-000041,2025-11-05 00:00:00,2025-11-05 00:18:00,2025-11-05 03:03:00,Telefone,Bug,Alta,Fechado,Marcos Oliveira,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,18,3.05,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000064,CLI-00021,PED-000041,2025-08-07 00:00:00,2025-08-07 00:32:00,2025-08-07 02:54:00,Email,Cobrança,Baixa,Fechado,Marcos Oliveira,Ajuste de fatura feito sem burocracia,1,32,2.9,4,Melhor suporte que já tive,Positivo
-TKT-000065,CLI-00021,PED-000041,2025-12-06 00:00:00,2025-12-06 03:35:00,2025-12-06 22:34:48,WhatsApp,Bug,Baixa,Fechado,Aline Costa,"Dashboard não carrega há uma semana, perdi reunião por isso",0,215,22.58,3,Não fiquei satisfeito,Negativo
-TKT-000066,CLI-00021,PED-000041,2025-11-11 00:00:00,2025-11-11 00:42:00,2025-11-11 05:45:00,Email,Cancelamento,Urgente,Fechado,Aline Costa,Vou pausar a assinatura temporariamente,1,42,5.75,5,Atenção e agilidade impecáveis,Positivo
-TKT-000067,CLI-00022,PED-000042,2025-08-03 00:00:00,2025-08-03 07:29:00,2025-08-04 01:33:36,Telefone,Bug,Média,Fechado,Aline Costa,"Dashboard não carrega há uma semana, perdi reunião por isso",0,449,25.56,1,Não fiquei satisfeito,Negativo
-TKT-000068,CLI-00022,PED-000042,2025-07-12 00:00:00,2025-07-12 05:38:00,2025-07-13 01:08:24,Telefone,Bug,Alta,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,338,25.14,2,Problema não foi totalmente resolvido,Negativo
-TKT-000069,CLI-00022,PED-000042,2025-07-16 00:00:00,2025-07-16 07:10:00,2025-07-16 08:10:48,Telefone,Cancelamento,Urgente,Fechado,Carla Santos,"O produto não entregou o que promete, quero reembolso",0,430,8.18,1,Demorou demais para resolver,Negativo
-TKT-000070,CLI-00022,PED-000042,2025-07-09 00:00:00,2025-07-09 03:52:00,2025-07-09 10:39:36,Email,Dúvida,Alta,Fechado,Carla Santos,Esperei 2 horas no chat sem resposta,0,232,10.66,2,Péssima experiência,Negativo
-TKT-000071,CLI-00022,PED-000042,2025-06-13 00:00:00,2025-06-13 03:38:00,2025-06-14 18:54:00,WhatsApp,Acesso,Baixa,Fechado,Pedro Rocha,Estou sem acesso há 3 dias e ninguém resolve,0,218,42.9,2,Péssima experiência,Negativo
-TKT-000072,CLI-00023,PED-000044,2025-12-31 00:00:00,2025-12-31 06:52:00,2025-12-31 23:54:00,Telefone,Cancelamento,Alta,Fechado,Marcos Oliveira,"O produto não entregou o que promete, quero reembolso",0,412,23.9,1,Péssima experiência,Negativo
-TKT-000073,CLI-00023,PED-000044,2025-12-31 00:00:00,2025-12-31 01:23:00,2025-12-31 03:25:12,Chat,Acesso,Média,Fechado,Fernanda Lima,Preciso redefinir minha senha,0,83,3.42,3,Demorou um pouco mas ok,Neutro
-TKT-000074,CLI-00023,PED-000044,2025-12-31 00:00:00,2025-12-31 00:40:00,2025-12-31 00:34:12,WhatsApp,Acesso,Baixa,Fechado,Pedro Rocha,Não consigo logar mas foi resolvido rápido,1,40,0.57,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000075,CLI-00023,PED-000044,2025-12-31 00:00:00,2025-12-31 00:37:00,2025-12-31 03:03:00,Email,Dúvida,Baixa,Fechado,Carla Santos,Suporte muito atencioso e paciente,1,37,3.05,5,Excelente atendimento!,Positivo
-TKT-000076,CLI-00024,PED-000046,2025-12-31 00:00:00,2025-12-31 00:58:00,2025-12-31 10:58:48,WhatsApp,Cancelamento,Alta,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",0,58,10.98,3,Poderia ser mais rápido,Neutro
-TKT-000077,CLI-00024,PED-000046,2025-12-31 00:00:00,2025-12-31 00:53:00,2025-12-31 04:03:00,Chat,Cancelamento,Urgente,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",1,53,4.05,5,Atenção e agilidade impecáveis,Positivo
-TKT-000078,CLI-00025,,2025-12-31 00:00:00,2025-12-31 05:52:00,2026-01-01 11:43:12,Email,Bug,Baixa,Fechado,Pedro Rocha,"Dashboard não carrega há uma semana, perdi reunião por isso",0,352,35.72,1,Precisei ligar 3 vezes,Negativo
-TKT-000079,CLI-00025,,2025-12-31 00:00:00,2025-12-31 01:40:00,2025-12-31 19:29:24,Telefone,Cancelamento,Alta,Fechado,Marcos Oliveira,"Quero cancelar minha assinatura, preço muito alto",0,100,19.49,3,Não fiquei satisfeito,Negativo
-TKT-000080,CLI-00025,,2025-12-31 00:00:00,2025-12-31 00:47:00,2025-12-31 00:31:12,Telefone,Dúvida,Média,Fechado,Fernanda Lima,Suporte muito atencioso e paciente,1,47,0.52,5,Atenção e agilidade impecáveis,Positivo
-TKT-000081,CLI-00025,,2025-12-31 00:00:00,2025-12-31 01:36:00,2025-12-31 04:04:48,WhatsApp,Dúvida,Baixa,Fechado,Aline Costa,É possível integrar com Google Sheets?,0,96,4.08,4,Poderia ser mais rápido,Neutro
-TKT-000082,CLI-00025,,2025-12-31 00:00:00,2025-12-31 06:46:00,2026-01-01 04:21:36,Email,Acesso,Baixa,Fechado,Aline Costa,Estou sem acesso há 3 dias e ninguém resolve,0,406,28.36,2,Não fiquei satisfeito,Negativo
-TKT-000083,CLI-00025,,2025-12-31 00:00:00,2025-12-31 05:40:00,2026-01-01 01:43:12,WhatsApp,Cancelamento,Alta,Fechado,Fernanda Lima,"O produto não entregou o que promete, quero reembolso",0,340,25.72,2,Precisei ligar 3 vezes,Negativo
-TKT-000084,CLI-00026,,2025-12-31 00:00:00,2025-12-31 00:41:00,2025-12-31 01:37:48,Telefone,Cobrança,Urgente,Fechado,Fernanda Lima,Fui cobrado mas o estorno foi rápido e eficiente,1,41,1.63,5,Melhor suporte que já tive,Positivo
-TKT-000085,CLI-00026,,2025-12-31 00:00:00,2025-12-31 01:47:00,2026-01-01 20:19:48,WhatsApp,Cancelamento,Alta,Fechado,Fernanda Lima,"O produto não entregou o que promete, quero reembolso",0,107,44.33,2,Não fiquei satisfeito,Negativo
-TKT-000086,CLI-00026,,2025-12-31 00:00:00,2025-12-31 01:18:00,2025-12-31 10:28:48,WhatsApp,Bug,Baixa,Fechado,Aline Costa,Gráfico não está exibindo corretamente,1,78,10.48,4,Demorou um pouco mas ok,Neutro
-TKT-000087,CLI-00027,PED-000050,2025-03-15 00:00:00,2025-03-15 02:09:00,2025-03-16 00:37:48,Email,Bug,Média,Fechado,Carla Santos,"Dashboard não carrega há uma semana, perdi reunião por isso",0,129,24.63,3,Problema não foi totalmente resolvido,Negativo
-TKT-000088,CLI-00027,PED-000050,2025-03-19 00:00:00,2025-03-19 01:10:00,2025-03-20 18:02:24,Chat,Cancelamento,Alta,Fechado,Pedro Rocha,"O produto não entregou o que promete, quero reembolso",0,70,42.04,3,Problema não foi totalmente resolvido,Negativo
-TKT-000089,CLI-00027,PED-000050,2025-04-30 00:00:00,2025-04-30 01:49:00,2025-04-30 09:37:48,Email,Acesso,Baixa,Fechado,Carla Santos,Preciso redefinir minha senha,1,109,9.63,4,Atendimento razoável,Neutro
-TKT-000090,CLI-00027,PED-000050,2025-03-17 00:00:00,2025-03-17 06:25:00,2025-03-18 10:25:12,Chat,Bug,Alta,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,385,34.42,1,Precisei ligar 3 vezes,Negativo
-TKT-000091,CLI-00027,PED-000050,2025-03-07 00:00:00,2025-03-07 07:14:00,2025-03-08 05:37:12,Telefone,Cancelamento,Alta,Fechado,Fernanda Lima,"Quero cancelar minha assinatura, preço muito alto",0,434,29.62,2,Demorou demais para resolver,Negativo
-TKT-000092,CLI-00027,PED-000050,2025-03-29 00:00:00,2025-03-29 00:19:00,2025-03-29 04:52:48,Chat,Acesso,Média,Fechado,Marcos Oliveira,Não consigo logar mas foi resolvido rápido,1,19,4.88,4,Excelente atendimento!,Positivo
-TKT-000093,CLI-00028,PED-000051,2025-05-30 00:00:00,2025-05-30 00:31:00,2025-05-30 08:41:24,Chat,Acesso,Baixa,Fechado,Pedro Rocha,Usuário novo não consegue acessar,0,31,8.69,3,Atendimento razoável,Neutro
-TKT-000094,CLI-00028,PED-000051,2025-10-05 00:00:00,2025-10-05 05:22:00,2025-10-06 12:59:24,Chat,Cancelamento,Urgente,Fechado,Marcos Oliveira,"Quero cancelar minha assinatura, preço muito alto",0,322,36.99,1,Demorou demais para resolver,Negativo
-TKT-000095,CLI-00028,PED-000051,2025-05-17 00:00:00,2025-05-17 00:47:00,2025-05-17 04:58:48,Email,Cancelamento,Alta,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",1,47,4.98,5,Melhor suporte que já tive,Positivo
-TKT-000096,CLI-00029,PED-000053,2025-11-28 00:00:00,2025-11-28 00:14:00,2025-11-28 04:10:48,Email,Dúvida,Média,Fechado,Marcos Oliveira,Suporte muito atencioso e paciente,1,14,4.18,4,Atenção e agilidade impecáveis,Positivo
-TKT-000097,CLI-00030,PED-000055,2025-12-08 00:00:00,2025-12-08 00:50:00,2025-12-08 01:10:48,Email,Acesso,Baixa,Fechado,Marcos Oliveira,Não consigo logar mas foi resolvido rápido,0,50,1.18,4,Melhor suporte que já tive,Positivo
-TKT-000098,CLI-00030,PED-000055,2025-12-31 00:00:00,2025-12-31 00:52:00,2025-12-31 04:10:12,Email,Dúvida,Baixa,Fechado,Pedro Rocha,Suporte muito atencioso e paciente,1,52,4.17,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000099,CLI-00030,PED-000055,2025-12-31 00:00:00,2025-12-31 01:22:00,2025-12-31 07:00:36,Email,Acesso,Alta,Fechado,Carla Santos,Preciso redefinir minha senha,0,82,7.01,3,Demorou um pouco mas ok,Neutro
-TKT-000100,CLI-00031,PED-000059,2025-12-31 00:00:00,2025-12-31 00:10:00,2025-12-31 02:37:12,Telefone,Cancelamento,Urgente,Fechado,Marcos Oliveira,Vou pausar a assinatura temporariamente,1,10,2.62,4,Excelente atendimento!,Positivo
-TKT-000101,CLI-00031,PED-000059,2025-11-13 00:00:00,2025-11-13 00:58:00,2025-11-13 04:45:36,WhatsApp,Cancelamento,Alta,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",1,58,4.76,5,Melhor suporte que já tive,Positivo
-TKT-000102,CLI-00031,PED-000059,2025-12-31 00:00:00,2025-12-31 07:10:00,2025-12-31 21:18:36,Email,Acesso,Baixa,Fechado,Fernanda Lima,Estou sem acesso há 3 dias e ninguém resolve,0,430,21.31,3,Não fiquei satisfeito,Negativo
-TKT-000103,CLI-00031,PED-000059,2025-12-31 00:00:00,2025-12-31 00:06:00,2025-12-31 03:44:24,WhatsApp,Bug,Alta,Fechado,Aline Costa,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,6,3.74,4,Atenção e agilidade impecáveis,Positivo
-TKT-000104,CLI-00032,PED-000061,2025-12-31 00:00:00,2025-12-31 01:46:00,2025-12-31 06:23:24,Chat,Bug,Média,Fechado,Fernanda Lima,Exportação de PDF com formatação errada,1,106,6.39,4,Poderia ser mais rápido,Neutro
-TKT-000105,CLI-00032,PED-000061,2025-12-31 00:00:00,2025-12-31 00:33:00,2025-12-31 05:06:00,Email,Dúvida,Alta,Fechado,Carla Santos,"Explicação clara e objetiva, resolvi em 5 minutos",1,33,5.1,5,Melhor suporte que já tive,Positivo
-TKT-000106,CLI-00032,PED-000061,2025-12-31 00:00:00,2025-12-31 00:31:00,2025-12-31 04:19:12,Email,Bug,Alta,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,31,4.32,5,Muito profissional e eficiente,Positivo
-TKT-000107,CLI-00033,PED-000066,2025-08-11 00:00:00,2025-08-11 01:08:00,2025-08-11 05:47:24,Email,Bug,Média,Fechado,Carla Santos,Exportação de PDF com formatação errada,0,68,5.79,3,Demorou um pouco mas ok,Neutro
-TKT-000108,CLI-00033,PED-000066,2025-12-31 00:00:00,2025-12-31 00:20:00,2025-12-31 05:40:12,Telefone,Cobrança,Alta,Fechado,Carla Santos,Fui cobrado mas o estorno foi rápido e eficiente,1,20,5.67,5,Muito profissional e eficiente,Positivo
-TKT-000109,CLI-00034,PED-000070,2025-09-18 00:00:00,2025-09-18 07:23:00,2025-09-19 15:05:24,Email,Cancelamento,Urgente,Fechado,Carla Santos,"Quero cancelar minha assinatura, preço muito alto",0,443,39.09,2,Precisei ligar 3 vezes,Negativo
-TKT-000110,CLI-00034,PED-000070,2025-08-23 00:00:00,2025-08-23 00:53:00,2025-08-23 05:56:24,Chat,Acesso,Baixa,Fechado,Carla Santos,"Perdi a senha, suporte ajudou em minutos",1,53,5.94,4,Excelente atendimento!,Positivo
-TKT-000111,CLI-00035,,2025-12-31 00:00:00,2025-12-31 00:14:00,2025-12-31 00:44:24,Telefone,Bug,Baixa,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,14,0.74,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000112,CLI-00035,,2025-12-31 00:00:00,2025-12-31 00:50:00,2025-12-31 04:21:00,Telefone,Dúvida,Urgente,Fechado,Marcos Oliveira,Como faço para criar um dashboard compartilhável?,0,50,4.35,4,Demorou um pouco mas ok,Neutro
-TKT-000113,CLI-00036,PED-000072,2025-05-10 00:00:00,2025-05-10 01:51:00,2025-05-10 06:36:00,Telefone,Acesso,Urgente,Fechado,Marcos Oliveira,Preciso redefinir minha senha,1,111,6.6,3,Demorou um pouco mas ok,Neutro
-TKT-000114,CLI-00036,PED-000072,2025-12-17 00:00:00,2025-12-17 01:51:00,2025-12-18 13:05:24,WhatsApp,Cobrança,Média,Fechado,Aline Costa,Reembolso prometido há 30 dias e não veio,0,111,37.09,3,Péssima experiência,Negativo
-TKT-000115,CLI-00036,PED-000072,2025-12-11 00:00:00,2025-12-11 01:47:00,2025-12-11 08:12:00,Telefone,Cancelamento,Alta,Fechado,Aline Costa,Vou pausar a assinatura temporariamente,1,107,8.2,3,Demorou um pouco mas ok,Neutro
-TKT-000116,CLI-00037,PED-000076,2025-03-29 00:00:00,2025-03-29 00:26:00,2025-03-29 01:31:48,WhatsApp,Acesso,Média,Fechado,Aline Costa,"Perdi a senha, suporte ajudou em minutos",1,26,1.53,4,Melhor suporte que já tive,Positivo
-TKT-000117,CLI-00037,PED-000076,2025-11-10 00:00:00,2025-11-10 00:58:00,2025-11-10 05:35:24,Chat,Cobrança,Baixa,Fechado,Carla Santos,Fui cobrado mas o estorno foi rápido e eficiente,1,58,5.59,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000118,CLI-00037,PED-000076,2025-07-06 00:00:00,2025-07-06 01:12:00,2025-07-07 08:31:12,Telefone,Bug,Alta,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,72,32.52,1,Demorou demais para resolver,Negativo
-TKT-000119,CLI-00038,PED-000077,2025-09-27 00:00:00,2025-09-27 01:54:00,2025-09-27 07:09:36,Chat,Acesso,Baixa,Fechado,Carla Santos,Preciso redefinir minha senha,0,114,7.16,4,Poderia ser mais rápido,Neutro
-TKT-000120,CLI-00038,PED-000077,2025-12-31 00:00:00,2025-12-31 00:12:00,2025-12-31 05:25:48,WhatsApp,Dúvida,Baixa,Fechado,Pedro Rocha,Suporte muito atencioso e paciente,1,12,5.43,4,Atenção e agilidade impecáveis,Positivo
-TKT-000121,CLI-00038,PED-000077,2025-12-31 00:00:00,2025-12-31 00:59:00,2025-12-31 01:06:36,Telefone,Cancelamento,Alta,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",0,59,1.11,4,Muito profissional e eficiente,Positivo
-TKT-000122,CLI-00038,PED-000077,2025-12-07 00:00:00,2025-12-07 00:41:00,2025-12-07 03:42:36,Chat,Bug,Baixa,Fechado,Aline Costa,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,41,3.71,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000123,CLI-00039,PED-000080,2025-12-31 00:00:00,2025-12-31 00:43:00,2025-12-31 06:15:36,Email,Cobrança,Média,Fechado,Aline Costa,Dúvida sobre próximo vencimento,1,43,6.26,3,"Ok, resolvido",Neutro
-TKT-000124,CLI-00040,PED-000083,2025-08-17 00:00:00,2025-08-17 00:34:00,2025-08-17 02:54:36,Chat,Bug,Baixa,Fechado,Fernanda Lima,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,34,2.91,4,Melhor suporte que já tive,Positivo
-TKT-000125,CLI-00041,PED-000087,2025-12-22 00:00:00,2025-12-22 00:06:00,2025-12-22 01:41:24,Telefone,Bug,Média,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,6,1.69,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000126,CLI-00041,PED-000087,2025-12-24 00:00:00,2025-12-24 01:51:00,2025-12-24 10:10:12,WhatsApp,Cancelamento,Alta,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",1,111,10.17,4,"Ok, resolvido",Neutro
-TKT-000127,CLI-00042,PED-000089,2025-10-23 00:00:00,2025-10-23 00:39:00,2025-10-23 01:22:12,Chat,Acesso,Alta,Fechado,Carla Santos,Não consigo logar mas foi resolvido rápido,1,39,1.37,5,Excelente atendimento!,Positivo
-TKT-000128,CLI-00042,PED-000089,2025-12-09 00:00:00,2025-12-09 00:56:00,2025-12-09 11:33:00,Chat,Cobrança,Média,Fechado,Pedro Rocha,Preciso de nota fiscal atualizada,0,56,11.55,3,Demorou um pouco mas ok,Neutro
-TKT-000129,CLI-00042,PED-000089,2025-12-31 00:00:00,2025-12-31 00:48:00,2025-12-31 02:07:12,WhatsApp,Acesso,Baixa,Fechado,Marcos Oliveira,"Perdi a senha, suporte ajudou em minutos",1,48,2.12,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000130,CLI-00042,PED-000089,2025-12-19 00:00:00,2025-12-19 00:36:00,2025-12-19 02:34:12,Email,Cancelamento,Urgente,Fechado,Carla Santos,"Empresa passou por reestruturação, preciso cancelar",0,36,2.57,5,Muito profissional e eficiente,Positivo
-TKT-000131,CLI-00043,PED-000091,2025-12-31 00:00:00,2025-12-31 00:15:00,2025-12-31 05:04:48,WhatsApp,Cancelamento,Urgente,Fechado,Pedro Rocha,"Empresa passou por reestruturação, preciso cancelar",1,15,5.08,4,Melhor suporte que já tive,Positivo
-TKT-000132,CLI-00043,PED-000091,2025-12-31 00:00:00,2025-12-31 01:19:00,2025-12-31 02:44:24,Email,Dúvida,Média,Fechado,Carla Santos,É possível integrar com Google Sheets?,1,79,2.74,4,Poderia ser mais rápido,Neutro
-TKT-000133,CLI-00043,PED-000091,2025-12-31 00:00:00,2025-12-31 00:49:00,2025-12-31 00:44:24,WhatsApp,Bug,Alta,Fechado,Marcos Oliveira,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,49,0.74,5,Muito profissional e eficiente,Positivo
-TKT-000134,CLI-00044,PED-000094,2025-11-05 00:00:00,2025-11-05 00:10:00,2025-11-05 03:54:00,Email,Cancelamento,Urgente,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",0,10,3.9,5,Muito profissional e eficiente,Positivo
-TKT-000135,CLI-00044,PED-000094,2025-11-23 00:00:00,2025-11-23 00:07:00,2025-11-23 01:10:48,Chat,Cancelamento,Alta,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",1,7,1.18,5,Atenção e agilidade impecáveis,Positivo
-TKT-000136,CLI-00044,PED-000094,2025-06-22 00:00:00,2025-06-22 00:22:00,2025-06-22 04:57:36,WhatsApp,Bug,Alta,Fechado,Fernanda Lima,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,22,4.96,4,Muito profissional e eficiente,Positivo
-TKT-000137,CLI-00045,PED-000096,2025-06-07 00:00:00,2025-06-07 00:26:00,2025-06-07 03:24:00,Chat,Dúvida,Média,Fechado,Pedro Rocha,"Explicação clara e objetiva, resolvi em 5 minutos",1,26,3.4,5,Muito profissional e eficiente,Positivo
-TKT-000138,CLI-00045,PED-000096,2025-09-18 00:00:00,2025-09-18 00:41:00,2025-09-18 03:36:36,WhatsApp,Bug,Média,Fechado,Marcos Oliveira,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,41,3.61,5,Muito profissional e eficiente,Positivo
-TKT-000139,CLI-00046,,2025-12-31 00:00:00,2025-12-31 04:16:00,2026-01-01 05:12:36,WhatsApp,Acesso,Média,Fechado,Pedro Rocha,Estou sem acesso há 3 dias e ninguém resolve,0,256,29.21,2,Péssima experiência,Negativo
-TKT-000140,CLI-00046,,2025-12-31 00:00:00,2025-12-31 01:58:00,2025-12-31 10:54:00,Telefone,Bug,Alta,Fechado,Marcos Oliveira,Gráfico não está exibindo corretamente,0,118,10.9,4,Poderia ser mais rápido,Neutro
-TKT-000141,CLI-00046,,2025-12-31 00:00:00,2025-12-31 00:39:00,2025-12-31 05:13:12,WhatsApp,Acesso,Alta,Fechado,Fernanda Lima,Não consigo logar mas foi resolvido rápido,0,39,5.22,5,Excelente atendimento!,Positivo
-TKT-000142,CLI-00047,PED-000100,2025-07-22 00:00:00,2025-07-22 00:34:00,2025-07-22 02:21:00,Email,Acesso,Média,Fechado,Fernanda Lima,Não consigo logar mas foi resolvido rápido,1,34,2.35,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000143,CLI-00047,PED-000100,2025-09-03 00:00:00,2025-09-03 00:56:00,2025-09-03 04:43:12,Telefone,Cancelamento,Urgente,Fechado,Fernanda Lima,Vou pausar a assinatura temporariamente,0,56,4.72,5,Muito profissional e eficiente,Positivo
-TKT-000144,CLI-00048,PED-000102,2025-09-20 00:00:00,2025-09-20 01:33:00,2025-09-20 19:32:24,WhatsApp,Acesso,Baixa,Fechado,Fernanda Lima,Estou sem acesso há 3 dias e ninguém resolve,0,93,19.54,2,Péssima experiência,Negativo
-TKT-000145,CLI-00048,PED-000102,2025-09-12 00:00:00,2025-09-12 00:32:00,2025-09-12 03:12:36,Telefone,Dúvida,Alta,Fechado,Aline Costa,"Explicação clara e objetiva, resolvi em 5 minutos",1,32,3.21,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000146,CLI-00048,PED-000102,2025-08-08 00:00:00,2025-08-08 01:20:00,2025-08-08 10:49:48,Telefone,Acesso,Alta,Fechado,Fernanda Lima,Sistema trava toda vez que tento entrar! Inaceitável,0,80,10.83,1,Não fiquei satisfeito,Negativo
-TKT-000147,CLI-00048,PED-000102,2025-08-05 00:00:00,2025-08-05 00:31:00,2025-08-05 05:04:48,Telefone,Acesso,Média,Fechado,Marcos Oliveira,"Perdi a senha, suporte ajudou em minutos",1,31,5.08,5,Melhor suporte que já tive,Positivo
-TKT-000148,CLI-00049,PED-000104,2025-12-30 00:00:00,2025-12-30 03:56:00,2025-12-31 08:22:48,WhatsApp,Cobrança,Alta,Fechado,Pedro Rocha,Reembolso prometido há 30 dias e não veio,0,236,32.38,2,Demorou demais para resolver,Negativo
-TKT-000149,CLI-00049,PED-000104,2025-06-22 00:00:00,2025-06-22 00:35:00,2025-06-22 02:06:36,Email,Cobrança,Baixa,Fechado,Fernanda Lima,Ajuste de fatura feito sem burocracia,1,35,2.11,5,Atenção e agilidade impecáveis,Positivo
-TKT-000150,CLI-00050,,2025-12-31 00:00:00,2025-12-31 01:18:00,2025-12-31 09:26:24,Telefone,Acesso,Média,Fechado,Fernanda Lima,Usuário novo não consegue acessar,1,78,9.44,3,"Ok, resolvido",Neutro
-TKT-000151,CLI-00050,,2025-12-31 00:00:00,2025-12-31 00:08:00,2025-12-31 05:03:36,Chat,Cancelamento,Urgente,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",1,8,5.06,4,Excelente atendimento!,Positivo
-TKT-000152,CLI-00051,PED-000107,2025-12-31 00:00:00,2025-12-31 03:43:00,2025-12-31 11:49:48,Email,Dúvida,Alta,Fechado,Fernanda Lima,"Só respostas automáticas, ninguém realmente ajuda",0,223,11.83,3,Demorou demais para resolver,Negativo
-TKT-000153,CLI-00051,PED-000107,2025-12-12 00:00:00,2025-12-12 01:02:00,2025-12-13 15:19:12,Telefone,Cancelamento,Alta,Fechado,Aline Costa,"Quero cancelar minha assinatura, preço muito alto",0,62,39.32,2,Péssima experiência,Negativo
-TKT-000154,CLI-00052,PED-000109,2025-11-25 00:00:00,2025-11-25 00:19:00,2025-11-25 05:06:00,WhatsApp,Cobrança,Baixa,Fechado,Fernanda Lima,Ajuste de fatura feito sem burocracia,1,19,5.1,4,Atenção e agilidade impecáveis,Positivo
-TKT-000155,CLI-00052,PED-000109,2025-11-11 00:00:00,2025-11-11 00:45:00,2025-11-11 06:19:48,Telefone,Dúvida,Alta,Fechado,Fernanda Lima,É possível integrar com Google Sheets?,1,45,6.33,3,Demorou um pouco mas ok,Neutro
-TKT-000156,CLI-00052,PED-000109,2025-11-11 00:00:00,2025-11-11 03:41:00,2025-11-11 21:04:12,WhatsApp,Bug,Alta,Fechado,Marcos Oliveira,"Sistema com muitos erros, estou pensando em cancelar",0,221,21.07,1,Demorou demais para resolver,Negativo
-TKT-000157,CLI-00052,PED-000109,2025-10-16 00:00:00,2025-10-16 06:25:00,2025-10-17 04:59:24,Telefone,Cancelamento,Urgente,Fechado,Carla Santos,"O produto não entregou o que promete, quero reembolso",0,385,28.99,2,Péssima experiência,Negativo
-TKT-000158,CLI-00052,PED-000109,2025-11-27 00:00:00,2025-11-27 03:08:00,2025-11-28 10:01:48,Telefone,Bug,Baixa,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,188,34.03,1,Não fiquei satisfeito,Negativo
-TKT-000159,CLI-00052,PED-000109,2025-11-16 00:00:00,2025-11-16 05:14:00,2025-11-17 21:43:12,Chat,Acesso,Média,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,314,45.72,3,Demorou demais para resolver,Negativo
-TKT-000160,CLI-00053,PED-000111,2025-10-18 00:00:00,2025-10-18 03:00:00,2025-10-18 12:13:48,Telefone,Cancelamento,Alta,Fechado,Pedro Rocha,"Quero cancelar minha assinatura, preço muito alto",0,180,12.23,3,Problema não foi totalmente resolvido,Negativo
-TKT-000161,CLI-00053,PED-000111,2025-10-26 00:00:00,2025-10-26 05:15:00,2025-10-27 20:28:48,Email,Cancelamento,Urgente,Fechado,Fernanda Lima,"Quero cancelar minha assinatura, preço muito alto",0,315,44.48,3,Precisei ligar 3 vezes,Negativo
-TKT-000162,CLI-00053,PED-000111,2025-10-16 00:00:00,2025-10-16 04:49:00,2025-10-17 14:18:36,Chat,Acesso,Média,Fechado,Aline Costa,Sistema trava toda vez que tento entrar! Inaceitável,0,289,38.31,2,Problema não foi totalmente resolvido,Negativo
-TKT-000163,CLI-00053,PED-000111,2025-10-03 00:00:00,2025-10-03 06:12:00,2025-10-04 07:55:48,Email,Acesso,Média,Fechado,Carla Santos,Sistema trava toda vez que tento entrar! Inaceitável,0,372,31.93,3,Problema não foi totalmente resolvido,Negativo
-TKT-000164,CLI-00054,PED-000112,2025-12-10 00:00:00,2025-12-10 01:51:00,2025-12-10 07:01:12,Telefone,Dúvida,Alta,Fechado,Carla Santos,É possível integrar com Google Sheets?,1,111,7.02,4,Atendimento razoável,Neutro
-TKT-000165,CLI-00055,PED-000113,2025-12-31 00:00:00,2025-12-31 01:56:00,2025-12-31 21:46:48,Chat,Cobrança,Média,Fechado,Pedro Rocha,Reembolso prometido há 30 dias e não veio,0,116,21.78,2,Péssima experiência,Negativo
-TKT-000166,CLI-00055,PED-000113,2025-12-31 00:00:00,2025-12-31 00:57:00,2025-12-31 03:27:36,Telefone,Cancelamento,Alta,Fechado,Pedro Rocha,"Empresa passou por reestruturação, preciso cancelar",0,57,3.46,3,Atendimento razoável,Neutro
-TKT-000167,CLI-00055,PED-000113,2025-12-31 00:00:00,2025-12-31 00:46:00,2025-12-31 07:00:00,Telefone,Bug,Alta,Fechado,Carla Santos,Exportação de PDF com formatação errada,1,46,7.0,4,Poderia ser mais rápido,Neutro
-TKT-000168,CLI-00055,PED-000113,2025-12-31 00:00:00,2025-12-31 00:49:00,2025-12-31 08:25:48,Telefone,Bug,Baixa,Fechado,Pedro Rocha,Gráfico não está exibindo corretamente,0,49,8.43,3,Poderia ser mais rápido,Neutro
-TKT-000169,CLI-00056,PED-000118,2025-10-15 00:00:00,2025-10-15 00:47:00,2025-10-15 11:48:00,Chat,Bug,Média,Fechado,Marcos Oliveira,Gráfico não está exibindo corretamente,1,47,11.8,4,Poderia ser mais rápido,Neutro
-TKT-000170,CLI-00056,PED-000118,2025-12-31 00:00:00,2025-12-31 00:57:00,2025-12-31 02:30:36,WhatsApp,Dúvida,Média,Fechado,Aline Costa,Suporte muito atencioso e paciente,1,57,2.51,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000171,CLI-00056,PED-000118,2025-10-25 00:00:00,2025-10-25 00:44:00,2025-10-25 04:01:12,Telefone,Cobrança,Alta,Fechado,Fernanda Lima,Preciso de nota fiscal atualizada,0,44,4.02,4,"Ok, resolvido",Neutro
-TKT-000172,CLI-00057,PED-000120,2025-12-31 00:00:00,2025-12-31 00:44:00,2025-12-31 11:15:00,Telefone,Dúvida,Urgente,Fechado,Marcos Oliveira,Como faço para criar um dashboard compartilhável?,1,44,11.25,3,Demorou um pouco mas ok,Neutro
-TKT-000173,CLI-00057,PED-000120,2025-12-31 00:00:00,2025-12-31 00:12:00,2025-12-31 02:28:12,WhatsApp,Cobrança,Baixa,Fechado,Fernanda Lima,Fui cobrado mas o estorno foi rápido e eficiente,1,12,2.47,5,Atenção e agilidade impecáveis,Positivo
-TKT-000174,CLI-00057,PED-000120,2025-12-31 00:00:00,2025-12-31 00:32:00,2025-12-31 05:41:24,Email,Cobrança,Baixa,Fechado,Carla Santos,Dúvida sobre próximo vencimento,1,32,5.69,3,"Ok, resolvido",Neutro
-TKT-000175,CLI-00058,PED-000122,2025-12-31 00:00:00,2025-12-31 00:23:00,2025-12-31 01:43:12,Telefone,Cancelamento,Alta,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",1,23,1.72,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000176,CLI-00059,PED-000124,2025-08-05 00:00:00,2025-08-05 06:21:00,2025-08-05 15:33:00,Chat,Bug,Baixa,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,381,15.55,1,Não fiquei satisfeito,Negativo
-TKT-000177,CLI-00059,PED-000124,2025-07-02 00:00:00,2025-07-02 06:55:00,2025-07-03 09:39:00,WhatsApp,Bug,Média,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,415,33.65,1,Demorou demais para resolver,Negativo
-TKT-000178,CLI-00059,PED-000124,2025-07-28 00:00:00,2025-07-28 03:21:00,2025-07-28 12:21:00,Telefone,Acesso,Média,Fechado,Carla Santos,Estou sem acesso há 3 dias e ninguém resolve,0,201,12.35,1,Não fiquei satisfeito,Negativo
-TKT-000179,CLI-00060,PED-000125,2025-09-13 00:00:00,2025-09-13 01:06:00,2025-09-13 11:24:00,Email,Acesso,Média,Fechado,Pedro Rocha,Preciso redefinir minha senha,0,66,11.4,3,Atendimento razoável,Neutro
-TKT-000180,CLI-00060,PED-000125,2025-07-31 00:00:00,2025-07-31 03:39:00,2025-08-01 18:52:48,WhatsApp,Bug,Média,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,219,42.88,2,Precisei ligar 3 vezes,Negativo
-TKT-000181,CLI-00060,PED-000125,2025-08-10 00:00:00,2025-08-10 00:56:00,2025-08-10 05:01:48,Telefone,Acesso,Baixa,Fechado,Aline Costa,"Perdi a senha, suporte ajudou em minutos",1,56,5.03,5,Atenção e agilidade impecáveis,Positivo
-TKT-000182,CLI-00060,PED-000125,2025-08-11 00:00:00,2025-08-11 01:13:00,2025-08-12 13:07:12,Chat,Bug,Baixa,Fechado,Fernanda Lima,"Sistema com muitos erros, estou pensando em cancelar",0,73,37.12,2,Demorou demais para resolver,Negativo
-TKT-000183,CLI-00060,PED-000125,2025-09-07 00:00:00,2025-09-07 04:48:00,2025-09-08 05:04:12,WhatsApp,Acesso,Média,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,288,29.07,2,Péssima experiência,Negativo
-TKT-000184,CLI-00060,PED-000125,2025-07-30 00:00:00,2025-07-30 07:20:00,2025-07-31 01:14:24,Chat,Acesso,Média,Fechado,Marcos Oliveira,Estou sem acesso há 3 dias e ninguém resolve,0,440,25.24,1,Péssima experiência,Negativo
-TKT-000185,CLI-00060,PED-000125,2025-07-25 00:00:00,2025-07-25 06:35:00,2025-07-25 21:51:36,Chat,Acesso,Alta,Fechado,Aline Costa,Estou sem acesso há 3 dias e ninguém resolve,0,395,21.86,2,Precisei ligar 3 vezes,Negativo
-TKT-000186,CLI-00061,PED-000127,2025-12-31 00:00:00,2025-12-31 01:55:00,2025-12-31 09:27:36,Chat,Bug,Média,Fechado,Carla Santos,Exportação de PDF com formatação errada,1,115,9.46,4,Poderia ser mais rápido,Neutro
-TKT-000187,CLI-00061,PED-000127,2025-12-31 00:00:00,2025-12-31 00:52:00,2025-12-31 04:58:48,Email,Cancelamento,Alta,Fechado,Pedro Rocha,Vou pausar a assinatura temporariamente,1,52,4.98,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000188,CLI-00062,PED-000130,2025-12-31 00:00:00,2025-12-31 00:58:00,2025-12-31 03:36:00,Email,Bug,Baixa,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,58,3.6,5,Melhor suporte que já tive,Positivo
-TKT-000189,CLI-00062,PED-000130,2025-10-29 00:00:00,2025-10-29 01:35:00,2025-10-30 02:18:00,Chat,Cancelamento,Urgente,Fechado,Carla Santos,"O produto não entregou o que promete, quero reembolso",0,95,26.3,1,Péssima experiência,Negativo
-TKT-000190,CLI-00063,PED-000131,2025-12-31 00:00:00,2025-12-31 00:27:00,2025-12-31 04:48:36,WhatsApp,Bug,Média,Fechado,Pedro Rocha,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,27,4.81,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000191,CLI-00063,PED-000131,2025-12-31 00:00:00,2025-12-31 00:59:00,2025-12-31 01:11:24,Email,Dúvida,Média,Fechado,Aline Costa,"Explicação clara e objetiva, resolvi em 5 minutos",1,59,1.19,4,Atenção e agilidade impecáveis,Positivo
-TKT-000192,CLI-00064,PED-000132,2025-11-03 00:00:00,2025-11-03 01:55:00,2025-11-03 08:57:00,WhatsApp,Cancelamento,Urgente,Fechado,Marcos Oliveira,Vou pausar a assinatura temporariamente,0,115,8.95,3,Atendimento razoável,Neutro
-TKT-000193,CLI-00064,PED-000132,2025-06-11 00:00:00,2025-06-11 01:19:00,2025-06-11 05:45:36,WhatsApp,Dúvida,Baixa,Fechado,Pedro Rocha,Como faço para criar um dashboard compartilhável?,0,79,5.76,3,Poderia ser mais rápido,Neutro
-TKT-000194,CLI-00065,PED-000135,2025-07-25 00:00:00,2025-07-25 02:45:00,2025-07-25 11:58:12,Email,Bug,Média,Fechado,Carla Santos,"Dashboard não carrega há uma semana, perdi reunião por isso",0,165,11.97,1,Problema não foi totalmente resolvido,Negativo
-TKT-000195,CLI-00065,PED-000135,2025-11-24 00:00:00,2025-11-24 00:11:00,2025-11-24 03:21:00,Chat,Cancelamento,Alta,Fechado,Pedro Rocha,Vou pausar a assinatura temporariamente,1,11,3.35,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000196,CLI-00065,PED-000135,2025-10-11 00:00:00,2025-10-11 00:51:00,2025-10-11 03:27:00,WhatsApp,Acesso,Média,Fechado,Pedro Rocha,Usuário novo não consegue acessar,0,51,3.45,4,"Ok, resolvido",Neutro
-TKT-000197,CLI-00066,PED-000137,2025-08-10 00:00:00,2025-08-10 06:31:00,2025-08-11 10:48:36,WhatsApp,Cancelamento,Urgente,Fechado,Carla Santos,"Quero cancelar minha assinatura, preço muito alto",0,391,34.81,3,Precisei ligar 3 vezes,Negativo
-TKT-000198,CLI-00066,PED-000137,2025-08-04 00:00:00,2025-08-04 06:30:00,2025-08-04 19:41:24,Telefone,Bug,Baixa,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,390,19.69,2,Problema não foi totalmente resolvido,Negativo
-TKT-000199,CLI-00066,PED-000137,2025-09-25 00:00:00,2025-09-25 08:00:00,2025-09-26 17:37:48,Email,Bug,Baixa,Fechado,Aline Costa,"Sistema com muitos erros, estou pensando em cancelar",0,480,41.63,2,Não fiquei satisfeito,Negativo
-TKT-000200,CLI-00066,PED-000137,2025-09-07 00:00:00,2025-09-07 07:01:00,2025-09-08 01:20:24,WhatsApp,Cancelamento,Alta,Fechado,Pedro Rocha,"Quero cancelar minha assinatura, preço muito alto",0,421,25.34,1,Precisei ligar 3 vezes,Negativo
-TKT-000201,CLI-00067,PED-000140,2025-12-31 00:00:00,2025-12-31 00:53:00,2025-12-31 10:16:12,Telefone,Cancelamento,Alta,Fechado,Pedro Rocha,Vou pausar a assinatura temporariamente,0,53,10.27,3,Atendimento razoável,Neutro
-TKT-000202,CLI-00067,PED-000140,2025-07-25 00:00:00,2025-07-25 01:35:00,2025-07-25 11:21:36,Email,Dúvida,Urgente,Fechado,Fernanda Lima,Como faço para criar um dashboard compartilhável?,0,95,11.36,4,Atendimento razoável,Neutro
-TKT-000203,CLI-00067,PED-000140,2025-12-31 00:00:00,2025-12-31 00:36:00,2025-12-31 01:59:24,Email,Cancelamento,Alta,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",1,36,1.99,5,Muito profissional e eficiente,Positivo
-TKT-000204,CLI-00067,PED-000140,2025-11-13 00:00:00,2025-11-13 00:37:00,2025-11-13 05:08:24,Email,Cobrança,Baixa,Fechado,Fernanda Lima,Ajuste de fatura feito sem burocracia,1,37,5.14,5,Excelente atendimento!,Positivo
-TKT-000205,CLI-00068,PED-000141,2025-07-28 00:00:00,2025-07-28 00:38:00,2025-07-28 05:22:48,Chat,Cancelamento,Urgente,Fechado,Pedro Rocha,Vou pausar a assinatura temporariamente,1,38,5.38,4,Excelente atendimento!,Positivo
-TKT-000206,CLI-00069,PED-000142,2025-08-20 00:00:00,2025-08-20 06:12:00,2025-08-21 05:22:12,Chat,Cobrança,Alta,Fechado,Fernanda Lima,Fui cobrado duas vezes e ninguém me deu retorno,0,372,29.37,3,Problema não foi totalmente resolvido,Negativo
-TKT-000207,CLI-00069,PED-000142,2025-09-21 00:00:00,2025-09-21 04:53:00,2025-09-22 00:50:24,Email,Acesso,Urgente,Fechado,Aline Costa,Sistema trava toda vez que tento entrar! Inaceitável,0,293,24.84,1,Demorou demais para resolver,Negativo
-TKT-000208,CLI-00069,PED-000142,2025-08-25 00:00:00,2025-08-25 02:04:00,2025-08-26 00:27:36,Email,Cancelamento,Urgente,Fechado,Carla Santos,"Quero cancelar minha assinatura, preço muito alto",0,124,24.46,2,Não fiquei satisfeito,Negativo
-TKT-000209,CLI-00069,PED-000142,2025-08-13 00:00:00,2025-08-13 03:52:00,2025-08-14 15:45:00,Telefone,Acesso,Baixa,Fechado,Pedro Rocha,Sistema trava toda vez que tento entrar! Inaceitável,0,232,39.75,1,Não fiquei satisfeito,Negativo
-TKT-000210,CLI-00069,PED-000142,2025-09-08 00:00:00,2025-09-08 05:51:00,2025-09-08 17:50:24,WhatsApp,Acesso,Alta,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,351,17.84,1,Problema não foi totalmente resolvido,Negativo
-TKT-000211,CLI-00069,PED-000142,2025-08-01 00:00:00,2025-08-01 05:11:00,2025-08-02 00:55:12,Email,Bug,Baixa,Fechado,Fernanda Lima,"Dashboard não carrega há uma semana, perdi reunião por isso",0,311,24.92,2,Péssima experiência,Negativo
-TKT-000212,CLI-00069,PED-000142,2025-09-01 00:00:00,2025-09-01 01:56:00,2025-09-01 23:19:48,Email,Bug,Média,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,116,23.33,3,Não fiquei satisfeito,Negativo
-TKT-000213,CLI-00070,PED-000143,2025-12-31 00:00:00,2025-12-31 00:52:00,2025-12-31 07:21:00,WhatsApp,Cobrança,Baixa,Fechado,Fernanda Lima,Dúvida sobre próximo vencimento,0,52,7.35,3,Demorou um pouco mas ok,Neutro
-TKT-000214,CLI-00070,PED-000143,2025-11-20 00:00:00,2025-11-20 00:50:00,2025-11-20 03:06:00,Telefone,Bug,Baixa,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,50,3.1,5,Melhor suporte que já tive,Positivo
-TKT-000215,CLI-00070,PED-000143,2025-12-31 00:00:00,2025-12-31 00:39:00,2025-12-31 01:16:48,Chat,Bug,Média,Fechado,Aline Costa,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,39,1.28,5,Atenção e agilidade impecáveis,Positivo
-TKT-000216,CLI-00070,PED-000143,2025-12-31 00:00:00,2025-12-31 05:21:00,2026-01-01 05:43:48,Telefone,Acesso,Alta,Fechado,Carla Santos,Sistema trava toda vez que tento entrar! Inaceitável,0,321,29.73,2,Demorou demais para resolver,Negativo
-TKT-000217,CLI-00071,PED-000145,2025-12-31 00:00:00,2025-12-31 00:24:00,2025-12-31 04:42:00,Telefone,Cobrança,Alta,Fechado,Carla Santos,Fui cobrado mas o estorno foi rápido e eficiente,1,24,4.7,4,Melhor suporte que já tive,Positivo
-TKT-000218,CLI-00071,PED-000145,2025-12-31 00:00:00,2025-12-31 01:07:00,2025-12-31 06:47:24,WhatsApp,Cancelamento,Alta,Fechado,Fernanda Lima,"Empresa passou por reestruturação, preciso cancelar",0,67,6.79,3,Demorou um pouco mas ok,Neutro
-TKT-000219,CLI-00071,PED-000145,2025-12-31 00:00:00,2025-12-31 01:03:00,2025-12-31 10:38:24,WhatsApp,Bug,Média,Fechado,Pedro Rocha,Gráfico não está exibindo corretamente,1,63,10.64,4,Demorou um pouco mas ok,Neutro
-TKT-000220,CLI-00072,PED-000147,2025-12-31 00:00:00,2025-12-31 04:35:00,2026-01-01 16:43:12,Email,Dúvida,Média,Fechado,Marcos Oliveira,"Só respostas automáticas, ninguém realmente ajuda",0,275,40.72,3,Péssima experiência,Negativo
-TKT-000221,CLI-00072,PED-000147,2025-12-31 00:00:00,2025-12-31 00:34:00,2025-12-31 01:54:36,WhatsApp,Acesso,Urgente,Fechado,Marcos Oliveira,"Perdi a senha, suporte ajudou em minutos",0,34,1.91,4,Atenção e agilidade impecáveis,Positivo
-TKT-000222,CLI-00072,PED-000147,2025-12-31 00:00:00,2025-12-31 00:31:00,2025-12-31 04:10:48,Email,Dúvida,Média,Fechado,Aline Costa,Como faço para criar um dashboard compartilhável?,0,31,4.18,4,Demorou um pouco mas ok,Neutro
-TKT-000223,CLI-00072,PED-000147,2025-12-31 00:00:00,2025-12-31 01:32:00,2025-12-31 03:58:48,Email,Bug,Baixa,Fechado,Marcos Oliveira,Gráfico não está exibindo corretamente,0,92,3.98,3,"Ok, resolvido",Neutro
-TKT-000224,CLI-00073,PED-000153,2025-10-04 00:00:00,2025-10-04 01:34:00,2025-10-04 11:19:12,Telefone,Dúvida,Média,Fechado,Aline Costa,Como faço para criar um dashboard compartilhável?,0,94,11.32,4,Poderia ser mais rápido,Neutro
-TKT-000225,CLI-00074,PED-000156,2025-12-31 00:00:00,2025-12-31 00:40:00,2025-12-31 02:59:24,Telefone,Cancelamento,Urgente,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",0,40,2.99,3,Poderia ser mais rápido,Neutro
-TKT-000226,CLI-00074,PED-000156,2025-07-27 00:00:00,2025-07-27 00:58:00,2025-07-27 08:23:24,Email,Dúvida,Média,Fechado,Fernanda Lima,Como faço para criar um dashboard compartilhável?,0,58,8.39,4,Demorou um pouco mas ok,Neutro
-TKT-000227,CLI-00074,PED-000156,2025-12-31 00:00:00,2025-12-31 05:26:00,2026-01-01 18:16:12,WhatsApp,Acesso,Média,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,326,42.27,3,Demorou demais para resolver,Negativo
-TKT-000228,CLI-00075,PED-000159,2025-05-26 00:00:00,2025-05-26 01:30:00,2025-05-27 09:39:36,WhatsApp,Acesso,Urgente,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,90,33.66,1,Precisei ligar 3 vezes,Negativo
-TKT-000229,CLI-00076,PED-000160,2025-10-01 00:00:00,2025-10-01 00:31:00,2025-10-01 02:33:36,Chat,Cobrança,Alta,Fechado,Carla Santos,Ajuste de fatura feito sem burocracia,1,31,2.56,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000230,CLI-00077,PED-000161,2025-11-06 00:00:00,2025-11-06 01:00:00,2025-11-06 04:17:24,Chat,Cancelamento,Alta,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",0,60,4.29,5,Melhor suporte que já tive,Positivo
-TKT-000231,CLI-00077,PED-000161,2025-09-30 00:00:00,2025-09-30 00:39:00,2025-09-30 02:56:24,Telefone,Cobrança,Alta,Fechado,Pedro Rocha,Ajuste de fatura feito sem burocracia,1,39,2.94,5,Melhor suporte que já tive,Positivo
-TKT-000232,CLI-00077,PED-000161,2025-06-26 00:00:00,2025-06-26 03:51:00,2025-06-26 20:00:00,Telefone,Acesso,Urgente,Fechado,Fernanda Lima,Estou sem acesso há 3 dias e ninguém resolve,0,231,20.0,2,Precisei ligar 3 vezes,Negativo
-TKT-000233,CLI-00078,PED-000162,2025-12-31 00:00:00,2025-12-31 06:50:00,2026-01-01 19:10:48,WhatsApp,Cobrança,Média,Fechado,Marcos Oliveira,Fui cobrado duas vezes e ninguém me deu retorno,0,410,43.18,3,Demorou demais para resolver,Negativo
-TKT-000234,CLI-00078,PED-000162,2025-08-05 00:00:00,2025-08-05 03:39:00,2025-08-05 09:54:36,Chat,Acesso,Baixa,Fechado,Carla Santos,Estou sem acesso há 3 dias e ninguém resolve,0,219,9.91,1,Demorou demais para resolver,Negativo
-TKT-000235,CLI-00079,PED-000165,2025-08-31 00:00:00,2025-08-31 00:56:00,2025-08-31 03:12:00,Chat,Cobrança,Média,Fechado,Carla Santos,Fui cobrado mas o estorno foi rápido e eficiente,1,56,3.2,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000236,CLI-00079,PED-000165,2025-06-14 00:00:00,2025-06-14 01:35:00,2025-06-14 07:43:12,Chat,Bug,Baixa,Fechado,Fernanda Lima,Gráfico não está exibindo corretamente,0,95,7.72,4,Atendimento razoável,Neutro
-TKT-000237,CLI-00079,PED-000165,2025-10-10 00:00:00,2025-10-10 00:42:00,2025-10-10 02:21:00,Telefone,Dúvida,Média,Fechado,Carla Santos,Como faço para criar um dashboard compartilhável?,1,42,2.35,3,Demorou um pouco mas ok,Neutro
-TKT-000238,CLI-00079,PED-000165,2025-11-03 00:00:00,2025-11-03 01:10:00,2025-11-04 13:16:48,Telefone,Cobrança,Alta,Fechado,Marcos Oliveira,Reembolso prometido há 30 dias e não veio,0,70,37.28,2,Demorou demais para resolver,Negativo
-TKT-000239,CLI-00080,PED-000169,2025-11-16 00:00:00,2025-11-16 01:45:00,2025-11-16 05:53:24,WhatsApp,Acesso,Média,Fechado,Fernanda Lima,Usuário novo não consegue acessar,1,105,5.89,4,Atendimento razoável,Neutro
-TKT-000240,CLI-00080,PED-000169,2025-09-24 00:00:00,2025-09-24 01:24:00,2025-09-24 05:09:36,Telefone,Dúvida,Média,Fechado,Marcos Oliveira,Como faço para criar um dashboard compartilhável?,0,84,5.16,4,Demorou um pouco mas ok,Neutro
-TKT-000241,CLI-00081,PED-000172,2025-12-31 00:00:00,2025-12-31 00:45:00,2025-12-31 03:46:48,Email,Cancelamento,Urgente,Fechado,Pedro Rocha,"Empresa passou por reestruturação, preciso cancelar",0,45,3.78,3,Atendimento razoável,Neutro
-TKT-000242,CLI-00081,PED-000172,2025-11-06 00:00:00,2025-11-06 00:30:00,2025-11-06 03:16:12,Chat,Dúvida,Média,Fechado,Carla Santos,Como faço para criar um dashboard compartilhável?,0,30,3.27,4,Poderia ser mais rápido,Neutro
-TKT-000243,CLI-00081,PED-000172,2025-12-31 00:00:00,2025-12-31 02:40:00,2025-12-31 08:00:00,Chat,Bug,Média,Fechado,Aline Costa,"Sistema com muitos erros, estou pensando em cancelar",0,160,8.0,1,Péssima experiência,Negativo
-TKT-000244,CLI-00081,PED-000172,2025-12-31 00:00:00,2025-12-31 01:13:00,2025-12-31 10:19:48,Telefone,Dúvida,Média,Fechado,Aline Costa,É possível integrar com Google Sheets?,1,73,10.33,3,Poderia ser mais rápido,Neutro
-TKT-000245,CLI-00082,PED-000175,2025-12-31 00:00:00,2025-12-31 00:15:00,2025-12-31 02:34:48,Telefone,Bug,Média,Fechado,Fernanda Lima,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",0,15,2.58,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000246,CLI-00082,PED-000175,2025-12-31 00:00:00,2025-12-31 07:42:00,2026-01-01 18:20:24,Telefone,Dúvida,Média,Fechado,Pedro Rocha,Esperei 2 horas no chat sem resposta,0,462,42.34,2,Precisei ligar 3 vezes,Negativo
-TKT-000247,CLI-00082,PED-000175,2025-09-28 00:00:00,2025-09-28 00:23:00,2025-09-28 01:37:48,Chat,Acesso,Média,Fechado,Marcos Oliveira,"Perdi a senha, suporte ajudou em minutos",0,23,1.63,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000248,CLI-00082,PED-000175,2025-12-31 00:00:00,2025-12-31 00:09:00,2025-12-31 01:15:36,Chat,Acesso,Urgente,Fechado,Carla Santos,"Perdi a senha, suporte ajudou em minutos",1,9,1.26,5,Excelente atendimento!,Positivo
-TKT-000249,CLI-00083,PED-000178,2025-12-31 00:00:00,2025-12-31 00:59:00,2025-12-31 02:58:48,Telefone,Bug,Urgente,Fechado,Pedro Rocha,Exportação de PDF com formatação errada,0,59,2.98,3,Demorou um pouco mas ok,Neutro
-TKT-000250,CLI-00083,PED-000178,2025-12-31 00:00:00,2025-12-31 00:40:00,2025-12-31 01:20:24,Telefone,Acesso,Média,Fechado,Fernanda Lima,Não consigo logar mas foi resolvido rápido,1,40,1.34,4,Excelente atendimento!,Positivo
-TKT-000251,CLI-00083,PED-000178,2025-11-28 00:00:00,2025-11-28 01:04:00,2025-11-28 03:07:48,Telefone,Cobrança,Baixa,Fechado,Aline Costa,Dúvida sobre próximo vencimento,0,64,3.13,3,Atendimento razoável,Neutro
-TKT-000252,CLI-00084,,2025-12-31 00:00:00,2025-12-31 00:38:00,2025-12-31 02:57:00,Telefone,Acesso,Baixa,Fechado,Aline Costa,Não consigo logar mas foi resolvido rápido,1,38,2.95,4,Atenção e agilidade impecáveis,Positivo
-TKT-000253,CLI-00084,,2025-12-31 00:00:00,2025-12-31 05:45:00,2026-01-01 18:49:12,Email,Cancelamento,Alta,Fechado,Pedro Rocha,"Quero cancelar minha assinatura, preço muito alto",0,345,42.82,2,Precisei ligar 3 vezes,Negativo
-TKT-000254,CLI-00085,PED-000182,2025-12-31 00:00:00,2025-12-31 01:31:00,2025-12-31 07:25:48,Chat,Acesso,Baixa,Fechado,Fernanda Lima,Preciso redefinir minha senha,0,91,7.43,4,"Ok, resolvido",Neutro
-TKT-000255,CLI-00085,PED-000182,2025-12-31 00:00:00,2025-12-31 00:18:00,2025-12-31 05:36:36,Email,Dúvida,Baixa,Fechado,Aline Costa,"Explicação clara e objetiva, resolvi em 5 minutos",1,18,5.61,5,Melhor suporte que já tive,Positivo
-TKT-000256,CLI-00086,PED-000188,2025-06-24 00:00:00,2025-06-24 01:38:00,2025-06-24 02:52:48,Telefone,Acesso,Média,Fechado,Pedro Rocha,Preciso redefinir minha senha,1,98,2.88,4,Atendimento razoável,Neutro
-TKT-000257,CLI-00086,PED-000188,2025-11-04 00:00:00,2025-11-04 00:39:00,2025-11-04 07:19:48,WhatsApp,Cancelamento,Alta,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",1,39,7.33,3,Atendimento razoável,Neutro
-TKT-000258,CLI-00086,PED-000188,2025-11-13 00:00:00,2025-11-13 02:51:00,2025-11-13 09:19:12,Telefone,Bug,Média,Fechado,Carla Santos,"Dashboard não carrega há uma semana, perdi reunião por isso",0,171,9.32,1,Demorou demais para resolver,Negativo
-TKT-000259,CLI-00086,PED-000188,2025-06-26 00:00:00,2025-06-26 00:50:00,2025-06-26 01:47:24,Telefone,Dúvida,Urgente,Fechado,Marcos Oliveira,"Explicação clara e objetiva, resolvi em 5 minutos",1,50,1.79,5,Melhor suporte que já tive,Positivo
-TKT-000260,CLI-00087,PED-000192,2025-11-07 00:00:00,2025-11-07 06:14:00,2025-11-08 05:27:36,Telefone,Cobrança,Média,Fechado,Fernanda Lima,Fui cobrado duas vezes e ninguém me deu retorno,0,374,29.46,2,Não fiquei satisfeito,Negativo
-TKT-000261,CLI-00087,PED-000192,2025-07-14 00:00:00,2025-07-14 00:35:00,2025-07-14 01:30:00,WhatsApp,Acesso,Baixa,Fechado,Pedro Rocha,"Perdi a senha, suporte ajudou em minutos",1,35,1.5,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000262,CLI-00087,PED-000192,2025-11-04 00:00:00,2025-11-04 00:58:00,2025-11-04 01:45:00,Email,Dúvida,Baixa,Fechado,Fernanda Lima,Suporte muito atencioso e paciente,1,58,1.75,5,Atenção e agilidade impecáveis,Positivo
-TKT-000263,CLI-00088,PED-000197,2025-12-09 00:00:00,2025-12-09 01:58:00,2025-12-09 02:09:36,Email,Dúvida,Baixa,Fechado,Carla Santos,É possível integrar com Google Sheets?,1,118,2.16,4,Atendimento razoável,Neutro
-TKT-000264,CLI-00088,PED-000197,2025-08-16 00:00:00,2025-08-16 00:58:00,2025-08-16 10:21:36,Chat,Acesso,Média,Fechado,Pedro Rocha,Usuário novo não consegue acessar,0,58,10.36,4,Poderia ser mais rápido,Neutro
-TKT-000265,CLI-00088,PED-000197,2025-12-07 00:00:00,2025-12-07 01:28:00,2025-12-07 03:25:12,WhatsApp,Cancelamento,Alta,Fechado,Pedro Rocha,"Empresa passou por reestruturação, preciso cancelar",1,88,3.42,4,"Ok, resolvido",Neutro
-TKT-000266,CLI-00088,PED-000197,2025-06-24 00:00:00,2025-06-24 00:36:00,2025-06-24 00:33:36,Email,Bug,Baixa,Fechado,Pedro Rocha,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,36,0.56,5,Melhor suporte que já tive,Positivo
-TKT-000267,CLI-00089,PED-000198,2025-12-31 00:00:00,2025-12-31 00:11:00,2025-12-31 01:53:24,Email,Dúvida,Baixa,Fechado,Fernanda Lima,Suporte muito atencioso e paciente,1,11,1.89,5,Melhor suporte que já tive,Positivo
-TKT-000268,CLI-00089,PED-000198,2025-12-31 00:00:00,2025-12-31 00:36:00,2025-12-31 02:15:00,WhatsApp,Cancelamento,Alta,Fechado,Carla Santos,Vou pausar a assinatura temporariamente,0,36,2.25,3,Poderia ser mais rápido,Neutro
-TKT-000269,CLI-00089,PED-000198,2025-12-31 00:00:00,2025-12-31 03:11:00,2025-12-31 20:45:00,WhatsApp,Cancelamento,Alta,Fechado,Marcos Oliveira,"O produto não entregou o que promete, quero reembolso",0,191,20.75,2,Não fiquei satisfeito,Negativo
-TKT-000270,CLI-00089,PED-000198,2025-12-31 00:00:00,2025-12-31 01:05:00,2025-12-31 09:40:12,Email,Acesso,Baixa,Fechado,Pedro Rocha,Usuário novo não consegue acessar,1,65,9.67,4,Atendimento razoável,Neutro
-TKT-000271,CLI-00090,PED-000200,2025-05-24 00:00:00,2025-05-24 04:42:00,2025-05-25 07:21:00,Email,Cancelamento,Alta,Fechado,Pedro Rocha,"O produto não entregou o que promete, quero reembolso",0,282,31.35,3,Demorou demais para resolver,Negativo
-TKT-000272,CLI-00090,PED-000200,2025-04-19 00:00:00,2025-04-19 07:02:00,2025-04-19 10:36:36,Chat,Bug,Alta,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,422,10.61,2,Demorou demais para resolver,Negativo
-TKT-000273,CLI-00090,PED-000200,2025-04-15 00:00:00,2025-04-15 01:32:00,2025-04-16 02:08:24,Email,Bug,Baixa,Fechado,Pedro Rocha,"Dashboard não carrega há uma semana, perdi reunião por isso",0,92,26.14,1,Péssima experiência,Negativo
-TKT-000274,CLI-00090,PED-000200,2025-05-22 00:00:00,2025-05-22 02:07:00,2025-05-23 05:48:36,Telefone,Cancelamento,Urgente,Fechado,Marcos Oliveira,"O produto não entregou o que promete, quero reembolso",0,127,29.81,3,Péssima experiência,Negativo
-TKT-000275,CLI-00090,PED-000200,2025-04-06 00:00:00,2025-04-06 02:13:00,2025-04-06 10:59:24,Email,Acesso,Baixa,Fechado,Carla Santos,Sistema trava toda vez que tento entrar! Inaceitável,0,133,10.99,2,Problema não foi totalmente resolvido,Negativo
-TKT-000276,CLI-00090,PED-000200,2025-05-01 00:00:00,2025-05-01 06:34:00,2025-05-02 00:20:24,WhatsApp,Cobrança,Média,Fechado,Aline Costa,Fui cobrado duas vezes e ninguém me deu retorno,0,394,24.34,2,Péssima experiência,Negativo
-TKT-000277,CLI-00090,PED-000200,2025-05-16 00:00:00,2025-05-16 00:43:00,2025-05-16 05:18:36,WhatsApp,Acesso,Baixa,Fechado,Carla Santos,Não consigo logar mas foi resolvido rápido,1,43,5.31,5,Melhor suporte que já tive,Positivo
-TKT-000278,CLI-00091,,2025-12-31 00:00:00,2025-12-31 01:02:00,2025-12-31 07:06:00,Email,Cancelamento,Alta,Fechado,Carla Santos,"Empresa passou por reestruturação, preciso cancelar",1,62,7.1,4,Atendimento razoável,Neutro
-TKT-000279,CLI-00092,PED-000204,2025-09-02 00:00:00,2025-09-02 04:10:00,2025-09-02 23:42:00,WhatsApp,Acesso,Baixa,Fechado,Carla Santos,Estou sem acesso há 3 dias e ninguém resolve,0,250,23.7,1,Problema não foi totalmente resolvido,Negativo
-TKT-000280,CLI-00092,PED-000204,2025-11-10 00:00:00,2025-11-10 00:26:00,2025-11-10 00:47:24,Telefone,Cobrança,Baixa,Fechado,Pedro Rocha,Fui cobrado mas o estorno foi rápido e eficiente,1,26,0.79,5,Excelente atendimento!,Positivo
-TKT-000281,CLI-00092,PED-000204,2025-05-24 00:00:00,2025-05-24 01:52:00,2025-05-24 05:43:48,Telefone,Bug,Urgente,Fechado,Aline Costa,Exportação de PDF com formatação errada,0,112,5.73,4,Demorou um pouco mas ok,Neutro
-TKT-000282,CLI-00092,PED-000204,2025-12-31 00:00:00,2025-12-31 00:36:00,2025-12-31 01:58:12,Chat,Dúvida,Média,Fechado,Carla Santos,Suporte muito atencioso e paciente,1,36,1.97,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000283,CLI-00093,,2025-12-31 00:00:00,2025-12-31 01:13:00,2025-12-31 13:31:12,WhatsApp,Cancelamento,Alta,Fechado,Pedro Rocha,"Quero cancelar minha assinatura, preço muito alto",0,73,13.52,2,Demorou demais para resolver,Negativo
-TKT-000284,CLI-00093,,2025-12-31 00:00:00,2025-12-31 02:26:00,2025-12-31 11:13:48,Email,Bug,Baixa,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,146,11.23,1,Problema não foi totalmente resolvido,Negativo
-TKT-000285,CLI-00093,,2025-12-31 00:00:00,2025-12-31 07:40:00,2025-12-31 16:46:12,Email,Dúvida,Baixa,Fechado,Aline Costa,"Só respostas automáticas, ninguém realmente ajuda",0,460,16.77,1,Péssima experiência,Negativo
-TKT-000286,CLI-00094,PED-000208,2025-12-10 00:00:00,2025-12-10 00:39:00,2025-12-10 05:34:12,WhatsApp,Cobrança,Média,Fechado,Pedro Rocha,Ajuste de fatura feito sem burocracia,0,39,5.57,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000287,CLI-00094,PED-000208,2025-10-29 00:00:00,2025-10-29 00:56:00,2025-10-29 02:30:00,Telefone,Acesso,Média,Fechado,Aline Costa,Não consigo logar mas foi resolvido rápido,1,56,2.5,5,Excelente atendimento!,Positivo
-TKT-000288,CLI-00095,PED-000213,2025-05-24 00:00:00,2025-05-24 06:58:00,2025-05-25 14:09:00,Email,Cancelamento,Urgente,Fechado,Carla Santos,"O produto não entregou o que promete, quero reembolso",0,418,38.15,3,Problema não foi totalmente resolvido,Negativo
-TKT-000289,CLI-00095,PED-000213,2025-05-31 00:00:00,2025-05-31 02:53:00,2025-06-01 11:22:48,WhatsApp,Bug,Alta,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,173,35.38,3,Péssima experiência,Negativo
-TKT-000290,CLI-00095,PED-000213,2025-12-31 00:00:00,2025-12-31 06:17:00,2026-01-01 22:40:12,WhatsApp,Cobrança,Média,Fechado,Aline Costa,Reembolso prometido há 30 dias e não veio,0,377,46.67,3,Demorou demais para resolver,Negativo
-TKT-000291,CLI-00096,PED-000216,2025-12-17 00:00:00,2025-12-17 00:23:00,2025-12-17 01:59:24,WhatsApp,Cancelamento,Alta,Fechado,Fernanda Lima,Vou pausar a assinatura temporariamente,1,23,1.99,5,Melhor suporte que já tive,Positivo
-TKT-000292,CLI-00096,PED-000216,2025-04-13 00:00:00,2025-04-13 04:32:00,2025-04-14 17:44:24,Telefone,Cobrança,Baixa,Fechado,Pedro Rocha,Reembolso prometido há 30 dias e não veio,0,272,41.74,2,Péssima experiência,Negativo
-TKT-000293,CLI-00096,PED-000216,2025-09-27 00:00:00,2025-09-27 01:51:00,2025-09-27 08:51:00,Telefone,Cancelamento,Urgente,Fechado,Pedro Rocha,Vou pausar a assinatura temporariamente,1,111,8.85,4,Poderia ser mais rápido,Neutro
-TKT-000294,CLI-00097,PED-000217,2025-12-16 00:00:00,2025-12-16 00:19:00,2025-12-16 05:25:12,Chat,Cancelamento,Alta,Fechado,Marcos Oliveira,Vou pausar a assinatura temporariamente,1,19,5.42,5,Melhor suporte que já tive,Positivo
-TKT-000295,CLI-00097,PED-000217,2025-12-31 00:00:00,2025-12-31 00:11:00,2025-12-31 02:13:12,Telefone,Dúvida,Média,Fechado,Marcos Oliveira,Suporte muito atencioso e paciente,0,11,2.22,4,Muito profissional e eficiente,Positivo
-TKT-000296,CLI-00097,PED-000217,2025-12-23 00:00:00,2025-12-23 00:10:00,2025-12-23 03:57:36,WhatsApp,Cancelamento,Alta,Fechado,Pedro Rocha,"Empresa passou por reestruturação, preciso cancelar",1,10,3.96,4,Excelente atendimento!,Positivo
-TKT-000297,CLI-00098,PED-000220,2025-11-08 00:00:00,2025-11-08 01:08:00,2025-11-08 05:04:12,Telefone,Dúvida,Baixa,Fechado,Marcos Oliveira,Como faço para criar um dashboard compartilhável?,0,68,5.07,3,Demorou um pouco mas ok,Neutro
-TKT-000298,CLI-00099,PED-000223,2025-05-26 00:00:00,2025-05-26 00:40:00,2025-05-26 01:22:48,WhatsApp,Cancelamento,Urgente,Fechado,Marcos Oliveira,"Empresa passou por reestruturação, preciso cancelar",1,40,1.38,5,Excelente atendimento!,Positivo
-TKT-000299,CLI-00099,PED-000223,2025-09-07 00:00:00,2025-09-07 00:31:00,2025-09-07 07:16:48,Email,Acesso,Média,Fechado,Pedro Rocha,Usuário novo não consegue acessar,1,31,7.28,4,Demorou um pouco mas ok,Neutro
-TKT-000300,CLI-00100,PED-000226,2025-12-31 00:00:00,2025-12-31 00:27:00,2025-12-31 02:44:24,Telefone,Acesso,Média,Fechado,Fernanda Lima,"Perdi a senha, suporte ajudou em minutos",1,27,2.74,4,Atenção e agilidade impecáveis,Positivo
-TKT-000301,CLI-00100,PED-000226,2025-10-26 00:00:00,2025-10-26 00:37:00,2025-10-26 00:42:36,WhatsApp,Acesso,Baixa,Fechado,Fernanda Lima,Não consigo logar mas foi resolvido rápido,1,37,0.71,5,Atenção e agilidade impecáveis,Positivo
-TKT-000302,CLI-00100,PED-000226,2025-10-26 00:00:00,2025-10-26 03:01:00,2025-10-26 20:27:00,Email,Acesso,Baixa,Fechado,Fernanda Lima,Sistema trava toda vez que tento entrar! Inaceitável,0,181,20.45,2,Problema não foi totalmente resolvido,Negativo
-TKT-000303,CLI-00100,PED-000226,2025-12-31 00:00:00,2025-12-31 03:08:00,2026-01-01 08:16:12,WhatsApp,Cobrança,Baixa,Fechado,Carla Santos,Reembolso prometido há 30 dias e não veio,0,188,32.27,1,Precisei ligar 3 vezes,Negativo
-TKT-000304,CLI-00101,PED-000231,2025-12-31 00:00:00,2025-12-31 00:06:00,2025-12-31 01:01:48,WhatsApp,Acesso,Média,Fechado,Pedro Rocha,Não consigo logar mas foi resolvido rápido,1,6,1.03,4,Excelente atendimento!,Positivo
-TKT-000305,CLI-00101,PED-000231,2025-12-28 00:00:00,2025-12-28 00:54:00,2025-12-28 06:45:00,Email,Dúvida,Urgente,Fechado,Aline Costa,Como faço para criar um dashboard compartilhável?,0,54,6.75,4,"Ok, resolvido",Neutro
-TKT-000306,CLI-00102,PED-000233,2025-12-31 00:00:00,2025-12-31 01:49:00,2025-12-31 02:03:36,Telefone,Bug,Média,Fechado,Fernanda Lima,Gráfico não está exibindo corretamente,1,109,2.06,4,Poderia ser mais rápido,Neutro
-TKT-000307,CLI-00102,PED-000233,2025-12-31 00:00:00,2025-12-31 00:42:00,2025-12-31 05:12:36,Chat,Bug,Baixa,Fechado,Aline Costa,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,42,5.21,5,Melhor suporte que já tive,Positivo
-TKT-000308,CLI-00103,PED-000234,2025-11-12 00:00:00,2025-11-12 04:38:00,2025-11-13 13:03:36,Email,Bug,Baixa,Fechado,Aline Costa,"Sistema com muitos erros, estou pensando em cancelar",0,278,37.06,3,Precisei ligar 3 vezes,Negativo
-TKT-000309,CLI-00103,PED-000234,2025-10-21 00:00:00,2025-10-21 05:31:00,2025-10-21 13:36:00,Chat,Acesso,Alta,Fechado,Marcos Oliveira,Sistema trava toda vez que tento entrar! Inaceitável,0,331,13.6,2,Demorou demais para resolver,Negativo
-TKT-000310,CLI-00103,PED-000234,2025-11-09 00:00:00,2025-11-09 03:08:00,2025-11-09 21:37:12,Email,Cancelamento,Urgente,Fechado,Fernanda Lima,"O produto não entregou o que promete, quero reembolso",0,188,21.62,1,Problema não foi totalmente resolvido,Negativo
-TKT-000311,CLI-00103,PED-000234,2025-12-01 00:00:00,2025-12-01 00:58:00,2025-12-01 03:19:12,Email,Acesso,Baixa,Fechado,Marcos Oliveira,Não consigo logar mas foi resolvido rápido,1,58,3.32,4,Melhor suporte que já tive,Positivo
-TKT-000312,CLI-00104,PED-000236,2025-10-22 00:00:00,2025-10-22 02:45:00,2025-10-23 15:17:24,Telefone,Acesso,Alta,Fechado,Aline Costa,Estou sem acesso há 3 dias e ninguém resolve,0,165,39.29,1,Precisei ligar 3 vezes,Negativo
-TKT-000313,CLI-00104,PED-000236,2025-11-20 00:00:00,2025-11-20 05:59:00,2025-11-20 09:55:12,Chat,Cobrança,Baixa,Fechado,Carla Santos,Reembolso prometido há 30 dias e não veio,0,359,9.92,2,Não fiquei satisfeito,Negativo
-TKT-000314,CLI-00104,PED-000236,2025-10-14 00:00:00,2025-10-14 03:13:00,2025-10-15 07:35:24,WhatsApp,Bug,Alta,Fechado,Marcos Oliveira,"Sistema com muitos erros, estou pensando em cancelar",0,193,31.59,1,Péssima experiência,Negativo
-TKT-000315,CLI-00104,PED-000236,2025-10-11 00:00:00,2025-10-11 02:39:00,2025-10-12 11:04:48,Telefone,Bug,Alta,Fechado,Carla Santos,"Dashboard não carrega há uma semana, perdi reunião por isso",0,159,35.08,2,Não fiquei satisfeito,Negativo
-TKT-000316,CLI-00104,PED-000236,2025-12-03 00:00:00,2025-12-03 01:29:00,2025-12-03 04:33:00,Email,Dúvida,Alta,Fechado,Carla Santos,Como faço para criar um dashboard compartilhável?,1,89,4.55,4,Demorou um pouco mas ok,Neutro
-TKT-000317,CLI-00104,PED-000236,2025-10-09 00:00:00,2025-10-09 01:59:00,2025-10-09 04:00:00,Email,Cobrança,Baixa,Fechado,Marcos Oliveira,Preciso de nota fiscal atualizada,1,119,4.0,4,Poderia ser mais rápido,Neutro
-TKT-000318,CLI-00105,PED-000238,2025-07-26 00:00:00,2025-07-26 02:25:00,2025-07-26 15:34:12,Chat,Bug,Baixa,Fechado,Carla Santos,"Dashboard não carrega há uma semana, perdi reunião por isso",0,145,15.57,2,Problema não foi totalmente resolvido,Negativo
-TKT-000319,CLI-00105,PED-000238,2025-06-25 00:00:00,2025-06-25 04:08:00,2025-06-26 19:02:24,Chat,Cancelamento,Urgente,Fechado,Marcos Oliveira,"O produto não entregou o que promete, quero reembolso",0,248,43.04,3,Precisei ligar 3 vezes,Negativo
-TKT-000320,CLI-00105,PED-000238,2025-07-12 00:00:00,2025-07-12 06:18:00,2025-07-13 01:48:36,Telefone,Bug,Baixa,Fechado,Carla Santos,"Sistema com muitos erros, estou pensando em cancelar",0,378,25.81,2,Precisei ligar 3 vezes,Negativo
-TKT-000321,CLI-00105,PED-000238,2025-08-12 00:00:00,2025-08-12 04:43:00,2025-08-12 16:04:12,Telefone,Cobrança,Alta,Fechado,Pedro Rocha,Reembolso prometido há 30 dias e não veio,0,283,16.07,1,Problema não foi totalmente resolvido,Negativo
-TKT-000322,CLI-00105,PED-000238,2025-07-31 00:00:00,2025-07-31 01:40:00,2025-07-31 14:42:36,Email,Dúvida,Baixa,Fechado,Marcos Oliveira,"Só respostas automáticas, ninguém realmente ajuda",0,100,14.71,3,Não fiquei satisfeito,Negativo
-TKT-000323,CLI-00106,PED-000240,2025-07-31 00:00:00,2025-07-31 00:52:00,2025-07-31 02:44:24,WhatsApp,Bug,Média,Fechado,Carla Santos,Exportação de PDF com formatação errada,1,52,2.74,3,Poderia ser mais rápido,Neutro
-TKT-000324,CLI-00106,PED-000240,2025-09-09 00:00:00,2025-09-09 00:38:00,2025-09-09 05:50:24,WhatsApp,Dúvida,Média,Fechado,Marcos Oliveira,Suporte muito atencioso e paciente,1,38,5.84,4,Muito profissional e eficiente,Positivo
-TKT-000325,CLI-00106,PED-000240,2025-08-03 00:00:00,2025-08-03 06:52:00,2025-08-03 17:57:36,Chat,Bug,Baixa,Fechado,Fernanda Lima,"Sistema com muitos erros, estou pensando em cancelar",0,412,17.96,2,Precisei ligar 3 vezes,Negativo
-TKT-000326,CLI-00106,PED-000240,2025-12-21 00:00:00,2025-12-21 04:35:00,2025-12-22 21:49:12,Telefone,Cobrança,Baixa,Fechado,Aline Costa,Reembolso prometido há 30 dias e não veio,0,275,45.82,1,Péssima experiência,Negativo
-TKT-000327,CLI-00107,PED-000242,2025-12-31 00:00:00,2025-12-31 00:31:00,2025-12-31 05:24:00,Email,Bug,Baixa,Fechado,Fernanda Lima,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,31,5.4,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000328,CLI-00107,PED-000242,2025-12-31 00:00:00,2025-12-31 00:18:00,2025-12-31 03:42:00,Chat,Cobrança,Baixa,Fechado,Fernanda Lima,Fui cobrado mas o estorno foi rápido e eficiente,0,18,3.7,4,Melhor suporte que já tive,Positivo
-TKT-000329,CLI-00108,PED-000245,2025-07-24 00:00:00,2025-07-24 03:14:00,2025-07-25 23:03:00,Telefone,Cancelamento,Urgente,Fechado,Marcos Oliveira,"Quero cancelar minha assinatura, preço muito alto",0,194,47.05,1,Não fiquei satisfeito,Negativo
-TKT-000330,CLI-00108,PED-000245,2025-06-21 00:00:00,2025-06-21 02:43:00,2025-06-22 20:20:24,WhatsApp,Dúvida,Baixa,Fechado,Fernanda Lima,Esperei 2 horas no chat sem resposta,0,163,44.34,1,Precisei ligar 3 vezes,Negativo
-TKT-000331,CLI-00108,PED-000245,2025-07-31 00:00:00,2025-07-31 05:12:00,2025-08-01 06:01:12,Email,Bug,Média,Fechado,Fernanda Lima,"Sistema com muitos erros, estou pensando em cancelar",0,312,30.02,1,Precisei ligar 3 vezes,Negativo
-TKT-000332,CLI-00108,PED-000245,2025-08-01 00:00:00,2025-08-01 02:40:00,2025-08-02 20:15:00,Telefone,Bug,Média,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,160,44.25,3,Precisei ligar 3 vezes,Negativo
-TKT-000333,CLI-00108,PED-000245,2025-06-18 00:00:00,2025-06-18 07:16:00,2025-06-19 06:30:36,Email,Acesso,Média,Fechado,Fernanda Lima,Sistema trava toda vez que tento entrar! Inaceitável,0,436,30.51,1,Precisei ligar 3 vezes,Negativo
-TKT-000334,CLI-00108,PED-000245,2025-08-02 00:00:00,2025-08-02 04:01:00,2025-08-02 19:43:48,Chat,Dúvida,Baixa,Fechado,Pedro Rocha,"Só respostas automáticas, ninguém realmente ajuda",0,241,19.73,2,Péssima experiência,Negativo
-TKT-000335,CLI-00108,PED-000245,2025-07-11 00:00:00,2025-07-11 02:50:00,2025-07-11 21:11:24,Email,Dúvida,Baixa,Fechado,Aline Costa,"Só respostas automáticas, ninguém realmente ajuda",0,170,21.19,2,Não fiquei satisfeito,Negativo
-TKT-000336,CLI-00109,PED-000249,2025-12-31 00:00:00,2025-12-31 00:31:00,2025-12-31 06:49:12,Telefone,Cancelamento,Alta,Fechado,Aline Costa,"Empresa passou por reestruturação, preciso cancelar",0,31,6.82,4,Demorou um pouco mas ok,Neutro
-TKT-000337,CLI-00110,PED-000251,2025-07-01 00:00:00,2025-07-01 01:04:00,2025-07-01 05:53:24,Email,Cancelamento,Urgente,Fechado,Fernanda Lima,"Empresa passou por reestruturação, preciso cancelar",1,64,5.89,3,Demorou um pouco mas ok,Neutro
-TKT-000338,CLI-00111,PED-000255,2025-12-04 00:00:00,2025-12-04 01:36:00,2025-12-04 09:36:36,Chat,Cobrança,Baixa,Fechado,Carla Santos,Dúvida sobre próximo vencimento,0,96,9.61,4,Demorou um pouco mas ok,Neutro
-TKT-000339,CLI-00111,PED-000255,2025-08-25 00:00:00,2025-08-25 00:31:00,2025-08-25 05:48:00,WhatsApp,Acesso,Alta,Fechado,Marcos Oliveira,"Perdi a senha, suporte ajudou em minutos",1,31,5.8,5,Excelente atendimento!,Positivo
-TKT-000340,CLI-00111,PED-000255,2025-12-16 00:00:00,2025-12-16 00:27:00,2025-12-16 05:15:00,WhatsApp,Cobrança,Baixa,Fechado,Pedro Rocha,Ajuste de fatura feito sem burocracia,0,27,5.25,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000341,CLI-00112,PED-000257,2025-09-06 00:00:00,2025-09-06 00:27:00,2025-09-06 02:54:36,Chat,Bug,Média,Fechado,Fernanda Lima,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,27,2.91,4,"Resolvido rapidinho, obrigado",Positivo
-TKT-000342,CLI-00112,PED-000257,2025-09-27 00:00:00,2025-09-27 01:48:00,2025-09-27 06:30:36,WhatsApp,Dúvida,Média,Fechado,Marcos Oliveira,É possível integrar com Google Sheets?,1,108,6.51,4,Poderia ser mais rápido,Neutro
-TKT-000343,CLI-00112,PED-000257,2025-07-16 00:00:00,2025-07-16 00:51:00,2025-07-16 09:25:12,Email,Acesso,Baixa,Fechado,Pedro Rocha,Usuário novo não consegue acessar,1,51,9.42,4,Demorou um pouco mas ok,Neutro
-TKT-000344,CLI-00112,PED-000257,2025-12-29 00:00:00,2025-12-29 00:08:00,2025-12-29 04:05:24,WhatsApp,Cobrança,Baixa,Fechado,Fernanda Lima,Ajuste de fatura feito sem burocracia,0,8,4.09,4,Muito profissional e eficiente,Positivo
-TKT-000345,CLI-00113,PED-000259,2025-09-03 00:00:00,2025-09-03 00:05:00,2025-09-03 04:09:36,Telefone,Bug,Média,Fechado,Carla Santos,"Bug no relatório foi corrigido no mesmo dia, ótimo suporte",1,5,4.16,5,"Resolvido rapidinho, obrigado",Positivo
-TKT-000346,CLI-00114,PED-000262,2025-10-14 00:00:00,2025-10-14 02:27:00,2025-10-15 16:09:00,Telefone,Bug,Baixa,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,147,40.15,2,Precisei ligar 3 vezes,Negativo
-TKT-000347,CLI-00114,PED-000262,2025-10-28 00:00:00,2025-10-28 02:48:00,2025-10-29 07:59:24,Telefone,Acesso,Média,Fechado,Fernanda Lima,Sistema trava toda vez que tento entrar! Inaceitável,0,168,31.99,3,Precisei ligar 3 vezes,Negativo
-TKT-000348,CLI-00114,PED-000262,2025-11-25 00:00:00,2025-11-25 04:08:00,2025-11-26 10:54:36,Telefone,Cancelamento,Urgente,Fechado,Aline Costa,"Quero cancelar minha assinatura, preço muito alto",0,248,34.91,3,Precisei ligar 3 vezes,Negativo
-TKT-000349,CLI-00114,PED-000262,2025-11-13 00:00:00,2025-11-13 01:09:00,2025-11-14 06:44:24,Email,Acesso,Urgente,Fechado,Marcos Oliveira,Estou sem acesso há 3 dias e ninguém resolve,0,69,30.74,3,Não fiquei satisfeito,Negativo
-TKT-000350,CLI-00114,PED-000262,2025-10-22 00:00:00,2025-10-22 03:12:00,2025-10-23 19:21:00,Email,Bug,Média,Fechado,Aline Costa,"Dashboard não carrega há uma semana, perdi reunião por isso",0,192,43.35,3,Problema não foi totalmente resolvido,Negativo
-TKT-000351,CLI-00114,PED-000262,2025-12-01 00:00:00,2025-12-01 06:10:00,2025-12-02 01:24:36,WhatsApp,Bug,Média,Fechado,Fernanda Lima,"Dashboard não carrega há uma semana, perdi reunião por isso",0,370,25.41,1,Precisei ligar 3 vezes,Negativo
-TKT-000352,CLI-00114,PED-000262,2025-12-07 00:00:00,2025-12-07 02:00:00,2025-12-08 01:35:24,WhatsApp,Bug,Média,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,120,25.59,1,Não fiquei satisfeito,Negativo
-TKT-000353,CLI-00115,PED-000263,2025-09-08 00:00:00,2025-09-08 04:59:00,2025-09-09 14:31:48,Telefone,Bug,Baixa,Fechado,Marcos Oliveira,"Dashboard não carrega há uma semana, perdi reunião por isso",0,299,38.53,2,Precisei ligar 3 vezes,Negativo
-TKT-000354,CLI-00115,PED-000263,2025-09-09 00:00:00,2025-09-09 02:57:00,2025-09-09 17:36:36,Email,Cancelamento,Alta,Fechado,Marcos Oliveira,"O produto não entregou o que promete, quero reembolso",0,177,17.61,1,Não fiquei satisfeito,Negativo
-TKT-000355,CLI-00115,PED-000263,2025-08-09 00:00:00,2025-08-09 01:34:00,2025-08-09 15:37:48,Email,Bug,Baixa,Fechado,Fernanda Lima,"Sistema com muitos erros, estou pensando em cancelar",0,94,15.63,1,Precisei ligar 3 vezes,Negativo
-TKT-000356,CLI-00115,PED-000263,2025-08-31 00:00:00,2025-08-31 02:12:00,2025-09-01 00:29:24,Chat,Cancelamento,Urgente,Fechado,Fernanda Lima,"Quero cancelar minha assinatura, preço muito alto",0,132,24.49,2,Precisei ligar 3 vezes,Negativo
-TKT-000357,CLI-00115,PED-000263,2025-08-13 00:00:00,2025-08-13 06:54:00,2025-08-14 06:44:24,Email,Acesso,Alta,Fechado,Carla Santos,Sistema trava toda vez que tento entrar! Inaceitável,0,414,30.74,1,Problema não foi totalmente resolvido,Negativo
-TKT-000358,CLI-00115,PED-000263,2025-09-26 00:00:00,2025-09-26 05:14:00,2025-09-26 11:31:12,WhatsApp,Bug,Média,Fechado,Pedro Rocha,"Sistema com muitos erros, estou pensando em cancelar",0,314,11.52,2,Não fiquei satisfeito,Negativo
-TKT-000359,CLI-00116,PED-000264,2025-12-22 00:00:00,2025-12-22 00:18:00,2025-12-22 01:16:12,WhatsApp,Cobrança,Baixa,Fechado,Aline Costa,Fui cobrado mas o estorno foi rápido e eficiente,1,18,1.27,4,Muito profissional e eficiente,Positivo
-TKT-000360,CLI-00116,PED-000264,2025-12-31 00:00:00,2025-12-31 01:46:00,2025-12-31 10:29:24,Telefone,Acesso,Alta,Fechado,Carla Santos,Usuário novo não consegue acessar,1,106,10.49,4,Demorou um pouco mas ok,Neutro
-TKT-000361,CLI-00116,PED-000264,2025-12-31 00:00:00,2025-12-31 00:30:00,2025-12-31 11:47:24,Telefone,Acesso,Baixa,Fechado,Carla Santos,Usuário novo não consegue acessar,1,30,11.79,3,"Ok, resolvido",Neutro
-TKT-000362,CLI-00117,PED-000265,2025-12-31 00:00:00,2025-12-31 00:21:00,2025-12-31 05:53:24,Telefone,Acesso,Baixa,Fechado,Carla Santos,"Perdi a senha, suporte ajudou em minutos",1,21,5.89,4,Excelente atendimento!,Positivo
-TKT-000363,CLI-00117,PED-000265,2025-12-31 00:00:00,2025-12-31 00:54:00,2025-12-31 08:30:36,Email,Cobrança,Baixa,Fechado,Fernanda Lima,Preciso de nota fiscal atualizada,0,54,8.51,4,Poderia ser mais rápido,Neutro
+id_ticket,id_cliente,data_abertura,categoria,satisfacao_csat
+TKT-29d81e,CLI-00001,2025-08-29,Dúvida,4
+TKT-f52a05,CLI-00002,2025-05-24,Dúvida,4
+TKT-dd7c2e,CLI-00003,2025-07-17,Dúvida,4
+TKT-1276a5,CLI-00004,2025-05-08,Dúvida,4
+TKT-f87f6d,CLI-00005,2025-03-15,Dúvida,4
+TKT-d5dc37,CLI-00006,2025-05-06,Dúvida,4
+TKT-61a960,CLI-00007,2025-04-06,Dúvida,4
+TKT-e24c7d,CLI-00008,2025-05-30,Dúvida,4
+TKT-839a44,CLI-00009,2025-10-23,Dúvida,4
+TKT-83baf1,CLI-00010,2025-06-18,Dúvida,4
+TKT-e8d26c,CLI-00011,2025-03-29,Dúvida,4
+TKT-4866b3,CLI-00012,2025-05-30,Dúvida,4
+TKT-c97659,CLI-00013,2025-04-22,Dúvida,4
+TKT-30bd6a,CLI-00014,2025-03-07,Dúvida,4
+TKT-a5d8dd,CLI-00015,2025-03-07,Dúvida,4
+TKT-bea4b9,CLI-00016,2025-02-13,Dúvida,4
+TKT-3186ca,CLI-00017,2025-03-27,Dúvida,4
+TKT-60b961,CLI-00018,2025-07-05,Dúvida,4
+TKT-448dbf,CLI-00019,2025-09-12,Dúvida,4
+TKT-034a9c,CLI-00020,2025-07-06,Dúvida,4
+TKT-4a257a,CLI-00021,2025-12-02,Dúvida,4
+TKT-d477df,CLI-00022,2025-12-29,Dúvida,4
+TKT-67b1f1,CLI-00023,2025-05-07,Dúvida,4
+TKT-e49187,CLI-00024,2025-07-08,Dúvida,4
+TKT-436d93,CLI-00025,2025-06-26,Dúvida,4
+TKT-1a9920,CLI-00026,2025-02-15,Dúvida,4
+TKT-04d6b4,CLI-00027,2025-04-18,Dúvida,4
+TKT-1ada6e,CLI-00028,2025-07-26,Dúvida,4
+TKT-ee49e9,CLI-00029,2025-03-01,Dúvida,4
+TKT-c3f6a1,CLI-00030,2025-04-15,Dúvida,4
+TKT-c99d87,CLI-00031,2025-02-21,Dúvida,4
+TKT-5b256a,CLI-00032,2025-04-28,Dúvida,4
+TKT-7a43db,CLI-00033,2025-08-20,Dúvida,4
+TKT-fba667,CLI-00034,2025-03-06,Dúvida,4
+TKT-60ab2c,CLI-00035,2025-05-30,Dúvida,4
+TKT-b0fb1a,CLI-00036,2025-06-26,Dúvida,4
+TKT-4c00c0,CLI-00037,2025-06-06,Dúvida,4
+TKT-e1f7bf,CLI-00038,2025-08-17,Dúvida,4
+TKT-fab365,CLI-00039,2025-06-19,Dúvida,4
+TKT-5e4360,CLI-00040,2025-05-14,Dúvida,4
+TKT-8f97a8,CLI-00041,2025-06-06,Dúvida,4
+TKT-0c4d52,CLI-00042,2025-05-01,Dúvida,4
+TKT-c44835,CLI-00043,2025-09-30,Dúvida,4
+TKT-ff939b,CLI-00044,2025-10-07,Dúvida,4
+TKT-3e6535,CLI-00045,2025-07-28,Dúvida,4
+TKT-c5d1a6,CLI-00046,2025-05-17,Dúvida,4
+TKT-1de8c0,CLI-00047,2025-03-11,Dúvida,4
+TKT-7f60d8,CLI-00048,2025-07-16,Dúvida,4
+TKT-6e610f,CLI-00049,2025-02-13,Dúvida,4
+TKT-e5acaf,CLI-00050,2025-07-31,Dúvida,4
+TKT-62d391,CLI-00051,2025-03-25,Dúvida,4
+TKT-fafecf,CLI-00052,2025-05-21,Dúvida,4
+TKT-bcd0a7,CLI-00053,2025-11-14,Dúvida,4
+TKT-90c8af,CLI-00055,2025-07-16,Dúvida,4
+TKT-9fc384,CLI-00056,2025-04-01,Dúvida,4
+TKT-390f4b,CLI-00057,2025-02-17,Dúvida,4
+TKT-b44f98,CLI-00058,2025-12-23,Dúvida,4
+TKT-38ccc8,CLI-00059,2025-04-07,Dúvida,4
+TKT-ab9499,CLI-00060,2025-11-03,Dúvida,4
+TKT-295a1a,CLI-00061,2025-04-24,Dúvida,4
+TKT-730ef6,CLI-00062,2025-09-04,Dúvida,4
+TKT-8eb598,CLI-00063,2025-04-10,Dúvida,4
+TKT-3edce4,CLI-00064,2025-09-05,Dúvida,4
+TKT-24fa59,CLI-00065,2025-08-21,Dúvida,4
+TKT-4c9903,CLI-00066,2025-12-12,Dúvida,4
+TKT-927661,CLI-00067,2025-03-18,Dúvida,4
+TKT-740fe6,CLI-00068,2025-08-04,Dúvida,4
+TKT-6c55f1,CLI-00069,2025-05-15,Dúvida,4
+TKT-d2ae63,CLI-00070,2025-08-06,Dúvida,4
+TKT-452d5f,CLI-00072,2025-08-10,Dúvida,4
+TKT-e460a7,CLI-00073,2025-03-23,Dúvida,4
+TKT-eb22f6,CLI-00074,2025-10-25,Dúvida,4
+TKT-6e554b,CLI-00075,2025-05-15,Dúvida,4
+TKT-fabcdf,CLI-00076,2025-09-28,Dúvida,4
+TKT-dbd606,CLI-00077,2025-07-06,Dúvida,4
+TKT-347beb,CLI-00078,2025-07-23,Dúvida,4
+TKT-36387e,CLI-00079,2025-08-18,Dúvida,4
+TKT-fde460,CLI-00080,2025-08-02,Dúvida,4
+TKT-4a2ef1,CLI-00082,2025-07-16,Dúvida,4
+TKT-ecbc2e,CLI-00083,2025-06-07,Dúvida,4
+TKT-7fb6a7,CLI-00084,2025-05-07,Dúvida,4
+TKT-0e3696,CLI-00085,2025-06-25,Dúvida,4
+TKT-9ea401,CLI-00086,2025-07-12,Dúvida,4
+TKT-a66376,CLI-00087,2025-03-24,Dúvida,4
+TKT-5a2d78,CLI-00088,2025-07-07,Dúvida,4
+TKT-2be619,CLI-00089,2025-06-19,Dúvida,4
+TKT-b7c5b9,CLI-00090,2025-06-22,Dúvida,4
+TKT-8ff13f,CLI-00091,2025-07-25,Dúvida,4
+TKT-c016f8,CLI-00092,2025-09-09,Dúvida,4
+TKT-66d45c,CLI-00093,2025-03-15,Dúvida,4
+TKT-d0a6d1,CLI-00094,2025-07-25,Dúvida,4
+TKT-a34e4c,CLI-00095,2025-04-23,Dúvida,4
+TKT-ca80bc,CLI-00096,2025-07-17,Dúvida,4
+TKT-bb93f3,CLI-00097,2025-06-26,Dúvida,4
+TKT-9abb4f,CLI-00098,2025-04-21,Dúvida,4
+TKT-f4e7a0,CLI-00099,2025-05-26,Dúvida,4
+TKT-ed8a53,CLI-00100,2025-10-15,Dúvida,4
+TKT-8f492b,CLI-00101,2025-07-03,Dúvida,4
+TKT-1b32ac,CLI-00102,2025-06-30,Dúvida,4
+TKT-974924,CLI-00103,2025-05-28,Dúvida,4
+TKT-7aa6c1,CLI-00104,2025-08-24,Dúvida,4
+TKT-2dce44,CLI-00105,2025-04-28,Dúvida,4
+TKT-16149d,CLI-00106,2025-07-27,Dúvida,4
+TKT-f12cb5,CLI-00107,2025-08-10,Dúvida,4
+TKT-d76465,CLI-00108,2025-07-17,Dúvida,4
+TKT-481285,CLI-00109,2025-11-01,Dúvida,4
+TKT-e30567,CLI-00110,2025-07-12,Dúvida,4
+TKT-4759c2,CLI-00111,2025-03-23,Dúvida,4
+TKT-432891,CLI-00112,2025-10-20,Dúvida,4
+TKT-3dcdc1,CLI-00113,2025-08-14,Dúvida,4
+TKT-52b1d1,CLI-00114,2025-07-27,Dúvida,4
+TKT-0e6963,CLI-00115,2025-05-06,Dúvida,4
+TKT-d05338,CLI-00116,2025-06-26,Dúvida,4
+TKT-1bcc26,CLI-00117,2025-05-13,Dúvida,4
+TKT-0ff0d9,CLI-00118,2025-08-02,Dúvida,4
+TKT-36dc08,CLI-00119,2025-08-05,Dúvida,4
+TKT-1b7c85,CLI-00120,2025-06-30,Dúvida,4
+TKT-814d50,CLI-00121,2025-10-02,Dúvida,4
+TKT-b13704,CLI-00122,2025-08-15,Dúvida,4
+TKT-8804c5,CLI-00123,2025-05-04,Dúvida,4
+TKT-346abb,CLI-00124,2025-07-17,Dúvida,4
+TKT-d9d1b7,CLI-00126,2025-07-21,Dúvida,4
+TKT-665f9a,CLI-00127,2025-03-25,Dúvida,4
+TKT-cc4da1,CLI-00128,2025-08-25,Dúvida,4
+TKT-fa287b,CLI-00129,2025-07-27,Dúvida,4
+TKT-efd6b1,CLI-00130,2025-09-03,Dúvida,4
+TKT-9953bd,CLI-00131,2025-04-17,Dúvida,4
+TKT-f86a6b,CLI-00133,2025-06-15,Dúvida,4
+TKT-d57fd3,CLI-00134,2025-08-29,Dúvida,4
+TKT-fa1b9c,CLI-00135,2025-04-16,Dúvida,4
+TKT-df2970,CLI-00136,2025-09-15,Dúvida,4
+TKT-477b69,CLI-00137,2025-06-27,Dúvida,4
+TKT-36aabb,CLI-00138,2025-08-29,Dúvida,4
+TKT-04c7f6,CLI-00139,2025-04-20,Dúvida,4
+TKT-380c7f,CLI-00140,2025-07-16,Dúvida,4
+TKT-0a2871,CLI-00142,2025-06-05,Dúvida,4
+TKT-dc2964,CLI-00143,2025-06-12,Dúvida,4
+TKT-730bcf,CLI-00144,2025-12-16,Dúvida,4
+TKT-7eab25,CLI-00145,2025-09-20,Dúvida,4
+TKT-4cc04d,CLI-00146,2025-08-30,Dúvida,4
+TKT-f8b5fa,CLI-00147,2025-09-10,Dúvida,4
+TKT-ed30d8,CLI-00148,2025-06-11,Dúvida,4
+TKT-77d5c7,CLI-00149,2025-08-21,Dúvida,4
+TKT-262913,CLI-00150,2025-10-17,Dúvida,4
+TKT-81fe12,CLI-00151,2025-05-06,Dúvida,4
+TKT-24b1ec,CLI-00152,2025-07-31,Dúvida,4
+TKT-07e191,CLI-00153,2025-06-11,Dúvida,4
+TKT-1c5d96,CLI-00154,2025-03-25,Dúvida,4
+TKT-4cc4f5,CLI-00155,2025-08-29,Dúvida,4
+TKT-6727bc,CLI-00156,2025-04-26,Dúvida,4
+TKT-c3eb89,CLI-00157,2025-08-02,Dúvida,4
+TKT-19882f,CLI-00158,2025-06-16,Dúvida,4
+TKT-318636,CLI-00159,2025-08-18,Dúvida,4
+TKT-98ba6b,CLI-00160,2025-05-14,Dúvida,4
+TKT-cd76a7,CLI-00161,2025-07-02,Dúvida,4
+TKT-1696f4,CLI-00163,2025-06-08,Dúvida,4
+TKT-5750f8,CLI-00164,2025-09-27,Dúvida,4
+TKT-878147,CLI-00165,2025-06-17,Dúvida,4
+TKT-d5a4c1,CLI-00166,2025-06-29,Dúvida,4
+TKT-da6f5f,CLI-00167,2025-09-12,Dúvida,4
+TKT-d15899,CLI-00168,2025-10-06,Dúvida,4
+TKT-706a45,CLI-00169,2025-06-29,Dúvida,4
+TKT-c4a993,CLI-00170,2025-05-24,Dúvida,4
+TKT-c3b765,CLI-00171,2025-07-16,Dúvida,4
+TKT-ca5328,CLI-00172,2025-10-01,Dúvida,4
+TKT-fad96f,CLI-00173,2025-06-12,Dúvida,4
+TKT-4bb6d7,CLI-00174,2025-04-21,Dúvida,4
+TKT-b62aee,CLI-00175,2025-04-17,Dúvida,4
+TKT-74cce2,CLI-00176,2025-12-01,Dúvida,4
+TKT-ae1fc5,CLI-00177,2025-07-17,Dúvida,4
+TKT-81acf7,CLI-00178,2025-07-07,Dúvida,4
+TKT-eb1df7,CLI-00179,2025-08-03,Dúvida,4
+TKT-f5a1bf,CLI-00181,2025-11-13,Dúvida,4
+TKT-d4c313,CLI-00182,2025-07-05,Dúvida,4
+TKT-1090cb,CLI-00183,2025-05-24,Dúvida,4
+TKT-f21c5c,CLI-00184,2025-06-19,Dúvida,4
+TKT-957330,CLI-00185,2025-05-27,Dúvida,4
+TKT-33bf3c,CLI-00186,2025-05-18,Dúvida,4
+TKT-e7d8d2,CLI-00187,2025-06-22,Dúvida,4
+TKT-872ca3,CLI-00189,2025-11-16,Dúvida,4
+TKT-0aab0c,CLI-00190,2025-05-20,Dúvida,4
+TKT-623e94,CLI-00191,2025-09-22,Dúvida,4
+TKT-477c47,CLI-00193,2025-05-22,Dúvida,4
+TKT-6c4bbd,CLI-00194,2025-08-03,Dúvida,4
+TKT-0766cd,CLI-00195,2025-09-05,Dúvida,4
+TKT-2679be,CLI-00196,2025-08-21,Dúvida,4
+TKT-36eeac,CLI-00199,2025-06-13,Dúvida,4
+TKT-99a50f,CLI-00200,2025-08-03,Dúvida,4
+TKT-d99d05,CLI-00201,2025-08-13,Dúvida,4
+TKT-248c86,CLI-00202,2025-07-23,Dúvida,4
+TKT-d65f65,CLI-00203,2025-08-28,Dúvida,4
+TKT-853de2,CLI-00204,2025-06-02,Dúvida,4
+TKT-a2b352,CLI-00206,2025-11-23,Dúvida,4
+TKT-b57c5f,CLI-00207,2025-05-17,Dúvida,4
+TKT-0c9405,CLI-00208,2025-06-18,Dúvida,4
+TKT-dd2aa9,CLI-00209,2025-08-18,Dúvida,4
+TKT-4a7294,CLI-00210,2025-07-19,Dúvida,4
+TKT-a88099,CLI-00211,2025-07-03,Dúvida,4
+TKT-b00a3d,CLI-00212,2025-06-01,Dúvida,4
+TKT-e76a78,CLI-00213,2025-09-17,Dúvida,4
+TKT-91f0e0,CLI-00214,2025-06-23,Dúvida,4
+TKT-0448c8,CLI-00215,2025-07-14,Dúvida,4
+TKT-ce0d87,CLI-00216,2025-06-19,Dúvida,4
+TKT-5eaa59,CLI-00217,2025-07-30,Dúvida,4
+TKT-e21a74,CLI-00218,2025-05-22,Dúvida,4
+TKT-2e7c33,CLI-00219,2025-04-24,Dúvida,4
+TKT-5eaa6e,CLI-00220,2025-12-23,Dúvida,4
+TKT-48bb38,CLI-00221,2025-06-26,Dúvida,4
+TKT-fe02da,CLI-00222,2025-06-06,Dúvida,4
+TKT-e2ee59,CLI-00223,2025-04-24,Dúvida,4
+TKT-cba6ed,CLI-00224,2025-04-17,Dúvida,4
+TKT-04e7de,CLI-00225,2025-07-02,Dúvida,4
+TKT-e9913f,CLI-00226,2025-07-21,Dúvida,4
+TKT-308310,CLI-00227,2025-12-04,Dúvida,4
+TKT-c765d9,CLI-00229,2025-08-05,Dúvida,4
+TKT-d40cfa,CLI-00230,2025-11-19,Dúvida,4
+TKT-9204b1,CLI-00231,2025-10-29,Dúvida,4
+TKT-c1c8c1,CLI-00232,2025-08-30,Dúvida,4
+TKT-16918e,CLI-00233,2025-08-03,Dúvida,4
+TKT-3a5b66,CLI-00234,2025-07-19,Dúvida,4
+TKT-6b7255,CLI-00235,2025-09-15,Dúvida,4
+TKT-8e6769,CLI-00236,2025-04-13,Dúvida,4
+TKT-77d886,CLI-00237,2025-08-28,Dúvida,4
+TKT-a8609d,CLI-00238,2025-08-01,Dúvida,4
+TKT-b281b3,CLI-00239,2025-07-02,Dúvida,4
+TKT-71803b,CLI-00240,2025-10-29,Dúvida,4
+TKT-a7405d,CLI-00241,2025-12-17,Dúvida,4
+TKT-d37a4b,CLI-00243,2025-07-07,Dúvida,4
+TKT-4bec90,CLI-00244,2025-08-29,Dúvida,4
+TKT-76e9ac,CLI-00246,2025-09-11,Dúvida,4
+TKT-8c8393,CLI-00247,2025-09-27,Dúvida,4
+TKT-2b00dc,CLI-00248,2025-10-30,Dúvida,4
+TKT-ac27a5,CLI-00250,2025-08-22,Dúvida,4
+TKT-4b50d8,CLI-00252,2025-07-27,Dúvida,4
+TKT-dd677d,CLI-00253,2025-07-19,Dúvida,4
+TKT-05a84c,CLI-00254,2025-07-08,Dúvida,4
+TKT-41c501,CLI-00255,2025-07-13,Dúvida,4
+TKT-5cd8b4,CLI-00256,2025-10-30,Dúvida,4
+TKT-ba91eb,CLI-00257,2025-10-11,Dúvida,4
+TKT-dd47ea,CLI-00259,2025-08-16,Dúvida,4
+TKT-91fbf2,CLI-00260,2025-10-01,Dúvida,4
+TKT-8c39c2,CLI-00261,2025-11-27,Dúvida,4
+TKT-aa95ae,CLI-00262,2025-11-19,Dúvida,4
+TKT-1208de,CLI-00263,2025-11-30,Dúvida,4
+TKT-8a774e,CLI-00264,2025-11-15,Dúvida,4
+TKT-77b560,CLI-00266,2025-09-10,Dúvida,4
+TKT-34d8cd,CLI-00267,2025-08-01,Dúvida,4
+TKT-8d78ee,CLI-00268,2025-07-19,Dúvida,4
+TKT-d3539b,CLI-00269,2025-07-31,Dúvida,4
+TKT-5d04ae,CLI-00270,2025-10-24,Dúvida,4
+TKT-d8c8b9,CLI-00271,2025-07-14,Dúvida,4
+TKT-c4a64b,CLI-00272,2025-07-01,Dúvida,4
+TKT-d17fe1,CLI-00273,2025-11-29,Dúvida,4
+TKT-0c975e,CLI-00274,2025-11-02,Dúvida,4
+TKT-d5f0ea,CLI-00275,2025-12-02,Dúvida,4
+TKT-fcfea7,CLI-00276,2025-07-07,Dúvida,4
+TKT-293a44,CLI-00277,2025-09-21,Dúvida,4
+TKT-be2b31,CLI-00278,2025-06-14,Dúvida,4
+TKT-4b0bd6,CLI-00279,2025-09-03,Dúvida,4
+TKT-159919,CLI-00280,2025-05-31,Dúvida,4
+TKT-af789f,CLI-00281,2025-06-28,Dúvida,4
+TKT-f88a08,CLI-00282,2025-07-25,Dúvida,4
+TKT-6d2b65,CLI-00283,2025-10-10,Dúvida,4
+TKT-371dbb,CLI-00284,2025-07-22,Dúvida,4
+TKT-d2eb10,CLI-00285,2025-11-10,Dúvida,4
+TKT-70c0c7,CLI-00286,2025-09-16,Dúvida,4
+TKT-08836f,CLI-00288,2025-12-26,Dúvida,4
+TKT-216b37,CLI-00289,2025-08-19,Dúvida,4
+TKT-6dd31b,CLI-00290,2025-07-13,Dúvida,4
+TKT-9eaf11,CLI-00291,2025-06-20,Dúvida,4
+TKT-bdfec0,CLI-00293,2025-06-02,Dúvida,4
+TKT-c356c1,CLI-00294,2025-09-28,Dúvida,4
+TKT-98f4af,CLI-00295,2025-12-29,Dúvida,4
+TKT-3a801a,CLI-00297,2025-08-21,Dúvida,4
+TKT-9a6389,CLI-00298,2025-06-30,Dúvida,4
+TKT-312999,CLI-00299,2025-06-25,Dúvida,4
+TKT-3303a4,CLI-00300,2025-08-06,Dúvida,4
+TKT-f3428d,CLI-00301,2025-06-02,Dúvida,4
+TKT-033059,CLI-00302,2025-09-02,Dúvida,4
+TKT-cbed8d,CLI-00303,2025-09-11,Dúvida,4
+TKT-2dad38,CLI-00304,2025-05-25,Dúvida,4
+TKT-2cc66b,CLI-00305,2025-09-04,Dúvida,4
+TKT-d1de25,CLI-00306,2025-10-24,Dúvida,4
+TKT-b8aa2d,CLI-00307,2025-09-29,Dúvida,4
+TKT-ee4808,CLI-00309,2025-05-28,Dúvida,4
+TKT-b4e88c,CLI-00310,2025-07-08,Dúvida,4
+TKT-62a220,CLI-00311,2025-10-13,Dúvida,4
+TKT-33e8f0,CLI-00312,2025-10-12,Dúvida,4
+TKT-036b62,CLI-00313,2025-09-15,Dúvida,4
+TKT-73afa1,CLI-00314,2025-09-21,Dúvida,4
+TKT-c5ad11,CLI-00315,2025-07-18,Dúvida,4
+TKT-83c201,CLI-00316,2025-09-16,Dúvida,4
+TKT-c41337,CLI-00317,2025-09-04,Dúvida,4
+TKT-6b6ba2,CLI-00318,2025-09-05,Dúvida,4
+TKT-3c5852,CLI-00319,2025-12-26,Dúvida,4
+TKT-0d89c1,CLI-00321,2025-07-20,Dúvida,4
+TKT-a24c19,CLI-00322,2025-06-24,Dúvida,4
+TKT-c49078,CLI-00323,2025-08-16,Dúvida,4
+TKT-977939,CLI-00324,2025-12-15,Dúvida,4
+TKT-da488c,CLI-00325,2025-08-29,Dúvida,4
+TKT-7e1549,CLI-00326,2025-11-30,Dúvida,4
+TKT-b78d13,CLI-00327,2025-08-25,Dúvida,4
+TKT-5e8954,CLI-00328,2025-12-23,Dúvida,4
+TKT-110b78,CLI-00329,2025-10-26,Dúvida,4
+TKT-e3f7bf,CLI-00330,2025-11-22,Dúvida,4
+TKT-7c847f,CLI-00331,2025-11-15,Dúvida,4
+TKT-d39a51,CLI-00333,2025-08-20,Dúvida,4
+TKT-9ec4d4,CLI-00334,2025-08-13,Dúvida,4
+TKT-bbfb5a,CLI-00335,2025-09-26,Dúvida,4
+TKT-87f9b5,CLI-00336,2025-08-08,Dúvida,4
+TKT-9b6297,CLI-00337,2025-11-27,Dúvida,4
+TKT-5d523d,CLI-00338,2025-12-01,Dúvida,4
+TKT-73ae02,CLI-00339,2025-09-03,Dúvida,4
+TKT-ca81c0,CLI-00340,2025-08-13,Dúvida,4
+TKT-19832e,CLI-00343,2025-07-21,Dúvida,4
+TKT-83aa69,CLI-00344,2025-07-30,Dúvida,4
+TKT-6212ad,CLI-00345,2025-09-03,Dúvida,4
+TKT-1dafde,CLI-00346,2025-12-11,Dúvida,4
+TKT-13eed2,CLI-00347,2025-08-07,Dúvida,4
+TKT-883fc1,CLI-00349,2025-09-23,Dúvida,4
+TKT-a05968,CLI-00350,2025-08-29,Dúvida,4
+TKT-49c45e,CLI-00351,2025-10-20,Dúvida,4
+TKT-d49f5b,CLI-00352,2025-07-27,Dúvida,4
+TKT-ce19b2,CLI-00353,2025-08-23,Dúvida,4
+TKT-0bed64,CLI-00354,2025-08-01,Dúvida,4
+TKT-355cfb,CLI-00355,2025-09-07,Dúvida,4
+TKT-615535,CLI-00357,2025-11-28,Dúvida,4
+TKT-2e762d,CLI-00360,2025-12-15,Dúvida,4
+TKT-f1fb4c,CLI-00361,2025-12-12,Dúvida,4
+TKT-5ac6e9,CLI-00362,2025-10-16,Dúvida,4
+TKT-0d7f9e,CLI-00363,2025-11-16,Dúvida,4
+TKT-2ba561,CLI-00364,2025-09-01,Dúvida,4
+TKT-49147e,CLI-00365,2025-09-20,Dúvida,4
+TKT-144d32,CLI-00366,2025-10-06,Dúvida,4
+TKT-93d279,CLI-00367,2025-09-22,Dúvida,4
+TKT-e71477,CLI-00368,2025-07-31,Dúvida,4
+TKT-ef8160,CLI-00372,2025-08-27,Dúvida,4
+TKT-dec42f,CLI-00373,2025-09-12,Dúvida,4
+TKT-1fc368,CLI-00374,2025-09-05,Dúvida,4
+TKT-c95b29,CLI-00376,2025-08-18,Dúvida,4
+TKT-db9682,CLI-00378,2025-11-01,Dúvida,4
+TKT-e85025,CLI-00379,2025-09-30,Dúvida,4
+TKT-d9f075,CLI-00380,2025-07-15,Dúvida,4
+TKT-35d495,CLI-00381,2025-07-26,Dúvida,4
+TKT-7d8f13,CLI-00382,2025-09-26,Dúvida,4
+TKT-b54377,CLI-00383,2025-10-24,Dúvida,4
+TKT-8af359,CLI-00384,2025-12-12,Dúvida,4
+TKT-177bc0,CLI-00385,2025-08-06,Dúvida,4
+TKT-1077ec,CLI-00386,2025-10-27,Dúvida,4
+TKT-e7ae9e,CLI-00387,2025-08-31,Dúvida,4
+TKT-10d436,CLI-00388,2025-11-24,Dúvida,4
+TKT-cd96ae,CLI-00391,2025-07-02,Dúvida,4
+TKT-a15d42,CLI-00393,2025-10-18,Dúvida,4
+TKT-424b34,CLI-00394,2025-07-17,Dúvida,4
+TKT-f61527,CLI-00396,2025-08-31,Dúvida,4
+TKT-07f289,CLI-00397,2025-09-01,Dúvida,4
+TKT-ccc3be,CLI-00398,2025-07-18,Dúvida,4
+TKT-75aa6a,CLI-00400,2025-08-21,Dúvida,4
+TKT-ad7d9b,CLI-00401,2025-11-13,Dúvida,4
+TKT-459ffa,CLI-00402,2025-07-28,Dúvida,4
+TKT-6749d4,CLI-00403,2025-08-12,Dúvida,4
+TKT-3444db,CLI-00404,2025-10-01,Dúvida,4
+TKT-4448f4,CLI-00406,2025-09-02,Dúvida,4
+TKT-79c1c6,CLI-00407,2025-09-26,Dúvida,4
+TKT-b9da4a,CLI-00408,2025-06-24,Dúvida,4
+TKT-4c781b,CLI-00410,2025-08-13,Dúvida,4
+TKT-77bc8a,CLI-00411,2025-12-01,Dúvida,4
+TKT-b01a73,CLI-00412,2025-09-21,Dúvida,4
+TKT-543c99,CLI-00413,2025-08-03,Cancelamento,2
+TKT-8334c7,CLI-00414,2025-07-20,Cancelamento,2
+TKT-789d57,CLI-00415,2025-09-25,Dúvida,4
+TKT-cc9739,CLI-00416,2025-08-05,Cancelamento,2
+TKT-ec4fb2,CLI-00417,2025-09-16,Dúvida,4
+TKT-10c870,CLI-00418,2025-07-25,Cancelamento,2
+TKT-94b434,CLI-00419,2025-08-27,Cancelamento,2
+TKT-254f66,CLI-00420,2025-07-30,Cancelamento,2
+TKT-ffa9ec,CLI-00421,2025-09-25,Dúvida,4
+TKT-af637b,CLI-00422,2025-09-24,Dúvida,4
+TKT-a8bad7,CLI-00423,2025-11-26,Dúvida,4
+TKT-6330e8,CLI-00424,2025-07-19,Cancelamento,2
+TKT-f0909e,CLI-00427,2025-12-25,Dúvida,4
+TKT-0745be,CLI-00428,2025-07-15,Cancelamento,2
+TKT-351085,CLI-00430,2025-09-07,Cancelamento,2
+TKT-480bb7,CLI-00431,2025-08-05,Cancelamento,2
+TKT-972501,CLI-00432,2025-11-16,Dúvida,4
+TKT-e6ac98,CLI-00433,2025-08-29,Dúvida,4
+TKT-735d97,CLI-00434,2025-08-07,Cancelamento,2
+TKT-22fcf3,CLI-00435,2025-07-18,Cancelamento,2
+TKT-48c6d0,CLI-00436,2025-08-07,Cancelamento,2
+TKT-f4f05a,CLI-00437,2025-07-23,Cancelamento,2
+TKT-3e1825,CLI-00439,2025-08-18,Cancelamento,2
+TKT-d57dfc,CLI-00440,2025-08-07,Cancelamento,2
+TKT-20dfec,CLI-00441,2025-10-01,Dúvida,4
+TKT-968f9d,CLI-00442,2025-08-06,Cancelamento,2
+TKT-1d0bfe,CLI-00443,2025-10-06,Dúvida,4
+TKT-85fae6,CLI-00444,2025-07-15,Cancelamento,2
+TKT-809ee6,CLI-00446,2025-10-02,Dúvida,4
+TKT-27cdba,CLI-00447,2025-07-14,Cancelamento,2
+TKT-df5290,CLI-00448,2025-07-27,Cancelamento,2
+TKT-44dc13,CLI-00449,2025-08-26,Dúvida,4
+TKT-e62b18,CLI-00452,2025-07-15,Cancelamento,2
+TKT-8d960d,CLI-00453,2025-08-16,Cancelamento,2
+TKT-2f19f1,CLI-00454,2025-07-20,Cancelamento,2
+TKT-1125c8,CLI-00455,2025-07-22,Cancelamento,2
+TKT-4d736c,CLI-00456,2025-12-27,Dúvida,4
+TKT-bd7ef2,CLI-00457,2025-08-04,Dúvida,4
+TKT-9900cd,CLI-00458,2025-07-31,Cancelamento,2
+TKT-9a7fa0,CLI-00459,2025-09-15,Dúvida,4
+TKT-8de2cc,CLI-00460,2025-09-23,Dúvida,4
+TKT-25c49d,CLI-00461,2025-10-05,Dúvida,4
+TKT-01f1d9,CLI-00462,2025-07-17,Cancelamento,2
+TKT-6b1e5d,CLI-00463,2025-11-19,Dúvida,4
+TKT-d7884d,CLI-00464,2025-08-06,Cancelamento,2
+TKT-711000,CLI-00465,2025-09-07,Dúvida,4
+TKT-29c98e,CLI-00466,2025-09-25,Dúvida,4
+TKT-66b283,CLI-00467,2025-08-31,Cancelamento,2
+TKT-69ea03,CLI-00468,2025-08-23,Cancelamento,2
+TKT-8c9145,CLI-00470,2025-08-07,Cancelamento,2
+TKT-55b58c,CLI-00472,2025-07-19,Cancelamento,2
+TKT-c22fe7,CLI-00473,2025-08-13,Cancelamento,2
+TKT-3b5e2b,CLI-00474,2025-09-12,Dúvida,4
+TKT-e320be,CLI-00475,2025-07-23,Dúvida,4
+TKT-d955da,CLI-00476,2025-08-12,Cancelamento,2
+TKT-9f6456,CLI-00477,2025-07-15,Cancelamento,2
+TKT-4af407,CLI-00478,2025-07-13,Cancelamento,2
+TKT-9fc926,CLI-00479,2025-08-08,Cancelamento,2
+TKT-ceb161,CLI-00480,2025-07-20,Cancelamento,2
+TKT-00b8a6,CLI-00481,2025-08-03,Dúvida,4
+TKT-53e16e,CLI-00483,2025-10-24,Dúvida,4
+TKT-859d85,CLI-00484,2025-07-29,Cancelamento,2
+TKT-367f48,CLI-00485,2025-12-21,Dúvida,4
+TKT-2aaa18,CLI-00486,2025-08-08,Cancelamento,2
+TKT-60f57e,CLI-00487,2025-07-25,Dúvida,4
+TKT-5b4c91,CLI-00488,2025-07-15,Cancelamento,2
+TKT-24759b,CLI-00490,2025-07-16,Cancelamento,2
+TKT-7da742,CLI-00491,2025-07-23,Cancelamento,2
+TKT-58d53b,CLI-00493,2025-07-19,Cancelamento,2
+TKT-a6f740,CLI-00494,2025-07-23,Cancelamento,2
+TKT-5cd618,CLI-00496,2025-10-25,Dúvida,4
+TKT-37e08a,CLI-00497,2025-07-24,Dúvida,4
+TKT-6e6c0c,CLI-00498,2025-10-16,Cancelamento,2
+TKT-fc541a,CLI-00499,2025-09-17,Cancelamento,2
+TKT-fc8ede,CLI-00500,2025-09-03,Cancelamento,2
+TKT-e51f99,CLI-00501,2025-07-25,Cancelamento,2
+TKT-6bc0f6,CLI-00502,2025-07-19,Cancelamento,2
+TKT-f49d5e,CLI-00503,2025-11-11,Dúvida,4
+TKT-b15091,CLI-00504,2025-08-08,Cancelamento,2
+TKT-3a327d,CLI-00505,2025-07-24,Cancelamento,2
+TKT-4af7a9,CLI-00506,2025-07-27,Cancelamento,2
+TKT-b08b5c,CLI-00507,2025-10-30,Dúvida,4
+TKT-cc1099,CLI-00508,2025-11-03,Dúvida,4
+TKT-251ceb,CLI-00509,2025-07-17,Cancelamento,2
+TKT-5eb454,CLI-00511,2025-08-14,Cancelamento,2
+TKT-af50a5,CLI-00512,2025-08-15,Dúvida,4
+TKT-2001ca,CLI-00513,2025-08-08,Cancelamento,2
+TKT-2bdafc,CLI-00514,2025-07-18,Cancelamento,2
+TKT-624849,CLI-00515,2025-07-13,Cancelamento,2
+TKT-bd20b9,CLI-00516,2025-08-03,Dúvida,4
+TKT-130ccb,CLI-00517,2025-08-12,Cancelamento,2
+TKT-2421d3,CLI-00518,2025-07-15,Cancelamento,2
+TKT-d5a597,CLI-00519,2025-08-08,Cancelamento,2
+TKT-6e1eee,CLI-00520,2025-07-25,Cancelamento,2
+TKT-cdaee7,CLI-00521,2025-12-23,Dúvida,4
+TKT-fa161f,CLI-00522,2025-07-18,Cancelamento,2
+TKT-ae7184,CLI-00524,2025-07-24,Cancelamento,2
+TKT-f6cbeb,CLI-00525,2025-07-16,Cancelamento,2
+TKT-d9492d,CLI-00526,2025-07-18,Cancelamento,2
+TKT-c40946,CLI-00527,2025-09-01,Cancelamento,2
+TKT-68b7bd,CLI-00528,2025-12-22,Dúvida,4
+TKT-339e33,CLI-00529,2025-09-01,Cancelamento,2
+TKT-caa892,CLI-00530,2025-10-01,Dúvida,4
+TKT-59d978,CLI-00531,2025-11-12,Dúvida,4
+TKT-803f0a,CLI-00533,2025-08-07,Cancelamento,2
+TKT-f23646,CLI-00534,2025-09-06,Dúvida,4
+TKT-9e305a,CLI-00535,2025-08-20,Cancelamento,2
+TKT-e50eb9,CLI-00536,2025-09-06,Dúvida,4
+TKT-c724a8,CLI-00537,2025-11-27,Dúvida,4
+TKT-6454c5,CLI-00538,2025-07-18,Cancelamento,2
+TKT-f62c52,CLI-00539,2025-09-24,Dúvida,4
+TKT-caf31c,CLI-00540,2025-08-12,Cancelamento,2
+TKT-5d8ab8,CLI-00541,2025-08-02,Cancelamento,2
+TKT-00dbfd,CLI-00542,2025-08-27,Cancelamento,2
+TKT-203c59,CLI-00543,2025-10-29,Cancelamento,2
+TKT-4b556d,CLI-00544,2025-10-13,Cancelamento,2
+TKT-fa708e,CLI-00545,2025-08-26,Dúvida,4
+TKT-c5641f,CLI-00546,2025-12-04,Dúvida,4
+TKT-08174a,CLI-00547,2025-09-06,Cancelamento,2
+TKT-6b9682,CLI-00548,2025-09-06,Cancelamento,2
+TKT-e0e18c,CLI-00549,2025-11-15,Dúvida,4
+TKT-af62b1,CLI-00550,2025-09-24,Dúvida,4
+TKT-2369e0,CLI-00551,2025-10-17,Dúvida,4
+TKT-62779b,CLI-00552,2025-12-07,Dúvida,4
+TKT-f7f186,CLI-00553,2025-10-02,Cancelamento,2
+TKT-a7c388,CLI-00554,2025-08-31,Cancelamento,2
+TKT-94c257,CLI-00555,2025-11-28,Dúvida,4
+TKT-0e95cc,CLI-00556,2025-09-06,Cancelamento,2
+TKT-ac6e75,CLI-00557,2025-09-03,Cancelamento,2
+TKT-7394dc,CLI-00558,2025-08-20,Cancelamento,2
+TKT-915a58,CLI-00559,2025-08-22,Cancelamento,2
+TKT-303aa3,CLI-00560,2025-08-19,Cancelamento,2
+TKT-588128,CLI-00561,2025-08-28,Cancelamento,2
+TKT-3bee88,CLI-00562,2025-12-05,Dúvida,4
+TKT-369574,CLI-00564,2025-09-13,Cancelamento,2
+TKT-6d7343,CLI-00566,2025-09-29,Cancelamento,2
+TKT-fbfd57,CLI-00567,2025-08-29,Cancelamento,2
+TKT-693a92,CLI-00568,2025-08-14,Cancelamento,2
+TKT-6552ec,CLI-00569,2025-08-14,Cancelamento,2
+TKT-a979a4,CLI-00570,2025-10-18,Dúvida,4
+TKT-0c635c,CLI-00571,2025-09-02,Cancelamento,2
+TKT-93269f,CLI-00573,2025-09-03,Cancelamento,2
+TKT-c6a052,CLI-00574,2025-10-05,Dúvida,4
+TKT-405ebc,CLI-00575,2025-09-03,Cancelamento,2
+TKT-0c6b74,CLI-00576,2025-09-12,Cancelamento,2
+TKT-9b5663,CLI-00577,2025-09-07,Cancelamento,2
+TKT-35e146,CLI-00578,2025-11-21,Dúvida,4
+TKT-a42f20,CLI-00580,2025-12-14,Dúvida,4
+TKT-3591fe,CLI-00581,2025-08-23,Cancelamento,2
+TKT-a69ebe,CLI-00583,2025-11-01,Dúvida,4
+TKT-82ec98,CLI-00584,2025-11-26,Dúvida,4
+TKT-e3dc46,CLI-00585,2025-08-13,Cancelamento,2
+TKT-b4b547,CLI-00586,2025-09-18,Cancelamento,2
+TKT-d7ef97,CLI-00587,2025-08-22,Cancelamento,2
+TKT-f198a2,CLI-00588,2025-08-18,Cancelamento,2
+TKT-2045c8,CLI-00589,2025-09-04,Cancelamento,2
+TKT-eb35fd,CLI-00590,2025-10-16,Dúvida,4
+TKT-0f4983,CLI-00591,2025-08-30,Cancelamento,2
+TKT-70e332,CLI-00592,2025-10-30,Dúvida,4
+TKT-cbeea2,CLI-00593,2025-10-29,Cancelamento,2
+TKT-406688,CLI-00594,2025-08-14,Cancelamento,2
+TKT-522c5c,CLI-00595,2025-08-22,Cancelamento,2
+TKT-555ba8,CLI-00596,2025-10-25,Dúvida,4
+TKT-ae5388,CLI-00597,2025-08-23,Cancelamento,2
+TKT-0d2a6f,CLI-00599,2025-09-03,Cancelamento,2
+TKT-865178,CLI-00600,2025-09-06,Cancelamento,2
+TKT-e848a9,CLI-00601,2025-08-20,Cancelamento,2
+TKT-eb75a7,CLI-00602,2025-08-26,Cancelamento,2
+TKT-f977b9,CLI-00603,2025-09-08,Cancelamento,2
+TKT-1c1407,CLI-00604,2025-08-31,Cancelamento,2
+TKT-7268e3,CLI-00605,2025-09-06,Cancelamento,2
+TKT-5ed95c,CLI-00606,2025-11-11,Dúvida,4
+TKT-a61741,CLI-00607,2025-11-29,Dúvida,4
+TKT-f08eba,CLI-00608,2025-09-15,Cancelamento,2
+TKT-56b9ca,CLI-00609,2025-10-02,Cancelamento,2
+TKT-0fd61d,CLI-00611,2025-09-28,Cancelamento,2
+TKT-cbb6db,CLI-00613,2025-10-18,Dúvida,4
+TKT-803902,CLI-00614,2025-10-18,Dúvida,4
+TKT-c335d0,CLI-00615,2025-10-18,Dúvida,4
+TKT-db92da,CLI-00616,2025-09-05,Cancelamento,2
+TKT-d1def3,CLI-00617,2025-11-27,Dúvida,4
+TKT-21ec94,CLI-00618,2025-11-15,Dúvida,4
+TKT-a943ca,CLI-00620,2025-09-26,Dúvida,4
+TKT-029c62,CLI-00621,2025-08-27,Cancelamento,2
+TKT-56bc23,CLI-00622,2025-10-02,Cancelamento,2
+TKT-93ca0a,CLI-00623,2025-08-14,Cancelamento,2
+TKT-e74b70,CLI-00624,2025-11-12,Dúvida,4
+TKT-cd052b,CLI-00625,2025-09-19,Cancelamento,2
+TKT-409f50,CLI-00626,2025-08-30,Cancelamento,2
+TKT-459cdc,CLI-00627,2025-09-28,Cancelamento,2
+TKT-eaba73,CLI-00628,2025-08-15,Cancelamento,2
+TKT-6f37b2,CLI-00629,2025-09-01,Cancelamento,2
+TKT-8a412a,CLI-00630,2025-11-27,Dúvida,4
+TKT-6db028,CLI-00631,2025-10-27,Dúvida,4
+TKT-bd2bf7,CLI-00632,2025-09-22,Cancelamento,2
+TKT-d2db63,CLI-00634,2025-11-12,Dúvida,4
+TKT-10a18c,CLI-00635,2025-08-17,Cancelamento,2
+TKT-b82a1e,CLI-00636,2025-09-22,Cancelamento,2
+TKT-930f58,CLI-00637,2025-08-16,Cancelamento,2
+TKT-566830,CLI-00638,2025-08-22,Cancelamento,2
+TKT-7e661c,CLI-00640,2025-12-01,Dúvida,4
+TKT-ddfdb6,CLI-00641,2025-11-15,Dúvida,4
+TKT-291662,CLI-00642,2025-08-22,Cancelamento,2
+TKT-c7865c,CLI-00643,2025-08-18,Cancelamento,2
+TKT-2bf53f,CLI-00644,2025-09-20,Cancelamento,2
+TKT-f162d2,CLI-00645,2025-11-23,Dúvida,4
+TKT-f8b342,CLI-00646,2025-08-27,Cancelamento,2
+TKT-c5861c,CLI-00647,2025-09-24,Cancelamento,2
+TKT-b80508,CLI-00648,2025-12-26,Dúvida,4
+TKT-2db8ae,CLI-00649,2025-09-05,Cancelamento,2
+TKT-2d13c5,CLI-00650,2025-08-24,Cancelamento,2
+TKT-299500,CLI-00651,2025-09-13,Cancelamento,2
+TKT-30c018,CLI-00652,2025-08-28,Cancelamento,2
+TKT-fbc2a8,CLI-00653,2025-09-04,Cancelamento,2
+TKT-fb484d,CLI-00654,2025-10-03,Cancelamento,2
+TKT-fa4d6b,CLI-00655,2025-08-29,Cancelamento,2
+TKT-bbdc80,CLI-00656,2025-09-01,Cancelamento,2
+TKT-35374d,CLI-00657,2025-11-15,Dúvida,4
+TKT-33cec3,CLI-00658,2025-10-28,Dúvida,4
+TKT-9ff39f,CLI-00659,2025-09-23,Dúvida,4
+TKT-5245cf,CLI-00660,2025-10-08,Cancelamento,2
+TKT-bdebab,CLI-00661,2025-09-14,Cancelamento,2
+TKT-b7dade,CLI-00662,2025-10-24,Cancelamento,2
+TKT-05e571,CLI-00663,2025-09-08,Cancelamento,2
+TKT-c29705,CLI-00664,2025-08-13,Cancelamento,2
+TKT-11c20a,CLI-00665,2025-08-30,Cancelamento,2
+TKT-874de1,CLI-00666,2025-08-24,Cancelamento,2
+TKT-01680a,CLI-00667,2025-08-23,Cancelamento,2
+TKT-369cd8,CLI-00668,2025-10-01,Cancelamento,2
+TKT-111b4c,CLI-00670,2025-09-08,Cancelamento,2
+TKT-e4b220,CLI-00672,2025-09-23,Dúvida,4
+TKT-d1b06f,CLI-00673,2025-12-25,Dúvida,4
+TKT-115584,CLI-00674,2025-09-29,Cancelamento,2
+TKT-1f4922,CLI-00675,2025-10-05,Cancelamento,2
+TKT-70bd04,CLI-00676,2025-12-20,Dúvida,4
+TKT-23061c,CLI-00677,2025-09-20,Cancelamento,2
+TKT-1cb049,CLI-00679,2025-08-30,Cancelamento,2
+TKT-2432fd,CLI-00680,2025-08-28,Cancelamento,2
+TKT-f91b81,CLI-00681,2025-11-29,Dúvida,4
+TKT-66052d,CLI-00682,2025-11-25,Dúvida,4
+TKT-bd6bd3,CLI-00691,2025-12-14,Dúvida,4
+TKT-347ac5,CLI-00693,2025-12-12,Dúvida,4
+TKT-47d4c3,CLI-00697,2025-11-18,Dúvida,4
+TKT-51dd5a,CLI-00698,2025-11-16,Dúvida,4
+TKT-d8abf4,CLI-00700,2025-11-02,Dúvida,4
+TKT-df8c2e,CLI-00702,2025-09-18,Dúvida,4
+TKT-a8ea93,CLI-00706,2025-10-02,Dúvida,4
+TKT-9047a0,CLI-00709,2025-11-28,Dúvida,4
+TKT-ebe021,CLI-00711,2025-11-02,Dúvida,4
+TKT-454355,CLI-00712,2025-09-30,Dúvida,4
+TKT-e66d38,CLI-00713,2025-11-24,Dúvida,4
+TKT-d0b0c4,CLI-00715,2025-10-13,Dúvida,4
+TKT-1e380f,CLI-00716,2025-11-17,Dúvida,4
+TKT-2a49e0,CLI-00719,2025-11-04,Dúvida,4
+TKT-0be906,CLI-00720,2025-11-02,Dúvida,4
+TKT-7b6073,CLI-00722,2025-11-23,Dúvida,4
+TKT-5c669d,CLI-00723,2025-11-26,Dúvida,4
+TKT-f380b9,CLI-00724,2025-12-06,Dúvida,4
+TKT-88e710,CLI-00727,2025-12-22,Dúvida,4
+TKT-9d8c67,CLI-00729,2025-10-02,Dúvida,4
+TKT-d94e8f,CLI-00738,2025-12-18,Dúvida,4
+TKT-0ac2d8,CLI-00741,2025-10-29,Dúvida,4
+TKT-7db872,CLI-00743,2025-11-27,Dúvida,4
+TKT-9c59a1,CLI-00747,2025-11-14,Dúvida,4
+TKT-283754,CLI-00749,2025-11-26,Dúvida,4
+TKT-dcebed,CLI-00751,2025-11-13,Dúvida,4
+TKT-89abd8,CLI-00753,2025-11-14,Dúvida,4
+TKT-8a921e,CLI-00754,2025-11-01,Dúvida,4
+TKT-9fb1cf,CLI-00760,2025-11-28,Dúvida,4
+TKT-400036,CLI-00761,2025-10-30,Dúvida,4
+TKT-0c7c92,CLI-00763,2025-10-21,Dúvida,4
+TKT-5b69f2,CLI-00764,2025-12-17,Dúvida,4
+TKT-f791ef,CLI-00765,2025-12-22,Dúvida,4
+TKT-3e6b4b,CLI-00767,2025-10-29,Dúvida,4
+TKT-d5aa11,CLI-00772,2025-11-01,Dúvida,4
+TKT-fd1747,CLI-00773,2025-12-19,Dúvida,4
+TKT-83ce41,CLI-00777,2025-10-30,Dúvida,4
+TKT-2be9e7,CLI-00779,2025-11-02,Dúvida,4
+TKT-4f8b90,CLI-00782,2025-11-16,Dúvida,4
+TKT-d5c4ae,CLI-00784,2025-12-15,Dúvida,4
+TKT-9aae6c,CLI-00788,2025-11-22,Dúvida,4
+TKT-e68482,CLI-00792,2025-12-23,Dúvida,4
+TKT-5dd032,CLI-00800,2025-10-28,Dúvida,4
+TKT-3e0386,CLI-00802,2025-11-03,Dúvida,4
+TKT-ba685c,CLI-00808,2025-11-16,Dúvida,4
+TKT-826eb5,CLI-00811,2025-10-26,Dúvida,4
+TKT-e0faca,CLI-00812,2025-12-14,Dúvida,4
+TKT-dcbd3f,CLI-00813,2025-12-01,Dúvida,4
+TKT-7c5d81,CLI-00816,2025-11-18,Dúvida,4
+TKT-3280c5,CLI-00833,2025-12-16,Dúvida,4
+TKT-102df6,CLI-00835,2025-12-27,Dúvida,4
+TKT-1c0927,CLI-00858,2025-12-28,Dúvida,4
+TKT-f844ee,CLI-00860,2025-12-18,Dúvida,4
+TKT-10cd1a,CLI-00861,2025-11-22,Dúvida,4
+TKT-3a34ab,CLI-00866,2025-11-15,Dúvida,4
+TKT-cc7ff1,CLI-00876,2025-12-29,Dúvida,4
+TKT-a6c11d,CLI-00878,2025-12-24,Dúvida,4
+TKT-6543a2,CLI-00886,2025-12-21,Dúvida,4
+TKT-56c9e9,CLI-00895,2025-12-22,Dúvida,4
+TKT-d73271,CLI-00897,2025-11-19,Dúvida,4
+TKT-8a03e8,CLI-00908,2025-12-19,Dúvida,4
+TKT-2f9b27,CLI-00945,2025-12-18,Dúvida,4
+TKT-f2f3ae,CLI-00956,2025-12-13,Dúvida,4
+TKT-c3aa25,CLI-00965,2025-12-20,Dúvida,4
+TKT-d653fa,CLI-00977,2025-12-17,Dúvida,4
+TKT-b1ad4d,CLI-00985,2025-12-25,Dúvida,4
+TKT-5751fa,CLI-00996,2025-12-18,Dúvida,4
